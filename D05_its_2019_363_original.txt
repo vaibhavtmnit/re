@@ -1,0 +1,1876 @@
+SOURCE TEXT SNAPSHOT — D05
+Title: Commission Implementing Regulation (EU) 2019/363, original text
+Publisher: European Commission; EUR-Lex
+Source URL: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019R0363
+Scope: EU original; read with UK amendments; Annex II concerns derivatives
+Retrieved: 2026-10-21
+Representation: Web-tool text extraction; NOT the original PDF/HTML bytes.
+Coverage: All 1861 numbered lines returned by the web extraction are present.
+Original PDF page count reported by web tool: 40
+Limitations: Text extraction may flatten tables, omit images, lose redline formatting, and join text across pages. Complete line coverage does not prove complete or faithful PDF extraction.
+Attribution: Source content belongs to the publisher identified above. Locally prepared wrapper and ordering; no regulatory endorsement.
+Line markers: L = web-extraction line; P = zero-based PDF page index. A P range marks a line spanning pages.
+
+--- BEGIN SOURCE TEXT ---
+L0@P0: URL: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019R0363
+L1@P0: COMMISSION IMPLEMENTING REGULATION (EU) 2019/363
+L2@P0: of 13 December 2018
+L3@P0: laying down implementing technical standards with regard to the format and frequency of reports
+L4@P0: on the details of securities financing transactions (SFTs) to trade repositories in accordance with
+L5@P0: Regulation (EU) 2015/2365 of the European Parliament and of the Council and amending
+L6@P0: Commission Implementing Regulation (EU) No 1247/2012 with regard to the use of reporting
+L7@P0: codes in the reporting of derivative contracts
+L8@P0: (Text with EEA relevance)
+L9@P0: THE EUROPEAN COMMISSION,
+L10@P0: Having regard to Regulation (EU) 2015/2365 of the European Parliament and of the Council of 25 November 2015 on
+L11@P0: transparency of securities financing transactions and of reuse and amending Regulation (EU) No 648/2012 (
+L12@P0: 1
+L13@P0: ), and in
+L14@P0: particular Article 4(10) thereof,
+L15@P0: Having regard to Regulation (EU) No 648/2012 of the European Parliament and of the Council of 4 July 2012 on
+L16@P0: OTC derivatives, central counterparties and trade repositories (
+L17@P0: 2
+L18@P0: ) and in particular Article 9(6) thereof,
+L19@P0: Whereas:
+L20@P0: (1) The details reported by securities financing transaction (‘SFT’) counterparties to trade repositories or the European
+L21@P0: Securities and Markets Authority (‘ESMA’) should be submitted in a harmonised format in order to facilitate data
+L22@P0: collection, aggregation and comparison across trade repositories. To minimise costs for the reporting counterparties, the reporting format for SFTs should be consistent, to the extent feasible, with that prescribed for the
+L23@P0: reporting of derivatives contracts under Article 9 of Regulation (EU) No 648/2012 of the European Parliament
+L24@P0: and of the Council. This Regulation therefore prescribes the format for each of the fields to be reported and
+L25@P0: standardises a report by reference to an ISO standard that is widely used in the financial industry.
+L26@P0: (2) The global legal entity identifier (‘LEI’) system has now been fully implemented and each counterparty to an SFT
+L27@P0: should therefore only use that system to identify a legal entity in a report. For the counterparty's use of the
+L28@P0: LEI system to be effective, that counterparty should ensure that the reference data related to its LEI are renewed
+L29@P0: in accordance with the terms of an accredited LEI issuer (Local Operating Unit). An extension of the global
+L30@P0: LEI system to identify branches of legal entities is currently being developed. Until such time as that extension is
+L31@P0: finalised and considered suitable for the purposes of reporting SFTs, and this Regulation is amended accordingly,
+L32@P0: the ISO code of the country where the branch is located should be used to identify that branch where an SFT is
+L33@P0: concluded through a branch office of a counterparty.
+L34@P0: (3) A global unique trader identifier (‘UTI’) system for identifying SFTs is also being developed. Until such time as
+L35@P0: that global UTI system is finalised and considered suitable for the purposes of reporting SFTs, and this Regulation
+L36@P0: is amended accordingly, a UTI agreed by the counterparties should be used to identify a SFT.
+L37@P0: (4) Article 4a of Commission Implementing Regulation (EU) No 1247/2012 (
+L38@P0: 3
+L39@P0: ) contains a procedure to determine
+L40@P0: the entity responsible for generating a UTI in respect of the reporting of derivatives contracts for those situations
+L41@P0: where counterparties fail to agree on the entity responsible for generating the UTI. To ensure consistency between
+L42@P0: the reporting of derivatives contracts and of SFTs, a similar procedure should be set up for counterparties
+L43@P0: reporting SFTs.
+L44@P0: 22.3.2019 EN Official Journal of the European Union L 81/85
+L45@P0: (
+L46@P0: 1
+L47@P0: ) OJ L 337, 23.12.2015, p. 1.
+L48@P0: (
+L49@P0: 2
+L50@P0: ) OJ L 201, 27.7.2012, p. 1.
+L51@P0: (
+L52@P0: 3
+L53@P0: ) Commission Implementing Regulation (EU) No 1247/2012 of 19 December 2012 laying down implementing technical standards with
+L54@P0: regard to the format and frequency of trade reports to trade repositories according to Regulation (EU) No 648/2012 of the European
+L55@P0-1: Parliament and of the Council on OTC derivatives, central counterparties and trade repositories (OJ L 352, 21.12.2012, p. 20). (5) Currently, there is no common market practice for determining the counterparty side in an SFT. Therefore,
+L56@P1: specific rules should be established to ensure the accurate and consistent identification of the collateral provider
+L57@P1: and of the collateral taker in an SFT.
+L58@P1: (6) A number of reports may be submitted for a single SFT, for example if successive modifications are made to that
+L59@P1: SFT. In order to ensure that each report relating to an SFT, and each SFT as a whole, is properly understood,
+L60@P1: reports should be submitted in the chronological sequence in which the reported events occurred.
+L61@P1: (7) To lessen the burden of reporting the modification of certain values, and in particular the details of collateral
+L62@P1: value, of margin posted or received and of collateral reuse, those details should be reported as they stand at the
+L63@P1: end of each day only if they vary from previously reported details.
+L64@P1: (8) The details of an outstanding margin loan should be reported as they stand at the end of each day, where there is
+L65@P1: a net cash debit in base currency or where a counterparty's short market value is positive.
+L66@P1: (9) The market value of securities lent or borrowed should be reported as it stands at the end of each day. Similarly,
+L67@P1: when the counterparties report the market value of collateral, they should do so as it stands at the end of each
+L68@P1: day.
+L69@P1: (10) This Regulation is based on the draft implementing technical standards submitted by ESMA to the Commission,
+L70@P1: pursuant to the procedure in Article 15 of Regulation (EU) No 1095/2010 of the European Parliament and of the
+L71@P1: Council of 24 November 2010 establishing a European Supervisory Authority (European Securities and Markets
+L72@P1: Authority) (
+L73@P1: 4
+L74@P1: ).
+L75@P1: (11) ESMA has conducted open public consultations on these draft implementing technical standards, analysed the
+L76@P1: potential related costs and benefits and requested the opinion of the Securities and Markets Stakeholder Group
+L77@P1: established in accordance with Article 37 of Regulation (EU) No 1095/2010,
+L78@P1: (12) As it is the case for the reporting of SFTs, certain identifiers and codes to be used for the reporting of derivative
+L79@P1: contracts are still being developed. Until such time as those identifiers and codes are available, considered suitable
+L80@P1: for the purposes of reporting and Implementing Regulation (EU) No 1247/2012 has been amended accordingly,
+L81@P1: that Regulation provides for the use of an ISO 10692 CFI code to classify derivatives for which an ISO 6166
+L82@P1: ISIN code or an AII code are not available, and for the use of a unique trade identifier agreed by the counterparties to identify a derivative report. To ensure legal certainty as regards the appropriate procedure to amend the
+L83@P1: requirements applicable to the reporting of derivatives contracts, and the required degree of consistency between
+L84@P1: the reporting of derivatives and of SFTs, Implementing Regulation (EU) No 1247/2012 should only refer to the
+L85@P1: requirements currently applicable to that reporting.
+L86@P1: (13) Implementing Regulation (EU) No 1247/2012 should therefore be amended accordingly,
+L87@P1: HAS ADOPTED THIS REGULATION:
+L88@P1: Article 1
+L89@P1: Data standards and formats for SFT reports
+L90@P1: The details of an SFT in a report to be submitted pursuant to Article 4(1) of Regulation (EU) 2015/2365 shall be
+L91@P1: provided in accordance with the standards and formats specified in Tables 1 to 5 of Annex I. That report shall be
+L92@P1: provided in a common electronic and machine-readable form and in a common XML template in accordance with the
+L93@P1: ISO 20022 methodology.
+L94@P1: L 81/86 EN Official Journal of the European Union 22.3.2019
+L95@P1: (
+L96@P1: 4
+L97@P1-2: ) OJ L 331, 15.12.2010, p. 84. Article 2
+L98@P2: Identification of counterparties and other entities
+L99@P2: 1. The report referred to in Article 1 shall use an ISO 17442 legal entity identifier (‘LEI’) code to identify the
+L100@P2: following:
+L101@P2: (a) a beneficiary which is a legal entity;
+L102@P2: (b) a broking entity;
+L103@P2: (c) a central counterparty (‘CCP’) authorised in accordance with Regulation (EU) No 648/2012;
+L104@P2: (d) a clearing member;
+L105@P2: (e) an agent lender;
+L106@P2: (f) a central securities depository (‘CSD’) participant;
+L107@P2: (g) a counterparty which is a legal entity;
+L108@P2: (h) a tri-party agent;
+L109@P2: (i) a report submitting entity;
+L110@P2: (j) an issuer of a security which was lent, borrowed or provided as collateral in a SFT.
+L111@P2: 2. A counterparty to an SFT shall ensure that the reference data related to its ISO 17442 LEI code is renewed in
+L112@P2: accordance with the terms of any of the accredited Local Operating Units of the Global LEI System.
+L113@P2: 3. Where an SFT is concluded through a branch of a counterparty, the report referred to in Article 1 shall use the
+L114@P2: code specified in Field 7 and in Field 8 of Table 1 of Annex I to identify that branch of a counterparty.
+L115@P2: Article 3
+L116@P2: Unique Trade Identifier
+L117@P2: 1. A report shall be identified through a unique trade identifier (‘UTI’) agreed by the counterparties in accordance
+L118@P2: with the format specified in Field 1 of Table 2 of Annex I.
+L119@P2: 2. Where counterparties fail to agree on the entity responsible for generating UTI to be assigned to the report, the
+L120@P2: counterparties shall determine the entity responsible for generating a UTI in accordance with the following:
+L121@P2: (a) for centrally-executed and cleared SFTs, the UTI shall be generated at the point of clearing by the CCP for the
+L122@P2: clearing member. Another UTI shall be generated by the clearing member for its counterparty;
+L123@P2: (b) for centrally-executed but not centrally-cleared SFTs, the UTI shall be generated by the trading venue of execution for
+L124@P2: its member;
+L125@P2: (c) for centrally-confirmed and cleared SFTs, the UTI shall be generated by the CCP for the clearing member at the point
+L126@P2: of clearing. Another UTI shall be generated by the clearing member for its counterparty;
+L127@P2: (d) for SFTs that were centrally-confirmed by electronic means but were not centrally-cleared, the UTI shall be generated
+L128@P2: by the trade confirmation platform at the point of confirmation;
+L129@P2: (e) for all SFTs other than those referred to in points (a) to (d), the following shall apply:
+L130@P2: (i) where financial counterparties conclude an SFT with non-financial counterparties, the financial counterparties
+L131@P2: shall generate the UTI;
+L132@P2: (ii) for all securities lending or borrowing transactions other than those referred to in point (i), the collateral
+L133@P2: provider as referred to in Article 4 shall generate the UTI;
+L134@P2-3: 22.3.2019 EN Official Journal of the European Union L 81/87 (iii) for all SFTs other than those referred to in points (i) and (ii), the collateral taker as referred to in Article 4 shall
+L135@P3: generate the UTI.
+L136@P3: 3. The counterparty generating the UTI shall communicate that UTI to the other counterparty in a timely manner so
+L137@P3: that the latter is able to meet its reporting obligation.
+L138@P3: Article 4
+L139@P3: Counterparty side
+L140@P3: 1. The counterparty side to the SFT referred to in Field 9 of Table 1 of Annex I shall be identified in accordance with
+L141@P3: paragraphs 2 to 4.
+L142@P3: 2. In the case of repurchase transactions, buy-sell back transactions and sell-buy back transactions, the counterparty
+L143@P3: that buys securities, commodities, or guaranteed rights relating to title to securities or commodities in the opening or
+L144@P3: spot leg of the trade and agrees to sell them at a specified price on a future date in the closing or forward leg of the
+L145@P3: trade, shall be identified as the collateral taker in Field 9 of Table 1 of Annex I. The counterparty that sells those
+L146@P3: securities, commodities, or guaranteed rights shall be identified as the collateral provider in Field 9 of Table 1 of
+L147@P3: Annex I.
+L148@P3: 3. In the case of securities or commodities borrowing transactions and securities or commodities lending
+L149@P3: transactions, the counterparty that lends the securities or commodities on condition that the borrower will return
+L150@P3: equivalent securities or commodities on a future date or at the request of the transferor, shall be identified as the
+L151@P3: collateral taker in Field 9 of Table 1 of Annex I. The counterparty that borrows those securities or commodities shall be
+L152@P3: identified as the collateral provider in Field 9 of Table 1 of Annex I.
+L153@P3: 4. In the case of margin lending transactions, the borrower, that is the counterparty to which credit is extended in
+L154@P3: exchange for collateral, shall be identified as the collateral provider in Field 9 of Table 1 of Annex I. The lender, that is
+L155@P3: the counterparty that provides the credit in exchange for collateral, shall be identified as the collateral taker in Field 9 of
+L156@P3: Table 1 of Annex I.
+L157@P3: Article 5
+L158@P3: Frequency of SFT reports
+L159@P3: 1. All reports of the details of an SFT specified under Article 1(2) of Commission Delegated Regulation (EU)
+L160@P3: 2019/356 (
+L161@P3: 5
+L162@P3: ) be provided in the chronological order in which the reported events occurred.
+L163@P3: 2. A counterparty to a margin lending transaction shall report the details of the outstanding margin loan as they
+L164@P3: stand at the end of each day, where there is a net cash debit in base currency or where a counterparty's short market
+L165@P3: value is positive.
+L166@P3: 3. A counterparty to an outstanding SFT shall report any modification of the details relating to the collateral data in
+L167@P3: Fields 75 to 94 of Table 2 of Annex I with action type ‘Collateral update’. The counterparty shall report those modified
+L168@P3: details as they stand at the end of each day until it reports the termination of the SFT, or it reports the SFT with action
+L169@P3: type ‘Error’, or until the SFT reaches its maturity date, whichever is the earlier.
+L170@P3: 4. A counterparty to an outstanding SFT shall report any modification of the end-of-day market value of the
+L171@P3: securities lent or borrowed in Field 57 of Table 2 of Annex I with action type ‘Valuation update’. The counterparty shall
+L172@P3: report that modified market value as it stands at the end of each day until it reports the termination of the SFT, or it
+L173@P3: reports the SFT with action type ‘Error’, or until the SFT reaches its maturity date.
+L174@P3: L 81/88 EN Official Journal of the European Union 22.3.2019
+L175@P3: (
+L176@P3: 5
+L177@P3: ) Commission Delegated Regulation (EU) 2019/356 of 13 December 2018 supplementing Regulation (EU) 2015/2365 of the European
+L178@P3: Parliament and of the Council with regard to regulatory technical standards specifying the details of securities financing transactions
+L179@P3-4: (SFTs) to be reported to trade repositories (See page 1 of this Official Journal). 5. A counterparty shall report any modification of the total amount of margin posted or received for all cleared SFTs
+L180@P4: as it stands at the end of the day in Fields 8 to 19 of Table 3 of Annex I with action type ‘Margin update’ after it has
+L181@P4: first reported the total amount of margin posted or received with action type ‘New’.
+L182@P4: 6. A counterparty shall report any modification of the value of reused collateral, reinvested cash and the funding
+L183@P4: sources with action type ‘Reuse update’ as it stands at the end of the day in Fields 8 to 14 of Table 4 of Annex I after it
+L184@P4: has reported the relevant values with action type ‘New’.
+L185@P4: Article 6
+L186@P4: Amendments to Implementing Regulation (EU) No 1247/2012
+L187@P4: Implementing Regulation (EU) No 1247/2012 is amended as follows:
+L188@P4: (1) Article 4 is amended as follows:
+L189@P4: (a) paragraph 7 is replaced by the following:
+L190@P4: ‘The derivative shall be classified in Field 4 of Table 2 of the Annex using an ISO 10692 Classification of
+L191@P4: Financial Instrument (CFI) code.’;
+L192@P4: (b) paragraphs 8 and 9 are deleted.
+L193@P4: (2) In Article 4a, paragraph 1 is replaced by the following:
+L194@P4: ‘1. A report shall be identified through a unique trade identifier agreed by the counterparties.’;
+L195@P4: (3) The Annex is replaced by the text set out in Annex II to this Regulation.
+L196@P4: Article 7
+L197@P4: Entry into force
+L198@P4: This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the
+L199@P4: European Union.
+L200@P4: This Regulation shall be binding in its entirety and directly applicable in all Member States.
+L201@P4: Done at Brussels, 13 December 2018.
+L202@P4: For the Commission
+L203@P4: The President
+L204@P4: Jean-Claude JUNCKER
+L205@P4-5: 22.3.2019 EN Official Journal of the European Union L 81/89 ANNEX I
+L206@P5: Formats to be used for reports on the details of securities financing transactions, as referred to in
+L207@P5: Article 4(1) and (5) of Regulation (EU) 2015/2365
+L208@P5: Table 1
+L209@P5: Counterparty Data
+L210@P5: No Field Format
+L211@P5: 1 Reporting timestamp ISO 8601 date in the format and Coordinated Universal Time (UTC) time format,
+L212@P5: i.e. YYYY-MM-DDThh:mm:ssZ
+L213@P5: 2 Report submitting
+L214@P5: entity
+L215@P5: ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L216@P5: 3 Reporting counterparty ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L217@P5: 4 Nature of the reporting
+L218@P5: counterparty
+L219@P5: ‘F’ - Financial counterparty
+L220@P5: ‘N’ - Non-financial counterparty
+L221@P5: 5 Sector of the reporting
+L222@P5: counterparty
+L223@P5: Taxonomy for Financial Counterparties:
+L224@P5: ‘CDTI’ - Credit institution authorised in accordance with Directive 2013/36/EU of
+L225@P5: the European Parliament and of the Council (
+L226@P5: 1) or Council Regulation (EU)
+L227@P5: No 1024/2013 (
+L228@P5: 2) or a third-country entity which would require authorisation or
+L229@P5: registration in accordance with that legislative act
+L230@P5: ‘INVF’ - Investment firm authorized in accordance with Directive 2014/65/EU of the
+L231@P5: European Parliament and of the Council (
+L232@P5: 3) or a third-country entity which would
+L233@P5: require authorisation or registration in accordance with that legislative act
+L234@P5: ‘INUN’ - Insurance undertaking authorized in accordance with Directive
+L235@P5: 2009/138/EC of the European Parliament and of the Council (
+L236@P5: 4) (Solvency II) or
+L237@P5: a third-country entity which would require authorisation or registration in accordance with that legislative act
+L238@P5: ‘AIFD’ - AIF managed by AIFMs authorized or registered in accordance with
+L239@P5: Directive 2011/61/EU of the European Parliament and of the Council (
+L240@P5: 5) or a thirdcountry entity which would require authorisation or registration in accordance with
+L241@P5: that legislative act
+L242@P5: ‘ORPI’ - Institution for occupational retirement provision authorized or registered
+L243@P5: in accordance with Directive 2003/41/EC of the European Parliament and of the
+L244@P5: Council (
+L245@P5: 6) or a third-country entity which would require authorisation or registration in accordance with that legislative act
+L246@P5: ‘CCPS’ - Central counterparty authorized in accordance with Regulation (EU)
+L247@P5: No 648/2012 of the European Parliament and of the Council (
+L248@P5: 7) or a third-country
+L249@P5: entity which would require authorisation or registration in accordance with that
+L250@P5: legislative act
+L251@P5: ‘REIN’ - Reinsurance undertaking authorized in accordance with Solvency II or
+L252@P5: a third-country entity which would require authorisation or registration in accordance with that legislative act
+L253@P5: ‘CSDS’ - Central securities depository authorized in accordance with Regulation (EU)
+L254@P5: No 909/2014 of the European Parliament and of the Council (
+L255@P5: 8) or a third-country
+L256@P5: entity which would require authorisation or registration in accordance with that
+L257@P5: legislative act
+L258@P5: ‘UCIT’ - UCITS and its management company, authorized in accordance with
+L259@P5: Directive 2009/65/EC of the European Parliament and of the Council (
+L260@P5: 9) or a thirdcountry entity which would require authorisation or registration in accordance with
+L261@P5: that legislative act
+L262@P5-6: L 81/90 EN Official Journal of the European Union 22.3.2019 No Field Format
+L263@P6: Taxonomy for Non-Financial Counterparties. The categories below correspond to
+L264@P6: the main sections of NACE classification as defined in Regulation (EC)
+L265@P6: No 1893/2006 of the European Parliament and of the Council (
+L266@P6: 10)
+L267@P6: ‘A’ - Agriculture, forestry and fishing
+L268@P6: ‘B’ - Mining and quarrying
+L269@P6: ‘C’ - Manufacturing
+L270@P6: ‘D’ - Electricity, gas, steam and air conditioning supply
+L271@P6: ‘E’ - Water supply, sewerage, waste management and remediation activities
+L272@P6: ‘F’ - Construction
+L273@P6: ‘G’ - Wholesale and retail trade, repair of motor vehicles and motorcycles
+L274@P6: ‘H’ - Transportation and storage
+L275@P6: ‘I’ - Accommodation and food service activities
+L276@P6: ‘J’ - Information and communication
+L277@P6: ‘K’ - Financial and insurance activities
+L278@P6: ‘L’ - Real estate activities
+L279@P6: ‘M’ - Professional, scientific and technical activities
+L280@P6: ‘N’ - Administrative and support service activities
+L281@P6: ‘O’ - Public administration and defence; compulsory social security
+L282@P6: ‘P’ - Education
+L283@P6: ‘Q’ - Human health and social work activities
+L284@P6: ‘R’ - Arts, entertainment and recreation
+L285@P6: ‘S’ - Other service activities
+L286@P6: ‘T’ - Activities of households as employers; undifferentiated goods – and services –
+L287@P6: producing activities of households for own use
+L288@P6: ‘U’ - Activities of extraterritorial organizations and bodies
+L289@P6: 6 Additional sector
+L290@P6: classification
+L291@P6: ‘ETFT’ - ETF
+L292@P6: ‘MMFT’ - MMF
+L293@P6: ‘REIT’ - REIT
+L294@P6: ‘OTHR’ – Other
+L295@P6: 7 Branch of the reporting
+L296@P6: counterparty
+L297@P6: ISO 3166-1 alpha-2 country code 2 alphabetic characters.
+L298@P6: 8 Branch of the other
+L299@P6: counterparty
+L300@P6: ISO 3166-1 alpha-2 country code 2 alphabetic characters.
+L301@P6: 9 Counterparty side ‘TAKE’ - Collateral taker
+L302@P6: ‘GIVE’ - Collateral provider
+L303@P6: 10 Entity responsible for
+L304@P6: the report
+L305@P6: ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L306@P6: 11 Other counterparty ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L307@P6: Client code (up to 50 alphanumeric characters).
+L308@P6: 12 Country of the other
+L309@P6: Counterparty
+L310@P6: ISO 3166-1 alpha-2 country code 2 alphabetic characters.
+L311@P6-7: 22.3.2019 EN Official Journal of the European Union L 81/91 No Field Format
+L312@P7: 13 Beneficiary ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L313@P7: Client code (up to 50 alphanumeric characters).
+L314@P7: 14 Tri-party agent ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L315@P7: 15 Broker ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L316@P7: 16 Clearing member ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L317@P7: 17 Central Securities
+L318@P7: Depository (‘CSD’)
+L319@P7: participant or indirect
+L320@P7: participant
+L321@P7: ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L322@P7: 18 Agent lender ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L323@P7: (
+L324@P7: 1) Directive 2013/36/EU of the European Parliament and of the Council of 26 June 2013 on access to the activity of credit institutions and the prudential supervision of credit institutions and investment firms (OJ L 176, 27.6.2013, p. 338).
+L325@P7: (
+L326@P7: 2) Council Regulation (EU) No 1024/2013 of 15 October 2013 conferring specific tasks on the European Central Bank concerning
+L327@P7: policies relating to the prudential supervision of credit institutions (OJ L 287, 29.10.2013, p. 63).
+L328@P7: (
+L329@P7: 3) Directive 2014/65/EU of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments
+L330@P7: (OJ L 173, 12.6.2014, p. 349).
+L331@P7: (
+L332@P7: 4) Directive 2009/138/EC of the European Parliament and of the Council of 25 November 2009 on the taking-up and pursuit of the
+L333@P7: business of Insurance and Reinsurance (Solvency II) (OJ L 335, 17.12.2009, p. 1).
+L334@P7: (
+L335@P7: 5) Directive 2011/61/EU of the European Parliament and of the Council of 8 June 2011 on Alternative Investment Fund Managers
+L336@P7: (OJ L 174, 1.7.2011, p. 1).
+L337@P7: (
+L338@P7: 6) Directive 2003/41/EC of the European Parliament and of the Council of 3 June 2003 on the activities and supervision of institutions for occupational retirement provision (OJ L 235, 23.9.2003, p. 10).
+L339@P7: (
+L340@P7: 7) Regulation (EU) No 648/2012 of the European Parliament and of the Council of 4 July 2012 on OTC derivatives, central counterparties and trade repositories (OJ L 201, 27.7.2012, p. 1).
+L341@P7: (
+L342@P7: 8) Regulation (EU) No 909/2014 of the European Parliament and of the Council of 23 July 2014 on improving securities settlement
+L343@P7: in the European Union and on central securities depositories (OJ L 257, 28.8.2014, p. 1).
+L344@P7: (
+L345@P7: 9) Directive 2009/65/EC of the European Parliament and of the Council of 13 July 2009 on the coordination of laws, regulations and
+L346@P7: administrative provisions relating to undertakings for collective investment in transferable securities (UCITS) (OJ L 302,
+L347@P7: 17.11.2009, p. 32)
+L348@P7: (
+L349@P7: 10) Regulation (EC) No 1893/2006 of the European Parliament and of the Council of 20 December 2006 establishing the statistical
+L350@P7: classification of economic activities NACE Revision 2 (OJ L 393, 30.12.2006, p. 1).
+L351@P7: Table 2
+L352@P7: Loan and Collateral Data
+L353@P7: No Field Format
+L354@P7: 1 Unique Trade Identifier
+L355@P7: (UTI)
+L356@P7: Up to 52 alphanumeric character code including four special characters:
+L357@P7: Only upper-case alphabetic characters A–Z and the digits 0–9, inclusive in both
+L358@P7: cases, are allowed.
+L359@P7: 2 Report tracking number Up to 52 alphanumeric character code including four special characters:
+L360@P7: Only upper-case alphabetic characters A–Z and the digits 0–9, inclusive in both
+L361@P7: cases, are allowed.
+L362@P7: 3 Event date ISO 8601 date in the format YYYY-MM-DD
+L363@P7: 4 Type of SFT ‘SLEB’ - securities or commodities lending or securities or commodities borrowing
+L364@P7: ‘SBSC’ - buy-sell back transaction or sell-buy back transaction
+L365@P7: ‘REPO’ - repurchase transaction
+L366@P7: ‘MGLD’ - margin lending transaction
+L367@P7-8: L 81/92 EN Official Journal of the European Union 22.3.2019 No Field Format
+L368@P8: 5 Cleared ‘true’
+L369@P8: ‘false’
+L370@P8: 6 Clearing timestamp ISO 8601 date in the format and Coordinated Universal Time (UTC) time format,
+L371@P8: i.e. YYYY-MM-DDThh:mm:ssZ
+L372@P8: 7 CCP ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L373@P8: 8 Trading venue ISO 10383 Market Identifier Code (MIC), 4 alphanumeric characters.
+L374@P8: Where segmental MICs exist for a trading venue, the segmental MIC shall be used.
+L375@P8: 9 Master agreement type ‘MRAA’ - MRA
+L376@P8: ‘GMRA’ – GMRA
+L377@P8: ‘MSLA’ - MSLA
+L378@P8: ‘GMSL’ - GMSLA
+L379@P8: ‘ISDA’ - ISDA
+L380@P8: ‘DERP’ - Deutscher Rahmenvertrag für Wertpapierpensionsgeschäfte
+L381@P8: ‘CNBR’ - China Bond Repurchase Master Agreement,
+L382@P8: ‘KRRA’ - Korea Financial Investment Association (KOFIA) Standard Repurchase
+L383@P8: Agreement
+L384@P8: ‘CARA’ - Investment Industry Regulatory Organization of Canada (IIROC) Repurchase/Reverse Repurchase Transaction Agreement
+L385@P8: ‘FRFB’ - Convention-Cadre Relative aux Operations de Pensions Livrees,
+L386@P8: ‘CHRA’ -Swiss Master Repurchase Agreement
+L387@P8: ‘DEMA’ - German Master Agreement
+L388@P8: ‘JPBR’ - Japanese Master Agreement on the Transaction with Repurchase Agreement
+L389@P8: of the Bonds
+L390@P8: ‘ESRA’ - Contrato Marco de compraventa y Reporto de valores
+L391@P8: ‘OSLA’ - Overseas Securities Lending Agreement (OSLA)
+L392@P8: ‘MEFI’ - Master Equity and Fixed Interest Stock Lending Agreement (MEFISLA)
+L393@P8: ‘GESL’ - Gilt Edged Stock Lending Agreement (GESLA)
+L394@P8: ‘KRSL’ - Korean Securities Lending Agreement (KOSLA)
+L395@P8: ‘DERD’ - Deutscher Rahmenvertrag für Wertpapierdarlehen
+L396@P8: ‘AUSL’ - Australian Masters Securities Lending Agreement (AMSLA)
+L397@P8: ‘JPBL’ - Japanese Master Agreement on Lending Transaction of Bonds
+L398@P8: ‘JPSL’ - Japanese Master Agreement on the Borrowing and Lending Transactions of
+L399@P8: Share Certificates
+L400@P8: ‘BIAG’ - bilateral agreement
+L401@P8: ‘CSDA’ - CSD bilateral agreement
+L402@P8: Or ‘OTHR’ if the master agreement type is not included in the above list
+L403@P8: 10 Other master agreement
+L404@P8: type
+L405@P8: Up to 50 alphanumeric characters.
+L406@P8: 11 Master agreement
+L407@P8: version
+L408@P8: ISO 8601 date in the format YYYY
+L409@P8: 12 Execution timestamp ISO 8601 date in the format and Coordinated Universal Time (UTC) time format,
+L410@P8: i.e. YYYY-MM-DDThh:mm:ssZ
+L411@P8: 13 Value date (Start date) ISO 8601 date in the format YYYY-MM-DD
+L412@P8-9: 22.3.2019 EN Official Journal of the European Union L 81/93 No Field Format
+L413@P9: 14 Maturity date (End date) ISO 8601 date in the format YYYY-MM-DD
+L414@P9: 15 Termination date ISO 8601 date in the format YYYY-MM-DD
+L415@P9: 16 Minimum notice period Integer field up to 3 digits.
+L416@P9: 17 Earliest call-back date ISO 8601 date in the format YYYY-MM-DD
+L417@P9: 18 General collateral
+L418@P9: Indicator
+L419@P9: ‘SPEC’ - specific collateral
+L420@P9: ‘GENE’ - general collateral
+L421@P9: 19 Delivery By Value
+L422@P9: (‘DBV’) indicator
+L423@P9: ‘true’
+L424@P9: ‘false’
+L425@P9: 20 Method used to provide
+L426@P9: collateral
+L427@P9: ‘TTCA’- title transfer collateral arrangement
+L428@P9: ‘SICA’- securities financial collateral arrangement
+L429@P9: ‘SIUR’- securities financial collateral arrangement with the right of use
+L430@P9: 21 Open term ‘true’
+L431@P9: ‘false’
+L432@P9: 22 Termination optionality ‘EGRN’ - evergreen
+L433@P9: ‘ETSB’ - extendable
+L434@P9: ‘NOAP’ - non applicable
+L435@P9: In the case of margin lending, the attributes listed in fields 23-34 shall be repeated and completed for each currency
+L436@P9: used in the margin loan.
+L437@P9: 23 Fixed rate Up to 11 numeric characters including up to 10 decimals expressed as percentage
+L438@P9: where 100 % is represented as ‘100’.
+L439@P9: The decimal mark is not counted as a numeric character. If populated, it shall be
+L440@P9: represented with a dot.
+L441@P9: 24 Day count convention The code representing day count convention:
+L442@P9: ‘A001’ - IC30360ISDAor30360AmericanBasicRule
+L443@P9: ‘A002’ - IC30365
+L444@P9: ‘A003’ - IC30Actual
+L445@P9: ‘A004’ - Actual360
+L446@P9: ‘A005’ - Actual365Fixed
+L447@P9: ‘A006’ - ActualActualICMA
+L448@P9: ‘A007’ - IC30E360orEuroBondBasismodel1
+L449@P9: ‘A008’ - ActualActualISDA
+L450@P9: ‘A009’ - Actual365LorActuActubasisRule
+L451@P9: ‘A010’ - ActualActualAFB
+L452@P9: ‘A011’ - IC30360ICMAor30360basicrule
+L453@P9: ‘A012’ - IC30E2360orEurobondbasismodel2
+L454@P9: ‘A013’ - IC30E3360orEurobondbasismodel3
+L455@P9: ‘A014’ - Actual365NL
+L456@P9: Or up to 35 alphanumeric characters if the day count convention is not included in
+L457@P9: the above list.
+L458@P9-10: L 81/94 EN Official Journal of the European Union 22.3.2019 No Field Format
+L459@P10: 25 Floating rate The code representing the floating rate index
+L460@P10: ‘EONA’ - EONIA
+L461@P10: ‘EONS’ - EONIA SWAP
+L462@P10: ‘EURI’ - EURIBOR
+L463@P10: ‘EUUS’ - EURODOLLAR
+L464@P10: ‘EUCH’ - EuroSwiss
+L465@P10: ‘GCFR’ - GCF REPO
+L466@P10: ‘ISDA’ - ISDAFIX
+L467@P10: ‘LIBI’ - LIBID
+L468@P10: ‘LIBO’ - LIBOR
+L469@P10: ‘MAAA’ - Muni AAA
+L470@P10: ‘PFAN’ - Pfandbriefe
+L471@P10: ‘TIBO’ - TIBOR
+L472@P10: ‘STBO’ - STIBOR
+L473@P10: ‘BBSW’ - BBSW
+L474@P10: ‘JIBA’ - JIBAR
+L475@P10: ‘BUBO’ - BUBOR
+L476@P10: ‘CDOR’ - CDOR
+L477@P10: ‘CIBO’ - CIBOR
+L478@P10: ‘MOSP’ - MOSPRIM
+L479@P10: ‘NIBO’ - NIBOR
+L480@P10: ‘PRBO’ - PRIBOR
+L481@P10: ‘TLBO’ - TELBOR
+L482@P10: ‘WIBO’ - WIBOR
+L483@P10: ‘TREA’ - Treasury
+L484@P10: ‘SWAP’ - SWAP
+L485@P10: ‘FUSW’ - Future SWAP
+L486@P10: Or up to 25 alphanumeric characters if the reference rate is not included in the
+L487@P10: above list.
+L488@P10: 26 Floating rate reference
+L489@P10: period — time period
+L490@P10: Time period describing reference period, whereby the following abbreviations apply:
+L491@P10: ‘YEAR’ - Year
+L492@P10: ‘MNTH’ - Month
+L493@P10: ‘WEEK’ - Week
+L494@P10: ‘DAYS’ - Day
+L495@P10: 27 Floating rate reference
+L496@P10: period — multiplier
+L497@P10: Integer multiplier of the time period describing reference period of the floating rate.
+L498@P10: Up to 3 numeric characters.
+L499@P10: 28 Floating rate payment
+L500@P10: frequency — time
+L501@P10: period
+L502@P10: Time period describing how often the counterparties exchange payments, whereby
+L503@P10: the following abbreviations apply:
+L504@P10: ‘YEAR’ - Year
+L505@P10: ‘MNTH’ - Month
+L506@P10: ‘WEEK’ - Week
+L507@P10: ‘DAYS’ - Day
+L508@P10: 29 Floating rate payment
+L509@P10: frequency — multiplier
+L510@P10: Integer multiplier of the time period describing how often the counterparties
+L511@P10: exchange payments.
+L512@P10: Up to 3 numeric characters.
+L513@P10-11: 22.3.2019 EN Official Journal of the European Union L 81/95 No Field Format
+L514@P11: 30 Floating rate reset
+L515@P11: frequency — time
+L516@P11: period
+L517@P11: Time period describing how often the counterparties reset the floating repo rate,
+L518@P11: whereby the following abbreviations apply:
+L519@P11: ‘YEAR’ - Year
+L520@P11: ‘MNTH’ - Month
+L521@P11: ‘WEEK’ - Week
+L522@P11: ‘DAYS’ - Day
+L523@P11: 31 Floating rate reset
+L524@P11: frequency — multiplier
+L525@P11: Integer multiplier of the time period describing how often the counterparties reset
+L526@P11: the floating repo rate.
+L527@P11: Up to 3 numeric characters.
+L528@P11: 32 Spread Up to 5 numeric characters.
+L529@P11: 33 Margin lending currency
+L530@P11: amount
+L531@P11: Up to 18 numeric characters including up to 5 decimals.
+L532@P11: The decimal mark is not counted as a numeric character. If populated, it shall be
+L533@P11: represented with a dot.
+L534@P11: 34 Margin lending currency ISO 4217 Currency Code, 3 alphabetic characters.
+L535@P11: Fields 35-36 shall be repeated and completed for each floating rate adjustment.
+L536@P11: 35 Adjusted rate Up to 11 numeric characters including up to 10 decimals expressed as percentage
+L537@P11: where 100 % is represented as ‘100’.
+L538@P11: The decimal mark is not counted as a numeric character. If populated, it shall be
+L539@P11: represented with a dot.
+L540@P11: 36 Rate date ISO 8601 date in the format YYYY-MM-DD
+L541@P11: 37 Principal amount on the
+L542@P11: value date
+L543@P11: Up to 18 numeric characters including up to 5 decimals.
+L544@P11: The decimal mark is not counted as a numeric character. If populated, it shall be
+L545@P11: represented with a dot.
+L546@P11: 38 Principal amount on the
+L547@P11: maturity date
+L548@P11: Up to 18 numeric characters including up to 5 decimals.
+L549@P11: The decimal mark is not counted as a numeric character. If populated, it shall be
+L550@P11: represented with a dot.
+L551@P11: 39 Principal amount
+L552@P11: currency
+L553@P11: ISO 4217 Currency Code, 3 alphabetic characters.
+L554@P11: 40 Type of asset ‘SECU’ - Securities
+L555@P11: ‘COMM’ - Commodities
+L556@P11: 41 Security identifier ISO 6166 ISIN 12 character alphanumeric code.
+L557@P11: 42 Classification of
+L558@P11: a security
+L559@P11: ISO 10692 CFI, 6 characters alphabetical code.
+L560@P11: Where a commodity was lent or borrowed, the classification of that commodity shall be specified in fields 43, 44
+L561@P11: and 45.
+L562@P11: 43 Base product Only values in the ‘Base product’ column of the classification of commodities derivatives table are allowed.
+L563@P11-12: L 81/96 EN Official Journal of the European Union 22.3.2019 No Field Format
+L564@P12: 44 Sub — product Only values in the ‘Sub — product’ column of the classification of commodities
+L565@P12: derivatives table are allowed.
+L566@P12: 45 Further sub — product Only values in the ‘Further sub — product’ of the classification of commodities
+L567@P12: derivatives table are allowed.
+L568@P12: 46 Quantity or nominal
+L569@P12: amount
+L570@P12: Up to 18 numeric characters including up to 5 decimals.
+L571@P12: The decimal mark is not counted as a numeric character. If populated, it shall be
+L572@P12: represented with a dot.
+L573@P12: 47 Unit of measure ‘KILO’ - Kilogram, ‘PIEC’ - Piece, ‘TONS’ - Ton, ‘METR’ - Metre, ‘INCH’ - Inch,
+L574@P12: ‘YARD’ - Yard, ‘GBGA’ - GBGallon, ‘GRAM’ - Gram, ‘CMET’ - Centimetre, ‘SMET’ -
+L575@P12: SquareMetre, ‘FOOT’ - Foot, ‘MILE’ - Mile, ‘SQIN’ - SquareInch, ‘SQFO’ - SquareFoot,
+L576@P12: ‘SQMI’ - SquareMile, ‘GBOU’ - GBOunce, ‘USOU’ - USOunce, ‘GBPI’ - GBPint, ‘USPI’ -
+L577@P12: USPint, ‘GBQA’ - GBQuart, ‘USQA’ - USQuart, ‘USGA’ - USGallon, ‘MMET’ - Millimetre, ‘KMET’ - Kilometre, ‘SQYA’ - SquareYard, ‘ACRE’ - Acre, ‘ARES’ - Are, ‘SMIL’ -
+L578@P12: SquareMillimetre, ‘SCMT’ - SquareCentimetre, ‘HECT’ - Hectare, ‘SQKI’ - SquareKilometre, ‘MILI’ - MilliLitre, ‘CELI’ - Centilitre, ‘LITR’ - Litre, ‘PUND’ - Pound, ‘ALOW’ -
+L579@P12: Allowances, ‘ACCY’ - AmountOfCurrency, ‘BARL’ - Barrels, ‘BCUF’ - BillionCubicFeet,
+L580@P12: ‘BDFT’ - BoardFeet, ‘BUSL’ - Bushels, ‘CEER’ - CertifiedEmissionsReduction, ‘CLRT’ -
+L581@P12: ClimateReserveTonnes, ‘CBME’ - CubicMeters, ‘DAYS’ - Days, ‘DMET’ - DryMetricTons, ‘ENVC’ - EnvironmentalCredit, ‘ENVO’ - EnvironmentalOffset, ‘HUWG’ -
+L582@P12: Hundredweight, ‘KWDC’ - KilowattDayCapacity, ‘KWHO’ - KilowattHours, ‘KWHC’ -
+L583@P12: KilowattHoursCapacity, ‘KMOC’ - KilowattMinuteCapacity, ‘KWMC’ - KilowattMonthCapacity, ‘KWYC’ - KilowattYearCapacity, ‘MWDC’ - MegawattDayCapacity, ‘MWHO’ -
+L584@P12: MegawattHours, ‘MWHC’ - MegawattHoursCapacity, ‘MWMC’ - MegawattMinuteCapacity, ‘MMOC’ - MegawattMonthCapacity, ‘MWYC’ - MegawattYearCapacity,
+L585@P12: ‘TONE’ - MetricTons, ‘MIBA’ - MillionBarrels, ‘MBTU’ - OneMillionBTU, ‘OZTR’ -
+L586@P12: TroyOunces, ‘UCWT’ - USHundredweight, ‘IPNT’ - IndexPoint, ‘PWRD’ - PrincipalWithRelationToDebtInstrument, ‘DGEU’ - DieselGallonEquivalent, ‘GGEU’ - GasolineGallonEquivalent, ‘TOCD’ - TonsOfCarbonDioxide.
+L587@P12: 48 Currency of nominal
+L588@P12: amount
+L589@P12: ISO 4217 Currency Code, 3 alphabetic characters.
+L590@P12: 49 Security or commodity
+L591@P12: price
+L592@P12: Up to 18 numeric characters including up to 5 decimals in case the price is
+L593@P12: expressed units.
+L594@P12: Up to 11 numeric characters including up to 10 decimals in case the price is
+L595@P12: expressed as percentage or yield.
+L596@P12: The decimal mark is not counted as a numeric character. If populated, it shall be
+L597@P12: represented with a dot.
+L598@P12: 50 Price currency ISO 4217 Currency Code, 3 alphabetic characters.
+L599@P12-13: 22.3.2019 EN Official Journal of the European Union L 81/97 No Field Format
+L600@P13: 51 Security quality ‘INVG’ - Investment grade
+L601@P13: ‘NIVG’ - Non-investment grade
+L602@P13: ‘NOTR’ - Non-rated
+L603@P13: ‘NOAP’ - Not applicable
+L604@P13: 52 Maturity of the security ISO 8601 date in the format YYYY-MM-DD
+L605@P13: 53 Jurisdiction of the issuer ISO 3166-1 alpha-2 country code, 2 alphabetic characters.
+L606@P13: 54 LEI of the issuer ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L607@P13: 55 Security type ‘GOVS’ - Government securities
+L608@P13: ‘SUNS’ - Supra-nationals and agencies securities
+L609@P13: ‘FIDE’ - Debt securities (including covered bonds) issued by banks and other financial institutions
+L610@P13: ‘NFID’ - Corporate debt securities (including covered bonds) issued by non-financial
+L611@P13: institutions
+L612@P13: ‘SEPR’ - Securitized products (including CDO, CMBS, ABCP)
+L613@P13: ‘MEQU’ - Main index equities (including convertible bonds)
+L614@P13: ‘OEQU’ - Other equities (including convertible bonds)
+L615@P13: ‘OTHR’- Other assets (including shares in mutual funds)
+L616@P13: 56 Loan value Up to 18 numeric characters including up to 5 decimals.
+L617@P13: The decimal mark is not counted as a numeric character. If populated, it shall be
+L618@P13: represented with a dot.
+L619@P13: 57 Market value Up to 18 numeric characters including up to 5 decimals.
+L620@P13: The decimal mark is not counted as a numeric character. If populated, it shall be
+L621@P13: represented with a dot.
+L622@P13: 58 Fixed rebate rate Up to 11 numeric characters including up to 10 decimals expressed as percentage
+L623@P13: where 100 % is represented as ‘100’.
+L624@P13: The negative symbol, if populated, shall not be counted as a numerical character.
+L625@P13: 59 Floating rebate rate The code representing the floating rate index
+L626@P13: ‘EONA’ - EONIA
+L627@P13: ‘EONS’ - EONIA SWAP
+L628@P13: ‘EURI’ - EURIBOR
+L629@P13: ‘EUUS’ - EURODOLLAR
+L630@P13: ‘EUCH’ - EuroSwiss
+L631@P13: ‘GCFR’ - GCF REPO
+L632@P13: ‘ISDA’ - ISDAFIX
+L633@P13: ‘LIBI’ - LIBID
+L634@P13: ‘LIBO’ - LIBOR
+L635@P13: ‘MAAA’ - Muni AAA
+L636@P13: ‘PFAN’ - Pfandbriefe
+L637@P13: ‘TIBO’ - TIBOR
+L638@P13: ‘STBO’ - STIBOR
+L639@P13: ‘BBSW’ - BBSW
+L640@P13-14: L 81/98 EN Official Journal of the European Union 22.3.2019 No Field Format
+L641@P14: ‘JIBA’ - JIBAR
+L642@P14: ‘BUBO’ - BUBOR
+L643@P14: ‘CDOR’ - CDOR
+L644@P14: ‘CIBO’ - CIBOR
+L645@P14: ‘MOSP’ - MOSPRIM
+L646@P14: ‘NIBO’ - NIBOR
+L647@P14: ‘PRBO’ - PRIBOR
+L648@P14: ‘TLBO’ - TELBOR
+L649@P14: ‘WIBO’ - WIBOR
+L650@P14: ‘TREA’ - Treasury
+L651@P14: ‘SWAP’ - SWAP
+L652@P14: ‘FUSW’ - Future SWAP
+L653@P14: Or up to 25 alphanumeric characters if the reference rate is not included in the
+L654@P14: above list
+L655@P14: 60 Floating rebate rate
+L656@P14: reference period — time
+L657@P14: period
+L658@P14: Time period describing reference period, whereby the following abbreviations apply:
+L659@P14: ‘YEAR’ - Year
+L660@P14: ‘MNTH’ - Month
+L661@P14: ‘WEEK’ - Week
+L662@P14: ‘DAYS’ - Day
+L663@P14: 61 Floating rebate rate
+L664@P14: reference period —
+L665@P14: multiplier
+L666@P14: Integer multiplier of the time period describing reference period of the floating
+L667@P14: rebate rate.
+L668@P14: Up to 3 numeric characters.
+L669@P14: 62 Floating rebate rate
+L670@P14: payment frequency —
+L671@P14: time period
+L672@P14: Time period describing how often the counterparties exchange payments, whereby
+L673@P14: the following abbreviations apply:
+L674@P14: ‘YEAR’ - Year
+L675@P14: ‘MNTH’ - Month
+L676@P14: ‘WEEK’ - Week
+L677@P14: ‘DAYS’ - Day
+L678@P14: 63 Floating rebate rate
+L679@P14: payment frequency —
+L680@P14: multiplier
+L681@P14: Integer multiplier of the time period describing how often the counterparties
+L682@P14: exchange payments.
+L683@P14: Up to 3 numeric characters.
+L684@P14: 64 Floating rebate rate reset
+L685@P14: frequency — time
+L686@P14: period
+L687@P14: Time period describing how often the counterparties reset the floating rebate rate,
+L688@P14: whereby the following abbreviations apply:
+L689@P14: ‘YEAR’ - Year
+L690@P14: ‘MNTH’ - Month
+L691@P14: ‘WEEK’ - Week
+L692@P14: ‘DAYS’ - Day
+L693@P14: 65 Floating rebate rate reset
+L694@P14: frequency — multiplier
+L695@P14: Integer multiplier of the time period describing how often the counterparties reset
+L696@P14: the floating rebate rate.
+L697@P14: Up to 3 numeric characters.
+L698@P14: 66 Spread of the rebate
+L699@P14: rate
+L700@P14: Up to 5 numeric characters.
+L701@P14: 67 Lending fee Up to 11 numeric characters including up to 10 decimals expressed as percentage
+L702@P14: where 100 % is represented as ‘100’.
+L703@P14-15: 22.3.2019 EN Official Journal of the European Union L 81/99 No Field Format
+L704@P15: 68 Exclusive arrangements ‘true’
+L705@P15: ‘false’
+L706@P15: 69 Outstanding margin
+L707@P15: loan
+L708@P15: Up to 18 numeric characters including up to 5 decimals.
+L709@P15: The decimal mark is not counted as a numeric character. If populated, it shall be
+L710@P15: represented with a dot.
+L711@P15: 70 Base currency of
+L712@P15: outstanding margin
+L713@P15: loan
+L714@P15: ISO 4217 Currency Code, 3 alphabetic characters.
+L715@P15: 71 Short market value Up to 18 numeric characters including up to 5 decimals.
+L716@P15: The decimal mark is not counted as a numeric character. If populated, it shall be
+L717@P15: represented with a dot.
+L718@P15: Collateral data
+L719@P15: 72 Uncollateralised
+L720@P15: Securities Lending (‘SL’)
+L721@P15: flag
+L722@P15: ‘true’
+L723@P15: ‘false’
+L724@P15: 73 Collateralisation of net
+L725@P15: exposure
+L726@P15: ‘true’
+L727@P15: ‘false’
+L728@P15: 74 Value date of the
+L729@P15: collateral
+L730@P15: ISO 8601 date in the format YYYY-MM-DD
+L731@P15: Where specific collateral was used, fields 75 to 94 shall be repeated and completed for each component of collateral,
+L732@P15: where applicable.
+L733@P15: 75 Type of collateral
+L734@P15: component
+L735@P15: ‘SECU’ - Securities
+L736@P15: ‘COMM’ - Commodities (only for repos, securities and commodities lending and
+L737@P15: borrowing and buy-sell backs)
+L738@P15: ‘CASH’ - Cash
+L739@P15: Where cash was used as collateral, this shall be specified in fields 76 and 77.
+L740@P15: 76 Cash collateral amount Up to 18 numeric characters including up to 5 decimals.
+L741@P15: The decimal mark is not counted as a numeric character. If populated, it shall be
+L742@P15: represented with a dot.
+L743@P15: 77 Cash collateral currency ISO 4217 Currency Code, 3 alphabetic characters.
+L744@P15: 78 Identification of
+L745@P15: a security used as
+L746@P15: collateral
+L747@P15: ISO 6166 ISIN 12 character alphanumeric code.
+L748@P15: 79 Classification of
+L749@P15: a security used as
+L750@P15: collateral
+L751@P15: ISO 10692 CFI, 6 characters alphabetical code.
+L752@P15-16: L 81/100 EN Official Journal of the European Union 22.3.2019 No Field Format
+L753@P16: Where a commodity was used as collateral, the classification of that commodity shall be specified in fields 80, 81
+L754@P16: and 82.
+L755@P16: 80 Base product Only values in the ‘Base product’ column of the classification of commodities derivatives table are allowed.
+L756@P16: 81 Sub — product Only values in the ‘Sub — product’ column of the classification of commodities
+L757@P16: derivatives table are allowed.
+L758@P16: 82 Further sub — product Only values in the ‘Further sub — product’ of the classification of commodities
+L759@P16: derivatives table are allowed.
+L760@P16: 83 Collateral quantity or
+L761@P16: nominal amount
+L762@P16: Up to 18 numeric characters including up to 5 decimals.
+L763@P16: The decimal mark is not counted as a numeric character. If populated, it shall be
+L764@P16: represented with a dot.
+L765@P16: 84 Collateral unit of
+L766@P16: measure
+L767@P16: ‘KILO’ - Kilogram, ‘PIEC’ - Piece, ‘TONS’ - Ton, ‘METR’ - Metre, ‘INCH’ - Inch,
+L768@P16: ‘YARD’ - Yard, ‘GBGA’ - GBGallon, ‘GRAM’ - Gram, ‘CMET’ - Centimetre, ‘SMET’ -
+L769@P16: SquareMetre, ‘FOOT’ - Foot, ‘MILE’ - Mile, ‘SQIN’ - SquareInch, ‘SQFO’ - SquareFoot,
+L770@P16: ‘SQMI’ - SquareMile, ‘GBOU’ - GBOunce, ‘USOU’ - USOunce, ‘GBPI’ - GBPint, ‘USPI’ -
+L771@P16: USPint, ‘GBQA’ - GBQuart, ‘USQA’ - USQuart, ‘USGA’ - USGallon, ‘MMET’ - Millimetre, ‘KMET’ - Kilometre, ‘SQYA’ - SquareYard, ‘ACRE’ - Acre, ‘ARES’ - Are, ‘SMIL’ -
+L772@P16: SquareMillimetre, ‘SCMT’ - SquareCentimetre, ‘HECT’ - Hectare, ‘SQKI’ - SquareKilometre, ‘MILI’ - MilliLitre, ‘CELI’ - Centilitre, ‘LITR’ - Litre, ‘PUND’ - Pound, ‘ALOW’ -
+L773@P16: Allowances, ‘ACCY’ - AmountOfCurrency, ‘BARL’ - Barrels, ‘BCUF’ - BillionCubicFeet,
+L774@P16: ‘BDFT’ - BoardFeet, ‘BUSL’ - Bushels, ‘CEER’ - CertifiedEmissionsReduction, ‘CLRT’ -
+L775@P16: ClimateReserveTonnes, ‘CBME’ - CubicMeters, ‘DAYS’ - Days, ‘DMET’ - DryMetricTons, ‘ENVC’ - EnvironmentalCredit, ‘ENVO’ - EnvironmentalOffset, ‘HUWG’ -
+L776@P16: Hundredweight, ‘KWDC’ - KilowattDayCapacity, ‘KWHO’ - KilowattHours, ‘KWHC’ -
+L777@P16: KilowattHoursCapacity, ‘KMOC’ - KilowattMinuteCapacity, ‘KWMC’ - KilowattMonthCapacity, ‘KWYC’ - KilowattYearCapacity, ‘MWDC’ - MegawattDayCapacity, ‘MWHO’ -
+L778@P16: MegawattHours, ‘MWHC’ - MegawattHoursCapacity, ‘MWMC’ - MegawattMinuteCapacity, ‘MMOC’ - MegawattMonthCapacity, ‘MWYC’ - MegawattYearCapacity, ‘TONE’ -
+L779@P16: MetricTons, ‘MIBA’ - MillionBarrels, ‘MBTU’ - OneMillionBTU, ‘OZTR’ - TroyOunces,
+L780@P16: ‘UCWT’ - USHundredweight, ‘IPNT’ - IndexPoint, ‘PWRD’ - PrincipalWithRelationToDebtInstrument, ‘DGEU’ - DieselGallonEquivalent, ‘GGEU’ - GasolineGallonEquivalent, ‘TOCD’ - TonsOfCarbonDioxide.
+L781@P16: 85 Currency of collateral
+L782@P16: nominal amount
+L783@P16: ISO 4217 Currency Code, 3 alphabetic characters.
+L784@P16: 86 Price currency ISO 4217 Currency Code, 3 alphabetic characters.
+L785@P16: 87 Price per unit Up to 18 numeric characters including up to 5 decimals in case the price is
+L786@P16: expressed in units.
+L787@P16: Up to 11 numeric characters including up to 10 decimals in case the price is
+L788@P16: expressed as percentage or yield.
+L789@P16: The decimal mark is not counted as a numeric character. If populated, it shall be
+L790@P16: represented with a dot.
+L791@P16-17: 22.3.2019 EN Official Journal of the European Union L 81/101 No Field Format
+L792@P17: 88 Collateral market value Up to 18 numeric characters including up to 5 decimals.
+L793@P17: The decimal mark is not counted as a numeric character. If populated, it shall be
+L794@P17: represented with a dot.
+L795@P17: 89 Haircut or margin Up to 11 numeric characters including up to 10 decimals expressed as percentage
+L796@P17: where 100 % is represented as ‘100’.
+L797@P17: The decimal mark is not counted as a numeric character. If populated, it shall be
+L798@P17: represented with a dot.
+L799@P17: 90 Collateral quality ‘INVG’ - Investment grade
+L800@P17: ‘NIVG’ - Non-investment grade
+L801@P17: ‘NOTR’ - Non-rated
+L802@P17: ‘NOAP’ - Not applicable
+L803@P17: 91 Maturity date of the
+L804@P17: security
+L805@P17: ISO 8601 date in the format YYYY-MM-DD
+L806@P17: 92 Jurisdiction of the issuer ISO 3166-1 alpha-2 country code, 2 alphabetic characters.
+L807@P17: 93 LEI of the issuer ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L808@P17: 94 Collateral type ‘GOVS’ - Government securities
+L809@P17: ‘SUNS’ - Supra-nationals and agencies securities
+L810@P17: ‘FIDE’ - Debt securities (including covered bonds) issued by banks and other financial institutions
+L811@P17: ‘NFID’ - Corporate debt securities (including covered bonds) issued by non-financial
+L812@P17: institutions
+L813@P17: ‘SEPR’ - Securitized products (including CDO, CMBS, ABCP)
+L814@P17: ‘MEQU’ - Main index equities (including convertible bonds)
+L815@P17: ‘OEQU’ - Other equities (including convertible bonds)
+L816@P17: ‘OTHR’- Other assets (including shares in mutual funds)
+L817@P17: 95 Availability for collateral
+L818@P17: reuse
+L819@P17: ‘true’
+L820@P17: ‘false’
+L821@P17: Field 96 shall be specified in the case where a collateral basket was used. The detailed allocation of collateral for SFTs
+L822@P17: transacted against a collateral pool shall be specified in fields 75 to 94 when available.
+L823@P17: 96 Collateral basket
+L824@P17: identifier
+L825@P17: ISO 6166 ISIN 12 character alphanumeric code, or
+L826@P17: ‘NTAV’
+L827@P17: 97 Portfolio code 52 alphanumeric character code including four special characters:
+L828@P17: .- _.
+L829@P17: Special characters are not allowed at the beginning and at the end of the code. No
+L830@P17: space allowed.
+L831@P17: 98 Action type ‘NEWT’ - New
+L832@P17: ‘MODI’ - Modification
+L833@P17: ‘VALU’ - Valuation
+L834@P17: ‘COLU’ - Collateral update
+L835@P17: ‘EROR’ - Error
+L836@P17: ‘CORR’ - Correction
+L837@P17-18: L 81/102 EN Official Journal of the European Union 22.3.2019 No Field Format
+L838@P18: ‘ETRM’ - Termination/Early Termination
+L839@P18: ‘POSC’ - Position component
+L840@P18: 99 Level ‘TCTN’ - Transaction
+L841@P18: ‘PSTN’ - Position
+L842@P18: Table 3
+L843@P18: Margin Data
+L844@P18: No Field Format
+L845@P18: 1 Reporting timestamp ISO 8601 date in the format and Coordinated Universal Time (UTC) time format,
+L846@P18: i.e. YYYY-MM-DDThh:mm:ssZ
+L847@P18: 2 Event date ISO 8601 date in the format YYYY-MM-DD
+L848@P18: 3 Report submitting
+L849@P18: entity
+L850@P18: ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L851@P18: 4 Reporting Counterparty ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L852@P18: 5 Entity responsible for
+L853@P18: the report
+L854@P18: ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L855@P18: 6 Other counterparty ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L856@P18: 7 Portfolio code 52 alphanumeric character code including four special characters:
+L857@P18: .- _.
+L858@P18: Special characters are not allowed at the beginning and at the end of the code. No
+L859@P18: space allowed.
+L860@P18: 8 Initial margin posted Up to 18 numeric characters including up to 5 decimals.
+L861@P18: The decimal mark is not counted as a numeric character. If populated, it shall be
+L862@P18: represented with a dot.
+L863@P18: 9 Currency of the initial
+L864@P18: margin posted
+L865@P18: ISO 4217 Currency Code, 3 alphabetic characters.
+L866@P18: 10 Variation margin posted Up to 18 numeric characters including up to 5 decimals.
+L867@P18: The decimal mark is not counted as a numeric character. If populated, it shall be
+L868@P18: represented with a dot.
+L869@P18: 11 Currency of the
+L870@P18: variation margin posted
+L871@P18: ISO 4217 Currency Code, 3 alphabetic characters.
+L872@P18: 12 Initial margin received Up to 18 numeric characters including up to 5 decimals.
+L873@P18: The decimal mark is not counted as a numeric character. If populated, it shall be
+L874@P18: represented with a dot.
+L875@P18: 13 Currency of the initial
+L876@P18: margin received
+L877@P18: ISO 4217 Currency Code, 3 alphabetic characters.
+L878@P18: 14 Variation margin
+L879@P18: received
+L880@P18: Up to 18 numeric characters including up to 5 decimals.
+L881@P18: The decimal mark is not counted as a numeric character. If populated, it shall be
+L882@P18: represented with a dot.
+L883@P18-19: 22.3.2019 EN Official Journal of the European Union L 81/103 No Field Format
+L884@P19: 15 Currency of the
+L885@P19: variation margin
+L886@P19: received
+L887@P19: ISO 4217 Currency Code, 3 alphabetic characters.
+L888@P19: 16 Excess collateral posted Up to 18 numeric characters including up to 5 decimals.
+L889@P19: The decimal mark is not counted as a numeric character. If populated, it shall be
+L890@P19: represented with a dot.
+L891@P19: 17 Currency of the excess
+L892@P19: collateral posted
+L893@P19: ISO 4217 Currency Code, 3 alphabetic characters.
+L894@P19: 18 Excess collateral
+L895@P19: received
+L896@P19: Up to 18 numeric characters including up to 5 decimals.
+L897@P19: The decimal mark is not counted as a numeric character. If populated, it shall be
+L898@P19: represented with a dot.
+L899@P19: 19 Currency of the excess
+L900@P19: collateral received
+L901@P19: ISO 4217 Currency Code, 3 alphabetic characters.
+L902@P19: 20 Action type ‘NEWT’ - New
+L903@P19: ‘MARU’ - Margin update
+L904@P19: ‘EROR’ - Error
+L905@P19: ‘CORR’ - Correction
+L906@P19: Table 4
+L907@P19: Re-use, Cash Reinvestment and Funding Sources Data
+L908@P19: No Field Format
+L909@P19: 1 Reporting timestamp ISO 8601 date in the format and UTC time format, i.e. YYYY-MM-DDThh:mm:ssZ
+L910@P19: 2 Event date ISO 8601 date in the format YYYY-MM-DD
+L911@P19: 3 Report submitting
+L912@P19: entity
+L913@P19: ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L914@P19: 4 Reporting counterparty ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L915@P19: 5 Entity responsible for
+L916@P19: the report
+L917@P19: ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L918@P19: Field 6 shall be repeated and completed for each collateral component.
+L919@P19: 6 Type of collateral
+L920@P19: component
+L921@P19: ‘SECU’ - Securities
+L922@P19: ‘CASH’ - Cash
+L923@P19: Fields 7, 8, 9 and 10 shall be repeated and completed for each security.
+L924@P19: 7 Collateral component ISO 6166 ISIN 12 character alphanumeric code.
+L925@P19: 8 Value of reused
+L926@P19: collateral
+L927@P19: Up to 18 numeric characters including up to 5 decimals.
+L928@P19: The decimal mark is not counted as a numeric character. If populated, it shall be
+L929@P19: represented with a dot.
+L930@P19: 9 Estimated reuse of
+L931@P19: collateral
+L932@P19: Up to 18 numeric characters including up to 5 decimals.
+L933@P19: The decimal mark is not counted as a numeric character. If populated, it shall be
+L934@P19: represented with a dot.
+L935@P19-20: L 81/104 EN Official Journal of the European Union 22.3.2019 No Field Format
+L936@P20: 10 Reused collateral
+L937@P20: currency
+L938@P20: ISO 4217 Currency Code, 3 alphabetic characters.
+L939@P20: 11 Reinvestment Rate Up to 11 numeric characters including up to 10 decimals expressed as percentage
+L940@P20: where 100 % is represented as ‘100’.
+L941@P20: Fields 12, 13 and 14 shall be repeated and completed for each investment where cash collateral has been re-invested
+L942@P20: and in respect of each currency.
+L943@P20: 12 Type of re-invested cash
+L944@P20: investment
+L945@P20: ‘MMFT’ - registered money market fund
+L946@P20: ‘OCMP’ - any other commingled pool
+L947@P20: ‘REPM’ - the repo market
+L948@P20: ‘SDPU’ - direct purchase of securities
+L949@P20: ‘OTHR’ - other
+L950@P20: 13 Re-invested cash
+L951@P20: amount
+L952@P20: Up to 18 numeric characters including up to 5 decimals.
+L953@P20: The decimal mark is not counted as a numeric character. If populated, it shall be
+L954@P20: represented with a dot.
+L955@P20: 14 Re-invested cash
+L956@P20: currency
+L957@P20: ISO 4217 Currency Code, 3 alphabetic characters.
+L958@P20: In the case of margin lending transactions, the counterparty shall repeat and complete fields 15, 16 and 17 for each
+L959@P20: funding source and shall provide the information in these fields at entity level.
+L960@P20: 15 Funding sources ‘REPO’ - repos or BSB
+L961@P20: ‘SECL’ - cash collateral from securities lending
+L962@P20: ‘FREE’ - free credits
+L963@P20: ‘CSHS’ - proceeds from customer short sales
+L964@P20: ‘BSHS’ - proceeds from broker short sales
+L965@P20: ‘UBOR’ - unsecured borrowing
+L966@P20: ‘OTHR’ - other
+L967@P20: 16 Market value of the
+L968@P20: funding sources
+L969@P20: Up to 18 numeric characters including up to 5 decimals.
+L970@P20: The decimal mark is not counted as a numeric character.
+L971@P20: If not possible, pro rata amount.
+L972@P20: 17 Funding sources
+L973@P20: currency
+L974@P20: ISO 4217 Currency Code, 3 alphabetic characters.
+L975@P20: 18 Action type ‘NEWT’ - New
+L976@P20: ‘REUU’ - reuse update
+L977@P20: ‘EROR’ - Error
+L978@P20: ‘CORR’ - Correction
+L979@P20: Table 5
+L980@P20: Classification of commodities
+L981@P20: Base product Sub — product Further sub — product
+L982@P20: ‘AGRI’ - Agricultural ‘GROS’ - Grains Oil Seeds ‘FWHT’ - Feed Wheat
+L983@P20: ‘SOYB’ - Soybeans
+L984@P20: ‘CORN’ - Maize
+L985@P20: ‘RPSD’ – Rapeseed
+L986@P20: ‘RICE’ - Rice
+L987@P20: ‘OTHR’ - Other
+L988@P20-21: 22.3.2019 EN Official Journal of the European Union L 81/105 Base product Sub — product Further sub — product
+L989@P21: ‘SOFT’ - Softs ‘CCOA’ - Cocoa
+L990@P21: ‘ROBU’ - Robusta Coffee
+L991@P21: ‘WHSG’ - White Sugar
+L992@P21: ‘BRWN’ - Raw Sugar
+L993@P21: ‘OTHR’ - Other
+L994@P21: ‘POTA’- Potato
+L995@P21: ‘OOLI’- Olive oil ‘LAMP’ – ‘Lampante’
+L996@P21: ‘OTHR’ - Other
+L997@P21: ‘DIRY’- Dairy
+L998@P21: ‘FRST’ - Forestry
+L999@P21: ‘SEAF’ - Seafood
+L1000@P21: ‘LSTK’ - Livestock
+L1001@P21: ‘GRIN’ - Grain ‘MWHT’ - Milling Wheat
+L1002@P21: ‘OTHR’ - Other
+L1003@P21: ‘OTHR’ - Other
+L1004@P21: ‘NRGY’ – ‘Energy ‘ELEC’ -Electricity ‘BSLD’ - Base load
+L1005@P21: ‘FITR’ - Financial Transmission Rights
+L1006@P21: ‘PKLD’ - Peak load
+L1007@P21: ‘OFFP’ - Off-peak
+L1008@P21: ‘OTHR’ - Other
+L1009@P21: ‘NGAS’ - Natural Gas ‘GASP’ - GASPOOL
+L1010@P21: ‘LNGG’ - LNG
+L1011@P21: ‘NBPG’ - NBP
+L1012@P21: ‘NCGG’ - NCG
+L1013@P21: ‘TTFG’ – TTF
+L1014@P21: ‘OTHR’ - Other
+L1015@P21: ‘OILP’ -Oil ‘BAKK’ - Bakken
+L1016@P21: ‘BDSL’ - Biodiesel
+L1017@P21: ‘BRNT’ - Brent
+L1018@P21: ‘BRNX’ - Brent NX
+L1019@P21: ‘CNDA’ - Canadian
+L1020@P21: ‘COND’ - Condensate
+L1021@P21: ‘DSEL’ - Diesel
+L1022@P21: ‘DUBA’ - Dubai
+L1023@P21: ‘ESPO’ - ESPO
+L1024@P21: ‘ETHA’ - Ethanol
+L1025@P21: ‘FUEL’ - Fuel
+L1026@P21: ‘FOIL’ - Fuel Oil
+L1027@P21: ‘GOIL’ - Gasoil
+L1028@P21-22: L 81/106 EN Official Journal of the European Union 22.3.2019 Base product Sub — product Further sub — product
+L1029@P22: ‘GSLN’ - Gasoline
+L1030@P22: ‘HEAT’ - Heating Oil
+L1031@P22: ‘JTFL’ - Jet Fuel
+L1032@P22: ‘KERO’ - Kerosene
+L1033@P22: ‘LLSO’ - Light Louisiana Sweet (LLS)
+L1034@P22: ‘MARS’ - Mars
+L1035@P22: ‘NAPH’ - Naptha
+L1036@P22: ‘NGLO’ - NGL
+L1037@P22: ‘TAPI’ - Tapis
+L1038@P22: ‘URAL’ - Urals
+L1039@P22: ‘WTIO’ – WTI
+L1040@P22: ‘OTHR’ - Other
+L1041@P22: ‘COAL’- Coal
+L1042@P22: ‘INRG’ - Inter Energy
+L1043@P22: ‘RNNG’ - Renewable energy
+L1044@P22: ‘LGHT’ - Light ends
+L1045@P22: ‘DIST’ – Distillates
+L1046@P22: ‘OTHR’ - Other
+L1047@P22: ‘ENVR’ - Environmental ‘EMIS’ - Emissions ‘CERE’ - CER
+L1048@P22: ‘ERUE’ - ERU
+L1049@P22: ‘EUAE’ - EUA
+L1050@P22: ‘EUAA’ – EUAA
+L1051@P22: ‘OTHR’-Other
+L1052@P22: ‘WTHR’ - Weather
+L1053@P22: ‘CRBR’ - Carbon related’
+L1054@P22: ‘OTHR’ - Other
+L1055@P22: ‘FRGT’ -‘Freight’ ‘WETF’ - Wet ‘TNKR’ –Tankers
+L1056@P22: ‘OTHR’ - Other
+L1057@P22: ‘DRYF’ - Dry ‘DBCR’ - Dry bulk carriers
+L1058@P22: ‘OTHR’ - Other
+L1059@P22: ‘CSHP’ - Containerships
+L1060@P22: ‘OTHR’ - Other
+L1061@P22: ‘FRTL’ -‘Fertilizer’ ‘AMMO’ - Ammonia
+L1062@P22: ‘DAPH’ - DAP (Diammonium Phosphate)
+L1063@P22: ‘PTSH’ - Potash
+L1064@P22: ‘SLPH’ - Sulphur
+L1065@P22: ‘UREA’ - Urea
+L1066@P22: ‘UAAN’ - UAN (urea and ammonium
+L1067@P22: nitrate)
+L1068@P22: ‘OTHR’ - Other
+L1069@P22-23: 22.3.2019 EN Official Journal of the European Union L 81/107 Base product Sub — product Further sub — product
+L1070@P23: ‘INDP’ - Industrial products’ ‘CSTR’ - Construction
+L1071@P23: ‘MFTG’ - Manufacturing
+L1072@P23: ‘METL’ - Metals’ ‘NPRM’ - Non Precious ‘ALUM’ - Aluminium
+L1073@P23: ‘ALUA’ - Aluminium Alloy
+L1074@P23: ‘CBLT’ - Cobalt
+L1075@P23: ‘COPR’ - Copper
+L1076@P23: ‘IRON’ - Iron ore
+L1077@P23: ‘LEAD’ - Lead
+L1078@P23: ‘MOLY’ - Molybdenum
+L1079@P23: ‘NASC’ - NASAAC
+L1080@P23: ‘NICK’ - Nickel
+L1081@P23: ‘STEL’ - Steel
+L1082@P23: ‘TINN’ - Tin
+L1083@P23: ‘ZINC’ - Zinc
+L1084@P23: ‘OTHR’ - Other
+L1085@P23: ‘PRME’ - Precious ‘GOLD’ - Gold
+L1086@P23: ‘SLVR’ - Silver
+L1087@P23: ‘PTNM’ - Platinum
+L1088@P23: ‘PLDM’ - Palladium
+L1089@P23: ‘OTHR’ - Other
+L1090@P23: ‘MCEX’ - Multi Commodity Exotic’
+L1091@P23: ‘PAPR’ - Paper’ ‘CBRD’ - Containerboard
+L1092@P23: ‘NSPT’ - Newsprint
+L1093@P23: ‘PULP’ - Pulp
+L1094@P23: ‘RCVP’ - Recovered paper
+L1095@P23: ‘OTHR’ - Other
+L1096@P23: ‘POLY’ - Polypropylene’ ‘PLST’ – Plastic
+L1097@P23: ‘OTHR’ - Other
+L1098@P23: ‘INFL’ - Inflation’
+L1099@P23: ‘OEST’ - Official economic statistics’
+L1100@P23: ‘OTHC’ - Other C10 ‘as defined in Table 10.1 Section 10 of Annex III to
+L1101@P23: Commission Delegated Regulation
+L1102@P23: (EU) 2017/583 (
+L1103@P23: 1)
+L1104@P23: ‘OTHR’ - Other
+L1105@P23: (
+L1106@P23: 1) Commission Delegated Regulation (EU) 2017/583 of 14 July 2016 supplementing Regulation (EU) No 600/2014 of the European
+L1107@P23: Parliament and of the Council on markets in financial instruments with regard to regulatory technical standards on transparency
+L1108@P23: requirements for trading venues and investment firms in respect of bonds, structured finance products, emission allowances and
+L1109@P23: derivatives (OJ L 87, 31.3.2017, p. 229)
+L1110@P23-24: L 81/108 EN Official Journal of the European Union 22.3.2019 ANNEX II
+L1111@P24: The Annex to Implementing Regulation (EU) No 1247/2012 is replaced by the text below.
+L1112@P24: ‘ANNEX
+L1113@P24: Table 1
+L1114@P24: Counterparty Data
+L1115@P24: Field Format
+L1116@P24: Parties to the contract
+L1117@P24: 1 Reporting timestamp ISO 8601 date in the format and Coordinated Universal Time (UTC) time format
+L1118@P24: YYYY-MM-DDThh:mm:ssZ
+L1119@P24: 2 Reporting Counterparty
+L1120@P24: ID
+L1121@P24: ISO 17442 Legal Entity Identifier (LEI) 20 alphanumerical character code.
+L1122@P24: 3 Type of ID of the other
+L1123@P24: Counterparty
+L1124@P24: ‘LEI’ for ISO 17442 Legal Entity Identifier (LEI)
+L1125@P24: ‘CLC’ for Client code
+L1126@P24: 4 ID of the other
+L1127@P24: Counterparty
+L1128@P24: ISO 17442 Legal Entity Identifier (LEI) 20 alphanumerical character code.
+L1129@P24: Client code (up to 50 alphanumerical digits).
+L1130@P24: 5 Country of the other
+L1131@P24: Counterparty
+L1132@P24: ISO 3166 – 2 character country code
+L1133@P24: 6 Corporate sector of the
+L1134@P24: reporting counterparty
+L1135@P24: Taxonomy for Financial Counterparties:
+L1136@P24: A = Assurance undertaking authorised in accordance with Directive 2009/138/EC
+L1137@P24: of the European Parliament and of the Council (1)
+L1138@P24: C = Credit institution authorised in accordance with Directive 2013/36/EU of the
+L1139@P24: European Parliament and of the Council (
+L1140@P24: 2)
+L1141@P24: F = Investment firm authorised in accordance with Directive 2004/39/EC of the
+L1142@P24: European Parliament and of the Council (
+L1143@P24: 3)
+L1144@P24: I = Insurance undertaking authorised in accordance with Directive 2009/138/EC
+L1145@P24: L = Alternative investment fund managed by Alternative Investment Fund Managers
+L1146@P24: (AIFMs) authorised or registered in accordance with Directive 2011/61/EU of the
+L1147@P24: European Parliament and of the Council (
+L1148@P24: 4)
+L1149@P24: O = Institution for occupational retirement provision within the meaning of
+L1150@P24: Article 6(a) of Directive 2003/41/EC of the European Parliament and of the
+L1151@P24: Council (
+L1152@P24: 5)
+L1153@P24: R = Reinsurance undertaking authorised in accordance with Directive 2009/138/EC
+L1154@P24: U = Undertakings for the Collective Investment in Transferable Securities (UCITS)
+L1155@P24: and its management company, authorised in accordance with Directive 2009/65/EC
+L1156@P24: of the European Parliament and of the Council (
+L1157@P24: 6)
+L1158@P24: Taxonomy for Non-Financial Counterparties. The following categories correspond to
+L1159@P24: the main sections of Statistical classification of economic activities in the European
+L1160@P24: Community (NACE) as defined in Regulation (EC) No 1893/2006 of the European
+L1161@P24: Parliament and of the Council (
+L1162@P24: 7)
+L1163@P24: 1 = Agriculture, forestry and fishing
+L1164@P24: 2 = Mining and quarrying
+L1165@P24: 3 = Manufacturing
+L1166@P24: 4 = Electricity, gas, steam and air conditioning supply
+L1167@P24-25: 22.3.2019 EN Official Journal of the European Union L 81/109 Field Format
+L1168@P25: 5 = Water supply, sewerage, waste management and remediation activities
+L1169@P25: 6 = Construction
+L1170@P25: 7 = Wholesale and retail trade, repair of motor vehicles and motorcycles
+L1171@P25: 8 = Transportation and storage
+L1172@P25: 9 = Accommodation and food service activities
+L1173@P25: 10 = Information and communication
+L1174@P25: 11 = Financial and insurance activities
+L1175@P25: 12 = Real estate activities
+L1176@P25: 13 = Professional, scientific and technical activities
+L1177@P25: 14 = Administrative and support service activities
+L1178@P25: 15 = Public administration and defence; compulsory social security
+L1179@P25: 16 = Education
+L1180@P25: 17 = Human health and social work activities
+L1181@P25: 18 = Arts, entertainment and recreation
+L1182@P25: 19 = Other service activities
+L1183@P25: 20 = Activities of households as employers; undifferentiated goods – and services –
+L1184@P25: producing activities of households for own use
+L1185@P25: 21 = Activities of extraterritorial organisations and bodies
+L1186@P25: Where more than one activity is reported, list the codes in order of the relative
+L1187@P25: importance of the corresponding activities, separating them with a ‘-’.
+L1188@P25: Leave blank in the case of CCPs and other type of counterparties in accordance with
+L1189@P25: Article 1(5) of Regulation (EU) No 648/2012.
+L1190@P25: 7 Nature of the reporting
+L1191@P25: counterparty
+L1192@P25: F = Financial Counterparty
+L1193@P25: N = Non-Financial Counterparty
+L1194@P25: C = Central Counterparty
+L1195@P25: O = Other
+L1196@P25: 8 Broker ID ISO 17442 Legal Entity Identifier (LEI) 20 alphanumerical character code.
+L1197@P25: 9 Report submitting
+L1198@P25: entity ID
+L1199@P25: ISO 17442 Legal Entity Identifier (LEI) 20 alphanumerical character code)
+L1200@P25: 10 Clearing member ID ISO 17442 Legal Entity Identifier (LEI) 20 alphanumerical character code
+L1201@P25: 11 Type of ID of the
+L1202@P25: Beneficiary
+L1203@P25: ‘LEI’ for ISO 17442 Legal Entity Identifier (LEI)
+L1204@P25: ‘CLC’ for Client code
+L1205@P25: 12 Beneficiary ID ISO 17442 Legal Entity Identifier (LEI) 20 alphanumerical character code or up to
+L1206@P25: 50 alphanumerical character client code in the case where the client is not eligible
+L1207@P25: for a Legal Entity Identifier
+L1208@P25: 13 Trading capacity P = Principal
+L1209@P25: A = Agent
+L1210@P25: 14 Counterparty side B = Buyer
+L1211@P25: S = Seller
+L1212@P25: Populated in accordance with Article 3a
+L1213@P25-26: L 81/110 EN Official Journal of the European Union 22.3.2019 Field Format
+L1214@P26: 15 Directly linked to
+L1215@P26: commercial activity or
+L1216@P26: treasury financing
+L1217@P26: Y = Yes
+L1218@P26: N = No
+L1219@P26: 16 Clearing threshold Y = Above the threshold
+L1220@P26: N = Below the threshold
+L1221@P26: 17 Value of contract Up to 20 numerical characters including decimals.
+L1222@P26: The decimal mark is not counted as a numerical character. If populated, it shall be
+L1223@P26: represented by a dot.
+L1224@P26: The negative symbol, if populated, is not counted as a numerical character.
+L1225@P26: 18 Currency of the value ISO 4217 Currency Code, 3 alphabetical characters
+L1226@P26: 19 Valuation timestamp ISO 8601 date in the UTC time format YYYY-MM-DDThh:mm:ssZ
+L1227@P26: 20 Valuation type M = Mark-to-market
+L1228@P26: O = Mark-to-model
+L1229@P26: C = CCP's valuation.
+L1230@P26: 21 Collateralisation U = uncollateralised
+L1231@P26: PC = partially collateralised
+L1232@P26: OC = one way collateralised
+L1233@P26: FC = fully collateralised
+L1234@P26: Populated in accordance with Article 3b
+L1235@P26: 22 Collateral portfolio Y = Yes
+L1236@P26: N = No
+L1237@P26: 23 Collateral portfolio code Up to 52 alphanumerical characters including four special characters: ‘. - _.’
+L1238@P26: Special characters are not allowed at the beginning and at the end of the code. No
+L1239@P26: space allowed.
+L1240@P26: 24 Initial margin posted Up to 20 numerical characters including decimals.
+L1241@P26: The decimal mark is not counted as a numerical character. If populated, it shall be
+L1242@P26: represented by a dot.
+L1243@P26: 25 Currency of the initial
+L1244@P26: margin posted
+L1245@P26: ISO 4217 Currency Code, 3 alphabetical characters
+L1246@P26: 26 Variation margin posted Up to 20 numerical characters including decimals.
+L1247@P26: The decimal mark is not counted as a numerical character. If populated, it shall be
+L1248@P26: represented by a dot.
+L1249@P26: 27 Currency of the
+L1250@P26: variation margins
+L1251@P26: posted
+L1252@P26: ISO 4217 Currency Code, 3 alphabetical characters
+L1253@P26: 28 Initial margin received Up to 20 numerical characters including decimals.
+L1254@P26: The decimal mark is not counted as a numerical character. If populated, it shall be
+L1255@P26: represented by a dot.
+L1256@P26: 29 Currency of the initial
+L1257@P26: margin received
+L1258@P26: ISO 4217 Currency Code, 3 alphabetical characters
+L1259@P26-27: 22.3.2019 EN Official Journal of the European Union L 81/111 Field Format
+L1260@P27: 30 Variation margin
+L1261@P27: received
+L1262@P27: Up to 20 numerical characters including decimals.
+L1263@P27: The decimal mark is not counted as a numerical character. If populated, it shall be
+L1264@P27: represented by a dot.
+L1265@P27: 31 Currency of the
+L1266@P27: variation margins
+L1267@P27: received
+L1268@P27: ISO 4217 Currency Code, 3 alphabetical characters
+L1269@P27: 32 Excess collateral posted Up to 20 numerical characters including decimals.
+L1270@P27: The decimal mark is not counted as a numerical character. If populated, it shall be
+L1271@P27: represented by a dot.
+L1272@P27: 33 Currency of the excess
+L1273@P27: collateral posted
+L1274@P27: ISO 4217 Currency Code, 3 alphabetical characters
+L1275@P27: 34 Excess collateral
+L1276@P27: received
+L1277@P27: Up to 20 numerical characters including decimals.
+L1278@P27: The decimal mark is not counted as a numerical character. If populated, it shall be
+L1279@P27: represented by a dot.
+L1280@P27: 35 Currency of the excess
+L1281@P27: collateral received
+L1282@P27: ISO 4217 Currency Code, 3 alphabetical characters
+L1283@P27: (
+L1284@P27: 1) Directive 2009/138/EC of the European Parliament and of the Council of 25 November 2009 on the taking-up and pursuit of the
+L1285@P27: business of Insurance and Reinsurance (Solvency II) (OJ L 335, 17.12.2009, p. 1).
+L1286@P27: (
+L1287@P27: 2) Directive 2013/36/EU of the European Parliament and of the Council of 26 June 2013 on access to the activity of credit institutions
+L1288@P27: and the prudential supervision of credit institutions and investment firms, amending Directive 2002/87/EC and repealing Directives
+L1289@P27: 2006/48/EC and 2006/49/EC (OJ L 176, 27.6.2013, p. 338).
+L1290@P27: (
+L1291@P27: 3) Directive 2004/39/EC of the European Parliament and of the Council of 21 April 2004 on markets in financial instruments amending Council Directives 85/611/EEC and 93/6/EEC and Directive 2000/12/EC of the European Parliament and of the Council and
+L1292@P27: repealing Council Directive 93/22/EEC (OJ L 145, 30.4.2004, p. 1).
+L1293@P27: (
+L1294@P27: 4) Directive 2011/61/EU of the European Parliament and of the Council of 8 June 2011 on Alternative Investment Fund Managers
+L1295@P27: and amending Directives 2003/41/EC and 2009/65/EC and Regulations (EC) No 1060/2009 and (EU) No 1095/2010 (OJ L 174,
+L1296@P27: 1.7.2011, p. 1).
+L1297@P27: (
+L1298@P27: 5) Directive 2003/41/EC of the European Parliament and of the Council of 3 June 2003 on the activities and supervision of institutions for occupational retirement provision (OJ L 235, 23.9.2003, p. 10).
+L1299@P27: (
+L1300@P27: 6) Directive 2009/65/EC of the European Parliament and of the Council of 13 July 2009 on the coordination of laws, regulations and
+L1301@P27: administrative provisions relating to undertakings for collective investment in transferable securities (UCITS) (OJ L 302,
+L1302@P27: 17.11.2009, p. 32).
+L1303@P27: (
+L1304@P27: 7) Regulation (EC) No 1893/2006 of the European Parliament and of the Council of 20 December 2006 establishing the statistical
+L1305@P27: classification of economic activities NACE Revision 2 and amending Council Regulation (EEC) No 3037/90 as well as certain EC
+L1306@P27: Regulations on specific statistical domains (OJ L 393, 30.12.2006, p. 1).
+L1307@P27: Table 2
+L1308@P27: Common Data
+L1309@P27: Field Format Applicable types of
+L1310@P27: derivative contracts
+L1311@P27: Section 2a – Contract
+L1312@P27: type
+L1313@P27: All contracts
+L1314@P27: 1 Contract type CD = Financial contracts for difference
+L1315@P27: FR = Forward rate agreements
+L1316@P27: FU = Futures
+L1317@P27: FW = Forwards
+L1318@P27: OP = Option
+L1319@P27: SB = Spreadbet
+L1320@P27: SW = Swap
+L1321@P27: ST = Swaption
+L1322@P27: OT = Other
+L1323@P27-28: L 81/112 EN Official Journal of the European Union 22.3.2019 Field Format Applicable types of
+L1324@P28: derivative contracts
+L1325@P28: 2 Asset class CO = Commodity and emission allowances
+L1326@P28: CR = Credit
+L1327@P28: CU = Currency
+L1328@P28: EQ = Equity
+L1329@P28: IR = Interest Rate
+L1330@P28: Section 2b – Contract
+L1331@P28: information
+L1332@P28: All contracts
+L1333@P28: 3 Product classification
+L1334@P28: type
+L1335@P28: C = CFI
+L1336@P28: 4 Product classification ISO 10692 CFI, 6 characters alphabetical code
+L1337@P28: 5 Product identification
+L1338@P28: type
+L1339@P28: Specify the applicable identification:
+L1340@P28: I = ISIN
+L1341@P28: A = AII
+L1342@P28: 6 Product identification For product identifier type I: ISO 6166 ISIN 12 character alphanumerical code
+L1343@P28: For product identifier type A: Complete AII code
+L1344@P28: 7 Underlying
+L1345@P28: identification type
+L1346@P28: I = ISIN
+L1347@P28: A = AII
+L1348@P28: B = Basket
+L1349@P28: X = Index
+L1350@P28: 8 Underlying
+L1351@P28: identification
+L1352@P28: For underlying identification type I: ISO 6166 ISIN 12 character alphanumerical code
+L1353@P28: For underlying identification type A: complete AII code
+L1354@P28: For underlying identification type B: all individual components
+L1355@P28: identification through ISO 6166 ISIN or complete AII code.
+L1356@P28: Identifiers of individual components shall be separated with
+L1357@P28: a dash ‘-’.
+L1358@P28: For underlying identification type X: ISO 6166 ISIN if available, otherwise full name of the index as assigned by the index
+L1359@P28: provider
+L1360@P28: 9 Notional currency 1 ISO 4217 Currency Code, 3 alphabetical characters
+L1361@P28: 10 Notional currency 2 ISO 4217 Currency Code, 3 alphabetical characters
+L1362@P28: 11 Deliverable currency ISO 4217 Currency Code, 3 alphabetical characters
+L1363@P28: Section 2c – Details
+L1364@P28: on the transaction
+L1365@P28: All contracts
+L1366@P28: 12 Trade ID Up to 52 alphanumerical character code including four special
+L1367@P28: characters:‘. - _.’
+L1368@P28: Special characters are not allowed at the beginning and at the
+L1369@P28: end of the code. No space allowed.
+L1370@P28-29: 22.3.2019 EN Official Journal of the European Union L 81/113 Field Format Applicable types of
+L1371@P29: derivative contracts
+L1372@P29: 13 Report tracking
+L1373@P29: number
+L1374@P29: An alphanumeric field up to 52 characters
+L1375@P29: 14 Complex trade
+L1376@P29: component ID
+L1377@P29: An alphanumeric field up to 35 characters
+L1378@P29: 15 Venue of execution ISO 10383 Market Identifier Code (MIC), 4 alphanumerical
+L1379@P29: characters, in accordance with Article 4(b).
+L1380@P29: 16 Compression Y = contract results from compression
+L1381@P29: N = contract does not result from compression
+L1382@P29: 17 Price/rate Up to 20 numerical characters including decimals.
+L1383@P29: The decimal mark is not counted as a numerical character. If
+L1384@P29: populated, it shall be represented by a dot.
+L1385@P29: The negative symbol, if populated, is not counted as a numerical character.
+L1386@P29: In case the price is reported in percent values, it should be
+L1387@P29: expressed as percentage where 100 % is represented as ‘100’
+L1388@P29: 18 Price notation U = Units
+L1389@P29: P = Percentage
+L1390@P29: Y = Yield
+L1391@P29: 19 Currency of price ISO 4217 Currency Code, 3 alphabetic characters
+L1392@P29: 20 Notional Up to 20 numerical characters including decimals.
+L1393@P29: The decimal mark is not counted as a numerical character. If
+L1394@P29: populated, it shall be represented by a dot.
+L1395@P29: The negative symbol, if populated, is not counted as a numerical character.
+L1396@P29: 21 Price multiplier Up to 20 numerical characters including decimals.
+L1397@P29: The decimal mark is not counted as a numerical character. If
+L1398@P29: populated, it shall be represented by a dot.
+L1399@P29: 22 Quantity Up to 20 numerical characters including decimals.
+L1400@P29: The decimal mark is not counted as a numerical character. If
+L1401@P29: populated, it shall be represented by a dot.
+L1402@P29: 23 Up-front payment Up to 20 numerical characters including decimals.
+L1403@P29: The negative symbol to be used to indicate that the payment
+L1404@P29: was made, not received.
+L1405@P29: The decimal mark is not counted as a numerical character. If
+L1406@P29: populated, it shall be represented by a dot.
+L1407@P29: The negative symbol, if populated, is not counted as a numerical character.
+L1408@P29-30: L 81/114 EN Official Journal of the European Union 22.3.2019 Field Format Applicable types of
+L1409@P30: derivative contracts
+L1410@P30: 24 Delivery type C = Cash
+L1411@P30: P = Physical
+L1412@P30: O = Optional for counterparty or when determined by a third
+L1413@P30: party
+L1414@P30: 25 Execution timestamp ISO 8601 date in the UTC time format YYYY-MM-DDThh:
+L1415@P30: mm:ssZ
+L1416@P30: 26 Effective date ISO 8601 date in the format YYYY-MM-DD
+L1417@P30: 27 Maturity date ISO 8601 date in the format YYYY-MM-DD
+L1418@P30: 28 Termination date ISO 8601 date in the format YYYY-MM-DD
+L1419@P30: 29 Settlement date ISO 8601 date in the format YYYY-MM-DD
+L1420@P30: 30 Master Agreement
+L1421@P30: type
+L1422@P30: Free Text, field of up to 50 characters, identifying the name of
+L1423@P30: the Master Agreement used, if any
+L1424@P30: 31 Master Agreement
+L1425@P30: version
+L1426@P30: ISO 8601 date in the format YYYY
+L1427@P30: Section 2d – Risk
+L1428@P30: mitigation/Reporting
+L1429@P30: All contracts
+L1430@P30: 32 Confirmation
+L1431@P30: timestamp
+L1432@P30: ISO 8601 date in the UTC time format YYYY-MM-DDThh:
+L1433@P30: mm:ssZ
+L1434@P30: 33 Confirmation means Y = Non-electronically confirmed
+L1435@P30: N = Non-confirmed
+L1436@P30: E = Electronically confirmed
+L1437@P30: Section 2e – Clearing All contracts
+L1438@P30: 34 Clearing obligation Y = Yes
+L1439@P30: N = No
+L1440@P30: 35 Cleared Y = Yes
+L1441@P30: N = No
+L1442@P30: 36 Clearing timestamp ISO 8601 date in the UTC time format YYYY-MM-DDThh:
+L1443@P30: mm:ssZ
+L1444@P30: 37 CCP ISO 17442 Legal Entity Identifier (LEI)
+L1445@P30: 20 alphanumerical character code
+L1446@P30: 38 Intragroup Y = Yes
+L1447@P30: N = No
+L1448@P30: Section 2f – Interest
+L1449@P30: Rates
+L1450@P30: Interest rate
+L1451@P30: derivatives
+L1452@P30: 39 Fixed rate of leg 1 Up to 10 numerical characters including decimals expressed as
+L1453@P30: percentage where 100 % is represented as ‘100’.
+L1454@P30-31: 22.3.2019 EN Official Journal of the European Union L 81/115 Field Format Applicable types of
+L1455@P31: derivative contracts
+L1456@P31: The decimal mark is not counted as a numerical character. If
+L1457@P31: populated, it shall be represented by a dot.
+L1458@P31: The negative symbol, if populated, is not counted as a numerical character.
+L1459@P31: 40 Fixed rate of leg 2 Up to 10 numerical characters including decimals expressed as
+L1460@P31: percentage where 100 % is represented as ‘100’.
+L1461@P31: The decimal mark is not counted as a numerical character. If
+L1462@P31: populated, it shall be represented by a dot.
+L1463@P31: The negative symbol, if populated, is not counted as a numerical character.
+L1464@P31: 41 Fixed rate day count
+L1465@P31: leg 1
+L1466@P31: Numerator/Denominator where both Numerator and Denominator are numerical characters or alphabetic expression
+L1467@P31: ‘Actual’, e.g. 30/360 or Actual/365
+L1468@P31: 42 Fixed rate day count
+L1469@P31: leg 2
+L1470@P31: Numerator/Denominator where both Numerator and Denominator are numerical characters or alphabetic expression
+L1471@P31: ‘Actual’, e.g. 30/360 or Actual/365
+L1472@P31: 43 Fixed rate payment
+L1473@P31: frequency leg 1 –time
+L1474@P31: period
+L1475@P31: Time period describing how often the counterparties exchange
+L1476@P31: payments, whereby the following abbreviations apply:
+L1477@P31: Y = Year
+L1478@P31: M = Month
+L1479@P31: W = Week
+L1480@P31: D = Day
+L1481@P31: 44 Fixed rate payment
+L1482@P31: frequency leg 1 –
+L1483@P31: multiplier
+L1484@P31: Integer multiplier of the time period describing how often the
+L1485@P31: counterparties exchange payments.
+L1486@P31: Up to 3 numerical characters.
+L1487@P31: 45 Fixed rate payment
+L1488@P31: frequency leg 2 – time
+L1489@P31: period
+L1490@P31: Time period describing how often the counterparties exchange
+L1491@P31: payments, whereby the following abbreviations apply:
+L1492@P31: Y = Year
+L1493@P31: M = Month
+L1494@P31: W = Week
+L1495@P31: D = Day
+L1496@P31: 46 Fixed rate payment
+L1497@P31: frequency leg 2 –
+L1498@P31: multiplier
+L1499@P31: Integer multiplier of the time period describing how often the
+L1500@P31: counterparties exchange payments.
+L1501@P31: Up to 3 numerical characters.
+L1502@P31: 47 Floating rate payment
+L1503@P31: frequency leg 1 – time
+L1504@P31: period
+L1505@P31: Time period describing how often the counterparties exchange
+L1506@P31: payments, whereby the following abbreviations apply:
+L1507@P31: Y = Year
+L1508@P31: M = Month
+L1509@P31: W = Week
+L1510@P31: D = Day
+L1511@P31: 48 Floating rate payment
+L1512@P31: frequency leg 1 –
+L1513@P31: multiplier
+L1514@P31: Integer multiplier of the time period describing how often the
+L1515@P31: counterparties exchange payments.
+L1516@P31: Up to 3 numerical characters.
+L1517@P31-32: L 81/116 EN Official Journal of the European Union 22.3.2019 Field Format Applicable types of
+L1518@P32: derivative contracts
+L1519@P32: 49 Floating rate payment
+L1520@P32: frequency leg 2 – time
+L1521@P32: period
+L1522@P32: Time period describing how often the counterparties exchange
+L1523@P32: payments, whereby the following abbreviations apply:
+L1524@P32: Y = Year
+L1525@P32: M = Month
+L1526@P32: W = Week
+L1527@P32: D = Day
+L1528@P32: 50 Floating rate payment
+L1529@P32: frequency leg 2 –
+L1530@P32: multiplier
+L1531@P32: Integer multiplier of the time period describing how often the
+L1532@P32: counterparties exchange payments.
+L1533@P32: Up to 3 numerical characters.
+L1534@P32: 51 Floating rate reset
+L1535@P32: frequency leg 1 – time
+L1536@P32: period
+L1537@P32: Time period describing how often the counterparties reset the
+L1538@P32: floating rate, whereby the following abbreviations apply:
+L1539@P32: Y = Year
+L1540@P32: M = Month
+L1541@P32: W = Week
+L1542@P32: D = Day
+L1543@P32: 52 Floating rate reset
+L1544@P32: frequency leg 1 –
+L1545@P32: multiplier
+L1546@P32: Integer multiplier of the time period describing how often the
+L1547@P32: counterparties reset the floating rate.
+L1548@P32: Up to 3 numerical characters.
+L1549@P32: 53 Floating rate reset
+L1550@P32: frequency leg 2 – time
+L1551@P32: period
+L1552@P32: Time period describing how often the counterparties reset the
+L1553@P32: floating rate, whereby the following abbreviations apply:
+L1554@P32: Y = Year
+L1555@P32: M = Month
+L1556@P32: W = Week
+L1557@P32: D = Day
+L1558@P32: 54 Floating rate reset
+L1559@P32: frequency leg 2 –
+L1560@P32: multiplier
+L1561@P32: Integer multiplier of the time period describing how often the
+L1562@P32: counterparties reset the floating rate.
+L1563@P32: Up to 3 numerical characters.
+L1564@P32: 55 Floating rate of leg 1 The name of the floating rate index
+L1565@P32: ‘EONA’ – EONIA
+L1566@P32: ‘EONS’ – EONIA SWAP
+L1567@P32: ‘EURI’ – EURIBOR
+L1568@P32: ‘EUUS’ – EURODOLLAR
+L1569@P32: ‘EUCH’ – EuroSwiss
+L1570@P32: ‘GCFR’ – GCF REPO
+L1571@P32: ‘ISDA’ – ISDAFIX
+L1572@P32: ‘LIBI’ – LIBID
+L1573@P32: ‘LIBO’ – LIBOR
+L1574@P32: ‘MAAA’ – Muni AAA
+L1575@P32: ‘PFAN’ – Pfandbriefe
+L1576@P32: ‘TIBO’ – TIBOR
+L1577@P32: ‘STBO’ – STIBOR
+L1578@P32: ‘BBSW’ – BBSW
+L1579@P32-33: 22.3.2019 EN Official Journal of the European Union L 81/117 Field Format Applicable types of
+L1580@P33: derivative contracts
+L1581@P33: ‘JIBA’ – JIBAR
+L1582@P33: ‘BUBO’ – BUBOR
+L1583@P33: ‘CDOR’ – CDOR
+L1584@P33: ‘CIBO’ – CIBOR
+L1585@P33: ‘MOSP’ – MOSPRIM
+L1586@P33: ‘NIBO’ – NIBOR
+L1587@P33: ‘PRBO’ – PRIBOR
+L1588@P33: ‘TLBO’ – TELBOR
+L1589@P33: ‘WIBO’ – WIBOR
+L1590@P33: ‘TREA’ – Treasury
+L1591@P33: ‘SWAP’ – SWAP
+L1592@P33: ‘FUSW’ – Future SWAP
+L1593@P33: Or up to 25 alphanumerical characters if the reference rate is
+L1594@P33: not included in the above list
+L1595@P33: 56 Floating rate reference
+L1596@P33: period leg 1 – time
+L1597@P33: period
+L1598@P33: Time period describing reference period, whereby the following abbreviations apply:
+L1599@P33: Y = Year
+L1600@P33: M = Month
+L1601@P33: W = Week
+L1602@P33: D = Day
+L1603@P33: 57 Floating rate reference
+L1604@P33: period leg 1 –
+L1605@P33: multiplier
+L1606@P33: Integer multiplier of the time period describing the reference
+L1607@P33: period.
+L1608@P33: Up to 3 numerical characters.
+L1609@P33: 58 Floating rate of leg 2 The name of the floating rate index
+L1610@P33: ‘EONA’ – EONIA
+L1611@P33: ‘EONS’ – EONIA SWAP
+L1612@P33: ‘EURI’ – EURIBOR
+L1613@P33: ‘EUUS’ – EURODOLLAR
+L1614@P33: ‘EUCH’ – EuroSwiss
+L1615@P33: ‘GCFR’ – GCF REPO
+L1616@P33: ‘ISDA’ – ISDAFIX
+L1617@P33: ‘LIBI’ – LIBID
+L1618@P33: ‘LIBO’ – LIBOR
+L1619@P33: ‘MAAA’ – Muni AAA
+L1620@P33: ‘PFAN’ – Pfandbriefe
+L1621@P33: ‘TIBO’ – TIBOR
+L1622@P33: ‘STBO’ – STIBOR
+L1623@P33: ‘BBSW’ – BBSW
+L1624@P33: ‘JIBA’ – JIBAR
+L1625@P33: ‘BUBO’ – BUBOR
+L1626@P33: ‘CDOR’ – CDOR
+L1627@P33: ‘CIBO’ – CIBOR
+L1628@P33: ‘MOSP’ – MOSPRIM
+L1629@P33: ‘NIBO’ – NIBOR
+L1630@P33: ‘PRBO’ – PRIBOR
+L1631@P33-34: L 81/118 EN Official Journal of the European Union 22.3.2019 Field Format Applicable types of
+L1632@P34: derivative contracts
+L1633@P34: ‘TLBO’ – TELBOR
+L1634@P34: ‘WIBO’ – WIBOR
+L1635@P34: ‘TREA’ – Treasury
+L1636@P34: ‘SWAP’ – SWAP
+L1637@P34: ‘FUSW’ – Future SWAP
+L1638@P34: Or up to 25 alphanumerical characters if the reference rate is
+L1639@P34: not included in the above list
+L1640@P34: 59 Floating rate reference
+L1641@P34: period leg 2 – time
+L1642@P34: period
+L1643@P34: Time period describing reference period, whereby the following abbreviations apply:
+L1644@P34: Y = Year
+L1645@P34: M = Month
+L1646@P34: W = Week
+L1647@P34: D = Day
+L1648@P34: 60 Floating rate reference
+L1649@P34: period leg 2 –
+L1650@P34: multiplier
+L1651@P34: Integer multiplier of the time period describing the reference
+L1652@P34: period.
+L1653@P34: Up to 3 numerical characters.
+L1654@P34: Section 2g – Foreign
+L1655@P34: Exchange
+L1656@P34: Currency derivatives
+L1657@P34: 61 Delivery currency 2 ISO 4217 Currency Code, 3 alphabetical character code
+L1658@P34: 62 Exchange rate 1 Up to 10 numerical digits including decimals.
+L1659@P34: The decimal mark is not counted as a numerical character. If
+L1660@P34: populated, it shall be represented by a dot.
+L1661@P34: The negative symbol, if populated, is not counted as a numerical character.
+L1662@P34: 63 Forward exchange rate Up to 10 numerical characters including decimals.
+L1663@P34: The decimal mark is not counted as a numerical character. If
+L1664@P34: populated, it shall be represented by a dot.
+L1665@P34: The negative symbol, if populated, is not counted as a numerical character.
+L1666@P34: 64 Exchange rate basis Two ISO 4217 currency codes separated by ‘/’. First currency
+L1667@P34: code shall indicate the base currency, and the second currency
+L1668@P34: code shall indicate the quote currency.
+L1669@P34: Section 2h –
+L1670@P34: Commodities and
+L1671@P34: emission allowances
+L1672@P34: Commodity and
+L1673@P34: emission allowance
+L1674@P34: derivatives
+L1675@P34: General
+L1676@P34: 65 Commodity base AG = Agricultural
+L1677@P34: EN = Energy
+L1678@P34-35: 22.3.2019 EN Official Journal of the European Union L 81/119 Field Format Applicable types of
+L1679@P35: derivative contracts
+L1680@P35: FR = Freights
+L1681@P35: ME = Metals
+L1682@P35: IN = Index
+L1683@P35: EV = Environmental
+L1684@P35: EX = Exotic
+L1685@P35: OT = Other
+L1686@P35: 66 Commodity details Agricultural
+L1687@P35: GO = Grains oilseeds
+L1688@P35: DA = Dairy
+L1689@P35: LI = Livestock
+L1690@P35: FO = Forestry
+L1691@P35: SO = Softs
+L1692@P35: SF = Seafood
+L1693@P35: OT = Other
+L1694@P35: Energy
+L1695@P35: OI = Oil
+L1696@P35: NG = Natural gas
+L1697@P35: CO = Coal
+L1698@P35: EL = Electricity
+L1699@P35: IE = Inter-energy
+L1700@P35: OT = Other
+L1701@P35: Freights
+L1702@P35: DR = Dry
+L1703@P35: WT = Wet
+L1704@P35: OT = Other
+L1705@P35: Metals
+L1706@P35: PR = Precious
+L1707@P35: NP = Non-precious
+L1708@P35: Environmental
+L1709@P35: WE = Weather
+L1710@P35: EM = Emissions
+L1711@P35: OT = Other
+L1712@P35: Energy
+L1713@P35: 67 Delivery point or zone EIC code, 16 character alphanumeric code
+L1714@P35: Repeatable field.
+L1715@P35: 68 Interconnection Point EIC code, 16 character alphanumeric code
+L1716@P35: 69 Load type BL = Base Load
+L1717@P35: PL = Peak Load
+L1718@P35: OP = Off-Peak
+L1719@P35: BH = Hour/Block Hours
+L1720@P35: SH = Shaped
+L1721@P35: GD = Gas Day
+L1722@P35: OT = Other
+L1723@P35-36: L 81/120 EN Official Journal of the European Union 22.3.2019 Field Format Applicable types of
+L1724@P36: derivative contracts
+L1725@P36: Repeatable section of
+L1726@P36: fields 70 – 77
+L1727@P36: 70 Load delivery intervals hh:mmZ
+L1728@P36: 71 Delivery start date and
+L1729@P36: time
+L1730@P36: ISO 8601 date in the UTC time format YYYY-MM-DDThh:
+L1731@P36: mm:ssZ
+L1732@P36: 72 Delivery end date and
+L1733@P36: time
+L1734@P36: ISO 8601 date in the UTC time format YYYY-MM-DDThh:
+L1735@P36: mm:ssZ
+L1736@P36: 73 Duration N = Minutes
+L1737@P36: H = Hour
+L1738@P36: D = Day
+L1739@P36: W = Week
+L1740@P36: M = Month
+L1741@P36: Q = Quarter
+L1742@P36: S = Season
+L1743@P36: Y = Annual
+L1744@P36: O = Other
+L1745@P36: 74 Days of the week WD = Weekdays
+L1746@P36: WN = Weekend
+L1747@P36: MO = Monday
+L1748@P36: TU = Tuesday
+L1749@P36: WE = Wednesday
+L1750@P36: TH = Thursday
+L1751@P36: FR = Friday
+L1752@P36: SA = Saturday
+L1753@P36: SU = Sunday
+L1754@P36: Multiple values separated by ‘/’ are permitted
+L1755@P36: 75 Delivery capacity Up to 20 numerical digits including decimals
+L1756@P36: The decimal mark is not counted as a numerical character. If
+L1757@P36: populated, it shall be represented by a dot.
+L1758@P36: The negative symbol, if populated, is not counted as a numerical character.
+L1759@P36: 76 Quantity Unit KW
+L1760@P36: KWh/h
+L1761@P36: KWh/d
+L1762@P36: MW
+L1763@P36: MWh/h
+L1764@P36: MWh/d
+L1765@P36: GW
+L1766@P36: GWh/h
+L1767@P36: GWh/d
+L1768@P36-37: 22.3.2019 EN Official Journal of the European Union L 81/121 Field Format Applicable types of
+L1769@P37: derivative contracts
+L1770@P37: Therm/d
+L1771@P37: KTherm/d
+L1772@P37: MTherm/d
+L1773@P37: cm/d
+L1774@P37: mcm/d
+L1775@P37: 77 Price/time interval
+L1776@P37: quantities
+L1777@P37: Up to 20 numerical characters including decimals.
+L1778@P37: The decimal mark is not counted as a numerical character. If
+L1779@P37: populated, it shall be represented by a dot.
+L1780@P37: The negative symbol, if populated, is not counted as a numerical character.
+L1781@P37: Section 2i – Options Contracts that
+L1782@P37: contain an option
+L1783@P37: 78 Option type P = Put
+L1784@P37: C = Call
+L1785@P37: O = where it cannot be determined whether it is a call or
+L1786@P37: a put
+L1787@P37: 79 Option exercise style A = American
+L1788@P37: B = Bermudan
+L1789@P37: E = European
+L1790@P37: S = Asian
+L1791@P37: More than one value is allowed
+L1792@P37: 80 Strike price (cap/floor
+L1793@P37: rate)
+L1794@P37: Up to 20 numerical characters including decimals.
+L1795@P37: The decimal mark is not counted as a numerical character. If
+L1796@P37: populated, it shall be represented by a dot.
+L1797@P37: The negative symbol, if populated, is not counted as a numerical character.
+L1798@P37: Where the strike price is reported in percent values, it should
+L1799@P37: be expressed as percentage where 100 % is represented as
+L1800@P37: ‘100’
+L1801@P37: 81 Strike price notation U = Units
+L1802@P37: P = Percentage
+L1803@P37: Y = Yield
+L1804@P37: 82 Maturity date of the
+L1805@P37: underlying
+L1806@P37: ISO 8601 date in the format YYYY-MM-DD
+L1807@P37: Section 2j – Credit
+L1808@P37: derivatives
+L1809@P37: 83 Seniority SNDB = Senior, such as Senior Unsecured Debt (Corporate/Financial), Foreign Currency Sovereign Debt (Government),
+L1810@P37-38: L 81/122 EN Official Journal of the European Union 22.3.2019 Field Format Applicable types of
+L1811@P38: derivative contracts
+L1812@P38: SBOD = Subordinated, such as Subordinated or Lower Tier 2
+L1813@P38: Debt (Banks), Junior Subordinated or Upper Tier 2 Debt
+L1814@P38: (Banks),
+L1815@P38: OTHR = Other, such as Preference Shares or Tier 1 Capital
+L1816@P38: (Banks) or other credit derivatives
+L1817@P38: 84 Reference entity ISO 3166 – 2 character country code
+L1818@P38: or
+L1819@P38: ISO 3166-2 – 2 character country code followed by dash ‘-’
+L1820@P38: and up to 3 alphanumeric character country subdivision code
+L1821@P38: or
+L1822@P38: ISO 17442 Legal Entity Identifier (LEI) 20 alphanumerical
+L1823@P38: character code
+L1824@P38: 85 Frequency of payment MNTH = Monthly
+L1825@P38: QURT = Quarterly
+L1826@P38: MIAN = Semi-annually
+L1827@P38: YEAR = Yearly
+L1828@P38: 86 The calculation basis Numerator/Denominator where both, Numerator and Denominator are numerical characters or alphabetic expression
+L1829@P38: ‘Actual’, e.g. 30/360 or Actual/365
+L1830@P38: 87 Series Integer field up to 5 characters
+L1831@P38: 88 Version Integer field up to 5 characters
+L1832@P38: 89 Index factor Up to 10 numerical characters including decimals.
+L1833@P38: The decimal mark is not counted as a numerical character. If
+L1834@P38: populated, it shall be represented by a dot.
+L1835@P38: 90 Tranche T = Tranched
+L1836@P38: U = Untranched
+L1837@P38: 91 Attachment point Up to 10 numerical characters including decimals expressed as
+L1838@P38: a decimal fraction between 0 and 1.
+L1839@P38: The decimal mark is not counted as a numerical character. If
+L1840@P38: populated, it shall be represented by a dot.
+L1841@P38: 92 Detachment point Up to 10 numerical characters including decimals expressed as
+L1842@P38: a decimal fraction between 0 and 1.
+L1843@P38: The decimal mark is not counted as a numerical character. If
+L1844@P38: populated, it shall be represented by a dot.
+L1845@P38: Section 2k –
+L1846@P38: Modifications to the
+L1847@P38: contract
+L1848@P38: 93 Action type N = New
+L1849@P38: M = Modify
+L1850@P38-39: 22.3.2019 EN Official Journal of the European Union L 81/123 Field Format Applicable types of
+L1851@P39: derivative contracts
+L1852@P39: E = Error
+L1853@P39: C = Early Termination
+L1854@P39: R = Correction
+L1855@P39: Z = Compression
+L1856@P39: V = Valuation update
+L1857@P39: P = Position component
+L1858@P39: 94 Level T = Trade
+L1859@P39: P = Position’
+L1860@P39: L 81/124 EN Official Journal of the European Union 22.3.2019
+

@@ -1,0 +1,153 @@
+SOURCE TEXT SNAPSHOT — D02
+Title: Reporting of securities financing transactions under UK SFTR after the transition period
+Publisher: FCA
+Source URL: https://www.fca.org.uk/publication/documents/reporting-securities-financing-transactions-under-uk-sftr-after-transition-period.pdf
+Scope: UK; transition-specific
+Retrieved: 2026-10-21
+Representation: Web-tool text extraction; NOT the original PDF/HTML bytes.
+Coverage: All 138 numbered lines returned by the web extraction are present.
+Original PDF page count reported by web tool: 4
+Limitations: Text extraction may flatten tables, omit images, lose redline formatting, and join text across pages. Complete line coverage does not prove complete or faithful PDF extraction.
+Attribution: Source content belongs to the publisher identified above. Locally prepared wrapper and ordering; no regulatory endorsement.
+Line markers: L = web-extraction line; P = zero-based PDF page index. A P range marks a line spanning pages.
+
+--- BEGIN SOURCE TEXT ---
+L0@P0: Reporting of securities financing transactions
+L1@P0: under UK SFTR after the transition period
+L2@P0: This statement explains what Trade Repositories (TRs), and UK counterparties that use
+L3@P0: them, should do to make sure they are compliant with UK Securities Financing
+L4@P0: Transactions Regulation (UK SFTR) reporting obligations from the end of the transition
+L5@P0: period.
+L6@P0: For the purposes of this statement, ‘UK SFTR counterparties’ refers to counterparties
+L7@P0: who will be subject to the UK SFTR reporting regime. This includes all financial
+L8@P0: counterparties established in the UK (including third-country branches as well as central
+L9@P0: securities depositories (CSDs)and central counterparties (CCPs)).
+L10@P0: Background
+L11@P0: The European Union (Withdrawal) Act 2018 (EUWA) will convert existing EU legislation
+L12@P0: which currently has direct effect in the UK into UK law at the end of the transition period
+L13@P0: and will preserve existing UK laws which implement EU obligations. The UK Government
+L14@P0: has been given powers to amend this retained EU legislation so that it works effectively
+L15@P0: when the UK leaves the EU. It has conferred on the FCA (and, where relevant, the Bank
+L16@P0: of England and the Prudential Regulation Authority) responsibility for amending and
+L17@P0: maintaining certain EU-binding technical standards which become UK law at the end of
+L18@P0: the transition period. We have also amended our Handbook to ensure it is consistent
+L19@P0: with these changes These amendments are not intended to make policy changes, other
+L20@P0: than where necessary to reflect the UK’s new position outside the EU.
+L21@P0: To ensure a smooth transition for UK counterparties fulfilling their SFTR reporting
+L22@P0: obligations and TRs who wish to continue to offer services in the UK, a number of
+L23@P0: Statutory Instruments, Binding Technical Standards and other publications have been
+L24@P0: made. A full list of the relevant materials can be found on the FCA’s SFTR webpage.
+L25@P0: What changes for UK counterparties?
+L26@P0: From the end of the transition period (11.00pm on 31 December 2020), all UK SFTR
+L27@P0: counterparties that enter into securities financing transactions that are in scope of UK
+L28@P0: SFTR are required to report details of those transactions to an FCA-registered, or
+L29@P0: recognised, TR.
+L30@P0: UK branches of third-country financial counterparties (including branches of firms
+L31@P0: from EU27 countries) are in scope of the SFTR reporting regime and are required to
+L32@P0: report under UK SFTR.
+L33@P0: Third-country (including EU27) branches of UK established financial
+L34@P0: counterparties are in scope of the SFTR reporting regime and must report details of
+L35@P0: their securities financing transactions to an FCA-registered, or recognised, TR.
+L36@P0: On 23 June 2020, a Written Ministerial Statement was presented to Parliament, further
+L37@P0: confirming the UK approach to onshoring the SFTR. The statement confirmed that the UK
+L38@P0: has not currently implemented the SFTR reporting obligation for nonfinancial
+L39@P0-1: counterparties (NFCs).UK NFCs (including third country branches of NFCs located in the UK) are not in scope
+L40@P1: of the UK SFTR reporting regime.
+L41@P1: Currently third-country (including EU27) Alternative Investment Funds (non-UKAIFs) are
+L42@P1: not in scope of the UK SFTR reporting regime. This includes instances where a non-UK
+L43@P1: AIF is managed by an Alternative Investment Fund Manager that is authorised or
+L44@P1: registered under the UK Alternative Investment Fund Managers Regulations. However,
+L45@P1: SFTs concluded in the course of the operations of a UK branch of a non-UK AIF are in
+L46@P1: scope of the UK SFTR reporting obligation.
+L47@P1: Regulation 11 of the Gibraltar (Miscellaneous Amendments) (EU Exit) Regulations 2019
+L48@P1: ensures that relevant matters in relation to Gibraltar can generally be treated as they
+L49@P1: were before the end of the transition period, with any necessary modifications to take
+L50@P1: into account the UK and Gibraltar’s exit from the EU. No action is required by UK TRs in
+L51@P1: relation to Gibraltar counterparties (unless it is requested by those parties). However,
+L52@P1: TRs should confirm their position with the Gibraltar FSC in relation to the obligations
+L53@P1: imposed by the law of Gibraltar.
+L54@P1: Reporting of new and outstanding trades under the SFTR
+L55@P1: reporting regime by UK counterparties
+L56@P1: All new securities financing transactions entered into by UK counterparties on or after
+L57@P1: 11:00pm on 31 December 2020 are in scope of the UK SFTR reporting regime and are
+L58@P1: required to be reported to an FCA-registered, or recognised, TR.
+L59@P1: All outstanding securities financing transactions entered into by UK SFTR counterparties
+L60@P1: prior to 11.00pm on 31 December 2020 need to be held in a FCA registered, or
+L61@P1: recognised TR.
+L62@P1: • For outstanding trades that need to be ported to a UK TR following the end of the
+L63@P1: transition period, TRs will be required to ensure the porting of the reports of all
+L64@P1: outstanding SFTs on behalf of UK counterparties to an FCA-registered, or
+L65@P1: recognised, TR in time for the end of the transition period. UK counterparties are
+L66@P1: encouraged to engage with their TRs to understand how the porting will be
+L67@P1: executed and to ensure all their relevant securities financing transactions are
+L68@P1: captured.
+L69@P1: • UK counterparties currently using EU27 based TRs are encouraged to engage with
+L70@P1: their TR to ensure all outstanding securities financing transactions are ported to a
+L71@P1: registered UK TR of their choice by the end of the transition period.
+L72@P1: UK SFTR validation rules
+L73@P1: Following the end of the transition period, UK reporting counterparties and UK TRs
+L74@P1: should use the UK SFTR validation rules when submitting securities financing
+L75@P1: transactions entered into, or amended, from the end of the transition period.
+L76@P1-2: EU non-legislative materialThe FCA has set out its approach to EU non-legislative material which applies prior to the
+L77@P2: end of the transition period. TRs and reporting counterparties should continue to follow
+L78@P2: EU non-legislative material (such as ESMA Q&As, guidelines, technical specification
+L79@P2: documents) that has been implemented before the end of the TP to the extent that the
+L80@P2: guidance is relevant under UK SFTR.
+L81@P2: What changes for TRs?
+L82@P2: We will become the UK authority responsible for the registration and supervision of TRs
+L83@P2: operating in the UK.
+L84@P2: TRs who want to offer services from the UK immediately following the end of the
+L85@P2: transition period are required to have a UK legal entity registered by us. The Securities
+L86@P2: Financing Transactions, Securitisation and Miscellaneous Amendments (EU Exit)
+L87@P2: Regulations 2020 provides both a conversion regime and a temporary registration
+L88@P2: regime to ensure TRs can be registered and operational from 11:00pm on 31 December
+L89@P2: 2020.
+L90@P2: Further details on the options available for TRs can be found on our TR webpage. UK
+L91@P2: counterparties are encouraged to engage with their TRs to understand the choices their
+L92@P2: TR has made and how this will affect them.
+L93@P2: A list of the TRs who intend to offer services in the UK is available on the TR webpage.
+L94@P2: Historic SFTR data
+L95@P2: UK-based TRs seeking conversion under the TR SI have been instructed to maintain a
+L96@P2: copy of historic SFTR data in relation to transactions reported under SFTR since 13 April
+L97@P2: 2020 to which we and Bank of England currently have access.
+L98@P2: EU27 based TRs that establish a new TR in the UK and seek temporary registration
+L99@P2: under the TR SI should hold a copy of the historic SFTR data in relation to trades
+L100@P2: reported since 13 April 2020 to which the FCA and Bank of England currently have
+L101@P2: access to in that UK TR group entity. This is to enable us and Bank of England to gain
+L102@P2: access to these data after the end of the transition period based on our current
+L103@P2: mandates under the SFTR regime.
+L104@P2: TRs are not expected to store data relating to historical SFTR rejection statistics or
+L105@P2: reconciliation statistics.
+L106@P2: Firms are encouraged to engage with their TR to ensure they continue to have the
+L107@P2: relevant access to their historic SFTR data after the end of the transition period, if
+L108@P2: required.
+L109@P2: Inter-TR Reconciliation under UK SFTR
+L110@P2: We recognise the importance of inter-TR reconciliation in enhancing data quality. We
+L111@P2: have communicated our expectations on this to TRs, taking into account the operational
+L112@P2-3: requirements required in order to achieve inter-TR reconciliation. Under UK SFTR, inter-TR reconciliation will only be required between FCA-registered, or
+L113@P3: recognised, TRs in relation to securities financing transactions submitted by UK
+L114@P3: counterparties. There is no requirement for inter-TR reconciliation to be performed
+L115@P3: between UK and EU TRs.
+L116@P3: Publication of TR Data
+L117@P3: TRs should publish public reports as listed in Commission Delegated Regulation (EU)
+L118@P3: 2019/358 of 13 December 2018 as amended by Annex B of the Technical Standards
+L119@P3: (Securities Financing Transactions Regulation) (EU Exit) (No 1) Instrument 2020 one
+L120@P3: week following implementation of the UK SFTR reporting regime on Monday 11 January
+L121@P3: 2021. The public reports should be published weekly thereafter.
+L122@P3: TRs may continue to use EUR as the currency, there is no requirement to change the
+L123@P3: rates to GBP.
+L124@P3: In addition, TRs may continue to use UTC as the universal time zone, there is no
+L125@P3: requirement to change to GMT.
+L126@P3: Suspension of the reporting requirements
+L127@P3: The SFTR SI introduces a new power for us to suspend the reporting obligation for a
+L128@P3: period of up to one year, with the agreement of the Treasury.
+L129@P3: The use of this suspension power is limited only to the event that there are no FCA
+L130@P3: registered, or recognised, TRs available for UK counterparties to report to.
+L131@P3: Ongoing developments
+L132@P3: The FCA maintains a webpage which gives updates on ongoing developments relating to
+L133@P3: the SFTR. The FCA will publish further updates on this webpage as appropriate.
+L134@P3: Firms are best placed to understand their own compliance with UK SFTR requirements.
+L135@P3: This note is not exhaustive of the circumstances in which actions will be needed. Each
+L136@P3: firm will need to consider whether, in the light of their own specific business model,
+L137@P3: there are actions they need to take.
+

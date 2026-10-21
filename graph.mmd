@@ -1,0 +1,52 @@
+flowchart LR
+    n18["2.2"]
+    n23["2.5"]
+    n28["2.6"]
+    n33["2.7"]
+    n38["2.9"]
+    n43["2.10"]
+    n48["2.12"]
+    n50["clearing_model"]
+    n52["reporting_role"]
+    n54["prior_bilateral_uti"]
+    n55["clearing_ccp_lei"]
+    n64["R01 open: cleared flag"]
+    n67["R02 open: timestamp relationship"]
+    n70["R03 open: CCP identity"]
+    n73["R04 novation: cleared flag"]
+    n76["R05 novation: timestamp relationship"]
+    n79["R06 novation: CCP identity"]
+    n82["R07 novation: CM/client prior UTI"]
+    n85["R08 novation: CCP tracking-number absence hypothesis"]
+    n88["R09 other agreement name: necessary agreement type"]
+    n64 -->|USES_CONTEXT| n50
+    n64 -->|USES_CONTEXT| n52
+    n64 -->|USES_FIELD| n23
+    n67 -->|USES_CONTEXT| n50
+    n67 -->|USES_CONTEXT| n52
+    n67 -->|USES_FIELD| n28
+    n67 -->|USES_FIELD| n48
+    n70 -->|USES_CONTEXT| n50
+    n70 -->|USES_CONTEXT| n52
+    n70 -->|USES_FIELD| n33
+    n70 -->|USES_CONTEXT| n55
+    n73 -->|USES_CONTEXT| n50
+    n73 -->|USES_CONTEXT| n52
+    n73 -->|USES_FIELD| n23
+    n76 -->|USES_CONTEXT| n50
+    n76 -->|USES_CONTEXT| n52
+    n76 -->|USES_FIELD| n28
+    n76 -->|USES_FIELD| n48
+    n79 -->|USES_CONTEXT| n50
+    n79 -->|USES_CONTEXT| n52
+    n79 -->|USES_FIELD| n33
+    n79 -->|USES_CONTEXT| n55
+    n82 -->|USES_CONTEXT| n50
+    n82 -->|USES_CONTEXT| n52
+    n82 -->|USES_FIELD| n18
+    n82 -->|USES_CONTEXT| n54
+    n85 -->|USES_CONTEXT| n50
+    n85 -->|USES_CONTEXT| n52
+    n85 -->|USES_FIELD| n18
+    n88 -->|USES_FIELD| n43
+    n88 -->|USES_FIELD| n38

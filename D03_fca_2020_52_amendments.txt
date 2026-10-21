@@ -1,0 +1,556 @@
+SOURCE TEXT SNAPSHOT — D03
+Title: FCA 2020/52: SFTR EU Exit No 2 Instrument 2020
+Publisher: FCA
+Source URL: https://www.handbook.fca.org.uk/instrument/2020/FCA_2020_52.pdf
+Scope: UK amendment instrument; redline formatting significant
+Retrieved: 2026-10-21
+Representation: Web-tool text extraction; NOT the original PDF/HTML bytes.
+Coverage: All 541 numbered lines returned by the web extraction are present.
+Original PDF page count reported by web tool: 12
+Limitations: Text extraction may flatten tables, omit images, lose redline formatting, and join text across pages. Complete line coverage does not prove complete or faithful PDF extraction.
+Attribution: Source content belongs to the publisher identified above. Locally prepared wrapper and ordering; no regulatory endorsement.
+Line markers: L = web-extraction line; P = zero-based PDF page index. A P range marks a line spanning pages.
+
+--- BEGIN SOURCE TEXT ---
+L0@P0: FCA 2020/52
+L1@P0: TECHNICAL STANDARDS (SECURITIES FINANCING TRANSACTIONS
+L2@P0: REGULATION) (EU EXIT) (No 2) INSTRUMENT 2020
+L3@P0: Powers exercised
+L4@P0: A. The Financial Conduct Authority (“the FCA”), being an appropriate regulator within
+L5@P0: the meaning of the Financial Regulators’ Powers (Technical Standards etc.)
+L6@P0: (Amendment etc.) (EU Exit) Regulations 2018 (“the Regulations”), with the approval
+L7@P0: of the Treasury, makes this instrument in exercise of the powers conferred by
+L8@P0: regulation 3 of the Regulations.
+L9@P0: Pre-conditions to making
+L10@P0: B. The FCA and the Bank of England are the appropriate regulators for the EU
+L11@P0: Regulations under European Markets Infrastructure Regulation and Securities
+L12@P0: Financing Transactions Regulation that are specified in Part 5 of the Schedule to the
+L13@P0: Regulations.
+L14@P0: C. The FCA has consulted the Prudential Regulation Authority and the Bank of England
+L15@P0: as appropriate in accordance with regulation 5 of the Regulations.
+L16@P0: D. In accordance with regulation 3(2)(b) of the Regulations, the Bank of England has
+L17@P0: given consent to the modifications in Annexes A and B of this instrument.
+L18@P0: E. A draft of this instrument has been approved by the Treasury, the Minister
+L19@P0: considering that it makes appropriate provision to prevent, remedy or mitigate any
+L20@P0: failure of retained EU law to operate effectively, or any other deficiency in retained
+L21@P0: EU law, arising from the withdrawal of the United Kingdom from the European
+L22@P0: Union.
+L23@P0: Interpretation
+L24@P0: F. Any reference in this instrument to any EU Regulation or EU tertiary legislation
+L25@P0: (within the meaning of section 20 of the European Union (Withdrawal) Act 2018) is,
+L26@P0: unless the contrary intention appears, to be treated as a reference to that EU regulation
+L27@P0: or EU tertiary legislation which is part of UK law by virtue of the European Union
+L28@P0: (Withdrawal) Act 2018.
+L29@P0: Modifications
+L30@P0: G. The FCA thereafter amends the following EU Regulations in accordance with
+L31@P0: Annexes A and B of this instrument.
+L32@P0: (1) (2)
+L33@P0: Commission Delegated Regulation (EU) 2019/356 of 13 December 2018
+L34@P0: supplementing Regulation (EU) 2015/2365 of the European Parliament
+L35@P0: and of the Council with regard to regulatory technical standards
+L36@P0-1: Annex A FCA 2020/52
+L37@P1: Page 2 of 12
+L38@P1: specifying the details of securities financing transactions (SFTs) to be
+L39@P1: reported to trade repositories
+L40@P1: Commission Implementing Regulation (EU) 2019/363 of 13 December
+L41@P1: 2018 laying down implementing technical standards with regard to the
+L42@P1: format and frequency of reports on the details of securities financing
+L43@P1: transactions (SFTs) to trade repositories in accordance with Regulation
+L44@P1: (EU) 2015/2365 of the European Parliament and of the Council and
+L45@P1: amending Commission Implementing Regulation (EU) No 1247/2012
+L46@P1: with regard to the use of reporting codes in the reporting of derivative
+L47@P1: contracts
+L48@P1: Annex B
+L49@P1: Commencement
+L50@P1: H. This instrument comes into force on IP completion day as defined in the European
+L51@P1: Union (Withdrawal Agreement) Act 2020.
+L52@P1: Citation
+L53@P1: I. This instrument may be cited as the Technical Standards (Securities Financing
+L54@P1: Transactions Regulation) (EU Exit) (No 2) Instrument 2020.
+L55@P1: By order of the Board
+L56@P1: 22 October 2020
+L57@P1-2:  FCA 2020/52
+L58@P2: Page 3 of 12
+L59@P2: In this instrument, underlining indicates new text and striking through indicates deleted text.
+L60@P2: Annex A
+L61@P2: COMMISSION DELEGATED REGULATION (EU) 2019/356 of 13 December 2018
+L62@P2: supplementing Regulation (EU) 2015/2365 of the European Parliament and of the
+L63@P2: Council with regard to regulatory technical standards specifying the details of securities
+L64@P2: financing transactions (SFTs) to be reported to trade repositories
+L65@P2: …
+L66@P2: (Text with EEA relevance)
+L67@P2: Article -1
+L68@P2: Interpretation
+L69@P2: Where a term is defined in Regulation 2015/2365/EU, as amended by The Transparency of
+L70@P2: Securities Financing Transactions and of Reuse (Amendment) (EU Exit) Regulations 2019,
+L71@P2: that definition shall apply for the purposes of this Regulation.
+L72@P2: “IP completion day” has the meaning given in section 39 of the European Union (Withdrawal
+L73@P2: Agreement) Act 2020.
+L74@P2: …
+L75@P2: Article 5
+L76@P2: Entry into force
+L77@P2: …
+L78@P2: This Regulation shall be binding in its entirety and directly applicable in all Member States.
+L79@P2: …
+L80@P2: ANNEX
+L81@P2: Table 1
+L82@P2: Counterparty data
+L83@P2: No Field Details to be reported Repo BSB SL ML
+L84@P2: 1 Reporting timestamp Date and time of submission of the report to the trade
+L85@P2: repository.
+L86@P2: Y Y Y Y
+L87@P2: 2 Report submitting entity Unique code identifying the entity which submits the
+L88@P2: report. Where the submission of the report has been
+L89@P2: delegated to a third party or to the other counterparty, a
+L90@P2: unique code identifying that entity.
+L91@P2: Y Y Y Y
+L92@P2-3: 3 Reporting counterparty Unique code identifying the reporting counterparty. Y Y Y Y FCA 2020/52
+L93@P3: Page 4 of 12
+L94@P3: 4 Nature of the reporting
+L95@P3: counterparty [text
+L96@P3: deleted]
+L97@P3: Indication of whether the reporting counterparty is a
+L98@P3: financial or non-financial counterparty
+L99@P3: Y Y Y Y
+L100@P3: 5 Sector of the reporting
+L101@P3: counterparty
+L102@P3: One or more codes that classify the nature of the
+L103@P3: reporting counterparty's business activities.
+L104@P3: Where the reporting counterparty is a financial
+L105@P3: counterparty, all relevant codes included in the
+L106@P3: taxonomy for financial counterparties and applying to
+L107@P3: that counterparty.
+L108@P3: Where the reporting counterparty is a non-financial
+L109@P3: counterparty, all relevant codes included in the
+L110@P3: taxonomy for non-financial counterparties and applying
+L111@P3: to that counterparty.
+L112@P3: Where more than one activity is reported, the codes shall
+L113@P3: be specified in order of the relative importance of the
+L114@P3: corresponding activities.
+L115@P3: Y Y Y Y
+L116@P3: 6 Additional sector
+L117@P3: classification
+L118@P3: Where the reporting counterparty is a UK UCITS
+L119@P3: (within the definition in section 237(3) of the FSMA), an
+L120@P3: Undertaking for Collective Investment in Transferable
+L121@P3: Securities (UCITS) or Alternative Investment Fund
+L122@P3: (AIF) (within the definition in regulation 3 of the
+L123@P3: Alternative Investment Fund Managers Regulations
+L124@P3: 2013), a code that determines whether it is an ExchangeTraded Fund (ETF) or a Money Market Fund (MMF)
+L125@P3: Where the reporting counterparty is an Alternative
+L126@P3: Investment Fund (AIF) or a non-financial counterparty
+L127@P3: undertaking financial and insurance activities or real
+L128@P3: estate activities, a code that determines whether it is a
+L129@P3: Real Estate Investment Trust (REIT)
+L130@P3: Y Y Y Y
+L131@P3: 7 Branch of the reporting
+L132@P3: counterparty
+L133@P3: Where the reporting counterparty concludes an SFT
+L134@P3: through a branch office, the code identifying the branch.
+L135@P3: Y Y Y Y
+L136@P3: 8 Branch of the other
+L137@P3: counterparty
+L138@P3: Where the other counterparty concludes an SFT through
+L139@P3: a branch office, the code identifying the branch.
+L140@P3: Y Y Y Y
+L141@P3: 9 Counterparty side Indication of whether the reporting counterparty is a
+L142@P3: collateral provider or a collateral taker in accordance
+L143@P3: with Article 4 of the Commission Implementing
+L144@P3: Regulation (EU) 2019/363
+L145@P3: Y Y Y Y
+L146@P3: 10 Entity responsible for
+L147@P3: the report
+L148@P3: Where a financial counterparty is responsible for
+L149@P3: reporting on behalf of the other counterparty in
+L150@P3: accordance with Article 4(3) of Regulation (EU) No
+L151@P3: 2365/2015 of the Parliament and of the Council, the
+L152@P3: unique code identifying that financial counterparty.
+L153@P3: Where a management company (within the definition in
+L154@P3: section 237(2) of the FSMA) is responsible for reporting
+L155@P3: on behalf of an Undertaking for Collective Investment in
+L156@P3: Transferable Securities (a UK UCITS) (within the
+L157@P3: definition in section 237(3) of the FSMA) in accordance
+L158@P3: with Article 4(3) of that Regulation the unique code
+L159@P3: identifying that management company.
+L160@P3: Where an Alternative Investment Fund Manager (AIFM)
+L161@P3: (within the definition in regulation 4 of the Alternative
+L162@P3: Investment Fund Managers Regulations 2013) is
+L163@P3: responsible for reporting on behalf of an Alternative
+L164@P3: Investment Fund (AIF) (within the definition in
+L165@P3: regulation 3 of those Regulations) in accordance with
+L166@P3: Article 4(3) of Regulation (EU) No 2365/2015, the
+L167@P3: unique code identifying that AIFM.
+L168@P3: Y Y Y Y
+L169@P3-4: … FCA 2020/52
+L170@P4: Page 5 of 12
+L171@P4: …
+L172@P4: Table 3
+L173@P4: Margin data
+L174@P4: No Field Details to be reported Repo BSB SL ML
+L175@P4: 1 Reporting timestamp Date and time of submission of the report to the trade
+L176@P4: repository.
+L177@P4: Y Y Y N
+L178@P4: 2 Event date Date on which the reportable event relating to the SFT
+L179@P4: and captured by the report took place. In the case of
+L180@P4: action types ‘Valuation update’, ‘Collateral update’,
+L181@P4: ‘Reuse update’, ‘Margin update’, the date for which the
+L182@P4: information contained in the report is provided.
+L183@P4: Y Y Y N
+L184@P4: 3 Report submitting
+L185@P4: entity
+L186@P4: Unique code identifying the entity which submits the
+L187@P4: report. In the case where the submission of the report has
+L188@P4: been delegated to a third party or to the other
+L189@P4: counterparty, the unique code identifying that entity.
+L190@P4: Y Y Y N
+L191@P4: 4 Reporting
+L192@P4: Counterparty
+L193@P4: Unique code identifying the reporting counterparty. Y Y Y N
+L194@P4: 5 Entity responsible for
+L195@P4: the report
+L196@P4: Where a financial counterparty is responsible for
+L197@P4: reporting on behalf of the other counterparty in
+L198@P4: accordance with Article 4(3) of Regulation (EU) No
+L199@P4: 2365/2015, the unique code identifying that financial
+L200@P4: counterparty.
+L201@P4: Where a management company (within the definition in
+L202@P4: section 237(2) of the FSMA) is responsible for reporting
+L203@P4: on behalf of an Undertaking for Collective Investment in
+L204@P4: Transferable Securities (a UK UCITS) (within the
+L205@P4: definition in section 237(3) of the FSMA) in accordance
+L206@P4: with Article 4(3) of Regulation (EU) No 2365/2015, the
+L207@P4: unique code identifying that management company.
+L208@P4: Where an Alternative Investment Fund Manager (AIFM)
+L209@P4: (within the definition in regulation 4 of the Alternative
+L210@P4: Investment Fund Managers Regulations 2013) is
+L211@P4: responsible for reporting on behalf of an Alternative
+L212@P4: Investment Fund (AIF) (within the definition in
+L213@P4: regulation 3 of those Regulations) in accordance with
+L214@P4: Article 4(3) of Regulation (EU) No 2365/2015, the
+L215@P4: unique code identifying that AIFM.
+L216@P4: Y Y Y Y
+L217@P4: …
+L218@P4: Table 4
+L219@P4: Re-use, cash reinvestment and funding sources data
+L220@P4-5: No Field Details to be reported Repo BSB SL ML FCA 2020/52
+L221@P5: Page 6 of 12
+L222@P5: 1 Reporting timestamp Date and time of submission of the report to the trade
+L223@P5: repository.
+L224@P5: Y Y Y Y
+L225@P5: 2 Event date Date on which the reportable event relating to the SFT
+L226@P5: and captured by the report took place. In the case of
+L227@P5: action types ‘Valuation update’, ‘Collateral update’,
+L228@P5: ‘Reuse update’, ‘Margin update’, the date for which the
+L229@P5: information contained in the report is provided.
+L230@P5: Y Y Y Y
+L231@P5: 3 Report submitting
+L232@P5: entity
+L233@P5: Unique code identifying the entity which submits the
+L234@P5: report. In the case where the submission of the report has
+L235@P5: been delegated to a third party or to the other
+L236@P5: counterparty, the unique code identifying that entity.
+L237@P5: Y Y Y Y
+L238@P5: 4 Reporting
+L239@P5: counterparty
+L240@P5: Unique code identifying the reporting counterparty. Y Y Y Y
+L241@P5: 5 Entity responsible for
+L242@P5: the report
+L243@P5: Where a financial counterparty is responsible for
+L244@P5: reporting on behalf of the other counterparty in
+L245@P5: accordance with Article 4(3) of Regulation (EU) No
+L246@P5: 2365/2015, the unique code identifying that financial
+L247@P5: counterparty.
+L248@P5: Where a management company (within the definition in
+L249@P5: section 237(2) of the FSMA) is responsible for reporting
+L250@P5: on behalf of an Undertaking for Collective Investment in
+L251@P5: Transferable Securities (a UK UCITS) (within the
+L252@P5: definition in section 237(3) of the FSMA) in accordance
+L253@P5: with Article 4(3) of Regulation (EU) No 2365/2015, the
+L254@P5: unique code identifying that management company.
+L255@P5: Where an Alternative Investment Fund Manager (AIFM)
+L256@P5: (within the definition in regulation 4 of the Alternative
+L257@P5: Investment Fund Managers Regulations 2013) is
+L258@P5: responsible for reporting on behalf of an Alternative
+L259@P5: Investment Fund (AIF) (within the definition in
+L260@P5: regulation 3 of those Regulations) in accordance with
+L261@P5: Article 4(3) of Regulation (EU) No 2365/2015, the
+L262@P5: unique code identifying that AIFM.
+L263@P5: Y Y Y Y
+L264@P5: Field 6 shall be repeated and completed for each collateral component.
+L265@P5: 6 Type of collateral
+L266@P5: component
+L267@P5: Indication of the type of collateral component. Y Y Y Y
+L268@P5: Fields 7, 8, 9 and 10 shall be repeated and completed for each security.
+L269@P5: 7
+L270@P5: Collateral
+L271@P5: component Identification of the security used as collateral. Y Y Y Y
+L272@P5: 8 Value of reused
+L273@P5: collateral
+L274@P5: Total value of the collateral reused when it can be
+L275@P5: calculated at SFT transaction level.
+L276@P5-6: Y Y Y Y FCA 2020/52
+L277@P6: Page 7 of 12
+L278@P6: 9 Estimated reuse of
+L279@P6: collateral
+L280@P6: When the actual value of reused collateral is unknown or
+L281@P6: cannot be calculated, an estimate of the value of reuse at
+L282@P6: individual financial instrument level shall be calculated
+L283@P6: as laid down in the FSB report ‘Transforming Shadow
+L284@P6: Banking into Resilient Market- based Finance, NonCash Collateral Re-Use: Measure and Metrics’ of 25
+L285@P6: January 2017.
+L286@P6: Y Y Y Y
+L287@P6: 10 Reused collateral
+L288@P6: currency
+L289@P6: Currency of the actual or estimated value of the collateral
+L290@P6: reused.
+L291@P6: Y Y Y Y
+L292@P6: 11 Reinvestment rate Average interest rate received from a cash collateral
+L293@P6: reinvestment made by the lender.
+L294@P6: N N Y N
+L295@P6: Fields 12, 13 and 14 shall be repeated and completed for each investment where cash collateral has been re-invested and in
+L296@P6: respect of each currency.
+L297@P6: 12 Type of re-invested
+L298@P6: cash investment
+L299@P6: Type of re-investment. N N Y N
+L300@P6: 13 Re-invested cash
+L301@P6: amount
+L302@P6: Amount of the re-invested cash in a given currency. N N Y N
+L303@P6: 14 Re-invested cash
+L304@P6: currency
+L305@P6: Currency of the re-invested cash. N N Y N
+L306@P6: In the case of margin lending transactions, the counterparty shall repeat and complete fields 15, 16 and 17 for each funding
+L307@P6: source and shall provide the information in these fields at entity level.
+L308@P6: 15 Funding sources Funding sources used to finance margin loans. N N N Y
+L309@P6: 16 Market value of the
+L310@P6: funding sources
+L311@P6: Market value of funding sources referred to in field 15. N N N Y
+L312@P6: 17 Funding sources
+L313@P6: currency
+L314@P6: Currency of the market value of the funding sources. N N N Y
+L315@P6: 18 Action type The report shall contain one of the following action
+L316@P6: types:
+L317@P6: (a) a new reuse balance shall be identified as
+L318@P6: ‘New’;
+L319@P6: (b) a modification of the details of the reuse shall
+L320@P6: be identified as ‘Reuse update’;
+L321@P6: (c) a cancellation of a wrongly submitted entire
+L322@P6: report shall be identified as ‘Error’;
+L323@P6: (d) a correction of data fields that were submitted
+L324@P6: incorrectly in a previous report shall be
+L325@P6: identified as ‘Correction’.
+L326@P6: Y Y Y Y
+L327@P6-7:  FCA 2020/52
+L328@P7: Page 8 of 12
+L329@P7: Annex B
+L330@P7: COMMISSION IMPLEMENTING REGULATION (EU) 2019/363 of 13 December 2018
+L331@P7: laying down implementing technical standards with regard to the format and frequency
+L332@P7: of reports on the details of securities financing transactions (SFTs) to trade repositories
+L333@P7: in accordance with Regulation (EU) 2015/2365 of the European Parliament and of the
+L334@P7: Council and amending Commission Implementing Regulation (EU) No 1247/2012 with
+L335@P7: regard to the use of reporting codes in the reporting of derivative contracts
+L336@P7: (Text with EEA relevance)
+L337@P7: …
+L338@P7: Article -1
+L339@P7: Interpretation
+L340@P7: Where a term is defined in Regulation 2015/2365/EU, as amended by The Transparency of
+L341@P7: Securities Financing Transactions and of Reuse (Amendment) (EU Exit) Regulations 2019,
+L342@P7: that definition shall apply for the purposes of this Regulation.
+L343@P7: Article 1
+L344@P7: Data standards and formats for SFT reports
+L345@P7: The details of an SFT in a report to be submitted pursuant to Article 4(1) of Regulation (EU)
+L346@P7: 2015/2365 shall be provided in accordance with the standards and formats specified in Tables
+L347@P7: 1 to 5 of Annex I. That report shall be provided in a common electronic and machine-readable
+L348@P7: form and in a common XML template in accordance with the ISO 20022 methodology.
+L349@P7: …
+L350@P7: Article 6
+L351@P7: Amendments to Implementing Regulation (EU) No 1247/2012
+L352@P7: Implementing Regulation (EU) No 1247/2012 is amended as follows:
+L353@P7: (1) Article 4 is amended as follows:
+L354@P7: (a) paragraph 7 is replaced by the following:
+L355@P7: ‘The derivative shall be classified in Field 4 of Table 2 of the Annex using an
+L356@P7: ISO 10692 Classification of Financial Instrument (CFI) code.’;
+L357@P7: (b) paragraphs 8 and 9 are deleted.
+L358@P7: (2) In Article 4a, paragraph 1 is replaced by the following:
+L359@P7: '1. A report shall be identified through a unique trade identifier agreed by the
+L360@P7: counterparties.’;
+L361@P7: (3) The Annex is replaced by the text set out in Annex II to this Regulation.
+L362@P7-8: Article 7 FCA 2020/52
+L363@P8: Page 9 of 12
+L364@P8: Entry into force
+L365@P8: …
+L366@P8: This Regulation shall be binding in its entirety and directly applicable in all Member States.
+L367@P8: …
+L368@P8: ANNEX I
+L369@P8: Formats to be used for reports on the details of securities financing transactions, as
+L370@P8: referred to in
+L371@P8: Article 4(1) and (5) of Regulation (EU) 2015/2365
+L372@P8: Table 1
+L373@P8: Counterparty Data
+L374@P8: No Field Format
+L375@P8: 1 Reporting timestamp ISO 8601 date in the format and Coordinated Universal Time (UTC) time format, i.e.
+L376@P8: YYYY-MM-DDThh:mm:ssZ
+L377@P8: 2 Report submitting entity ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L378@P8: 3 Reporting counterparty ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.
+L379@P8: 4 Nature of the reporting
+L380@P8: counterparty [deleted]
+L381@P8: ‘F’ - Financial counterparty
+L382@P8: ‘N’ - Non-financial counterparty [deleted]
+L383@P8: 5 Sector of the reporting
+L384@P8: counterparty
+L385@P8: Taxonomy for Financial Counterparties:
+L386@P8: ‘CDTI’ - Credit institution authorised in accordance with Directive 2013/36/EU of the
+L387@P8: European Parliament and of the Council or Council Regulation (EU) No 1024/2013 or a
+L388@P8: third-country entity which would require authorisation or registration in accordance with
+L389@P8: that legislative act which is a CRR firm (within the definition in Article 4(1)(2A) of the
+L390@P8: Capital Requirements Regulation) or a third country entity that would be such an entity if
+L391@P8: its registered office or, if it has no registered office, its head office, were in the United
+L392@P8: Kingdom.
+L393@P8: ‘INVF’ - Investment firm authorized in accordance with Directive 2014/65/EU of the
+L394@P8: European Parliament and of the Council
+L395@P8: within the meaning given in Article 2(1A) of the MIFIR which:
+L396@P8: (i) has its registered office or head office in the United Kingdom;
+L397@P8: (ii) has permission under Part 4A of the FSMA to carry on regulated activities
+L398@P8: relating to investment services and activities (as defined in Article 2(1)(2) of
+L399@P8: the MIFIR) in the United Kingdom;
+L400@P8: (iii) would require authorisation under Directive 2014/65/EU (as it had effect
+L401@P8: immediately before IP completion day) if it had its registered office (or if it
+L402@P8: does not have a registered office, its head offices) in an EEA state;
+L403@P8: (iv) is not a firm which has permission under Part 4A of the FSMA to carry on
+L404@P8-9: regulated activities as an exempt investment firm, within the meaning of FCA 2020/52
+L405@P9: Page 10 of 12
+L406@P9: regulation 8 of the Financial Services and Markets Act 2000 (Markets in
+L407@P9: Financial Instruments) Regulations 2017;
+L408@P9: or a third-country entity which would require authorisation or registration in accordance
+L409@P9: with that legislative act that would be such an entity if its registered office or head office
+L410@P9: were in the United Kingdom.
+L411@P9: ‘INUN’ - Insurance undertaking authorized in accordance with Directive 2009/138/EC
+L412@P9: of the European Parliament and of the Council (Solvency II) as defined in section 417 of
+L413@P9: the FSMA, or a third-country entity which would require authorisation or registration in
+L414@P9: accordance with that legislative act that would be such an entity if it had its head office
+L415@P9: in the United Kingdom.
+L416@P9: ‘AIFD’ - AIF (within the definition in regulation 3 of the Alternative Investment Fund
+L417@P9: Managers Regulations 2013) managed by AIFMs (within the definition in regulation 4 of
+L418@P9: those Regulations) authorized or registered in accordance with Directive 2011/61/EU of
+L419@P9: the European Parliament and of the Council those Regulations, or a third- country entity
+L420@P9: which would require authorisation or registration in accordance with that legislative act
+L421@P9: but for the fact that it is a third country entity.
+L422@P9: ‘ORPI’ - Institution for occupational retirement provision authorized or registered in
+L423@P9: accordance with Directive 2003/41/EC of the European Parliament and of the Council or
+L424@P9: within the meaning of section 1(1) of the Pension Schemes Act 1993 or a third-country
+L425@P9: entity which would require authorisation or registration in accordance with that
+L426@P9: legislative act come within that definition if its main administration were in the United
+L427@P9: Kingdom.
+L428@P9: ‘CCPS’ - Central counterparty authorized in accordance with Regulation (EU) No
+L429@P9: 648/2012 of the European Parliament and of the Council or a third-country entity which
+L430@P9: would require authorisation or registration in accordance with that legislative act
+L431@P9: ‘REIN’ - Reinsurance undertaking as defined in section 417 of the FSMA authorized in
+L432@P9: accordance with Solvency II or a third-country entity which would require authorisation
+L433@P9: or registration in accordance with that legislative act come within that definition if it had
+L434@P9: its head office in the United Kingdom.
+L435@P9: ‘CSDS’ - Central securities depository authorized in accordance with Regulation (EU)
+L436@P9: No 909/2014 of the European Parliament and of the Council (8) or a third-country entity
+L437@P9: which would require authorisation or registration in accordance with that legislative act
+L438@P9: ‘UCIT’ – UK UCITS (within the definition in section 237(3) of the FSMA) and its
+L439@P9: management company (within the definition in section 237(2) of the FSMA), authorized
+L440@P9: in accordance with Directive 2009/65/EC of the European Parliament and of the Council
+L441@P9: or a third- country entity which would require authorisation or registration in accordance
+L442@P9: with that legislative act if its management company were established in the United
+L443@P9: Kingdom.
+L444@P9: Taxonomy for Non-Financial Counterparties. The categories below correspond to the
+L445@P9: main sections of NACE classification as defined in Regulation No 1893/2006 of the
+L446@P9: European Parliament and of the Council (10)
+L447@P9: ‘A’ - Agriculture, forestry and fishing
+L448@P9: ‘B’ - Mining and quarrying
+L449@P9: ‘C’ - Manufacturing
+L450@P9: ‘D’ - Electricity, gas, steam and air conditioning supply
+L451@P9: ‘E’ - Water supply, sewerage, waste management and remediation activities ‘F’ -
+L452@P9: Construction
+L453@P9: ‘G’ - Wholesale and retail trade, repair of motor vehicles and motorcycles
+L454@P9: ‘H’ - Transportation and storage
+L455@P9: ‘I’ - Accommodation and food service activities
+L456@P9: ‘J’ - Information and communication
+L457@P9: ‘K’ - Financial and insurance activities
+L458@P9-10: ‘L’ - Real estate activities FCA 2020/52
+L459@P10: Page 11 of 12
+L460@P10: ‘M’ - Professional, scientific and technical activities
+L461@P10: ‘N’ - Administrative and support service activities
+L462@P10: ‘O’ - Public administration and defence; compulsory social security ‘P’ - Education
+L463@P10: ‘Q’ - Human health and social work activities
+L464@P10: ‘R’ - Arts, entertainment and recreation
+L465@P10: ‘S’ - Other service activities
+L466@P10: ‘T’ - Activities of households as employers; undifferentiated goods – and services –
+L467@P10: producing activities of households for own use
+L468@P10: ‘U’ - Activities of extraterritorial organizations and bodies
+L469@P10: …
+L470@P10: …
+L471@P10: ANNEX II
+L472@P10: The Annex to Implementing Regulation (EU) No 1247/2012 is replaced by the text below.
+L473@P10: ANNEX
+L474@P10: Table 1
+L475@P10: Counterparty Data
+L476@P10:  Field Format
+L477@P10:  Parties to the contract
+L478@P10: 1 Reporting timestamp ISO 8601 date in the format and Coordinated Universal Time (UTC) time format
+L479@P10: YYYY-MM-DDThh:mm:ssZ
+L480@P10: 2 Reporting Counterparty ID ISO 17442 Legal Entity Identifier (LEI) 20 alphanumerical character code.
+L481@P10: 3 Type of ID of the other
+L482@P10: Counterparty
+L483@P10: ‘LEI’ for ISO 17442 Legal Entity Identifier (LEI)
+L484@P10: ‘CLC’ for Client code
+L485@P10: 4 ID of the other
+L486@P10: Counterparty
+L487@P10: ISO 17442 Legal Entity Identifier (LEI) 20 alphanumerical character code.
+L488@P10: Client code (up to 50 alphanumerical digits).
+L489@P10: 5 Country of the other
+L490@P10: Counterparty
+L491@P10-11: ISO 3166 – 2 character country code FCA 2020/52
+L492@P11: Page 12 of 12
+L493@P11: 6
+L494@P11: …
+L495@P11: Corporate sector of the
+L496@P11: reporting counterparty
+L497@P11: …
+L498@P11: Taxonomy for Financial Counterparties:
+L499@P11: A = Assurance undertaking authorised in accordance with Directive 2009/138/EC of the
+L500@P11: European Parliament and of the Council
+L501@P11: C = Credit institution which is a CRR firm (within the definition in Article 4(1)(2A) of
+L502@P11: the Capital Requirements Regulation) authorised in accordance with Directive
+L503@P11: 2013/36/EU of the European Parliament and of the Council
+L504@P11: F = Investment firm within the meaning given in Article 2(1A) of the MIFIR which:
+L505@P11: (v) has its registered office or head office in the United Kingdom;
+L506@P11: (vi) has permission under Part 4A of the FSMA to carry on regulated activities
+L507@P11: relating to investment services and activities (as defined in Article 2(1)(2) of the
+L508@P11: MIFIR) in the United Kingdom;
+L509@P11: (vii) would require authorisation under Directive 2014/65/EU (as it had effect
+L510@P11: immediately before IP completion day) if it had its registered office (or if it does
+L511@P11: not have a registered office, its head offices) in an EEA state; and
+L512@P11: (viii) is not a firm which has permission under Part 4A of the FSMA to carry on
+L513@P11: regulated activities as an exempt investment firm, within the meaning of
+L514@P11: regulation 8 of the Financial Services and Markets Act 2000 (Markets in
+L515@P11: Financial Instruments) Regulations 2017; authorised in accordance with
+L516@P11: Directive 2004/39/EC of the European Parliament and of the Council
+L517@P11: I = Insurance undertaking authorised in accordance with Directive 2009/138/EC as
+L518@P11: defined in section 417 of the FSMA
+L519@P11: L = AIF (within the definition in regulation 3 of the Alternative Investment Fund
+L520@P11: Managers Regulations 2013) Alternative investment fund managed by Alternative
+L521@P11: Investment Fund Managers (AIFMs) (within the definition in regulation 4 of those
+L522@P11: Regulations) authorised or registered in accordance with those Regulations
+L523@P11: O = Institution for occupational retirement provision within the meaning of section 1(1)
+L524@P11: of the Pensions Schemes Act 1993 within the meaning of Article 6(a) of Directive
+L525@P11: 2003/41/EC of the European Parliament and of the Council
+L526@P11: R = Reinsurance undertaking as defined in section 417 of the FSMA authorised in
+L527@P11: accordance with Directive 2009/138/EC
+L528@P11: U = Undertakings for the Collective Investment in Transferable Securities (UCITS) UK
+L529@P11: UCITS (within the definition in section 237(3) of the FSMA) and its management
+L530@P11: company (within the definition in section 237(2) of the FSMA), authorised in accordance
+L531@P11: with Directive 2009/65/EC of the European Parliament and of the Council
+L532@P11: Taxonomy for Non-Financial Counterparties. The following categories correspond to the
+L533@P11: main sections of Statistical classification of economic activities in the European
+L534@P11: Community (NACE) as defined in Regulation (EC) No 1893/2006 of the European
+L535@P11: Parliament and of the Council (as it had effect immediately before IP completion day)
+L536@P11: 1 = Agriculture, forestry and fishing
+L537@P11: 2 = Mining and quarrying
+L538@P11: 3 = Manufacturing
+L539@P11: 4 = Electricity, gas, steam and air conditioning supply
+L540@P11: …
+

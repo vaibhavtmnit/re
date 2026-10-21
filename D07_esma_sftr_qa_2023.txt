@@ -1,0 +1,702 @@
+SOURCE TEXT SNAPSHOT — D07
+Title: ESMA74-362-893 Q&As on SFTR data reporting, 7 June 2023
+Publisher: ESMA
+Source URL: https://www.esma.europa.eu/sites/default/files/library/esma74-362-893_qas_on_sftr_data_reporting.pdf
+Scope: EU Q&A archive; mixed answer dates; post-transition answers not automatically UK rules
+Retrieved: 2026-10-21
+Representation: Web-tool text extraction; NOT the original PDF/HTML bytes.
+Coverage: All 687 numbered lines returned by the web extraction are present.
+Original PDF page count reported by web tool: 27
+Limitations: Text extraction may flatten tables, omit images, lose redline formatting, and join text across pages. Complete line coverage does not prove complete or faithful PDF extraction.
+Attribution: Source content belongs to the publisher identified above. Locally prepared wrapper and ordering; no regulatory endorsement.
+Line markers: L = web-extraction line; P = zero-based PDF page index. A P range marks a line spanning pages.
+
+--- BEGIN SOURCE TEXT ---
+L0@P0: 7 June 2023
+L1@P0: ESMA74-362-893
+L2@P0: Questions and Answers
+L3@P0: On SFTR data reporting
+L4@P0: Please note that this document is not updated after 31 December 2023.
+L5@P0: For Q&As issued from 1 January 2024, please search in the ESMA Q&A
+L6@P0-2: IT-tool. ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 2ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 3
+L7@P2: Table of Contents
+L8@P2: Table of questions ................................................................................................................. 6
+L9@P2: 1 Introduction .................................................................................................................... 8
+L10@P2-3: 2 Questions and Answers on SFTR data reporting...........................................................12ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 4
+L11@P3: Acronyms and definitions used
+L12@P3: SFTR Securities Financing Transactions Regulation - Regulation (EU)
+L13@P3: 2015/2365 of the European Parliament and of the Council of 25
+L14@P3: November 2015 on transparency of securities financing
+L15@P3: transactions and of reuse and amending Regulation (EU) No
+L16@P3: 648/2012
+L17@P3: EMIR European Market Infrastructures Regulation – Regulation (EU)
+L18@P3: 648/2012 of the European Parliament and Council on OTC
+L19@P3: derivatives, central counterparties and trade repositories
+L20@P3: ESMA The European Markets and Securities Authority
+L21@P3: LEI ISO 17442 Legal Entity Identifier
+L22@P3: GLEIF Global Legal Entity Identifier Foundation
+L23@P3: ITS Implementing Technical Standards
+L24@P3: RTS Regulatory Technical Standard
+L25@P3: MiFID II Markets in Financial Instruments Directive (recast) – Directive
+L26@P3: 2014/65/EU of the European Parliament and of the Council
+L27@P3: MiFIR Markets in Financial Instruments Regulation – Regulation
+L28@P3: 600/2014 of the European Parliament and of the Council
+L29@P3: NCA National Competent Authority
+L30@P3: Q&A Question and answer
+L31@P3: RTS Regulatory Technical Standards
+L32@P3: BSB Buy-sell back transaction
+L33@P3: SBB Sell-buy back transaction
+L34@P3: ML Margin lending
+L35@P3: CFI code Classification of Financial Instruments code
+L36@P3: CM Clearing Member
+L37@P3-4: CCP Central Counterparty ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 5
+L38@P4: CSD Central Securities Depository
+L39@P4: CPMI Committee on Payments and Market Infrastructures
+L40@P4: DBV Delivery By Value
+L41@P4: EC European Commission
+L42@P4: ECB European Central Bank
+L43@P4: EEA European Economic Area
+L44@P4: ERR Entity Responsible for Reporting
+L45@P4-5: ESCB European System of Central BanksESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 6
+L46@P5: Table of questions
+L47@P5: Topic of the Question Level 1/Level 2
+L48@P5: issue
+L49@P5: Last Updated
+L50@P5: 1 Frequency of reports SFTR Article 4 05/11/2020
+L51@P5: 2 Reporting of settlement fails SFTR Article 4 25/01/2022
+L52@P5: 3
+L53@P5: Reporting of repos initially
+L54@P5: collateralised on a per
+L55@P5: transaction basis and
+L56@P5: subsequently on a net
+L57@P5: exposure basis
+L58@P5: SFTR Article 4 05/11/2020
+L59@P5: 4
+L60@P5: Reporting of trading venue for
+L61@P5: cleared and non-cleared SFTs SFTR Article 4 05/11/2020
+L62@P5: 5
+L63@P5: Reporting of cash collateral for
+L64@P5: margin lending SFTR Article 4 05/11/2020
+L65@P5: 6
+L66@P5: Reporting of past
+L67@P5: modifications SFTR Article 4 28/01/2021
+L68@P5: 7
+L69@P5: Update of a Trade State
+L70@P5: Report belonging to a SFT SFTR Article 4 28/01/2021
+L71@P5: 8
+L72@P5: Reporting of SFTs by the FC
+L73@P5: on behalf of a SME-NFC
+L74@P5: pursuant to the Article 4(3)
+L75@P5: SFTR
+L76@P5: SFTR Article 4 28/01/2021
+L77@P5: 9
+L78@P5: Reporting of SFTs where an
+L79@P5: external portfolio manager
+L80@P5: participates
+L81@P5: SFTR Article 4 23/03/2021
+L82@P5: 10 Reporting of changes to the
+L83@P5: reference rate in an SFT SFTR Article 4 20/05/2021
+L84@P5: 11 LEI changes due to mergers
+L85@P5: and acquisitions SFTR Article 4 21/09/2021
+L86@P5: 12
+L87@P5: Currency for the Overview
+L88@P5: report SFTR Article 5 22/03/2022
+L89@P5: 13 Construction of Trade State
+L90@P5: Report SFTR Article 4 07/07/2022
+L91@P5: 14
+L92@P5: Reporting of valuation and
+L93@P5: collateral on the last day of an
+L94@P5: SFT
+L95@P5-6: SFTR Article 4 07/07/2022ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 7
+L96@P6: 15
+L97@P6: Reporting of the Jurisdiction
+L98@P6: of the issuer SFTR Article 4 23/03/2023
+L99@P6: 16
+L100@P6: *new* Reporting of the SFTs
+L101@P6: concluded by IORPs and
+L102@P6: pension funds
+L103@P6-7: SFTR Article 4 02/06/2023ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 8
+L104@P7: 1 Introduction
+L105@P7: Background
+L106@P7: The final legislative text of Regulation (EU) No 2015/23651(SFTR) were approved by the
+L107@P7: European Parliament on 29 October 2015 and by the European Council on 16 November 2015.
+L108@P7: The two texts were published in the Official Journal on 23 December 2015 and entered into
+L109@P7: force on the twentieth day following this publication – i.e. 12 January 2016.
+L110@P7: Many of the obligations under SFTR needed to be further specified in the regulatory and
+L111@P7: implementing technical standards developed by the European Securities and Markets
+L112@P7: Authority (ESMA). These were adopted by the European Commission on 13 December 2018
+L113@P7: and were published in the Official Journal on 22 March 2019. The technical standards entered
+L114@P7: into force on 13 April 2019.
+L115@P7: The SFTR framework is made up of the following EU legislation:
+L116@P7: a) Commission Implementing Regulation (EU) 2019/363 of 13 December 2018 laying
+L117@P7: down implementing technical standards with regard to the format and frequency of
+L118@P7: reports on the details of securities financing transactions (SFTs) to trade repositories
+L119@P7: in accordance with Regulation (EU) 2015/2365 of the European Parliament and of the
+L120@P7: Council and amending Commission Implementing Regulation (EU) No 1247/2012 with
+L121@P7: regard to the use of reporting codes in the reporting of derivative contracts;
+L122@P7: b) Commission Delegated Regulation (EU) 2019/359 of 13 December 2018
+L123@P7: supplementing Regulation (EU) 2015/2365 of the European Parliament and of the
+L124@P7: Council with regard to regulatory technical standards specifying the details of the
+L125@P7: application for registration and extension of registration as a trade repository;
+L126@P7: c) Commission Delegated Regulation (EU) 2019/357 of 13 December 2018
+L127@P7: supplementing Regulation (EU) 2015/2365 of the European Parliament and of the
+L128@P7: Council with regard to regulatory technical standards on access to details of securities
+L129@P7: financing transactions (SFTs) held in trade repositories;
+L130@P7: d) Commission Implementing Regulation (EU) 2019/364 of 13 December 2018 laying
+L131@P7: down implementing technical standards with regard to the format of applications for
+L132@P7: registration and extension of registration of trade repositories in accordance with
+L133@P7: Regulation (EU) 2015/2365 of the European Parliament and of the Council;
+L134@P7: e) Commission Delegated Regulation (EU) 2019/358 of 13 December 2018
+L135@P7: supplementing Regulation (EU) 2015/2365 of the European Parliament and of the
+L136@P7: 1 Regulation (EU) 2015/2365 of the European Parliament and of the Council of 25 November 2015 on transparency of securities
+L137@P7-8: financing transactions and of reuse and amending Regulation (EU) No 648/2012.ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 9
+L138@P8: Council with regard to regulatory technical standards on the collection, verification,
+L139@P8: aggregation, comparison and publication of data on securities financing transactions
+L140@P8: (SFTs) by trade repositories;
+L141@P8: f) Commission Implementing Regulation (EU) 2019/365 of 13 December 2018 laying
+L142@P8: down implementing technical standards with regard to the procedures and forms for
+L143@P8: exchange of information on sanctions, measures and investigations in accordance with
+L144@P8: Regulation (EU) 2015/2365 of the European Parliament and of the Council;
+L145@P8: g) Commission Delegated Regulation (EU) 2019/360 of 13 December 2018
+L146@P8: supplementing Regulation (EU) 2015/2365 of the European Parliament and of the
+L147@P8: Council with regard to fees charged by the European Securities and Markets Authority
+L148@P8: to trade repositories;
+L149@P8: h) Commission Delegated Regulation (EU) 2019/356 of 13 December 2018
+L150@P8: supplementing Regulation (EU) 2015/2365 of the European Parliament and of the
+L151@P8: Council with regard to regulatory technical standards specifying the details of securities
+L152@P8: financing transactions (SFTs) to be reported to trade repositories;
+L153@P8: i) Commission Delegated Regulation (EU) 2019/463 of 30 January 2019 amending
+L154@P8: Regulation (EU) 2015/2365 of the European Parliament and of the Council with regard
+L155@P8: to the list of exempted entities;
+L156@P8: In view of ESMA’s statutory role to build a common supervisory culture by promoting common
+L157@P8: supervisory approaches and practices, ESMA has adopted this Q&As document which relates
+L158@P8: to the consistent application of the SFTR data reporting obligation. The first version of this
+L159@P8: document was published on 5 November 2020, subsequent updates will be published on a
+L160@P8: regular basis. This document is expected to be updated and expanded as and when
+L161@P8-9: appropriate.ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 10
+L162@P9: Purpose
+L163@P9: The purpose of this document is to promote common supervisory approaches and practices in
+L164@P9: the application of SFTR in relation to regulatory data reporting topics. It provides responses to
+L165@P9: questions posed by the general public, market participants and competent authorities in
+L166@P9: relation to the practical application of SFTR.
+L167@P9: The content of this document is aimed at competent authorities, entities and market
+L168@P9: infrastructures by providing clarity on the application of the SFTR requirements.
+L169@P9: The content of this document is not exhaustive, and it does not constitute new policy.
+L170@P9: Status
+L171@P9: The question and answer (Q&A) mechanism is a practical convergence tool used to promote
+L172@P9: common supervisory approaches and practices under Article 16b of the ESMA Regulation2.
+L173@P9: Due to the nature of Q&As, formal consultation on the draft answers is considered
+L174@P9: unnecessary. However, even if Q&As are not formally consulted on, ESMA may check them
+L175@P9: with representatives of ESMA’s Securities and Markets Stakeholder Group, the relevant
+L176@P9: Standing Committees’ Consultative Working Group or, where specific expertise is needed, with
+L177@P9: other external parties.
+L178@P9: Where the question received requires interpretation of Union law, ESMA forwards the question
+L179@P9: to the European Commission. Replies from the Commission will be published on ESMA’s
+L180@P9: website and included in Q&A documents, together with the explicit mention that the answer
+L181@P9: was provided by the Commission.
+L182@P9: ESMA will periodically review these Q&As on a regular basis to update them where required
+L183@P9: and to identify if, in a certain area, there is a need to convert some of the material into ESMA
+L184@P9: Guidelines and recommendations. In such cases, the procedures foreseen under Article 16 of
+L185@P9: the ESMA Regulation will be followed.
+L186@P9: 2 Regulation (EU) No 1095/2010 of the European Parliament and of the Council of 24 November 2010 establishing a European
+L187@P9: Supervisory Authority (European Securities and Markets Authority), amending Decision No 716/2009/EC and repealing
+L188@P9-10: Commission Decision 2009/77/EC Regulation, 15.12.2010, L331/84.ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 11
+L189@P10: Questions and answers
+L190@P10: This document is intended to be continually edited and updated as and when new questions
+L191@P10: are received. The date on which each section was last amended is included for ease of
+L192@P10-11: reference. ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 12
+L193@P11: 2 Questions and Answers on SFTR data reporting
+L194@P11: Question 1 [Published on 5 November 2020]
+L195@P11: Frequency of reports
+L196@P11: a) How should a “working day” be defined for the purpose of determining the deadline for
+L197@P11: reporting?
+L198@P11: b) How should the counterparties proceed if they follow different calendars?
+L199@P11: c) How should the counterparties proceed if they are located in different time zones?
+L200@P11: Answer 1
+L201@P11: a) Counterparties should follow their local time to determine the day on which the
+L202@P11: transaction was concluded, modified or terminated. Branches of third country
+L203@P11: counterparties should follow the local time of the Member State from which they
+L204@P11: operate. The deadline for reporting is the working day following that day. The point in
+L205@P11: time which serves as a starting point to calculate the reporting deadline is the date of
+L206@P11: conclusion, modification or termination of the transaction, irrespective of the execution
+L207@P11: process. Therefore, if a transaction is concluded, modified or terminated on date T, the
+L208@P11: reference day to start calculating the reporting deadline is T, as opposed to the date on
+L209@P11: which the counterparties start to exchange electronic information related to the
+L210@P11: conclusion, modification or termination of the transactions.
+L211@P11: The determination of the deadline for reporting in the local time does not affect the way
+L212@P11: in which the relevant dates and times (such as execution timestamp) are reported to
+L213@P11: the TRs. The time convention for reporting is defined in the Commission Implementing
+L214@P11: Regulation (EU) 2019/363 ITS as UTC (Coordinated Universal Time). The GMT
+L215@P11: (Greenwich Mean Time) was not defined as a time convention as it refers to a time
+L216@P11: zone and not to a time standard.
+L217@P11: b) As regards to the calendar, counterparties and branches of third country counterparties
+L218@P11: should follow the relevant calendar of the Member State from which they operate to
+L219@P11: determine whether a given day is a working day or holiday.
+L220@P11: c) This guidance applies also when the two counterparties (or the branches thereof) to
+L221@P11: the same SFT follow different calendars and/or are located in different time zones,
+L222@P11: meaning that each counterparty should follow its own local calendar and use the local
+L223@P11: time to determine the deadline for reporting.
+L224@P11-12: Question 2 [Updated on 25 January 2022]ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 13
+L225@P12: Reporting of settlement fails3
+L226@P12: In certain instances the reporting under Article 4 of SFTR is affected by events linked to the
+L227@P12: settlement of the respective SFT or of either of its legs. For this purpose, ‘settlement fail’ follows
+L228@P12: the definition included in Article 2(15) of Regulation 909/2014 4 and it means “the nonoccurrence of settlement, or partial settlement of a securities transaction on the intended
+L229@P12: settlement date, due to a lack of securities or cash and regardless of the underlying cause”.
+L230@P12: a) When is a settlement fail reportable?
+L231@P12: b) How should a settlement fail on the closing leg be reported?
+L232@P12: c) By when should a settlement fail be reported?
+L233@P12: d) Is a settlement fail reportable, where the Counterparties have been unable to modify the
+L234@P12: maturity date of an SFT due to a failed settlement that takes place after the day following the
+L235@P12: maturity date (S+1)?
+L236@P12: e) Contractually there is a difference between a settlement fail of the closing leg between
+L237@P12: securities borrowing and lending transaction and (reverse) repo transactions. Does this mean
+L238@P12: that the reporting of a settlement fail of the closing leg of a (reverse) repo transaction follows
+L239@P12: the contractual termination date?
+L240@P12: f) How should a settlement fail on the closing leg of a CCP-cleared SFT be reported, where
+L241@P12: the settlement is on a net basis?
+L242@P12: Answer 2
+L243@P12: a) A temporary settlement fail, that neither results in a termination of the SFT, nor in a
+L244@P12: modification of any of the reportable characteristics of the SFT, should not be reported as per
+L245@P12: paragraph 94 of the ESMA SFTR Reporting Guidelines. If the settlement fail results in an
+L246@P12: amendment to the transaction, then the amendment should be reported accordingly with the
+L247@P12: action type “MODI” as per paragraph 98 of the ESMA SFTR Reporting Guidelines.
+L248@P12: b) Where on the day following the maturity date the counterparties become aware that the
+L249@P12: closing leg of the SFT has not been settled, they should send a report with action type “MODI”
+L250@P12: to amend the maturity date to the next day or other future day on which it is expected to settle,
+L251@P12: as per paragraph 115 of the ESMA SFTR Reporting Guidelines.
+L252@P12: c) An amendment of the maturity date (S) would be possible only until the day following the
+L253@P12: maturity date (S+1). As from this date the SFT will no longer be outstanding, and it will not be
+L254@P12: possible to “reopen” it.
+L255@P12: d) In case of a settlement fail that takes place after S+1 and (i) there is no possibility to update
+L256@P12: the maturity date or (ii) the SFT has been early terminated and there is no possibility to revert
+L257@P12: the early termination, the counterparties should report the remaining/outstanding SFT with a
+L258@P12: new UTI and specify accordingly the complete and accurate details of that SFT and in particular
+L259@P12: 3 The guidance provided in the SFTR Q&A is circumscribed to the reporting of SFTs and by no means precludes or pre-empts the
+L260@P12: reporting of settlement fails required under any EU legislation.
+L261@P12: 4 REGULATION (EU) No 909/2014 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 23 July 2014 on improving
+L262@P12: securities settlement in the European Union and on central securities depositories and amending Directives 98/26/EC and
+L263@P12-13: 2014/65/EU and Regulation (EU) No 236/2012, p.1. L.257, OJ 28.8.2014ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 14
+L264@P13: its maturity date. Special attention should be paid to the consistent reporting by the two
+L265@P13: counterparties. Notably, when either one or both counterparties do not report the modification
+L266@P13: on time, both counterparties would need to report the SFT with a new UTI agreed between
+L267@P13: them.
+L268@P13: e) The reporting of settlement fails of the closing leg applies to all types of SFTs.
+L269@P13: Counterparties should apply paragraph 115 of the ESMA SFTR Reporting Guidelines in the
+L270@P13: broad scope of the reporting obligation under Art 4(1) SFTR, and it cannot be interpreted as
+L271@P13: covering only the case where the counterparties agree to amend the settlement date. The
+L272@P13: reporting of the settlement fail of the closing leg of a (reverse) repo transaction should be made
+L273@P13: by following the actual settlement date, not the contractual termination date.
+L274@P13: f) The reporting of settlement fails of the closing leg of a CCP-cleared SFT, where the
+L275@P13: settlement is on a net basis, follows the same treatment as for all other SFTs as per paragraph
+L276@P13: 115 of the ESMA SFTR Reporting Guidelines to the extent that those settlement fails are
+L277@P13: attributable to individual SFTs. Settlement fails should only be reported if they can be attributed
+L278@P13: to individual SFTs.
+L279@P13: Question 3 [Published on 5 November 2020]
+L280@P13: Reporting of repos initially collateralised on a transaction basis and subsequently on a
+L281@P13: net exposure basis
+L282@P13: a) How should field 2.73 (Collateralisation of net exposure) be reported for repos initially
+L283@P13: collateralised on a transaction basis whose variation margin is handled by VM collateral
+L284@P13: pools?
+L285@P13: b) How should the collateral and the VM on a net exposure basis be reported, since the
+L286@P13-14: latter cannot be allocated to the transaction?ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 15
+L287@P14: Answer 3
+L288@P14: a) If a repo transaction initially collateralised on a transaction basis is also part of VM
+L289@P14: collateral pools on a net exposure basis, field 2.73 (Collateralisation of net exposure)
+L290@P14: should be reported as “TRUE” from the onset. Since netting takes place at the level of
+L291@P14: the master agreement, the transaction is logically part of the netting set. “FALSE” is
+L292@P14: reserved for repo transactions exclusively collateralised on a transaction basis.
+L293@P14: b) The counterparty should report with action type “COLU” (i) the transaction-based
+L294@P14: collateral for each UTI and in addition (ii) the net exposure collateral applicable to all
+L295@P14: the SFTs in the netting set without the UTI.
+L296@P14: Question 4 [Published on 5 November 2020]
+L297@P14: Reporting of trading venue for cleared and non-cleared SFTs
+L298@P14: a) How should the field 2.8 “Trading venue” be reported for SFTs?
+L299@P14: b) Can an SFT concluded bilaterally and cleared by a CCP on the same day be reported
+L300@P14: in accordance with Article 2(2) of CDR (EU) 2019/356?
+L301@P14: Answer 4
+L302@P14: a) Trading venue is defined under Article 4(24) of MiFID II as a regulated market, an MTF
+L303@P14: or an OTF. Counterparties therefore should report in the field 2.8 “Trading venue” the
+L304@P14: segment MIC of the trading venue for SFTs concluded on regulated markets, MTFs
+L305@P14: and OTFs, XOFF for SFTs concluded off-venue for SFTs that are admitted to trading
+L306@P14: on a venue and XXXX in the rest of the cases, including an execution through a
+L307@P14: systematic internaliser (SI).
+L308@P14: b) No. SFTs concluded bilaterally (i.e. not on a trading venue, where trading venue should
+L309@P14: be understood as defined under MiFID) and cleared by a CCP should be reported
+L310@P14-15: pursuant to Article 2(1) of CDR (EU) 2019/356.ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 16
+L311@P15: Question 5 [Published on 5 November 2020]
+L312@P15: Reporting of zero collateral for margin lending
+L313@P15: How should zero collateral be reported for margin lending?
+L314@P15: Answer 5
+L315@P15: In accordance with Article 5(2) of CIR (EU) 2019/363, counterparties should report the relevant
+L316@P15: collateral components of a margin loan as long as there is an outstanding exposure. Currently
+L317@P15: the technical standards do not allow for reporting of cash collateral for margin loans, therefore
+L318@P15: the counterparties cannot report for margin lending zero collateral in line with section 5.4.4 of
+L319@P15: the ESMA SFTR Reporting Guidelines. Counterparties should use the ISIN EU000A1G0EB6
+L320@P15: (European Financial Stability Facility) as an agreed default value in field 2.78 (Identification of
+L321@P15: a security used as collateral) to report zero collateral for margin loans.
+L322@P15: Question 6 [Published on 28 January 2021]
+L323@P15: Reporting of past modifications
+L324@P15: In relation to outstanding SFTs, paragraph 88 of the Guidelines provides that counterparties,
+L325@P15: that submitted several reports with event dates equal to reporting date or day before, breaking
+L326@P15: the chronological order, may need to resubmit last report(s) to bring the record of the
+L327@P15: transaction to the most up-to-date state.
+L328@P15: a) How should a counterparty proceed if it has sent reports with action type “MODI“ or
+L329@P15: “CORR“ with “past” event dates (earlier than reporting date -1) and no other
+L330@P15: modification or correction has been submitted since the last event?
+L331@P15: b) If the counterparty needs to report only one “past” modification (and no other
+L332@P15: modification or correction has been submitted since the day of that modification), can
+L333@P15: the counterparty submit a single report with a recent event date?
+L334@P15: Answer 6
+L335@P15: a) In line with the paragraph 83 of the Guidelines, the reports with the Event date earlier
+L336@P15: than the reporting date -1 should not be considered by the TRs for the purpose of
+L337@P15: constructing the trade state report, therefore the reporting counterparty should submit
+L338@P15: the reports pertaining to the relevant modifications with the respective “past” event
+L339@P15: dates. To confirm the current state of the loan data, the reporting counterparty should
+L340@P15: subsequently send a report with action type “MODI” populating the field “Event date”
+L341@P15: with the date when report is made (i.e. the same date as the date provided in the field
+L342@P15: “reporting timestamp”). This last modification report should contain the most up-to-date
+L343@P15-16: state of the SFT. ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 17
+L344@P16: With respect to collateral data, it is expected that the reporting counterparty updates
+L345@P16: the collateral on a daily basis as required under Article 5(3) of Commission
+L346@P16: Implementing Regulation (EU) 2019/363 of 13 December 2018.
+L347@P16: b) No. This is a particular case of the scenario described in point a) above, being in this
+L348@P16: case only one single past modification. Similarly, the reporting counterparty should
+L349@P16: report this modification with the respective “past” event date and then resubmit an SFT
+L350@P16: report with action type “MODI” and populating the field “Event date” with the date when
+L351@P16: report is made (i.e. the same date as the date provided in the field “reporting
+L352@P16: timestamp”).
+L353@P16: Question 7 [Published on 28 January 2021]
+L354@P16: Update of a Trade State Report belonging to an SFT
+L355@P16: a) Paragraph 83 of the Guidelines provides that the Trade Repositories (TRs) should
+L356@P16: apply changes to the Trade State Report only based on the reports sent with the event
+L357@P16: dates equal to the reporting date or the day preceding the reporting date. Should the
+L358@P16: TRs take into account if the day preceding the reporting date is a non-working day (in
+L359@P16: particular, a holiday in the jurisdiction of the reporting counterparty)?
+L360@P16: b) Is it possible to update an SFT after its maturity or an early termination?
+L361@P16: c) Is it possible to report lately a termination of an SFT?
+L362@P16: d) How should TRs proceed with the reconciliation of SFTs whose termination is reported
+L363@P16: after the reporting deadline?
+L364@P16: Answer 7:
+L365@P16: a) Yes, the TRs when determining, based on the Event date, whether a given report
+L366@P16: should be taken into account for the update of the Trade State Report, should take into
+L367@P16: account the non-working days, including weekends as well as holidays in line with the
+L368@P16: national calendars of the reporting counterparties or of the entities responsible for
+L369@P16: reporting, as applicable. For example, if a given counterparty reports a modification on
+L370@P16: 2 May, populating the field “Event date” with 30 April, and 1 May is a holiday in the
+L371@P16: jurisdiction of that counterparty, the TR should consider this report for the purpose of
+L372@P16: updating the Trade State Report.
+L373@P16: b) The latest trade state of an SFT can only be updated by the TRs based on reports
+L374@P16: submitted with regards to SFTs that are outstanding. Otherwise, with regards to SFTs
+L375@P16: that are not outstanding, the TRs should record the information but not update the trade
+L376@P16-17: state of the SFT. Reopening an SFT is not possible. Furthermore, pursuant to ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 18
+L377@P17: paragraph 83 of the Guidelines TRs should not update the latest state of an SFT, if the
+L378@P17: Event Date is earlier that Reporting Date -1.
+L379@P17: Example for a possible update of the latest state of an SFT:
+L380@P17: Maturity Date of the trade: December 31st, 2021
+L381@P17: Date of the latest update of the SFT: January 11th, 2021 (Monday)
+L382@P17: Event Date: January 15th, 2021 (Friday)
+L383@P17: Reporting Date: January 18th, 2021 (Monday)
+L384@P17: Since the Event Date is not earlier than the Reporting Date -1 (January 15th, 2021) the
+L385@P17: TR should update the latest state of the SFT in the example.
+L386@P17: Example for a possible report without update of the latest state of an SFT:
+L387@P17: Maturity Date of the trade: January 12th, 2021
+L388@P17: Date of the latest update of the SFT: January 11th, 2021 (Monday)
+L389@P17: Event Date: January 12th, 2021 (Tuesday)
+L390@P17: Reporting Date: January 18th, 2021 (Monday)
+L391@P17: Since the Event Date (January 12th, 2021) is earlier than the Reporting Date -1 (January
+L392@P17: 17th, 2021) the TR should not update the latest state of the SFT in the example.
+L393@P17: c) Yes, it is possible. As included under paragraph 83 of the Guidelines, “the TRs should
+L394@P17: not apply the reported change to the current Trade State Report (if the transaction is
+L395@P17: still outstanding) nor the past trade state report of the date for which the event was
+L396@P17: reported.” However if the counterparties need to report after the reporting deadline the
+L397@P17: termination of an SFT [which economically and/or contractually is not any longer
+L398@P17: outstanding), they should use action type “ETRM” and report fields “Event date” and
+L399@P17: “Termination date” with the relevant date in the past. This is also how counterparties
+L400@P17: should report after the reporting deadline a modification of the maturity date which is in
+L401@P17: the past. In either case, the TRs should update accordingly the latest trade state report
+L402@P17: and remove those SFTs.
+L403@P17: d) TRs should remove those SFTs from reconciliation thirty calendar days after the
+L404@P17: termination is reported, as required under Article 2(2)(h) of Commission Delegated
+L405@P17-18: Regulation 2019/358 supplementing SFTR.ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 19
+L406@P18: Question 8 [Published on 28 January 2021]
+L407@P18: Reporting of SFTs by the FC on behalf of a SME-NFC pursuant to the Article 4(3) SFTR
+L408@P18: a) Which of the reportable details specified in the Commission Delegated Regulation (EU)
+L409@P18: 2019/356 of 13 December 2018 supplementing Regulation (EU) 2015/2365 should be
+L410@P18: provided by the SME-NFC to the FC to enable the latter to report on behalf of the SMENFC pursuant to the Article 4(3) SFTR?
+L411@P18: b) How should a FC proceed if the SME-NFC does not duly renew its LEI and therefore
+L412@P18: the reports submitted on its behalf are rejected by a Trade Repository?
+L413@P18: c) How should a FC proceed if an NFC that has been classified as an non-SME NFC
+L414@P18: changes its status to SME-NFC, but fails to timely inform the FC of this fact?
+L415@P18: d) How should FC and SME-NFC proceed if they report to two different TRs? Do they
+L416@P18: need to onboard to the TR of their counterparty?
+L417@P18: Answer 8:
+L418@P18: a) It is understood that the FC cannot be expected to possess the reportable details
+L419@P18: characterising the SME-NFC itself (e.g. sector of the reporting counterparty) nor the
+L420@P18: details of the execution and clearing arrangements entered into by the SME-NFC itself
+L421@P18: (e.g. NFC’s broker or NFC’s clearing member).
+L422@P18: Therefore, having in mind the scope of information required under the Regulation (EU)
+L423@P18: 2019/356, it is understood that SME-NFC should provide to the FC particularly the
+L424@P18: following details:
+L425@P18: Table 1 Counterparty data:
+L426@P18: i. Field 1.3 Reporting counterparty ID (Legal Entity Identifier (LEI))
+L427@P18: ii. Field 1.4 Nature of the reporting counterparty (Indication of whether the reporting
+L428@P18: counterparty is a financial or non-financial counterparty)
+L429@P18: iii. Field 1.5 Sector of the reporting counterparty (Taxonomy for Non-Financial
+L430@P18: Counterparties. The categories from A to U correspond to the main sections of NACE
+L431@P18: classification as defined in Regulation (EC) No 1893/2006 of the European Parliament
+L432@P18: and of the Council5)
+L433@P18: 5 ANNEX I Formats to be used for reports on the details of securities financing transactions, as referred to in Article 4(1) and (5)
+L434@P18-19: of Regulation (EU) 2015/2365ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 20
+L435@P19: iv. Field 1.6. Additional sector classification, if applicable
+L436@P19: v. Field 1.7 Branch of the reporting counterparty
+L437@P19: vi. Field 1.13 Beneficiary
+L438@P19: vii. Field 1.14 Tri-party agent
+L439@P19: viii. Field 1.15 Broker
+L440@P19: ix. Field 1.16 Clearing member
+L441@P19: x. Field 1.17 Central Securities Depository (‘CSD’) participant or indirect participant
+L442@P19: xi. Field 1.18 Agent lender
+L443@P19: Table 4 Re-use, cash reinvestment and funding sources data:
+L444@P19: xii. Field 4.8 Value of reused collateral
+L445@P19: xiii. Field 4.9 Estimated reuse of collateral
+L446@P19: xiv. Field 4.12 Type of re-invested cash investment
+L447@P19: xv. Field 4.13 Re-invested cash amount
+L448@P19: The reportable details in fields 1.3, 1.4, and 1.5 ,and 1.6 and 1.7 if applicable, are static
+L449@P19: information not related to a specific SFT, meaning that they can be provided by the SMENFC on a one-off basis and updated immediately each time when any of such detail’s
+L450@P19: changes. Other reportable details specified in fields 1.13 to 1.18 should be provided for
+L451@P19: each SFT between the FC and the SME-NFC. Fields 4.8, 4.9, 4.12 and 4.13 as applicable,
+L452@P19: should be provided for each pair FC – SME-NFC.
+L453@P19: If the SME-NFC has not provided to the FC the reportable details specified above, the FC
+L454@P19: should submit the missing reports without undue delay as soon as it receives all the
+L455@P19: relevant details.
+L456@P19: b) Financial counterparty should timely liaise with the SME-NFC to so that the latter renews
+L457@P19: its LEI.
+L458@P19: It should be noted that in accordance with Article 1(1) of Commission Delegated
+L459@P19: Regulation 2015/2365 supplementing SFTR “A report made pursuant to Article 4(1) of
+L460@P19: Regulation (EU) 2015/2365 shall include the complete and accurate details set out in
+L461@P19: Tables 1, 2, 3 and 4 of the Annex that pertain to the SFT concerned”. The SME-NFC is
+L462@P19: responsible for ensuring that the details of the SFT provided to the FC are correct. As
+L463@P19-20: clarified in point (a), field 1.3 Reporting counterparty ID is one of the details that NFC should ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 21
+L464@P20: provide to the FC. Therefore, the SME-NFC should ensure that its LEI is correct (thus also
+L465@P20: valid and duly renewed) so that FC can perform the reporting of SFTs on its behalf.
+L466@P20: If the SME-NFC has not timely renewed its LEI and therefore FC was not able to
+L467@P20: successfully report on behalf of SME-NFC, the FC should submit the missing reports
+L468@P20: without undue delay as soon as the LEI of the SME-NFC is renewed.
+L469@P20: c) In accordance with article 4(3) SFTR, SME-NFC are those « which on its balance sheet
+L470@P20: dates does not exceed the limits of at least two of the three criteria laid down in Article 3(3)
+L471@P20: of Directive 2013/34/EU of the European Parliament and of the Council ».
+L472@P20: Specifically, SME-NFC are defined in SFTR by reference to the definition of “medium-sized
+L473@P20: undertakings”. A medium-sized undertaking does not exceed the limits of at least two of
+L474@P20: the three following criteria:
+L475@P20: - Balance sheet total: EUR 20 000 000;
+L476@P20: - Net turnover: EUR 40 000 000;
+L477@P20: - Average number of employees during the financial year: 250.
+L478@P20: In practice, this information should be included in the NFC’s annual reports which is
+L479@P20: published annually.
+L480@P20: To the extent possible, the SME-NFC should inform the FC of an anticipated change in its
+L481@P20: status ahead the publication of its annual report to avoid any disruption in the continuity of
+L482@P20: reporting.
+L483@P20: Given that the status of the NFC is known and primarily assessed by the NFC itself, it is
+L484@P20: thus part of information that the FC cannot be reasonably expected to possess, it is
+L485@P20: understood that in the case where non-SME NFC has become an SME-NFC and does not
+L486@P20: inform the FC of this change, the FC may not be aware of its obligation to report on behalf
+L487@P20: of that SME-NFC.
+L488@P20: When FC becomes aware of such change after the effective change of status, it should
+L489@P20: submit the missing reports pertaining to the SFTs that were concluded, modified or
+L490@P20: terminated after that date without undue delay. Such submissions should be done, upon
+L491@P20: having received from the NFC all relevant details (as per (a) above) pertaining to these
+L492@P20: SFTs.
+L493@P20: d) For any outstanding SFTs where an FC and an SME-NFC report to two different Trade
+L494@P20: Repositories, the outstanding SFT of the SME-NFC should be transferred to the TR of the
+L495@P20: FC, unless the FC decides to become client of the TR of the SME-NFC and report the SFT
+L496@P20-21: with the SME-NFC to that TR. ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 22
+L497@P21: Each time a NFC changes its status from non-SME NFC to SME-NFC, it should transfer
+L498@P21: its outstanding SFT concluded with the FC to the TR of that FC as of the date of its changed
+L499@P21: status unless the FC decides to become client of the TR of the SME-NFC and report the
+L500@P21: SFT concluded with the SME-NFC to that TR. Similarly, each time when NFC changes its
+L501@P21: status from SME-NFC to non-SME NFC, the outstanding SFT concluded with the FC
+L502@P21: should be transferred back to the TR of the NFC, unless the NFC decides to become client
+L503@P21: of the TR of the FC and report the SFT concluded with the FC to that TR.
+L504@P21: For the performance of data transfer, neither the NFC nor the FC (or any report submitting
+L505@P21: entity reporting on their behalf) are expected to onboard to the TRs of the other
+L506@P21: counterparty. The reference to TR participant should relate to the NFC and FC (or the
+L507@P21: report submitting entity reporting on their behalf), as appropriate.
+L508@P21: Question 9 [Updated on 23 March 2021]
+L509@P21: Reporting of SFTs where an external portfolio manager participates
+L510@P21: a) How should a portfolio manager be identified in a SFT report, i.e. an entity to which the
+L511@P21: execution of a part of the investment strategy of a counterparty is delegated?
+L512@P21: b) How should the amount of estimated reuse of collateral or the reinvested cash be
+L513@P21: calculated where a financial counterparty or the entity responsible for its reporting uses
+L514@P21: several entities to conclude SFTs, to manage the collateral thereof and to report?
+L515@P21: c) How should the collateral components pertaining to variation margining on a net
+L516@P21: exposure basis be reported when a financial counterparty or the entity responsible for
+L517@P21: its reporting uses more than one portfolio manager or a triparty provider for the SFTs
+L518@P21: in the same netting set and it delegates the reporting?
+L519@P21: Answer 9:
+L520@P21: a) Where that entity performs, de jure or de facto, one of the roles identified in the
+L521@P21: counterparty data of a SFT report, such as broker or agent lender, it should be included
+L522@P21: in the relevant field. Otherwise that entity should not be identified.
+L523@P21: b) As indicated in paragraph 62 of the ESMA SFTR Reporting Guidelines, in case of
+L524@P21: delegation of reporting, it is the responsibility of the counterparty to the SFT (or the
+L525@P21: entity responsible for reporting thereof) to provide to the report submitting entity all the
+L526@P21: relevant details pertaining to an SFT report. Prior to the reporting to a TR, as pointed
+L527@P21: out in paragraph 401 of the ESMA SFTR Reporting Guidelines, the counterparty to the
+L528@P21: SFT (or the entity responsible for reporting thereof) should perform the relevant
+L529@P21: calculations itself or it should provide the relevant SFT details to the entity to which it
+L530@P21-22: delegated the calculations. The counterparty or entity responsible for reporting should ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 23
+L531@P22: calculate the estimated reuse of collateral (field 4.9) or the reinvested cash (4.13) for
+L532@P22: each and every collateral component and across all the SFTs concluded. Where the
+L533@P22: counterparty or the entity responsible for reporting has delegated the reporting, it
+L534@P22: should provide the estimate(s) to the report submitting entity.
+L535@P22: Example: Counterparty A (financial counterparty) appoints three portfolio managers
+L536@P22: to manage different segments of a portfolio (also known as sleeves) of assets and
+L537@P22: their custodian to act as an agent lender. An agreement for delegation of SFTR
+L538@P22: reporting exists with each one for the transactions they manage.
+L539@P22: Each of the above undertakes transactions involving ISIN X, as follows:
+L540@P22: • Portfolio Manager 1
+L541@P22: - invests in €2,000,000 of the instrument
+L542@P22: - executes a reverse repo against €1,500,000 of the instrument
+L543@P22: - executes a repo using €1,000,000 of the instrument
+L544@P22: • Portfolio Manager 2
+L545@P22: - executes a reverse repo against €500,000 of the instrument
+L546@P22: - executes a repo using €250,000 of the instrument
+L547@P22: • Portfolio Manager 3
+L548@P22: - invests in €1,000,000 of the instrument
+L549@P22: • Agent lender 1:
+L550@P22: - lends €1,000,000 of the instrument
+L551@P22: Financial situation at the reporting counterparty
+L552@P22: o Own assets = 2,000,000IM1 + 1,000,000IM3 = 3,000,000
+L553@P22: o Held as collateral (eligible for reuse) = 1,500,000IM1 + 500,000IM2 =
+L554@P22: 2,000,000
+L555@P22: o Posted as collateral = 1,000,000IM1 + 250,000IM2 = 1,250,000
+L556@P22: o Loaned out = 1,000,000AL1
+L557@P22: Expected values to be reported for the ISIN X and the reporting
+L558@P22: counterparty
+L559@P22: o Estimated reuse: 2,000,000
+L560@P22: 2,000,000 + 3,000,000
+L561@P22: 𝑥 (1,250,000 + 1,000,000) = 900,000
+L562@P22: It is up to the reporting counterparty or entity responsible for reporting to decide which
+L563@P22: of the three entities should send that report.
+L564@P22: c) Similarly to point b, prior to the reporting to a TR, the counterparty to an SFT or the
+L565@P22: entity responsible for reporting either should perform the relevant calculations itself or
+L566@P22: it should provide the relevant SFT details to the entity to which it delegated the
+L567@P22: calculations. Where the counterparty or the entity responsible for reporting has
+L568@P22: delegated the reporting, it should provide the relevant details to the report submitting
+L569@P22-23: entity. ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 24
+L570@P23: Question 10 [Updated on 20 May 2021]
+L571@P23: Reporting of changes to the reference rate in an SFT
+L572@P23: To ensure consistency of reporting of SFTs, it is important to clarify how the
+L573@P23: counterparties should report SFTs based on reference rates that are not included
+L574@P23: explicitly in the Commission Implementing Regulation (EU) 2019/363, such as €STR. In
+L575@P23: particular:
+L576@P23: (a) How the counterparties should report the changes to the reference rate in an SFT? In
+L577@P23: particular, how such changes should be reported in the scenario when, following to the
+L578@P23: benchmarks reform, the counterparties agree to switch to a different rate or when a
+L579@P23: fallback is triggered?
+L580@P23: (b) How the counterparties should report SFTs based on reference rates that are not
+L581@P23: included explicitly in the Commission Implementing Regulation (EU) 2019/363, for
+L582@P23: example €STR?
+L583@P23: Answer 10
+L584@P23: (a) In all such cases the counterparties should report a modification of an SFT and update
+L585@P23: the relevant fields, 2.25 Floating rate or 2.59 Floating rebate rate, as applicable.
+L586@P23: (b) At the time the Commission Implementing Regulation (EU) 2019/363 was developed,
+L587@P23: €STR was not yet available, therefore the list of standardised codes for reporting of
+L588@P23: floating rate specified in this Regulation (for the fields 2.25 Floating rate and 2.59
+L589@P23: Floating rebate rate) does not provide the code for reporting of this reference rate.
+L590@P23: Consequently, the counterparties need to use the free-text field to report €STR.
+L591@P23: In order to ensure consistent reporting and enable the reconciliation of the reports in
+L592@P23: question, counterparties should report in the free-text field “ESTR”, i.e. the 4-letter code
+L593@P23: assigned to €STR in the ISO 20022 standard.
+L594@P23: Similarly, for other reference rates that are not included in the list of standardised
+L595@P23: codes, counterparties should report in the free-text field the 4-letter code assigned to
+L596@P23: that reference rate is the ISO 20022 standard, to the extent it is available, as described
+L597@P23: in ISO 20022 Benchmark Curve Name Code at the following link.
+L598@P23: Question 11 [Published on 21 September 2021]
+L599@P23: LEI changes due to mergers and acquisitions
+L600@P23: a) Which data fields should be updated in case of corporate restructuring events affecting
+L601@P23: the LEI?
+L602@P23-24: b) To which entities the information on the LEI update should be broadcasted? ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 25
+L603@P24: Answer 11:
+L604@P24: a. Further to the process described in section 4.19 of the Guidelines, once a notification
+L605@P24: regarding a corporate restructuring event affecting outstanding SFTs is received, the
+L606@P24: TR should identify all the outstanding SFTs where the entity is identified with the old
+L607@P24: identifier in any of the following fields: Reporting counterparty (fields 1.3, 3.4, 4.4),
+L608@P24: Other counterparty (fields 1.11, 3.6), Entity responsible for the report (fields 1.10, 3.5,
+L609@P24: 4.5), Report submitting entity ID (fields 1.2, 3.3, 4.3), Beneficiary (field 1.13), Tri-party
+L610@P24: agent (field 1.14), Broker (field 1.15), Clearing member (field 1.16), Central Securities
+L611@P24: Depository (CSD) participant or indirect participant (field 1.17), Agent lender (field
+L612@P24: 1.18), CCP (field 2.7) and LEI of the issuer (fields 2.54 and 2.93), and replace the old
+L613@P24: identifier with the new LEI.
+L614@P24: TRs should ensure that all the subsequent validations of the aforementioned fields are
+L615@P24: also aligned with the relevant reporting requirements included in the ITS on reporting
+L616@P24: and in the Validation rules.
+L617@P24: b. Other corporate restructuring events, such as, but not limited to, partial acquisitions,
+L618@P24: spin-offs, may affect only a subset of outstanding SFTs, in which case the new entity
+L619@P24: should accordingly provide the TR with the UTIs of the SFTs impacted by that event.
+L620@P24: In addition to the counterparties indicated in paragraph 162 (c) of the Guidelines, the
+L621@P24: TRs should inform the relevant report submitting entities, entities responsible for
+L622@P24: reporting (to the extent that they are participants to the TR) as well as third parties
+L623@P24: which have been granted access to information under Article 78(7) of Regulation (EU)
+L624@P24: No 648/20126, as applicable, involved in the SFTs concerned by the LEI change.
+L625@P24: Question 12 [Updated on 22 March 2022]
+L626@P24: Currency for the Overview and Margin reports (Guidelines on calculation of positions
+L627@P24: in SFTs by trade repositories)
+L628@P24: In the case of the Overview and Margin reports, how should TRs aggregate positions
+L629@P24: containing multiple currencies, irrespective of whether those currencies belong to the same or
+L630@P24: different currency buckets as per Guideline 15 of the “Guidelines on calculation of positions in
+L631@P24: SFTs by trade repositories”?
+L632@P24: Answer 12:
+L633@P24-25: 6 As referred under Article 5(2) of Regulation (EU) 2015/2365ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 26
+L634@P25: For the Overview and Margin reports, TRs should calculate and express the aggregate
+L635@P25: positions in SFTs in their EUR equivalent value, irrespective of whether a position captures
+L636@P25: SFTs featuring the same or different currencies.
+L637@P25: Question 13 [Updated on 7 July 2022]
+L638@P25: Construction of Trade State Report
+L639@P25: How should TRs take into consideration the maturity date of SFTs transactions for the
+L640@P25: construction of the Trade State Report?
+L641@P25: Answer 13:
+L642@P25: For the construction of the Trade State Report, TRs should ensure that SFTs should be
+L643@P25: included in the Trade State report up until the date to which their maturity date refers to, unless
+L644@P25: the SFTs have been terminated/errored before their maturity date. For example, an SFT
+L645@P25: concluded at T with a maturity date of T+1 should be included up until the Trade State Report
+L646@P25: of T+1.
+L647@P25: Question 14 [Updated on 7 July 2022]
+L648@P25: Reporting of valuation and collateral on the last day of an SFT
+L649@P25: Where a counterparty reports on T+1:
+L650@P25: • a repo, buy/sell back (sell/buy back) or securities lending transaction concluded on date
+L651@P25: T with a maturity date of T+1 (namely “overnight transactions”); or
+L652@P25: • a repo, buy/sell back (sell-buy back) or securities lending transaction concluded and
+L653@P25: terminated on the same day (namely “intraday transactions”),
+L654@P25: should counterparties send valuation and collateral updates on the last day of overnight
+L655@P25: transactions and for intraday transactions?
+L656@P25: More generally, should counterparties send valuation and collateral updates on the last day of
+L657@P25: an SFT?
+L658@P25: Answer 14:
+L659@P25: No, the counterparties should not send valuation and collateral updates for the last day of an
+L660@P25: SFT. In the case of intraday SFTs, the day of the conclusion is the last day of the SFT. Finally,
+L661@P25: it is worth recalling that for “overnight transactions” counterparties should send valuation and
+L662@P25-26: collateral updates referred to the day of their conclusion, i.e. referred to date T.ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - Tel. +33 (0) 1 58 36 43 21 - www.esma.europa.eu 27
+L663@P26: Question 15 [Updated on 23 March 2023]
+L664@P26: Reporting of the Jurisdiction of the issuer
+L665@P26: Should the fields 2.53 and 2.92 ‘Jurisdiction of the issuer’ be populated with the country code
+L666@P26: of the registered office of the issuer or of the country where the head office is located?
+L667@P26: Answer 15
+L668@P26: These fields should be populated with the country of the registered office of the issuer (fields
+L669@P26: 2.54 and 2.93 ‘LEI of the issuer’), corresponding to the ‘Legal address’ in GLEIF data.
+L670@P26: Question 16 [Updated on 2 June 2023]
+L671@P26: *new* Reporting of the SFTs concluded by IORPs and pension funds
+L672@P26: Which are the entities that have the reporting responsibility under SFTR, for IORPs and for
+L673@P26: personal pension funds?
+L674@P26: Answer 16
+L675@P26: *Answer provided by the European Commission in accordance with article 16b(5) of the
+L676@P26: ESMA Regulation*7
+L677@P26: The entities that have the reporting responsibilities under SFTR are the counterparties to the
+L678@P26: SFTs that they have concluded. Where a financial counterparty concludes an SFT with a nonfinancial counterparty which on its balance sheet dates does not exceed the limits of at least
+L679@P26: two of the three criteria laid down in Article 3(3) of Directive 2013/34/EU, the financial
+L680@P26: counterparty shall be responsible for reporting on behalf of both counterparties.
+L681@P26: 7 DISCLAIMER: The answers clarify provisions already contained in the applicable legislation. They do not extend in any way the
+L682@P26: rights and obligations deriving from such legislation nor do they introduce any additional requirements for the concerned operators
+L683@P26: and competent authorities. The answers are merely intended to assist natural or legal persons, including competent authorities
+L684@P26: and Union institutions and bodies in clarifying the application or implementation of the relevant legal provisions. Only the Court of
+L685@P26: Justice of the European Union is competent to authoritatively interpret Union law. The views expressed in the internal Commission
+L686@P26: Decision cannot prejudge the position that the European Commission might take before the Union and national courts.
+

@@ -1,0 +1,6037 @@
+{
+  "schema_version": "0.1.0",
+  "dataset_version": "seed-v1",
+  "recorded_at": "2026-10-21T18:42:25+00:00",
+  "status": "research_candidates_only",
+  "nodes": [
+    {
+      "id": "document:D04",
+      "type": "SourceDocument",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "title": "Commission Delegated Regulation (EU) 2019/356, original adopted text",
+        "publisher": "European Commission; legislation.gov.uk host",
+        "document_kind": "legislation",
+        "canonical_uri": "https://www.legislation.gov.uk/eur/2019/356/pdfs/eur_20190356_adopted_en.pdf"
+      }
+    },
+    {
+      "id": "source-version:D04:collected-v1",
+      "type": "SourceVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "version_label": "original adopted EU text",
+        "identity_status": "identified",
+        "publication_date": "2019-03-22",
+        "jurisdiction_labels": [
+          "EU"
+        ],
+        "language": "en"
+      }
+    },
+    {
+      "id": "artifact:D04:text",
+      "type": "Artifact",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "artifact_class": "source_material",
+        "representation": "extracted_text",
+        "media_type": "text/plain",
+        "location": "../documents/D04_rts_2019_356_original.txt",
+        "sha256": "453b1222916a8b14d0972b4a9df2c0ef1d47b7a29e9e78dd852c6e347f8240a7",
+        "acquired_at": {
+          "date": "2026-10-21",
+          "time": "unknown"
+        },
+        "completeness": {
+          "numbered_lines": "complete",
+          "visual_fidelity": "unverified"
+        },
+        "quality_flags": [
+          "flattened_tables",
+          "line_wrapped_xml",
+          "original_binary_not_available"
+        ]
+      }
+    },
+    {
+      "id": "document:D05",
+      "type": "SourceDocument",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "title": "Commission Implementing Regulation (EU) 2019/363, original text",
+        "publisher": "European Commission; EUR-Lex",
+        "document_kind": "legislation",
+        "canonical_uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019R0363"
+      }
+    },
+    {
+      "id": "source-version:D05:collected-v1",
+      "type": "SourceVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "version_label": "original adopted EU text",
+        "identity_status": "identified",
+        "publication_date": "2019-03-22",
+        "jurisdiction_labels": [
+          "EU"
+        ],
+        "language": "en"
+      }
+    },
+    {
+      "id": "artifact:D05:text",
+      "type": "Artifact",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "artifact_class": "source_material",
+        "representation": "extracted_text",
+        "media_type": "text/plain",
+        "location": "../documents/D05_its_2019_363_original.txt",
+        "sha256": "e04da70df030da6ab0ee9fe55f21c3f3d83a7dea31897838ebb9dc81036ea07b",
+        "acquired_at": {
+          "date": "2026-10-21",
+          "time": "unknown"
+        },
+        "completeness": {
+          "numbered_lines": "complete",
+          "visual_fidelity": "unverified"
+        },
+        "quality_flags": [
+          "flattened_tables",
+          "line_wrapped_xml",
+          "original_binary_not_available"
+        ]
+      }
+    },
+    {
+      "id": "document:D06",
+      "type": "SourceDocument",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "title": "ESMA70-151-2838 Guidelines on reporting under SFTR",
+        "publisher": "ESMA",
+        "document_kind": "guidance",
+        "canonical_uri": "https://www.esma.europa.eu/sites/default/files/library/esma70-151-2838_guidelines_on_reporting_under_sftr.pdf"
+      }
+    },
+    {
+      "id": "source-version:D06:collected-v1",
+      "type": "SourceVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "version_label": "ESMA70-151-2838 EN, cover 2021-03-29",
+        "identity_status": "identified",
+        "publication_date": "2021-03-29",
+        "jurisdiction_labels": [
+          "EU"
+        ],
+        "language": "en"
+      }
+    },
+    {
+      "id": "artifact:D06:text",
+      "type": "Artifact",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "artifact_class": "source_material",
+        "representation": "extracted_text",
+        "media_type": "text/plain",
+        "location": "../documents/D06_esma_sftr_guidelines.txt",
+        "sha256": "29f261b6aecfe5d50d835b57fd3ab0ee6528831309582620c57d607d3992669c",
+        "acquired_at": {
+          "date": "2026-10-21",
+          "time": "unknown"
+        },
+        "completeness": {
+          "numbered_lines": "complete",
+          "visual_fidelity": "unverified"
+        },
+        "quality_flags": [
+          "flattened_tables",
+          "line_wrapped_xml",
+          "original_binary_not_available"
+        ]
+      }
+    },
+    {
+      "id": "span:open-offer",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 4325,
+          "end": 4334
+        },
+        "content": "L4325@P78: Reporting of cleared / non-cleared SFT\nL4326@P78: 5.3.2.1 Cleared SFTs open offer\nL4327@P78: When a trade is cleared in an open offer model, the clearing takes place at the time of\nL4328@P78: conclusion of the SFT.\nL4329@P78: Table 47 illustrates the population of fields of the above-mentioned situation from the CCP\nL4330@P78: O and CM-client perspective, as in this case, it is identical.\nL4331@P78: The following group of reporting fields should be reported:\nL4332@P78: a. “Cleared” (Field 2.5) is populated with “true”;\nL4333@P78: b. “Clearing Timestamp” (Field 2.6) is equal to Field 2.12 “Execution timestamp”;\nL4334@P78: c. “CCP” (Field 2.7) is populated with the LEI of the CCP O.\n",
+        "content_sha256": "5e30c6f1fba1bc5d5f13f4ef18450c4664216ae80932646882e72b903bb6b58b",
+        "span_kind": "prose",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "span:novation",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 4394,
+          "end": 4405
+        },
+        "content": "L4394@P79: 5.3.2.2 Cleared SFT in a novation model\nL4395@P79: When a trade is cleared in a novation model, the clearing takes place after the time of\nL4396@P79: conclusion of the SFT.\nL4397@P79: Table 48 and Table 49 illustrate the population of fields, from the CCP O and the CM\nL4398@P79: perspective respectively, in case of an SFT cleared by CCP O in a novation model.\nL4399@P79-80: In this respect, the following group of reporting fields should be reported:80\nL4400@P80: a. “Report tracking number” (Field 2.2) should be reported with the prior UTI (that of the\nL4401@P80: bilateral transaction in the case of CCP-cleared SFTs) but only to be reported by the\nL4402@P80: CM and its client (not by the CCP);\nL4403@P80: b. “Cleared” (Field 2.5) is populated with “true”;\nL4404@P80: c. “Clearing Timestamp” (Field 2.6) is after Field 2.12 Execution timestamp;\nL4405@P80: d. “CCP” (Field 2.7) is populated with the LEI of the CCP O.\n",
+        "content_sha256": "8832fb72795459c32bb058212753a54071b34e8de370423a82cb75881b311332",
+        "span_kind": "prose",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "span:client-perspective",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 4463,
+          "end": 4467
+        },
+        "content": "L4463@P81: Table 48 – Cleared SFT in a novation model from CCP perspective\nL4464@P81: No Field Example XML Message\nL4465@P81: </SctiesFincgRptgTxRpt>\nL4466@P81: Table 49 shows the example from CM perspective. The population of the fields should be\nL4467@P81: the same for the client perspective.\n",
+        "content_sha256": "04981367e49032a7502a5ffb9699775affb9e206bdfe5838274fbfe153fd3823",
+        "span_kind": "prose",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "span:open-offer-example",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 4335,
+          "end": 4393
+        },
+        "content": "L4335@P78: Table 47 - From CCP and CM perspective\nL4336@P78: No Field Example XML Message\nL4337@P78: 2\nL4338@P78: Report tracking\nL4339@P78: number RTN1 <SctiesFincgRptgTxRpt>\nL4340@P78: <TradData>\nL4341@P78: <Rpt>\nL4342@P78: <New>\nL4343@P78:  ...\nL4344@P78: <CtrPtyData>\nL4345@P78: 5 Cleared true\nL4346@P78: 6 Clearing timestamp 2020-04-\nL4347@P78-79: 22T16:41:07Z79\nL4348@P79: Table 47 - From CCP and CM perspective\nL4349@P79: No Field Example XML Message\nL4350@P79: 7 CCP {LEI} of CCP\nL4351@P79: O\nL4352@P79:  ...\nL4353@P79: </CtrPtyData>\nL4354@P79: <LnData>\nL4355@P79: <RpTrad>\nL4356@P79: <RptTrckgNb>RTN1</RptTrckgNb>\nL4357@P79:  <ExctnDtTm>2020-04-\nL4358@P79: 22T16:41:07Z</ExctnDtTm>\nL4359@P79: <ClrSts>\nL4360@P79: <Clrd>\nL4361@P79: <CCP>\nL4362@P79: <LEI>BBBBBBBBBB1111111111</LEI>\nL4363@P79: </CCP>\nL4364@P79:  <ClrDtTm>2020-04-\nL4365@P79: 22T16:41:07Z</ClrDtTm>\nL4366@P79:  </Clrd>\nL4367@P79: </ClrSts>\nL4368@P79: <MstrAgrmt>\nL4369@P79: <Tp>\nL4370@P79:  <Tp>OTHR</Tp>\nL4371@P79: </Tp>\nL4372@P79: <OthrMstrAgrmtDtls>CCPClearingCondition\nL4373@P79: s</OthrMstrAgrmtDtls>\nL4374@P79: </MstrAgrmt>\nL4375@P79:  </RpTrad>\nL4376@P79: </LnData>\nL4377@P79:  <CollData>\nL4378@P79:  ...\nL4379@P79:  </CollData>\nL4380@P79:  ...\nL4381@P79: </New>\nL4382@P79: </Rpt>\nL4383@P79:  </TradData>\nL4384@P79: </SctiesFincgRptgTxRpt>\nL4385@P79: 9\nL4386@P79: Master agreement\nL4387@P79: Type OTHR\nL4388@P79: 10 Other master\nL4389@P79: agreement type\nL4390@P79: CCPClearing\nL4391@P79: Conditions\nL4392@P79: 12 Execution timestamp 2020-04-\nL4393@P79: 22T16:41:07Z\n",
+        "content_sha256": "b808b5a4157cc03e65a1b60989305b45cb253816e00bff436f31e1d974bc3167",
+        "span_kind": "example",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "profile:eu-source-research",
+      "type": "ReportingProfile",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "regime": "SFTR",
+        "jurisdiction": "EU",
+        "regulator": "ESMA/EU technical standards",
+        "specification_label": "Original RTS/ITS plus collected guideline; research only",
+        "repository": "unspecified",
+        "definition_status": "partial"
+      }
+    },
+    {
+      "id": "profile:uk-target-research",
+      "type": "ReportingProfile",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "regime": "UK SFTR",
+        "jurisdiction": "UK",
+        "regulator": "FCA",
+        "specification_label": "Target technical package applicable from 2024-11-25; contents not acquired",
+        "repository": "unspecified",
+        "definition_status": "partial"
+      }
+    },
+    {
+      "id": "field:sftr:2.2",
+      "type": "Field",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "namespace": "sftr",
+        "table_id": 2,
+        "field_number": 2,
+        "display_name": "Report tracking number"
+      }
+    },
+    {
+      "id": "span:definition-2.2",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 272,
+          "end": 283
+        },
+        "content": "L272@P5: 2 Report tracking\nL273@P5: number\nL274@P5: In the case of transactions resulting from clearing, the\nL275@P5: prior UTI, namely the UTI of the original bilateral\nL276@P5: transaction shall be reported. However, the prior UTI\nL277@P5: is not required to be reported by counterparties that\nL278@P5: are central counterparties (‘CCP's’) which have cleared\nL279@P5: the SFT.\nL280@P5: Where an SFT was executed on a trading venue and\nL281@P5: cleared on the same day, a number generated by the\nL282@P5: trading venue and unique to that execution.\nL283@P5: Y Y Y N\n",
+        "content_sha256": "c14e391bc7bddb87a2f35f65894dcc62746b017f068a0f9437a45869399fd1f6",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "span:format-2.2",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 359,
+          "end": 361
+        },
+        "content": "L359@P7: 2 Report tracking number Up to 52 alphanumeric character code including four special characters:\nL360@P7: Only upper-case alphabetic characters A–Z and the digits 0–9, inclusive in both\nL361@P7: cases, are allowed.\n",
+        "content_sha256": "4cb057298bfa7b03b560077b76ae20505aaeb8be6bf07b9de85d81d9e460b608",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "field-version:2.2:eu-original",
+      "type": "FieldVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "definition_text": "L272@P5: 2 Report tracking\nL273@P5: number\nL274@P5: In the case of transactions resulting from clearing, the\nL275@P5: prior UTI, namely the UTI of the original bilateral\nL276@P5: transaction shall be reported. However, the prior UTI\nL277@P5: is not required to be reported by counterparties that\nL278@P5: are central counterparties (‘CCP's’) which have cleared\nL279@P5: the SFT.\nL280@P5: Where an SFT was executed on a trading venue and\nL281@P5: cleared on the same day, a number generated by the\nL282@P5: trading venue and unique to that execution.\nL283@P5: Y Y Y N\n",
+        "value_type": "identifier",
+        "record_family": "transaction",
+        "cardinality": {
+          "min": "unknown",
+          "max": 1
+        },
+        "units": "not_applicable",
+        "nullability": "conditional_unresolved",
+        "aliases": [
+          "Report tracking number",
+          "2.2"
+        ],
+        "definition_status": "partial"
+      }
+    },
+    {
+      "id": "domain:2.2:eu-original",
+      "type": "DomainVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "value_type": "identifier",
+        "representation": "composite",
+        "constraints": {
+          "max_length": 52,
+          "character_set": "unresolved_source_wording; not_compiled"
+        },
+        "completeness": "partial",
+        "version_label": "original ITS research definition"
+      }
+    },
+    {
+      "id": "field:sftr:2.5",
+      "type": "Field",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "namespace": "sftr",
+        "table_id": 2,
+        "field_number": 5,
+        "display_name": "Cleared"
+      }
+    },
+    {
+      "id": "span:definition-2.5",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 294,
+          "end": 294
+        },
+        "content": "L294@P5: 5 Cleared Indication of whether central clearing has taken place. Y Y Y N\n",
+        "content_sha256": "c03a17cd942629b9ad9f6afd79236dd599d92f7e3d5f34759b7874f38cf88512",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "span:format-2.5",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 368,
+          "end": 369
+        },
+        "content": "L368@P8: 5 Cleared ‘true’\nL369@P8: ‘false’\n",
+        "content_sha256": "a66cc45780cacb20a350049e23b62c4477dd409c2a2999d86d1f56d821606753",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "field-version:2.5:eu-original",
+      "type": "FieldVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "definition_text": "L294@P5: 5 Cleared Indication of whether central clearing has taken place. Y Y Y N\n",
+        "value_type": "boolean",
+        "record_family": "transaction",
+        "cardinality": {
+          "min": "unknown",
+          "max": 1
+        },
+        "units": "not_applicable",
+        "nullability": "conditional_unresolved",
+        "aliases": [
+          "Cleared",
+          "2.5"
+        ],
+        "definition_status": "partial"
+      }
+    },
+    {
+      "id": "domain:2.5:eu-original",
+      "type": "DomainVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "value_type": "boolean",
+        "representation": "enum",
+        "constraints": {
+          "values": [
+            true,
+            false
+          ]
+        },
+        "completeness": "complete",
+        "version_label": "original ITS research definition"
+      }
+    },
+    {
+      "id": "field:sftr:2.6",
+      "type": "Field",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "namespace": "sftr",
+        "table_id": 2,
+        "field_number": 6,
+        "display_name": "Clearing timestamp"
+      }
+    },
+    {
+      "id": "span:definition-2.6",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 295,
+          "end": 295
+        },
+        "content": "L295@P5: 6 Clearing timestamp Time and date when clearing took place. Y Y Y N\n",
+        "content_sha256": "dd9878180956b5e156e6a54fbaff2881b1901e8f5ddee12ed7e05993d22aa754",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "span:format-2.6",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 370,
+          "end": 371
+        },
+        "content": "L370@P8: 6 Clearing timestamp ISO 8601 date in the format and Coordinated Universal Time (UTC) time format,\nL371@P8: i.e. YYYY-MM-DDThh:mm:ssZ\n",
+        "content_sha256": "ad74ce2b5a5a55ad0f8e036c0646b2d9b57ecf0621e5ec8096ca6705e06a41a3",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "field-version:2.6:eu-original",
+      "type": "FieldVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "definition_text": "L295@P5: 6 Clearing timestamp Time and date when clearing took place. Y Y Y N\n",
+        "value_type": "timestamp",
+        "record_family": "transaction",
+        "cardinality": {
+          "min": "unknown",
+          "max": 1
+        },
+        "units": "not_applicable",
+        "nullability": "conditional_unresolved",
+        "aliases": [
+          "Clearing timestamp",
+          "2.6"
+        ],
+        "definition_status": "partial"
+      }
+    },
+    {
+      "id": "domain:2.6:eu-original",
+      "type": "DomainVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "value_type": "timestamp",
+        "representation": "date/time",
+        "constraints": {
+          "timezone": "UTC",
+          "source_format": "YYYY-MM-DDThh:mm:ssZ"
+        },
+        "completeness": "partial",
+        "version_label": "original ITS research definition"
+      }
+    },
+    {
+      "id": "field:sftr:2.7",
+      "type": "Field",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "namespace": "sftr",
+        "table_id": 2,
+        "field_number": 7,
+        "display_name": "CCP"
+      }
+    },
+    {
+      "id": "span:definition-2.7",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 296,
+          "end": 298
+        },
+        "content": "L296@P5: 7 CCP Where a contract has been cleared, the unique code\nL297@P5: for the CCP that has cleared the contract.\nL298@P5: Y Y Y N\n",
+        "content_sha256": "895a34c7567052c5a6e5e33dca606f28f3f5be7bf12d75fe5faaad0483094845",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "span:format-2.7",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 372,
+          "end": 372
+        },
+        "content": "L372@P8: 7 CCP ISO 17442 Legal Entity Identifier (LEI) 20 alphanumeric character code.\n",
+        "content_sha256": "cbba7fcafd3f33f56b1d24f71037a8a08a745c73d598a37b67815d7001b750e7",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "field-version:2.7:eu-original",
+      "type": "FieldVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "definition_text": "L296@P5: 7 CCP Where a contract has been cleared, the unique code\nL297@P5: for the CCP that has cleared the contract.\nL298@P5: Y Y Y N\n",
+        "value_type": "identifier",
+        "record_family": "transaction",
+        "cardinality": {
+          "min": "unknown",
+          "max": 1
+        },
+        "units": "not_applicable",
+        "nullability": "conditional_unresolved",
+        "aliases": [
+          "CCP",
+          "2.7"
+        ],
+        "definition_status": "partial"
+      }
+    },
+    {
+      "id": "domain:2.7:eu-original",
+      "type": "DomainVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "value_type": "identifier",
+        "representation": "composite",
+        "constraints": {
+          "standard": "ISO 17442 LEI",
+          "length": 20,
+          "reference_validation": "not_implemented"
+        },
+        "completeness": "partial",
+        "version_label": "original ITS research definition"
+      }
+    },
+    {
+      "id": "field:sftr:2.9",
+      "type": "Field",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "namespace": "sftr",
+        "table_id": 2,
+        "field_number": 9,
+        "display_name": "Master agreement type"
+      }
+    },
+    {
+      "id": "span:definition-2.9",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 307,
+          "end": 311
+        },
+        "content": "L307@P6: 9 Master agreement\nL308@P6: type\nL309@P6: Reference to the master agreement type under which\nL310@P6: the counterparties concluded a SFT.\nL311@P6: Y Y Y N\n",
+        "content_sha256": "67aee5e367c182eb82f40eaaca31dd1103a8cfcec221aee333c2038ee152fd84",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "span:format-2.9",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 375,
+          "end": 402
+        },
+        "content": "L375@P8: 9 Master agreement type ‘MRAA’ - MRA\nL376@P8: ‘GMRA’ – GMRA\nL377@P8: ‘MSLA’ - MSLA\nL378@P8: ‘GMSL’ - GMSLA\nL379@P8: ‘ISDA’ - ISDA\nL380@P8: ‘DERP’ - Deutscher Rahmenvertrag für Wertpapierpensionsgeschäfte\nL381@P8: ‘CNBR’ - China Bond Repurchase Master Agreement,\nL382@P8: ‘KRRA’ - Korea Financial Investment Association (KOFIA) Standard Repurchase\nL383@P8: Agreement\nL384@P8: ‘CARA’ - Investment Industry Regulatory Organization of Canada (IIROC) Repur\u0002chase/Reverse Repurchase Transaction Agreement\nL385@P8: ‘FRFB’ - Convention-Cadre Relative aux Operations de Pensions Livrees,\nL386@P8: ‘CHRA’ -Swiss Master Repurchase Agreement\nL387@P8: ‘DEMA’ - German Master Agreement\nL388@P8: ‘JPBR’ - Japanese Master Agreement on the Transaction with Repurchase Agreement\nL389@P8: of the Bonds\nL390@P8: ‘ESRA’ - Contrato Marco de compraventa y Reporto de valores\nL391@P8: ‘OSLA’ - Overseas Securities Lending Agreement (OSLA)\nL392@P8: ‘MEFI’ - Master Equity and Fixed Interest Stock Lending Agreement (MEFISLA)\nL393@P8: ‘GESL’ - Gilt Edged Stock Lending Agreement (GESLA)\nL394@P8: ‘KRSL’ - Korean Securities Lending Agreement (KOSLA)\nL395@P8: ‘DERD’ - Deutscher Rahmenvertrag für Wertpapierdarlehen\nL396@P8: ‘AUSL’ - Australian Masters Securities Lending Agreement (AMSLA)\nL397@P8: ‘JPBL’ - Japanese Master Agreement on Lending Transaction of Bonds\nL398@P8: ‘JPSL’ - Japanese Master Agreement on the Borrowing and Lending Transactions of\nL399@P8: Share Certificates\nL400@P8: ‘BIAG’ - bilateral agreement\nL401@P8: ‘CSDA’ - CSD bilateral agreement\nL402@P8: Or ‘OTHR’ if the master agreement type is not included in the above list\n",
+        "content_sha256": "141195151b205b9c91575843d9415f6f99c05938efdb5a1eb89ac56f3c7e5537",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "field-version:2.9:eu-original",
+      "type": "FieldVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "definition_text": "L307@P6: 9 Master agreement\nL308@P6: type\nL309@P6: Reference to the master agreement type under which\nL310@P6: the counterparties concluded a SFT.\nL311@P6: Y Y Y N\n",
+        "value_type": "code",
+        "record_family": "transaction",
+        "cardinality": {
+          "min": "unknown",
+          "max": 1
+        },
+        "units": "not_applicable",
+        "nullability": "conditional_unresolved",
+        "aliases": [
+          "Master agreement type",
+          "2.9"
+        ],
+        "definition_status": "partial"
+      }
+    },
+    {
+      "id": "domain:2.9:eu-original",
+      "type": "DomainVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "value_type": "code",
+        "representation": "enum",
+        "constraints": {
+          "values": [
+            "AUSL",
+            "BIAG",
+            "CARA",
+            "CHRA",
+            "CNBR",
+            "CSDA",
+            "DEMA",
+            "DERD",
+            "DERP",
+            "ESRA",
+            "FRFB",
+            "GESL",
+            "GMRA",
+            "GMSL",
+            "ISDA",
+            "JPBL",
+            "JPBR",
+            "JPSL",
+            "KRRA",
+            "KRSL",
+            "MEFI",
+            "MRAA",
+            "MSLA",
+            "OSLA",
+            "OTHR"
+          ],
+          "approval": "unreviewed_original_EU_list"
+        },
+        "completeness": "partial",
+        "version_label": "original ITS research definition"
+      }
+    },
+    {
+      "id": "field:sftr:2.10",
+      "type": "Field",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "namespace": "sftr",
+        "table_id": 2,
+        "field_number": 10,
+        "display_name": "Other master agreement type"
+      }
+    },
+    {
+      "id": "span:definition-2.10",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 312,
+          "end": 316
+        },
+        "content": "L312@P6: 10 Other master\nL313@P6: agreement type\nL314@P6: Name of the master agreement. This field shall only\nL315@P6: be completed where ‘OTHR’ is reported in field 9.\nL316@P6: Y Y Y N\n",
+        "content_sha256": "42451ed87d7aeb5eb1f8b3417d355e4526da3274c91e4c4d124b7e45fa1baaf3",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "span:format-2.10",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 403,
+          "end": 405
+        },
+        "content": "L403@P8: 10 Other master agreement\nL404@P8: type\nL405@P8: Up to 50 alphanumeric characters.\n",
+        "content_sha256": "63cae34f42dc40458fb9b11e022cb610fbd954a6a32c58c573de653da214c211",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "field-version:2.10:eu-original",
+      "type": "FieldVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "definition_text": "L312@P6: 10 Other master\nL313@P6: agreement type\nL314@P6: Name of the master agreement. This field shall only\nL315@P6: be completed where ‘OTHR’ is reported in field 9.\nL316@P6: Y Y Y N\n",
+        "value_type": "string",
+        "record_family": "transaction",
+        "cardinality": {
+          "min": "unknown",
+          "max": 1
+        },
+        "units": "not_applicable",
+        "nullability": "conditional_unresolved",
+        "aliases": [
+          "Other master agreement type",
+          "2.10"
+        ],
+        "definition_status": "partial"
+      }
+    },
+    {
+      "id": "domain:2.10:eu-original",
+      "type": "DomainVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "value_type": "string",
+        "representation": "composite",
+        "constraints": {
+          "max_length": 50,
+          "character_set": "alphanumeric_in_source; implementation_pending"
+        },
+        "completeness": "partial",
+        "version_label": "original ITS research definition"
+      }
+    },
+    {
+      "id": "field:sftr:2.12",
+      "type": "Field",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "namespace": "sftr",
+        "table_id": 2,
+        "field_number": 12,
+        "display_name": "Execution timestamp"
+      }
+    },
+    {
+      "id": "span:definition-2.12",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 320,
+          "end": 320
+        },
+        "content": "L320@P6: 12 Execution timestamp Date and time when the SFT was executed. Y Y Y Y\n",
+        "content_sha256": "87648da0b3a6f55e005c801efb8a2b9c5196ebe81ccc9e900bb940f82300b11a",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "span:format-2.12",
+      "type": "SourceSpan",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "locator": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 409,
+          "end": 410
+        },
+        "content": "L409@P8: 12 Execution timestamp ISO 8601 date in the format and Coordinated Universal Time (UTC) time format,\nL410@P8: i.e. YYYY-MM-DDThh:mm:ssZ\n",
+        "content_sha256": "1d13341b9b20f31f6cd5d8aa3e3ff0c213e7790dfe4657f42d443819e7ce9c20",
+        "span_kind": "definition",
+        "quality_flags": [
+          "text_only_check_visual_source_before_approval"
+        ]
+      }
+    },
+    {
+      "id": "field-version:2.12:eu-original",
+      "type": "FieldVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "definition_text": "L320@P6: 12 Execution timestamp Date and time when the SFT was executed. Y Y Y Y\n",
+        "value_type": "timestamp",
+        "record_family": "transaction",
+        "cardinality": {
+          "min": "unknown",
+          "max": 1
+        },
+        "units": "not_applicable",
+        "nullability": "conditional_unresolved",
+        "aliases": [
+          "Execution timestamp",
+          "2.12"
+        ],
+        "definition_status": "partial"
+      }
+    },
+    {
+      "id": "domain:2.12:eu-original",
+      "type": "DomainVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "value_type": "timestamp",
+        "representation": "date/time",
+        "constraints": {
+          "timezone": "UTC",
+          "source_format": "YYYY-MM-DDThh:mm:ssZ"
+        },
+        "completeness": "partial",
+        "version_label": "original ITS research definition"
+      }
+    },
+    {
+      "id": "context:clearing_model",
+      "type": "ContextDefinition",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "name": "clearing_model",
+        "description": "Clearing business model",
+        "value_type": "code",
+        "scope": "transaction",
+        "acquisition_contract": {
+          "provider": "unresolved_upstream_business_system",
+          "lookup_key": "unresolved",
+          "as_of": "clearing_event",
+          "completeness": "unresolved"
+        },
+        "availability_status": "not_connected"
+      }
+    },
+    {
+      "id": "domain:context:clearing_model",
+      "type": "DomainVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "value_type": "code",
+        "representation": "enum",
+        "constraints": {
+          "values": [
+            "open_offer",
+            "novation",
+            "dbv",
+            "other"
+          ],
+          "origin": "internal_normalization_not_regulatory_codes"
+        },
+        "completeness": "partial",
+        "version_label": "seed-v1"
+      }
+    },
+    {
+      "id": "context:reporting_role",
+      "type": "ContextDefinition",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "name": "reporting_role",
+        "description": "Role of the reporting party in this clearing relationship",
+        "value_type": "code",
+        "scope": "transaction",
+        "acquisition_contract": {
+          "provider": "unresolved_upstream_business_system",
+          "lookup_key": "unresolved",
+          "as_of": "clearing_event",
+          "completeness": "unresolved"
+        },
+        "availability_status": "not_connected"
+      }
+    },
+    {
+      "id": "domain:context:reporting_role",
+      "type": "DomainVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "value_type": "code",
+        "representation": "enum",
+        "constraints": {
+          "values": [
+            "ccp",
+            "clearing_member",
+            "client",
+            "other"
+          ],
+          "origin": "internal_normalization_not_regulatory_codes"
+        },
+        "completeness": "partial",
+        "version_label": "seed-v1"
+      }
+    },
+    {
+      "id": "context:prior_bilateral_uti",
+      "type": "ContextDefinition",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "name": "prior_bilateral_uti",
+        "description": "UTI of the original bilateral transaction",
+        "value_type": "identifier",
+        "scope": "transaction",
+        "acquisition_contract": {
+          "provider": "unresolved_upstream_business_system",
+          "lookup_key": "unresolved",
+          "as_of": "clearing_event",
+          "completeness": "unresolved"
+        },
+        "availability_status": "not_connected"
+      }
+    },
+    {
+      "id": "context:clearing_ccp_lei",
+      "type": "ContextDefinition",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "name": "clearing_ccp_lei",
+        "description": "LEI of the CCP that cleared this transaction",
+        "value_type": "identifier",
+        "scope": "transaction",
+        "acquisition_contract": {
+          "provider": "unresolved_upstream_business_system",
+          "lookup_key": "unresolved",
+          "as_of": "clearing_event",
+          "completeness": "unresolved"
+        },
+        "availability_status": "not_connected"
+      }
+    },
+    {
+      "id": "issue:uk-applicability",
+      "type": "Issue",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "issue_kind": "missing reference",
+        "description": "UK workbook/schema contents and applicable amendments have not been adjudicated.",
+        "blocking_scope": "release",
+        "resolution_state": "open"
+      }
+    },
+    {
+      "id": "issue:source-fidelity",
+      "type": "Issue",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "issue_kind": "extraction damage",
+        "description": "Text snapshots lack original layout; verify relevant originals before approval.",
+        "blocking_scope": "release",
+        "resolution_state": "open"
+      }
+    },
+    {
+      "id": "issue:scope",
+      "type": "Issue",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "issue_kind": "ambiguous meaning",
+        "description": "Resolve product, action, level, reporting perspective and identity/time scope for each requirement.",
+        "blocking_scope": "compilation_and_release",
+        "resolution_state": "open"
+      }
+    },
+    {
+      "id": "issue:qualifications",
+      "type": "Issue",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "issue_kind": "missing reference",
+        "description": "The local passages were read; full exception and cross-reference review is incomplete.",
+        "blocking_scope": "compilation_and_release",
+        "resolution_state": "open"
+      }
+    },
+    {
+      "id": "issue:context-contract",
+      "type": "Issue",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "issue_kind": "missing context",
+        "description": "Clearing model, roles, prior UTI and CCP lookup contracts are not connected.",
+        "blocking_scope": "runtime_and_release",
+        "resolution_state": "open"
+      }
+    },
+    {
+      "id": "issue:field-domain",
+      "type": "Issue",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "issue_kind": "missing reference",
+        "description": "Definition versions are original EU research bindings; nullability and current UK domains are unresolved.",
+        "blocking_scope": "release",
+        "resolution_state": "open"
+      }
+    },
+    {
+      "id": "issue:rtn-strength",
+      "type": "Issue",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "issue_kind": "ambiguous meaning",
+        "description": "D04 says prior UTI is not required for CCPs; D06 says only CM/client, not CCP. Resolve whether prohibition is justified in the exact scenario before compiling R08.",
+        "blocking_scope": "compilation_and_release",
+        "resolution_state": "open"
+      }
+    },
+    {
+      "id": "requirement:R01",
+      "type": "Requirement",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "title": "open: cleared flag",
+        "requirement_family": "clearing"
+      }
+    },
+    {
+      "id": "requirement-version:R01:v1",
+      "type": "RequirementVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "origin": "source_extracted",
+        "normativity": "obligation",
+        "requirement_kind": "presence",
+        "interpretation": "open: cleared flag",
+        "bindings": {
+          "clearing_model": {
+            "kind": "context",
+            "context_definition_id": "context:clearing_model",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "reporting_role": {
+            "kind": "context",
+            "context_definition_id": "context:reporting_role",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "f_2_5": {
+            "kind": "field",
+            "field_version_id": "field-version:2.5:eu-original",
+            "record_alias": "current",
+            "value_type": "boolean"
+          }
+        },
+        "evaluation_scope": {
+          "record_family": "transaction",
+          "subject_kind": "transaction",
+          "aliases": [
+            "current",
+            "transaction"
+          ],
+          "identity_key": {
+            "unresolved": {
+              "reason": "Resolve reporting identity and scope",
+              "issue_id": "issue:scope"
+            }
+          },
+          "time_basis": {
+            "unresolved": {
+              "reason": "Resolve applicable time basis",
+              "issue_id": "issue:scope"
+            }
+          }
+        },
+        "when": {
+          "op": "and",
+          "args": [
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "clearing_model"
+                },
+                {
+                  "literal": {
+                    "type": "code",
+                    "value": "open_offer",
+                    "domain_id": "domain:context:clearing_model"
+                  }
+                }
+              ]
+            },
+            {
+              "op": "or",
+              "args": [
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "ccp",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "clearing_member",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "client",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "unless": {
+          "unresolved": {
+            "reason": "Complete exception and cross-reference review",
+            "issue_id": "issue:qualifications"
+          }
+        },
+        "assertion": {
+          "op": "and",
+          "args": [
+            {
+              "op": "is_present",
+              "args": [
+                {
+                  "ref": "f_2_5"
+                }
+              ]
+            },
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "f_2_5"
+                },
+                {
+                  "literal": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "definition_state": "partial",
+        "open_questions": [
+          "Confirm UK applicability, reporting scope and qualifications."
+        ]
+      }
+    },
+    {
+      "id": "assessment:R01:uk:v1",
+      "type": "ApplicabilityAssessment",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "conclusion": "unresolved",
+        "validity_interval": {
+          "from": {
+            "kind": "unknown"
+          },
+          "to": {
+            "kind": "unknown"
+          }
+        },
+        "date_basis": "unresolved",
+        "reasoning": "Original EU source interpretation; UK adoption and current technical package not adjudicated.",
+        "open_questions": [
+          "Resolve the target UK specification and applicable interval."
+        ]
+      }
+    },
+    {
+      "id": "requirement:R02",
+      "type": "Requirement",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "title": "open: timestamp relationship",
+        "requirement_family": "clearing"
+      }
+    },
+    {
+      "id": "requirement-version:R02:v1",
+      "type": "RequirementVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "origin": "source_extracted",
+        "normativity": "obligation",
+        "requirement_kind": "comparison",
+        "interpretation": "open: timestamp relationship",
+        "bindings": {
+          "clearing_model": {
+            "kind": "context",
+            "context_definition_id": "context:clearing_model",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "reporting_role": {
+            "kind": "context",
+            "context_definition_id": "context:reporting_role",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "f_2_6": {
+            "kind": "field",
+            "field_version_id": "field-version:2.6:eu-original",
+            "record_alias": "current",
+            "value_type": "timestamp"
+          },
+          "f_2_12": {
+            "kind": "field",
+            "field_version_id": "field-version:2.12:eu-original",
+            "record_alias": "current",
+            "value_type": "timestamp"
+          }
+        },
+        "evaluation_scope": {
+          "record_family": "transaction",
+          "subject_kind": "transaction",
+          "aliases": [
+            "current",
+            "transaction"
+          ],
+          "identity_key": {
+            "unresolved": {
+              "reason": "Resolve reporting identity and scope",
+              "issue_id": "issue:scope"
+            }
+          },
+          "time_basis": {
+            "unresolved": {
+              "reason": "Resolve applicable time basis",
+              "issue_id": "issue:scope"
+            }
+          }
+        },
+        "when": {
+          "op": "and",
+          "args": [
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "clearing_model"
+                },
+                {
+                  "literal": {
+                    "type": "code",
+                    "value": "open_offer",
+                    "domain_id": "domain:context:clearing_model"
+                  }
+                }
+              ]
+            },
+            {
+              "op": "or",
+              "args": [
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "ccp",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "clearing_member",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "client",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "unless": {
+          "unresolved": {
+            "reason": "Complete exception and cross-reference review",
+            "issue_id": "issue:qualifications"
+          }
+        },
+        "assertion": {
+          "op": "and",
+          "args": [
+            {
+              "op": "is_present",
+              "args": [
+                {
+                  "ref": "f_2_6"
+                }
+              ]
+            },
+            {
+              "op": "is_present",
+              "args": [
+                {
+                  "ref": "f_2_12"
+                }
+              ]
+            },
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "f_2_6"
+                },
+                {
+                  "ref": "f_2_12"
+                }
+              ]
+            }
+          ]
+        },
+        "definition_state": "partial",
+        "open_questions": [
+          "Confirm UK applicability, reporting scope and qualifications."
+        ]
+      }
+    },
+    {
+      "id": "assessment:R02:uk:v1",
+      "type": "ApplicabilityAssessment",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "conclusion": "unresolved",
+        "validity_interval": {
+          "from": {
+            "kind": "unknown"
+          },
+          "to": {
+            "kind": "unknown"
+          }
+        },
+        "date_basis": "unresolved",
+        "reasoning": "Original EU source interpretation; UK adoption and current technical package not adjudicated.",
+        "open_questions": [
+          "Resolve the target UK specification and applicable interval."
+        ]
+      }
+    },
+    {
+      "id": "requirement:R03",
+      "type": "Requirement",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "title": "open: CCP identity",
+        "requirement_family": "clearing"
+      }
+    },
+    {
+      "id": "requirement-version:R03:v1",
+      "type": "RequirementVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "origin": "source_extracted",
+        "normativity": "obligation",
+        "requirement_kind": "comparison",
+        "interpretation": "open: CCP identity",
+        "bindings": {
+          "clearing_model": {
+            "kind": "context",
+            "context_definition_id": "context:clearing_model",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "reporting_role": {
+            "kind": "context",
+            "context_definition_id": "context:reporting_role",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "f_2_7": {
+            "kind": "field",
+            "field_version_id": "field-version:2.7:eu-original",
+            "record_alias": "current",
+            "value_type": "identifier"
+          },
+          "clearing_ccp_lei": {
+            "kind": "context",
+            "context_definition_id": "context:clearing_ccp_lei",
+            "subject_alias": "transaction",
+            "value_type": "identifier"
+          }
+        },
+        "evaluation_scope": {
+          "record_family": "transaction",
+          "subject_kind": "transaction",
+          "aliases": [
+            "current",
+            "transaction"
+          ],
+          "identity_key": {
+            "unresolved": {
+              "reason": "Resolve reporting identity and scope",
+              "issue_id": "issue:scope"
+            }
+          },
+          "time_basis": {
+            "unresolved": {
+              "reason": "Resolve applicable time basis",
+              "issue_id": "issue:scope"
+            }
+          }
+        },
+        "when": {
+          "op": "and",
+          "args": [
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "clearing_model"
+                },
+                {
+                  "literal": {
+                    "type": "code",
+                    "value": "open_offer",
+                    "domain_id": "domain:context:clearing_model"
+                  }
+                }
+              ]
+            },
+            {
+              "op": "or",
+              "args": [
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "ccp",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "clearing_member",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "client",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "unless": {
+          "unresolved": {
+            "reason": "Complete exception and cross-reference review",
+            "issue_id": "issue:qualifications"
+          }
+        },
+        "assertion": {
+          "op": "and",
+          "args": [
+            {
+              "op": "is_present",
+              "args": [
+                {
+                  "ref": "f_2_7"
+                }
+              ]
+            },
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "f_2_7"
+                },
+                {
+                  "ref": "clearing_ccp_lei"
+                }
+              ]
+            }
+          ]
+        },
+        "definition_state": "partial",
+        "open_questions": [
+          "Confirm UK applicability, reporting scope and qualifications."
+        ]
+      }
+    },
+    {
+      "id": "assessment:R03:uk:v1",
+      "type": "ApplicabilityAssessment",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "conclusion": "unresolved",
+        "validity_interval": {
+          "from": {
+            "kind": "unknown"
+          },
+          "to": {
+            "kind": "unknown"
+          }
+        },
+        "date_basis": "unresolved",
+        "reasoning": "Original EU source interpretation; UK adoption and current technical package not adjudicated.",
+        "open_questions": [
+          "Resolve the target UK specification and applicable interval."
+        ]
+      }
+    },
+    {
+      "id": "requirement:R04",
+      "type": "Requirement",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "title": "novation: cleared flag",
+        "requirement_family": "clearing"
+      }
+    },
+    {
+      "id": "requirement-version:R04:v1",
+      "type": "RequirementVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "origin": "source_extracted",
+        "normativity": "obligation",
+        "requirement_kind": "presence",
+        "interpretation": "novation: cleared flag",
+        "bindings": {
+          "clearing_model": {
+            "kind": "context",
+            "context_definition_id": "context:clearing_model",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "reporting_role": {
+            "kind": "context",
+            "context_definition_id": "context:reporting_role",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "f_2_5": {
+            "kind": "field",
+            "field_version_id": "field-version:2.5:eu-original",
+            "record_alias": "current",
+            "value_type": "boolean"
+          }
+        },
+        "evaluation_scope": {
+          "record_family": "transaction",
+          "subject_kind": "transaction",
+          "aliases": [
+            "current",
+            "transaction"
+          ],
+          "identity_key": {
+            "unresolved": {
+              "reason": "Resolve reporting identity and scope",
+              "issue_id": "issue:scope"
+            }
+          },
+          "time_basis": {
+            "unresolved": {
+              "reason": "Resolve applicable time basis",
+              "issue_id": "issue:scope"
+            }
+          }
+        },
+        "when": {
+          "op": "and",
+          "args": [
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "clearing_model"
+                },
+                {
+                  "literal": {
+                    "type": "code",
+                    "value": "novation",
+                    "domain_id": "domain:context:clearing_model"
+                  }
+                }
+              ]
+            },
+            {
+              "op": "or",
+              "args": [
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "ccp",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "clearing_member",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "client",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "unless": {
+          "unresolved": {
+            "reason": "Complete exception and cross-reference review",
+            "issue_id": "issue:qualifications"
+          }
+        },
+        "assertion": {
+          "op": "and",
+          "args": [
+            {
+              "op": "is_present",
+              "args": [
+                {
+                  "ref": "f_2_5"
+                }
+              ]
+            },
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "f_2_5"
+                },
+                {
+                  "literal": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "definition_state": "partial",
+        "open_questions": [
+          "Confirm UK applicability, reporting scope and qualifications."
+        ]
+      }
+    },
+    {
+      "id": "assessment:R04:uk:v1",
+      "type": "ApplicabilityAssessment",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "conclusion": "unresolved",
+        "validity_interval": {
+          "from": {
+            "kind": "unknown"
+          },
+          "to": {
+            "kind": "unknown"
+          }
+        },
+        "date_basis": "unresolved",
+        "reasoning": "Original EU source interpretation; UK adoption and current technical package not adjudicated.",
+        "open_questions": [
+          "Resolve the target UK specification and applicable interval."
+        ]
+      }
+    },
+    {
+      "id": "requirement:R05",
+      "type": "Requirement",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "title": "novation: timestamp relationship",
+        "requirement_family": "clearing"
+      }
+    },
+    {
+      "id": "requirement-version:R05:v1",
+      "type": "RequirementVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "origin": "source_extracted",
+        "normativity": "obligation",
+        "requirement_kind": "comparison",
+        "interpretation": "novation: timestamp relationship",
+        "bindings": {
+          "clearing_model": {
+            "kind": "context",
+            "context_definition_id": "context:clearing_model",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "reporting_role": {
+            "kind": "context",
+            "context_definition_id": "context:reporting_role",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "f_2_6": {
+            "kind": "field",
+            "field_version_id": "field-version:2.6:eu-original",
+            "record_alias": "current",
+            "value_type": "timestamp"
+          },
+          "f_2_12": {
+            "kind": "field",
+            "field_version_id": "field-version:2.12:eu-original",
+            "record_alias": "current",
+            "value_type": "timestamp"
+          }
+        },
+        "evaluation_scope": {
+          "record_family": "transaction",
+          "subject_kind": "transaction",
+          "aliases": [
+            "current",
+            "transaction"
+          ],
+          "identity_key": {
+            "unresolved": {
+              "reason": "Resolve reporting identity and scope",
+              "issue_id": "issue:scope"
+            }
+          },
+          "time_basis": {
+            "unresolved": {
+              "reason": "Resolve applicable time basis",
+              "issue_id": "issue:scope"
+            }
+          }
+        },
+        "when": {
+          "op": "and",
+          "args": [
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "clearing_model"
+                },
+                {
+                  "literal": {
+                    "type": "code",
+                    "value": "novation",
+                    "domain_id": "domain:context:clearing_model"
+                  }
+                }
+              ]
+            },
+            {
+              "op": "or",
+              "args": [
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "ccp",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "clearing_member",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "client",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "unless": {
+          "unresolved": {
+            "reason": "Complete exception and cross-reference review",
+            "issue_id": "issue:qualifications"
+          }
+        },
+        "assertion": {
+          "op": "and",
+          "args": [
+            {
+              "op": "is_present",
+              "args": [
+                {
+                  "ref": "f_2_6"
+                }
+              ]
+            },
+            {
+              "op": "is_present",
+              "args": [
+                {
+                  "ref": "f_2_12"
+                }
+              ]
+            },
+            {
+              "op": "gt",
+              "args": [
+                {
+                  "ref": "f_2_6"
+                },
+                {
+                  "ref": "f_2_12"
+                }
+              ]
+            }
+          ]
+        },
+        "definition_state": "partial",
+        "open_questions": [
+          "Confirm UK applicability, reporting scope and qualifications."
+        ]
+      }
+    },
+    {
+      "id": "assessment:R05:uk:v1",
+      "type": "ApplicabilityAssessment",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "conclusion": "unresolved",
+        "validity_interval": {
+          "from": {
+            "kind": "unknown"
+          },
+          "to": {
+            "kind": "unknown"
+          }
+        },
+        "date_basis": "unresolved",
+        "reasoning": "Original EU source interpretation; UK adoption and current technical package not adjudicated.",
+        "open_questions": [
+          "Resolve the target UK specification and applicable interval."
+        ]
+      }
+    },
+    {
+      "id": "requirement:R06",
+      "type": "Requirement",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "title": "novation: CCP identity",
+        "requirement_family": "clearing"
+      }
+    },
+    {
+      "id": "requirement-version:R06:v1",
+      "type": "RequirementVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "origin": "source_extracted",
+        "normativity": "obligation",
+        "requirement_kind": "comparison",
+        "interpretation": "novation: CCP identity",
+        "bindings": {
+          "clearing_model": {
+            "kind": "context",
+            "context_definition_id": "context:clearing_model",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "reporting_role": {
+            "kind": "context",
+            "context_definition_id": "context:reporting_role",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "f_2_7": {
+            "kind": "field",
+            "field_version_id": "field-version:2.7:eu-original",
+            "record_alias": "current",
+            "value_type": "identifier"
+          },
+          "clearing_ccp_lei": {
+            "kind": "context",
+            "context_definition_id": "context:clearing_ccp_lei",
+            "subject_alias": "transaction",
+            "value_type": "identifier"
+          }
+        },
+        "evaluation_scope": {
+          "record_family": "transaction",
+          "subject_kind": "transaction",
+          "aliases": [
+            "current",
+            "transaction"
+          ],
+          "identity_key": {
+            "unresolved": {
+              "reason": "Resolve reporting identity and scope",
+              "issue_id": "issue:scope"
+            }
+          },
+          "time_basis": {
+            "unresolved": {
+              "reason": "Resolve applicable time basis",
+              "issue_id": "issue:scope"
+            }
+          }
+        },
+        "when": {
+          "op": "and",
+          "args": [
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "clearing_model"
+                },
+                {
+                  "literal": {
+                    "type": "code",
+                    "value": "novation",
+                    "domain_id": "domain:context:clearing_model"
+                  }
+                }
+              ]
+            },
+            {
+              "op": "or",
+              "args": [
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "ccp",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "clearing_member",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "client",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "unless": {
+          "unresolved": {
+            "reason": "Complete exception and cross-reference review",
+            "issue_id": "issue:qualifications"
+          }
+        },
+        "assertion": {
+          "op": "and",
+          "args": [
+            {
+              "op": "is_present",
+              "args": [
+                {
+                  "ref": "f_2_7"
+                }
+              ]
+            },
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "f_2_7"
+                },
+                {
+                  "ref": "clearing_ccp_lei"
+                }
+              ]
+            }
+          ]
+        },
+        "definition_state": "partial",
+        "open_questions": [
+          "Confirm UK applicability, reporting scope and qualifications."
+        ]
+      }
+    },
+    {
+      "id": "assessment:R06:uk:v1",
+      "type": "ApplicabilityAssessment",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "conclusion": "unresolved",
+        "validity_interval": {
+          "from": {
+            "kind": "unknown"
+          },
+          "to": {
+            "kind": "unknown"
+          }
+        },
+        "date_basis": "unresolved",
+        "reasoning": "Original EU source interpretation; UK adoption and current technical package not adjudicated.",
+        "open_questions": [
+          "Resolve the target UK specification and applicable interval."
+        ]
+      }
+    },
+    {
+      "id": "requirement:R07",
+      "type": "Requirement",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "title": "novation: CM/client prior UTI",
+        "requirement_family": "clearing"
+      }
+    },
+    {
+      "id": "requirement-version:R07:v1",
+      "type": "RequirementVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "origin": "source_extracted",
+        "normativity": "obligation",
+        "requirement_kind": "comparison",
+        "interpretation": "novation: CM/client prior UTI",
+        "bindings": {
+          "clearing_model": {
+            "kind": "context",
+            "context_definition_id": "context:clearing_model",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "reporting_role": {
+            "kind": "context",
+            "context_definition_id": "context:reporting_role",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "f_2_2": {
+            "kind": "field",
+            "field_version_id": "field-version:2.2:eu-original",
+            "record_alias": "current",
+            "value_type": "identifier"
+          },
+          "prior_bilateral_uti": {
+            "kind": "context",
+            "context_definition_id": "context:prior_bilateral_uti",
+            "subject_alias": "transaction",
+            "value_type": "identifier"
+          }
+        },
+        "evaluation_scope": {
+          "record_family": "transaction",
+          "subject_kind": "transaction",
+          "aliases": [
+            "current",
+            "transaction"
+          ],
+          "identity_key": {
+            "unresolved": {
+              "reason": "Resolve reporting identity and scope",
+              "issue_id": "issue:scope"
+            }
+          },
+          "time_basis": {
+            "unresolved": {
+              "reason": "Resolve applicable time basis",
+              "issue_id": "issue:scope"
+            }
+          }
+        },
+        "when": {
+          "op": "and",
+          "args": [
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "clearing_model"
+                },
+                {
+                  "literal": {
+                    "type": "code",
+                    "value": "novation",
+                    "domain_id": "domain:context:clearing_model"
+                  }
+                }
+              ]
+            },
+            {
+              "op": "or",
+              "args": [
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "clearing_member",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "eq",
+                  "args": [
+                    {
+                      "ref": "reporting_role"
+                    },
+                    {
+                      "literal": {
+                        "type": "code",
+                        "value": "client",
+                        "domain_id": "domain:context:reporting_role"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "unless": {
+          "unresolved": {
+            "reason": "Complete exception and cross-reference review",
+            "issue_id": "issue:qualifications"
+          }
+        },
+        "assertion": {
+          "op": "and",
+          "args": [
+            {
+              "op": "is_present",
+              "args": [
+                {
+                  "ref": "f_2_2"
+                }
+              ]
+            },
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "f_2_2"
+                },
+                {
+                  "ref": "prior_bilateral_uti"
+                }
+              ]
+            }
+          ]
+        },
+        "definition_state": "partial",
+        "open_questions": [
+          "Confirm UK applicability, reporting scope and qualifications."
+        ]
+      }
+    },
+    {
+      "id": "assessment:R07:uk:v1",
+      "type": "ApplicabilityAssessment",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "conclusion": "unresolved",
+        "validity_interval": {
+          "from": {
+            "kind": "unknown"
+          },
+          "to": {
+            "kind": "unknown"
+          }
+        },
+        "date_basis": "unresolved",
+        "reasoning": "Original EU source interpretation; UK adoption and current technical package not adjudicated.",
+        "open_questions": [
+          "Resolve the target UK specification and applicable interval."
+        ]
+      }
+    },
+    {
+      "id": "requirement:R08",
+      "type": "Requirement",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "title": "novation: CCP tracking-number absence hypothesis",
+        "requirement_family": "clearing"
+      }
+    },
+    {
+      "id": "requirement-version:R08:v1",
+      "type": "RequirementVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "origin": "source_extracted",
+        "normativity": "unresolved",
+        "requirement_kind": "presence",
+        "interpretation": "novation: CCP tracking-number absence hypothesis",
+        "bindings": {
+          "clearing_model": {
+            "kind": "context",
+            "context_definition_id": "context:clearing_model",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "reporting_role": {
+            "kind": "context",
+            "context_definition_id": "context:reporting_role",
+            "subject_alias": "transaction",
+            "value_type": "code"
+          },
+          "f_2_2": {
+            "kind": "field",
+            "field_version_id": "field-version:2.2:eu-original",
+            "record_alias": "current",
+            "value_type": "identifier"
+          }
+        },
+        "evaluation_scope": {
+          "record_family": "transaction",
+          "subject_kind": "transaction",
+          "aliases": [
+            "current",
+            "transaction"
+          ],
+          "identity_key": {
+            "unresolved": {
+              "reason": "Resolve reporting identity and scope",
+              "issue_id": "issue:scope"
+            }
+          },
+          "time_basis": {
+            "unresolved": {
+              "reason": "Resolve applicable time basis",
+              "issue_id": "issue:scope"
+            }
+          }
+        },
+        "when": {
+          "op": "and",
+          "args": [
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "clearing_model"
+                },
+                {
+                  "literal": {
+                    "type": "code",
+                    "value": "novation",
+                    "domain_id": "domain:context:clearing_model"
+                  }
+                }
+              ]
+            },
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "reporting_role"
+                },
+                {
+                  "literal": {
+                    "type": "code",
+                    "value": "ccp",
+                    "domain_id": "domain:context:reporting_role"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "unless": {
+          "unresolved": {
+            "reason": "Complete exception and cross-reference review",
+            "issue_id": "issue:qualifications"
+          }
+        },
+        "assertion": {
+          "op": "is_absent",
+          "args": [
+            {
+              "ref": "f_2_2"
+            }
+          ]
+        },
+        "definition_state": "partial",
+        "open_questions": [
+          "Confirm UK applicability, reporting scope and qualifications.",
+          "Does not-required versus not-by justify a prohibition?"
+        ]
+      }
+    },
+    {
+      "id": "assessment:R08:uk:v1",
+      "type": "ApplicabilityAssessment",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "conclusion": "unresolved",
+        "validity_interval": {
+          "from": {
+            "kind": "unknown"
+          },
+          "to": {
+            "kind": "unknown"
+          }
+        },
+        "date_basis": "unresolved",
+        "reasoning": "Original EU source interpretation; UK adoption and current technical package not adjudicated.",
+        "open_questions": [
+          "Resolve the target UK specification and applicable interval."
+        ]
+      }
+    },
+    {
+      "id": "requirement:R09",
+      "type": "Requirement",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "title": "other agreement name: necessary agreement type",
+        "requirement_family": "master_agreement"
+      }
+    },
+    {
+      "id": "requirement-version:R09:v1",
+      "type": "RequirementVersion",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "origin": "source_extracted",
+        "normativity": "obligation",
+        "requirement_kind": "comparison",
+        "interpretation": "other agreement name: necessary agreement type",
+        "bindings": {
+          "f_2_10": {
+            "kind": "field",
+            "field_version_id": "field-version:2.10:eu-original",
+            "record_alias": "current",
+            "value_type": "string"
+          },
+          "f_2_9": {
+            "kind": "field",
+            "field_version_id": "field-version:2.9:eu-original",
+            "record_alias": "current",
+            "value_type": "code"
+          }
+        },
+        "evaluation_scope": {
+          "record_family": "transaction",
+          "subject_kind": "transaction",
+          "aliases": [
+            "current",
+            "transaction"
+          ],
+          "identity_key": {
+            "unresolved": {
+              "reason": "Resolve reporting identity and scope",
+              "issue_id": "issue:scope"
+            }
+          },
+          "time_basis": {
+            "unresolved": {
+              "reason": "Resolve applicable time basis",
+              "issue_id": "issue:scope"
+            }
+          }
+        },
+        "when": {
+          "op": "is_present",
+          "args": [
+            {
+              "ref": "f_2_10"
+            }
+          ]
+        },
+        "unless": {
+          "unresolved": {
+            "reason": "Complete exception and cross-reference review",
+            "issue_id": "issue:qualifications"
+          }
+        },
+        "assertion": {
+          "op": "and",
+          "args": [
+            {
+              "op": "is_present",
+              "args": [
+                {
+                  "ref": "f_2_9"
+                }
+              ]
+            },
+            {
+              "op": "eq",
+              "args": [
+                {
+                  "ref": "f_2_9"
+                },
+                {
+                  "literal": {
+                    "type": "code",
+                    "value": "OTHR",
+                    "domain_id": "domain:2.9:eu-original"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "definition_state": "partial",
+        "open_questions": [
+          "Confirm UK applicability, reporting scope and qualifications."
+        ]
+      }
+    },
+    {
+      "id": "assessment:R09:uk:v1",
+      "type": "ApplicabilityAssessment",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "conclusion": "unresolved",
+        "validity_interval": {
+          "from": {
+            "kind": "unknown"
+          },
+          "to": {
+            "kind": "unknown"
+          }
+        },
+        "date_basis": "unresolved",
+        "reasoning": "Original EU source interpretation; UK adoption and current technical package not adjudicated.",
+        "open_questions": [
+          "Resolve the target UK specification and applicable interval."
+        ]
+      }
+    },
+    {
+      "id": "run:sftr-seed-v1",
+      "type": "ExtractionRun",
+      "schema_version": "0.1.0",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "task_kind": "assistant_curated_seed_graph",
+        "model_or_tool": "Conversational assistant with deterministic Python serialization",
+        "prompt_or_config_hash": "43376f56d6dce946a724e39cd68278b09c8884290b081bc7461d702dcf2ed081",
+        "started_at": "2026-10-21T18:42:25+00:00",
+        "finished_at": "2026-10-21T18:42:25+00:00",
+        "run_status": "seed_export_complete",
+        "usage": {
+          "model_tokens": "unavailable",
+          "model_api_calls_from_builder": 0
+        },
+        "extensions": {
+          "seed:method": "Manually curated from source passages in the assistant session; not an automated extraction benchmark or independent review."
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge:b0233b09c0c1542ea8fa8a4c",
+      "type": "VERSION_OF",
+      "from_id": "source-version:D04:collected-v1",
+      "to_id": "document:D04",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:244a073b39e2672217ae430d",
+      "type": "REPRESENTS",
+      "from_id": "artifact:D04:text",
+      "to_id": "source-version:D04:collected-v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:f6930678b53a22791e2f97e0",
+      "type": "VERSION_OF",
+      "from_id": "source-version:D05:collected-v1",
+      "to_id": "document:D05",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:785a6af95eea142d65780d54",
+      "type": "REPRESENTS",
+      "from_id": "artifact:D05:text",
+      "to_id": "source-version:D05:collected-v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:de6f4f4b0ef9da8bee789331",
+      "type": "VERSION_OF",
+      "from_id": "source-version:D06:collected-v1",
+      "to_id": "document:D06",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:416c6f10ae3d2550f0325c77",
+      "type": "REPRESENTS",
+      "from_id": "artifact:D06:text",
+      "to_id": "source-version:D06:collected-v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:40cbd941d07e640200669e6e",
+      "type": "LOCATED_IN",
+      "from_id": "span:open-offer",
+      "to_id": "artifact:D06:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:75e747929680a0bc880510bd",
+      "type": "LOCATED_IN",
+      "from_id": "span:novation",
+      "to_id": "artifact:D06:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:24ecc5ad949ef52f1a852a6a",
+      "type": "LOCATED_IN",
+      "from_id": "span:client-perspective",
+      "to_id": "artifact:D06:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:ec0ee15893a448369408d1df",
+      "type": "LOCATED_IN",
+      "from_id": "span:open-offer-example",
+      "to_id": "artifact:D06:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:f8044014bdfbd8d43c5b147a",
+      "type": "HAS_CONTEXT",
+      "from_id": "span:novation",
+      "to_id": "span:client-perspective",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "neighbouring passage"
+      }
+    },
+    {
+      "id": "edge:2041200872e2bae70376cffb",
+      "type": "HAS_CONTEXT",
+      "from_id": "span:open-offer-example",
+      "to_id": "span:open-offer",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "heading"
+      }
+    },
+    {
+      "id": "edge:718e3b2edb44c6bb97a90651",
+      "type": "LOCATED_IN",
+      "from_id": "span:definition-2.2",
+      "to_id": "artifact:D04:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:28cd6143e423e63b58d05841",
+      "type": "LOCATED_IN",
+      "from_id": "span:format-2.2",
+      "to_id": "artifact:D05:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:d1656558cfffcf41379699ab",
+      "type": "VERSION_OF",
+      "from_id": "field-version:2.2:eu-original",
+      "to_id": "field:sftr:2.2",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:e87cd0b7889bd7420ae7368c",
+      "type": "FOR_PROFILE",
+      "from_id": "field-version:2.2:eu-original",
+      "to_id": "profile:eu-source-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:b75d479b510755e61cd51813",
+      "type": "CITES",
+      "from_id": "field-version:2.2:eu-original",
+      "to_id": "span:definition-2.2",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/definition_text"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:38f75aa6b106bbb64c7faeaa",
+      "type": "CITES",
+      "from_id": "field-version:2.2:eu-original",
+      "to_id": "span:format-2.2",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/value_type"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:e2c2be0a93b7992c6447a9fd",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:definition-2.2",
+      "to_id": "field:sftr:2.2",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 272,
+          "end": 283
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:7e21b17cd760958d68300289",
+      "type": "HAS_DOMAIN",
+      "from_id": "field-version:2.2:eu-original",
+      "to_id": "domain:2.2:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:0c2d231ed603774d7645727b",
+      "type": "CITES",
+      "from_id": "domain:2.2:eu-original",
+      "to_id": "span:format-2.2",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/constraints"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:fcac9796cbb1d8271f4cb365",
+      "type": "LOCATED_IN",
+      "from_id": "span:definition-2.5",
+      "to_id": "artifact:D04:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:1173b614200560dda7d2fa59",
+      "type": "LOCATED_IN",
+      "from_id": "span:format-2.5",
+      "to_id": "artifact:D05:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:78bf0e43e5bbd7045c6c4bd0",
+      "type": "VERSION_OF",
+      "from_id": "field-version:2.5:eu-original",
+      "to_id": "field:sftr:2.5",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:3a30443714a16c3790267238",
+      "type": "FOR_PROFILE",
+      "from_id": "field-version:2.5:eu-original",
+      "to_id": "profile:eu-source-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:50ecd4934e13484b800be75a",
+      "type": "CITES",
+      "from_id": "field-version:2.5:eu-original",
+      "to_id": "span:definition-2.5",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/definition_text"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:bf497fbd9dac05036bcd4ee1",
+      "type": "CITES",
+      "from_id": "field-version:2.5:eu-original",
+      "to_id": "span:format-2.5",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/value_type"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:28619a313aba0aec72ef9842",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:definition-2.5",
+      "to_id": "field:sftr:2.5",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 294,
+          "end": 294
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:12ebbf8ebdf6db7ceaf1216c",
+      "type": "HAS_DOMAIN",
+      "from_id": "field-version:2.5:eu-original",
+      "to_id": "domain:2.5:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:8a0945e3bd5c04ae9c0289ad",
+      "type": "CITES",
+      "from_id": "domain:2.5:eu-original",
+      "to_id": "span:format-2.5",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/constraints"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:89bb78d7ccb5fc4cc5f4b257",
+      "type": "LOCATED_IN",
+      "from_id": "span:definition-2.6",
+      "to_id": "artifact:D04:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:2064b4928250fe2316e4504d",
+      "type": "LOCATED_IN",
+      "from_id": "span:format-2.6",
+      "to_id": "artifact:D05:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:74621f932332e2cdd371aa05",
+      "type": "VERSION_OF",
+      "from_id": "field-version:2.6:eu-original",
+      "to_id": "field:sftr:2.6",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:db550ec3614e096683d5aa59",
+      "type": "FOR_PROFILE",
+      "from_id": "field-version:2.6:eu-original",
+      "to_id": "profile:eu-source-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:da7dbd90713ca8d71a5ecc59",
+      "type": "CITES",
+      "from_id": "field-version:2.6:eu-original",
+      "to_id": "span:definition-2.6",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/definition_text"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:290863cbbaca79083eaf826e",
+      "type": "CITES",
+      "from_id": "field-version:2.6:eu-original",
+      "to_id": "span:format-2.6",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/value_type"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:a871803008a41c7c6a40f8fc",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:definition-2.6",
+      "to_id": "field:sftr:2.6",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 295,
+          "end": 295
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:f9bad94f9324d9836766c2a4",
+      "type": "HAS_DOMAIN",
+      "from_id": "field-version:2.6:eu-original",
+      "to_id": "domain:2.6:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:5805023527307e98b49b4aea",
+      "type": "CITES",
+      "from_id": "domain:2.6:eu-original",
+      "to_id": "span:format-2.6",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/constraints"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:696a4f76c11c0aad22470f82",
+      "type": "LOCATED_IN",
+      "from_id": "span:definition-2.7",
+      "to_id": "artifact:D04:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:f1815f2bf1320972e8491249",
+      "type": "LOCATED_IN",
+      "from_id": "span:format-2.7",
+      "to_id": "artifact:D05:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:dca73e4178b49371c3edde5f",
+      "type": "VERSION_OF",
+      "from_id": "field-version:2.7:eu-original",
+      "to_id": "field:sftr:2.7",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:d978310da1a7ca58284df631",
+      "type": "FOR_PROFILE",
+      "from_id": "field-version:2.7:eu-original",
+      "to_id": "profile:eu-source-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:b3c5cc2ba0df555d84eb9237",
+      "type": "CITES",
+      "from_id": "field-version:2.7:eu-original",
+      "to_id": "span:definition-2.7",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/definition_text"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:73058654366b1069478141fc",
+      "type": "CITES",
+      "from_id": "field-version:2.7:eu-original",
+      "to_id": "span:format-2.7",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/value_type"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:8824eb33a26f3da07eabd295",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:definition-2.7",
+      "to_id": "field:sftr:2.7",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 296,
+          "end": 298
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:28449e0a7b4f4779add19fc5",
+      "type": "HAS_DOMAIN",
+      "from_id": "field-version:2.7:eu-original",
+      "to_id": "domain:2.7:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:ac6ea772a39e69b042b166f2",
+      "type": "CITES",
+      "from_id": "domain:2.7:eu-original",
+      "to_id": "span:format-2.7",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/constraints"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:c14f8e40221273a31aeb873b",
+      "type": "LOCATED_IN",
+      "from_id": "span:definition-2.9",
+      "to_id": "artifact:D04:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:945488b77ee03ee7b1ed5552",
+      "type": "LOCATED_IN",
+      "from_id": "span:format-2.9",
+      "to_id": "artifact:D05:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:d6d38addd527c0b78ef86171",
+      "type": "VERSION_OF",
+      "from_id": "field-version:2.9:eu-original",
+      "to_id": "field:sftr:2.9",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:74e2f0d8f5677a330e2198f5",
+      "type": "FOR_PROFILE",
+      "from_id": "field-version:2.9:eu-original",
+      "to_id": "profile:eu-source-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:0d527026443fbdedacfc1f2f",
+      "type": "CITES",
+      "from_id": "field-version:2.9:eu-original",
+      "to_id": "span:definition-2.9",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/definition_text"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:e2b87648fa3267b4dc73365a",
+      "type": "CITES",
+      "from_id": "field-version:2.9:eu-original",
+      "to_id": "span:format-2.9",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/value_type"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:be2a08f35f5c69d9414845b9",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:definition-2.9",
+      "to_id": "field:sftr:2.9",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 307,
+          "end": 311
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:5f6f7d805e904509e6652f49",
+      "type": "HAS_DOMAIN",
+      "from_id": "field-version:2.9:eu-original",
+      "to_id": "domain:2.9:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:20664cba96b38afc56538df7",
+      "type": "CITES",
+      "from_id": "domain:2.9:eu-original",
+      "to_id": "span:format-2.9",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/constraints"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:86194515b0a1794f6360b3d3",
+      "type": "LOCATED_IN",
+      "from_id": "span:definition-2.10",
+      "to_id": "artifact:D04:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:aaf04cdba76b9dcf0b1c9327",
+      "type": "LOCATED_IN",
+      "from_id": "span:format-2.10",
+      "to_id": "artifact:D05:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:698895a18a9248b088f10548",
+      "type": "VERSION_OF",
+      "from_id": "field-version:2.10:eu-original",
+      "to_id": "field:sftr:2.10",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:c83ce063aa102894551645f7",
+      "type": "FOR_PROFILE",
+      "from_id": "field-version:2.10:eu-original",
+      "to_id": "profile:eu-source-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:3f23c1c9d31ae6b2cf8cbdcb",
+      "type": "CITES",
+      "from_id": "field-version:2.10:eu-original",
+      "to_id": "span:definition-2.10",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/definition_text"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:0669ca774f3208c7f1355b7f",
+      "type": "CITES",
+      "from_id": "field-version:2.10:eu-original",
+      "to_id": "span:format-2.10",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/value_type"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:6ef9da9a056965adf81393c0",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:definition-2.10",
+      "to_id": "field:sftr:2.10",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 312,
+          "end": 316
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:a09686ae7c63e77482e3bcad",
+      "type": "HAS_DOMAIN",
+      "from_id": "field-version:2.10:eu-original",
+      "to_id": "domain:2.10:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:a3d6c99de6269fb797683c77",
+      "type": "CITES",
+      "from_id": "domain:2.10:eu-original",
+      "to_id": "span:format-2.10",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/constraints"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:48658f6bf5104c9c4c08785a",
+      "type": "LOCATED_IN",
+      "from_id": "span:definition-2.12",
+      "to_id": "artifact:D04:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:15a8804740f6a19450b68505",
+      "type": "LOCATED_IN",
+      "from_id": "span:format-2.12",
+      "to_id": "artifact:D05:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:40f66fbe5ed6cdc15bb24eac",
+      "type": "VERSION_OF",
+      "from_id": "field-version:2.12:eu-original",
+      "to_id": "field:sftr:2.12",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:8eea2e2e100e67cf08671c43",
+      "type": "FOR_PROFILE",
+      "from_id": "field-version:2.12:eu-original",
+      "to_id": "profile:eu-source-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:08ea5b620554c52ae13cbeb9",
+      "type": "CITES",
+      "from_id": "field-version:2.12:eu-original",
+      "to_id": "span:definition-2.12",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/definition_text"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:0006f5862d23aa4ce3e0cbf1",
+      "type": "CITES",
+      "from_id": "field-version:2.12:eu-original",
+      "to_id": "span:format-2.12",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/value_type"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:cdf526541edb25f939b6ebbd",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:definition-2.12",
+      "to_id": "field:sftr:2.12",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 320,
+          "end": 320
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:723ddb434bc1c21442fc2de1",
+      "type": "HAS_DOMAIN",
+      "from_id": "field-version:2.12:eu-original",
+      "to_id": "domain:2.12:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:82a36b632782dd08f0aef002",
+      "type": "CITES",
+      "from_id": "domain:2.12:eu-original",
+      "to_id": "span:format-2.12",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/constraints"
+        ],
+        "support_basis": "explicit_text"
+      }
+    },
+    {
+      "id": "edge:c23184ed325d25f715b3f7b9",
+      "type": "CITES",
+      "from_id": "context:clearing_model",
+      "to_id": "span:open-offer",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/description"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:47e2db8979106a3ec4b4d842",
+      "type": "CITES",
+      "from_id": "context:reporting_role",
+      "to_id": "span:novation",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/description"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:b0408cdcda98bc9ce0b332d0",
+      "type": "CITES",
+      "from_id": "context:prior_bilateral_uti",
+      "to_id": "span:novation",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/description"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:27918ffef3f68425afdb2965",
+      "type": "CITES",
+      "from_id": "context:clearing_ccp_lei",
+      "to_id": "span:open-offer",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/description"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:f16c2015437705b9a7331d9b",
+      "type": "VERSION_OF",
+      "from_id": "requirement-version:R01:v1",
+      "to_id": "requirement:R01",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:d5d5ea6d613b86f5b1d2e137",
+      "type": "CITES",
+      "from_id": "requirement-version:R01:v1",
+      "to_id": "span:open-offer",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/when",
+          "/assertion"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:0a2819e3cc0c887ca4185165",
+      "type": "CITES",
+      "from_id": "requirement-version:R01:v1",
+      "to_id": "span:open-offer",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "context",
+        "claim_paths": [
+          "/when"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:6b5c92612a08594cae0bdda6",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R01:v1",
+      "to_id": "context:clearing_model",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/0/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:2a04d4fee87528ea628f7688",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R01:v1",
+      "to_id": "context:reporting_role",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/1/args/0/args/0",
+          "/when/args/1/args/1/args/0",
+          "/when/args/1/args/2/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:7de88e091fa5ed09eae50b35",
+      "type": "USES_FIELD",
+      "from_id": "requirement-version:R01:v1",
+      "to_id": "field-version:2.5:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/0/args/0",
+          "/assertion/args/1/args/0"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:115889783d0b7ac742b00f67",
+      "type": "ASSESSES",
+      "from_id": "assessment:R01:uk:v1",
+      "to_id": "requirement-version:R01:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:4961a52c9e3647fe923e0fc0",
+      "type": "FOR_PROFILE",
+      "from_id": "assessment:R01:uk:v1",
+      "to_id": "profile:uk-target-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:eecc7787801f802855c11069",
+      "type": "AFFECTS",
+      "from_id": "issue:uk-applicability",
+      "to_id": "requirement-version:R01:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:94aa73e64ce05c89b19872f4",
+      "type": "AFFECTS",
+      "from_id": "issue:source-fidelity",
+      "to_id": "requirement-version:R01:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:b54fd5382129ed33ab2f0832",
+      "type": "AFFECTS",
+      "from_id": "issue:scope",
+      "to_id": "requirement-version:R01:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:faf798dcdc5ba111a25d2e42",
+      "type": "AFFECTS",
+      "from_id": "issue:qualifications",
+      "to_id": "requirement-version:R01:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:62aa2fb8fcbfde8bd75098a3",
+      "type": "AFFECTS",
+      "from_id": "issue:context-contract",
+      "to_id": "requirement-version:R01:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:a2efb362ab32f1070073a625",
+      "type": "AFFECTS",
+      "from_id": "issue:field-domain",
+      "to_id": "requirement-version:R01:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:5ada791c5151f22bf86f072e",
+      "type": "VERSION_OF",
+      "from_id": "requirement-version:R02:v1",
+      "to_id": "requirement:R02",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:5d9102069b152dee049ebb49",
+      "type": "CITES",
+      "from_id": "requirement-version:R02:v1",
+      "to_id": "span:open-offer",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/when",
+          "/assertion"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:baaf6cb7ce73cee3c74a6744",
+      "type": "CITES",
+      "from_id": "requirement-version:R02:v1",
+      "to_id": "span:open-offer",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "context",
+        "claim_paths": [
+          "/when"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:7c5aae099ab5388028f68175",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R02:v1",
+      "to_id": "context:clearing_model",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/0/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:f93c738f4110f8109b85dd27",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R02:v1",
+      "to_id": "context:reporting_role",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/1/args/0/args/0",
+          "/when/args/1/args/1/args/0",
+          "/when/args/1/args/2/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:6e1b3f1783197a344562f671",
+      "type": "USES_FIELD",
+      "from_id": "requirement-version:R02:v1",
+      "to_id": "field-version:2.6:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/0/args/0",
+          "/assertion/args/2/args/0"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:68e72d0f0e4d317fb2b6b9e4",
+      "type": "USES_FIELD",
+      "from_id": "requirement-version:R02:v1",
+      "to_id": "field-version:2.12:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/1/args/0",
+          "/assertion/args/2/args/1"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:8e140ed2c0942aa48f4ef486",
+      "type": "ASSESSES",
+      "from_id": "assessment:R02:uk:v1",
+      "to_id": "requirement-version:R02:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:01e215775246ed3b813715fb",
+      "type": "FOR_PROFILE",
+      "from_id": "assessment:R02:uk:v1",
+      "to_id": "profile:uk-target-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:ead4951c47bd604bc5034055",
+      "type": "AFFECTS",
+      "from_id": "issue:uk-applicability",
+      "to_id": "requirement-version:R02:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:549eb59f96a8450ba17c9120",
+      "type": "AFFECTS",
+      "from_id": "issue:source-fidelity",
+      "to_id": "requirement-version:R02:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:519d76f94346df36eeabba7b",
+      "type": "AFFECTS",
+      "from_id": "issue:scope",
+      "to_id": "requirement-version:R02:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:26893750d271840d173c58e5",
+      "type": "AFFECTS",
+      "from_id": "issue:qualifications",
+      "to_id": "requirement-version:R02:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:008c80c24a064fa84628304b",
+      "type": "AFFECTS",
+      "from_id": "issue:context-contract",
+      "to_id": "requirement-version:R02:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:1d3e09cb6d88e4ba790081c1",
+      "type": "AFFECTS",
+      "from_id": "issue:field-domain",
+      "to_id": "requirement-version:R02:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:dfebe804f1a00898490e44ec",
+      "type": "VERSION_OF",
+      "from_id": "requirement-version:R03:v1",
+      "to_id": "requirement:R03",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:c707e4aad3d352868d86273a",
+      "type": "CITES",
+      "from_id": "requirement-version:R03:v1",
+      "to_id": "span:open-offer",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/when",
+          "/assertion"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:06a4fdf88123f92c11f250ad",
+      "type": "CITES",
+      "from_id": "requirement-version:R03:v1",
+      "to_id": "span:open-offer",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "context",
+        "claim_paths": [
+          "/when"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:1452833460ecb79cf7b9cc94",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R03:v1",
+      "to_id": "context:clearing_model",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/0/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:338c2fe1a64307b0fd3656b5",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R03:v1",
+      "to_id": "context:reporting_role",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/1/args/0/args/0",
+          "/when/args/1/args/1/args/0",
+          "/when/args/1/args/2/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:f48156fccecccf137d49c5d3",
+      "type": "USES_FIELD",
+      "from_id": "requirement-version:R03:v1",
+      "to_id": "field-version:2.7:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/0/args/0",
+          "/assertion/args/1/args/0"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:985217facc8ac0c4a909d287",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R03:v1",
+      "to_id": "context:clearing_ccp_lei",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/1/args/1"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:891d87eb977ccc29078f9612",
+      "type": "ASSESSES",
+      "from_id": "assessment:R03:uk:v1",
+      "to_id": "requirement-version:R03:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:2f48b922918b0b67a7c10261",
+      "type": "FOR_PROFILE",
+      "from_id": "assessment:R03:uk:v1",
+      "to_id": "profile:uk-target-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:7de7b6a25fc974abd2192cc0",
+      "type": "AFFECTS",
+      "from_id": "issue:uk-applicability",
+      "to_id": "requirement-version:R03:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:5e82599ef911463269b0f5db",
+      "type": "AFFECTS",
+      "from_id": "issue:source-fidelity",
+      "to_id": "requirement-version:R03:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:59eb01689a7a5f69faaa04a5",
+      "type": "AFFECTS",
+      "from_id": "issue:scope",
+      "to_id": "requirement-version:R03:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:72ad202becf38f831bb49c9d",
+      "type": "AFFECTS",
+      "from_id": "issue:qualifications",
+      "to_id": "requirement-version:R03:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:3a3dcd838d3f4134736cf954",
+      "type": "AFFECTS",
+      "from_id": "issue:context-contract",
+      "to_id": "requirement-version:R03:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:8b6bc94ce22e8fa15936a8af",
+      "type": "AFFECTS",
+      "from_id": "issue:field-domain",
+      "to_id": "requirement-version:R03:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:7c79f10ee12c48714fbb629b",
+      "type": "VERSION_OF",
+      "from_id": "requirement-version:R04:v1",
+      "to_id": "requirement:R04",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:759a19e89007c19f572e1100",
+      "type": "CITES",
+      "from_id": "requirement-version:R04:v1",
+      "to_id": "span:novation",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/when",
+          "/assertion"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:f36449c582f633f3be96a49e",
+      "type": "CITES",
+      "from_id": "requirement-version:R04:v1",
+      "to_id": "span:client-perspective",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "context",
+        "claim_paths": [
+          "/when"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:f9de9c68b07726c6190e8b19",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R04:v1",
+      "to_id": "context:clearing_model",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/0/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:85d9f1f409ff3b00dc68f571",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R04:v1",
+      "to_id": "context:reporting_role",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/1/args/0/args/0",
+          "/when/args/1/args/1/args/0",
+          "/when/args/1/args/2/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:f5f567f3520469e6b013d0fd",
+      "type": "USES_FIELD",
+      "from_id": "requirement-version:R04:v1",
+      "to_id": "field-version:2.5:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/0/args/0",
+          "/assertion/args/1/args/0"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:ebfebc8cb11a652d8efdfeae",
+      "type": "ASSESSES",
+      "from_id": "assessment:R04:uk:v1",
+      "to_id": "requirement-version:R04:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:e5c1031225780bbfe135966e",
+      "type": "FOR_PROFILE",
+      "from_id": "assessment:R04:uk:v1",
+      "to_id": "profile:uk-target-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:608cc9017d34a44cb30a2226",
+      "type": "AFFECTS",
+      "from_id": "issue:uk-applicability",
+      "to_id": "requirement-version:R04:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:5a4c0f92708ea05a36c32661",
+      "type": "AFFECTS",
+      "from_id": "issue:source-fidelity",
+      "to_id": "requirement-version:R04:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:21430cce85ac0e532f8d83e1",
+      "type": "AFFECTS",
+      "from_id": "issue:scope",
+      "to_id": "requirement-version:R04:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:56cfe84b4b7d2318f6577e0a",
+      "type": "AFFECTS",
+      "from_id": "issue:qualifications",
+      "to_id": "requirement-version:R04:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:06578327bfbc0341574501bf",
+      "type": "AFFECTS",
+      "from_id": "issue:context-contract",
+      "to_id": "requirement-version:R04:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:3bf99d9052da2026c9bad1f9",
+      "type": "AFFECTS",
+      "from_id": "issue:field-domain",
+      "to_id": "requirement-version:R04:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:a4e595edd02850e6ef6f896c",
+      "type": "VERSION_OF",
+      "from_id": "requirement-version:R05:v1",
+      "to_id": "requirement:R05",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:6cb41af53704b19d97a69fe2",
+      "type": "CITES",
+      "from_id": "requirement-version:R05:v1",
+      "to_id": "span:novation",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/when",
+          "/assertion"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:fcb221ef3497072e2549121a",
+      "type": "CITES",
+      "from_id": "requirement-version:R05:v1",
+      "to_id": "span:client-perspective",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "context",
+        "claim_paths": [
+          "/when"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:51bdc3a8d6e3049107eb08fd",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R05:v1",
+      "to_id": "context:clearing_model",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/0/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:c0e23b28b39e59cabe70e336",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R05:v1",
+      "to_id": "context:reporting_role",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/1/args/0/args/0",
+          "/when/args/1/args/1/args/0",
+          "/when/args/1/args/2/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:11052262f0716610e03ee9e8",
+      "type": "USES_FIELD",
+      "from_id": "requirement-version:R05:v1",
+      "to_id": "field-version:2.6:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/0/args/0",
+          "/assertion/args/2/args/0"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:ece082b432b289f04629a34f",
+      "type": "USES_FIELD",
+      "from_id": "requirement-version:R05:v1",
+      "to_id": "field-version:2.12:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/1/args/0",
+          "/assertion/args/2/args/1"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:a81e222057f2c20559532b46",
+      "type": "ASSESSES",
+      "from_id": "assessment:R05:uk:v1",
+      "to_id": "requirement-version:R05:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:3b89493aa591e682c6d61b35",
+      "type": "FOR_PROFILE",
+      "from_id": "assessment:R05:uk:v1",
+      "to_id": "profile:uk-target-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:ec5a944885d7a9a31f2bf0dd",
+      "type": "AFFECTS",
+      "from_id": "issue:uk-applicability",
+      "to_id": "requirement-version:R05:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:5c0736560cb8bb15aec63588",
+      "type": "AFFECTS",
+      "from_id": "issue:source-fidelity",
+      "to_id": "requirement-version:R05:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:0e4e4197370366f80ea46fa1",
+      "type": "AFFECTS",
+      "from_id": "issue:scope",
+      "to_id": "requirement-version:R05:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:3c0aae6e373f94cb9572fd0a",
+      "type": "AFFECTS",
+      "from_id": "issue:qualifications",
+      "to_id": "requirement-version:R05:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:e5ccd5bf69ab10eb559f1d01",
+      "type": "AFFECTS",
+      "from_id": "issue:context-contract",
+      "to_id": "requirement-version:R05:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:2216c82dbabd6486c32cc837",
+      "type": "AFFECTS",
+      "from_id": "issue:field-domain",
+      "to_id": "requirement-version:R05:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:f40127acc4152b9a20f5eddd",
+      "type": "VERSION_OF",
+      "from_id": "requirement-version:R06:v1",
+      "to_id": "requirement:R06",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:bda2f7597675b39748b47cf4",
+      "type": "CITES",
+      "from_id": "requirement-version:R06:v1",
+      "to_id": "span:novation",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/when",
+          "/assertion"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:4a36c6fe3e21a263eebc513e",
+      "type": "CITES",
+      "from_id": "requirement-version:R06:v1",
+      "to_id": "span:client-perspective",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "context",
+        "claim_paths": [
+          "/when"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:f73f75b4fe72e05d423a7821",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R06:v1",
+      "to_id": "context:clearing_model",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/0/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:529103df755d7ca5e4f037d2",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R06:v1",
+      "to_id": "context:reporting_role",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/1/args/0/args/0",
+          "/when/args/1/args/1/args/0",
+          "/when/args/1/args/2/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:65a3948072c3ce5eceb9c5f2",
+      "type": "USES_FIELD",
+      "from_id": "requirement-version:R06:v1",
+      "to_id": "field-version:2.7:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/0/args/0",
+          "/assertion/args/1/args/0"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:5e539603379fd0963623d266",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R06:v1",
+      "to_id": "context:clearing_ccp_lei",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/1/args/1"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:80b58db26181915f2e9fccb2",
+      "type": "ASSESSES",
+      "from_id": "assessment:R06:uk:v1",
+      "to_id": "requirement-version:R06:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:813a476aad8ac6b89f580eeb",
+      "type": "FOR_PROFILE",
+      "from_id": "assessment:R06:uk:v1",
+      "to_id": "profile:uk-target-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:188bfc81c73d089f19cdb1ac",
+      "type": "AFFECTS",
+      "from_id": "issue:uk-applicability",
+      "to_id": "requirement-version:R06:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:2410dd94cec77df153fff015",
+      "type": "AFFECTS",
+      "from_id": "issue:source-fidelity",
+      "to_id": "requirement-version:R06:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:b8e465c4dd6f555b17debd5f",
+      "type": "AFFECTS",
+      "from_id": "issue:scope",
+      "to_id": "requirement-version:R06:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:4de465c61adecd40ce0383f5",
+      "type": "AFFECTS",
+      "from_id": "issue:qualifications",
+      "to_id": "requirement-version:R06:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:ccd6a94ddf2d73c00bd9d66e",
+      "type": "AFFECTS",
+      "from_id": "issue:context-contract",
+      "to_id": "requirement-version:R06:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:5898f71bb56ae62d27bbcbac",
+      "type": "AFFECTS",
+      "from_id": "issue:field-domain",
+      "to_id": "requirement-version:R06:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:cba73eb701d11e512724fd26",
+      "type": "VERSION_OF",
+      "from_id": "requirement-version:R07:v1",
+      "to_id": "requirement:R07",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:fd6d659456f9a02bd9dc5b0a",
+      "type": "CITES",
+      "from_id": "requirement-version:R07:v1",
+      "to_id": "span:novation",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/when",
+          "/assertion"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:f401d63ac810a4b4dbc4e3e6",
+      "type": "CITES",
+      "from_id": "requirement-version:R07:v1",
+      "to_id": "span:client-perspective",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "context",
+        "claim_paths": [
+          "/when"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:8d5950e31ad7939273c2dce0",
+      "type": "CITES",
+      "from_id": "requirement-version:R07:v1",
+      "to_id": "span:definition-2.2",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "qualifies",
+        "claim_paths": [
+          "/assertion"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:b9834d76eb71b327fd5f83ee",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R07:v1",
+      "to_id": "context:clearing_model",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/0/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:99609d5dfa5a987e746fa7da",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R07:v1",
+      "to_id": "context:reporting_role",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/1/args/0/args/0",
+          "/when/args/1/args/1/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:3140b4537eaf2c90b402dde0",
+      "type": "USES_FIELD",
+      "from_id": "requirement-version:R07:v1",
+      "to_id": "field-version:2.2:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/0/args/0",
+          "/assertion/args/1/args/0"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:5977c8baa2ad42239b57f268",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R07:v1",
+      "to_id": "context:prior_bilateral_uti",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/1/args/1"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:427944528ad2785af6a08308",
+      "type": "ASSESSES",
+      "from_id": "assessment:R07:uk:v1",
+      "to_id": "requirement-version:R07:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:45ce0184e24aaa14b69aa0d7",
+      "type": "FOR_PROFILE",
+      "from_id": "assessment:R07:uk:v1",
+      "to_id": "profile:uk-target-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:f8d1ef123df9512984bc8a07",
+      "type": "AFFECTS",
+      "from_id": "issue:uk-applicability",
+      "to_id": "requirement-version:R07:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:3b90afdcbff22134c46d591a",
+      "type": "AFFECTS",
+      "from_id": "issue:source-fidelity",
+      "to_id": "requirement-version:R07:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:84e8fb0b7ee29d2c8557f74c",
+      "type": "AFFECTS",
+      "from_id": "issue:scope",
+      "to_id": "requirement-version:R07:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:6f29dec5a3d59c6552d53ade",
+      "type": "AFFECTS",
+      "from_id": "issue:qualifications",
+      "to_id": "requirement-version:R07:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:672d9ecc1b0640d392debfa9",
+      "type": "AFFECTS",
+      "from_id": "issue:context-contract",
+      "to_id": "requirement-version:R07:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:f2598acad4f65fa74c87e843",
+      "type": "AFFECTS",
+      "from_id": "issue:field-domain",
+      "to_id": "requirement-version:R07:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:5153115e8bb2ef55a03b9d64",
+      "type": "VERSION_OF",
+      "from_id": "requirement-version:R08:v1",
+      "to_id": "requirement:R08",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:4e1503b50d683cb0585693f1",
+      "type": "CITES",
+      "from_id": "requirement-version:R08:v1",
+      "to_id": "span:novation",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/when",
+          "/assertion"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:c0a5c4e8abce2508e54e305a",
+      "type": "CITES",
+      "from_id": "requirement-version:R08:v1",
+      "to_id": "span:client-perspective",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "context",
+        "claim_paths": [
+          "/when"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:8b848c64841ff723dfff0790",
+      "type": "CITES",
+      "from_id": "requirement-version:R08:v1",
+      "to_id": "span:definition-2.2",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "qualifies",
+        "claim_paths": [
+          "/assertion"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:123ba20b28194e88519ec68c",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R08:v1",
+      "to_id": "context:clearing_model",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/0/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:eb8d8cc3213ad6c988cba154",
+      "type": "USES_CONTEXT",
+      "from_id": "requirement-version:R08:v1",
+      "to_id": "context:reporting_role",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/1/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:38aa7db38cb4577e61ce96fd",
+      "type": "USES_FIELD",
+      "from_id": "requirement-version:R08:v1",
+      "to_id": "field-version:2.2:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/0"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:c5eda1490376a391553f349b",
+      "type": "ASSESSES",
+      "from_id": "assessment:R08:uk:v1",
+      "to_id": "requirement-version:R08:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:4f5507dcdd54729529a02b46",
+      "type": "FOR_PROFILE",
+      "from_id": "assessment:R08:uk:v1",
+      "to_id": "profile:uk-target-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:1d6256825dba9968e0bc7752",
+      "type": "AFFECTS",
+      "from_id": "issue:uk-applicability",
+      "to_id": "requirement-version:R08:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:aecc0dee1da881961932ff20",
+      "type": "AFFECTS",
+      "from_id": "issue:source-fidelity",
+      "to_id": "requirement-version:R08:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:6264bbb8b618a441a5fd1c08",
+      "type": "AFFECTS",
+      "from_id": "issue:scope",
+      "to_id": "requirement-version:R08:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:cc31129e53ae37a31e8573a7",
+      "type": "AFFECTS",
+      "from_id": "issue:qualifications",
+      "to_id": "requirement-version:R08:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:8e2f2351124e4408efc6332e",
+      "type": "AFFECTS",
+      "from_id": "issue:context-contract",
+      "to_id": "requirement-version:R08:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:31afa379dc996783b8c001a7",
+      "type": "AFFECTS",
+      "from_id": "issue:field-domain",
+      "to_id": "requirement-version:R08:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:fcf3bbc07f8f9686cb0aa722",
+      "type": "AFFECTS",
+      "from_id": "issue:rtn-strength",
+      "to_id": "requirement-version:R08:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:05682363bc1823c505c4066e",
+      "type": "VERSION_OF",
+      "from_id": "requirement-version:R09:v1",
+      "to_id": "requirement:R09",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:acbfb7febcf980fae698ad2d",
+      "type": "CITES",
+      "from_id": "requirement-version:R09:v1",
+      "to_id": "span:definition-2.10",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "role": "supports",
+        "claim_paths": [
+          "/when",
+          "/assertion"
+        ],
+        "support_basis": "interpretation"
+      }
+    },
+    {
+      "id": "edge:1960844eb172c8e62266a6e5",
+      "type": "USES_FIELD",
+      "from_id": "requirement-version:R09:v1",
+      "to_id": "field-version:2.10:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/when/args/0"
+        ],
+        "roles": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "id": "edge:8bcb61f4665a6c39c6d52f77",
+      "type": "USES_FIELD",
+      "from_id": "requirement-version:R09:v1",
+      "to_id": "field-version:2.9:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "occurrence_paths": [
+          "/assertion/args/0/args/0",
+          "/assertion/args/1/args/0"
+        ],
+        "roles": [
+          "assertion"
+        ]
+      }
+    },
+    {
+      "id": "edge:2dc80af6e5fa6cdc5860ff2c",
+      "type": "ASSESSES",
+      "from_id": "assessment:R09:uk:v1",
+      "to_id": "requirement-version:R09:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:345c124beceba1ec93804096",
+      "type": "FOR_PROFILE",
+      "from_id": "assessment:R09:uk:v1",
+      "to_id": "profile:uk-target-research",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:5b6460a026692983a367e61d",
+      "type": "AFFECTS",
+      "from_id": "issue:uk-applicability",
+      "to_id": "requirement-version:R09:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:f6b2d296778ccdd85ad22fb7",
+      "type": "AFFECTS",
+      "from_id": "issue:source-fidelity",
+      "to_id": "requirement-version:R09:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:d9072f45fdcc6229f26039da",
+      "type": "AFFECTS",
+      "from_id": "issue:scope",
+      "to_id": "requirement-version:R09:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:0a9e78113a49b8a0a7d19644",
+      "type": "AFFECTS",
+      "from_id": "issue:qualifications",
+      "to_id": "requirement-version:R09:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:da0e31efab609f9322d6aa27",
+      "type": "AFFECTS",
+      "from_id": "issue:field-domain",
+      "to_id": "requirement-version:R09:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:48d47977398606b690ecadbd",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:open-offer-example",
+      "to_id": "field:sftr:2.5",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 4335,
+          "end": 4393
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:4927d388792638091d1f221e",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:open-offer-example",
+      "to_id": "field:sftr:2.6",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 4335,
+          "end": 4393
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:bd5fafe4134ac63771999dc5",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:open-offer-example",
+      "to_id": "field:sftr:2.7",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 4335,
+          "end": 4393
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:920b8a19235bfcc828787371",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:open-offer-example",
+      "to_id": "field:sftr:2.9",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 4335,
+          "end": 4393
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:32b5b68a56fbd592088d8892",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:open-offer-example",
+      "to_id": "field:sftr:2.10",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 4335,
+          "end": 4393
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:17894ac2db3acb1ce55de923",
+      "type": "MENTIONS_FIELD",
+      "from_id": "span:open-offer-example",
+      "to_id": "field:sftr:2.12",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {
+        "text_location": {
+          "kind": "text_lines",
+          "line_namespace": "web_extraction",
+          "start": 4335,
+          "end": 4393
+        },
+        "match_kind": "explicit",
+        "ambiguity_status": "resolved"
+      }
+    },
+    {
+      "id": "edge:5f9630bc2e3b78f78ccddadb",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "artifact:D04:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:b17e95abc54cb32e28c3efbc",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "artifact:D05:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:5909555416effd8a9aa089a2",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "artifact:D06:text",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:92666614d444a2a2fa0c8910",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:open-offer",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:9d0158bd9b311f1fbb3f26b3",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:novation",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:3fecf9301f658eb8166500e5",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:client-perspective",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:eba30972ec7cfb56002e8e7f",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:open-offer-example",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:bea3a3c13354167d00a342f2",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:definition-2.2",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:dca946e6161f8bc696ece282",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:format-2.2",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:8ca298bbd95a30377d6ecb7c",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "field-version:2.2:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:d3cda20389618783b6e54074",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "domain:2.2:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:4d7d439335590590687e35c0",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:definition-2.5",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:3015707e43e929862c5e4cf0",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:format-2.5",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:14d654d2d08f8eccda37d77f",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "field-version:2.5:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:d09bab6721de55394c99174d",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "domain:2.5:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:d728c957a0eaede1a58ed34e",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:definition-2.6",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:86adc023feffbc0dd4555175",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:format-2.6",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:24d87c74ce3aac0be48f904b",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "field-version:2.6:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:7a985f6eddf127f3a10ad9c6",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "domain:2.6:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:7930f1f7f858f2db1b2cc5d0",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:definition-2.7",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:e99269311ebdfe9a9b50641b",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:format-2.7",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:ce8b457104aafd51d356f652",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "field-version:2.7:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:cd3d2a6ad9434d3d52789e85",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "domain:2.7:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:f9ceccedda5910c03490fb91",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:definition-2.9",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:674d3c1f588814c4ca6de90c",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:format-2.9",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:964486c42259ac9a5335266d",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "field-version:2.9:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:b4ddfc8b26003604c3842e2e",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "domain:2.9:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:07a582abe97c7a5650996b0f",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:definition-2.10",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:523797f926c402953f53a213",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:format-2.10",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:7f43cf60b673ffa123f32355",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "field-version:2.10:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:e637b34cc8681a796e4fb23f",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "domain:2.10:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:b061392f2583ad449c4578ff",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:definition-2.12",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:b00070e508bbea68ea9daca8",
+      "type": "READ",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "span:format-2.12",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:6b92eaf4481e936790b8265c",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "field-version:2.12:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:53e9fb078d048fbeeb425834",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "domain:2.12:eu-original",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:774f33040aad2451ddf530af",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "context:clearing_model",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:2995018a0981b45fb93a86df",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "domain:context:clearing_model",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:2551681ad7e4738891a1aae0",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "context:reporting_role",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:666831f662feb1fe8974836d",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "domain:context:reporting_role",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:5d4f0d502e2a96e5194e84c6",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "context:prior_bilateral_uti",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:8cc31d278d497fd44a293b17",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "context:clearing_ccp_lei",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:890010d1885d5879fccd3996",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "issue:uk-applicability",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:dfbaab137b3ed2d5e7e860a3",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "issue:source-fidelity",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:4c19275458df8dbdfbbeb291",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "issue:scope",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:29f0df630ec7790d22620583",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "issue:qualifications",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:fa9786d1d701998703640eeb",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "issue:context-contract",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:2ef41e56056a935f765ed193",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "issue:field-domain",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:3cab519214e3d6ba9b4996f1",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "issue:rtn-strength",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:bce75399d2e2af9f95afd965",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "requirement-version:R01:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:16dcf36cfdc7c35ad3ef8c4d",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "assessment:R01:uk:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:d5538d29aa272245d8668ff4",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "requirement-version:R02:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:68b3ba2cabf5653ba0de6996",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "assessment:R02:uk:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:535e2786e4749a9f10cf4df0",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "requirement-version:R03:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:3c787b2bd5c7240056968df1",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "assessment:R03:uk:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:2499c137e87a632e144c2e96",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "requirement-version:R04:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:752f05b074364cc30f8075f6",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "assessment:R04:uk:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:25315bbc4b565bedc09b301c",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "requirement-version:R05:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:8adc7861b862fadd83e76aa1",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "assessment:R05:uk:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:d9d40cb6ecf71b48db2a2c6c",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "requirement-version:R06:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:0b0801ecdc5f16f19bfab964",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "assessment:R06:uk:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:6543b4c15ab7bdcace135581",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "requirement-version:R07:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:dcbdd293c6690e183ab1a2fa",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "assessment:R07:uk:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:1a21443b13f6728d6d372357",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "requirement-version:R08:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:512c1f288f4e0e35a20814d4",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "assessment:R08:uk:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:f0c9b54ee178d0037ebb0e58",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "requirement-version:R09:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    },
+    {
+      "id": "edge:ef529efdf4c5fa832d4ff7b4",
+      "type": "PRODUCED",
+      "from_id": "run:sftr-seed-v1",
+      "to_id": "assessment:R09:uk:v1",
+      "recorded_at": "2026-10-21T18:42:25+00:00",
+      "created_by": "run:sftr-seed-v1",
+      "properties": {}
+    }
+  ]
+}

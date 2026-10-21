@@ -1,0 +1,21 @@
+{
+  "node_count": 91,
+  "edge_count": 282,
+  "requirement_count": 9,
+  "release_ready_count": 0,
+  "errors": [],
+  "checks": [
+    "node payload presence",
+    "endpoint types and cardinalities",
+    "source hashes and exact spans",
+    "expression references and seed operator typing",
+    "literal domains",
+    "dependency edge equivalence",
+    "unresolved approvals preserved"
+  ],
+  "limitations": [
+    "Seed subset checker, not a complete ontology validator",
+    "No independent regulatory review",
+    "No trade validation engine or regulatory accuracy evaluation executed"
+  ]
+}

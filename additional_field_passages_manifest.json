@@ -1,0 +1,73 @@
+{
+  "representation": "mechanical_excerpt_not_new_independent_source",
+  "derived_from": "../source_manifest.json",
+  "file": "additional_field_passages.txt",
+  "file_sha256": "2030b5dc29a290d99fa3b0909c8d887ec29a3214ece6f8f4fcb7f0ffc0fe29d6",
+  "fragments": [
+    {
+      "source_id": "D04",
+      "source_file": "documents/D04_rts_2019_356_original.txt",
+      "source_sha256": "453b1222916a8b14d0972b4a9df2c0ef1d47b7a29e9e78dd852c6e347f8240a7",
+      "line_start": 307,
+      "line_end": 319,
+      "line_count": 13,
+      "passage_sha256": "92d8ec743e61aef4c807e375a886bdab4e265b2de4e95cbdac60a1cbd4b8c3bc"
+    },
+    {
+      "source_id": "D04",
+      "source_file": "documents/D04_rts_2019_356_original.txt",
+      "source_sha256": "453b1222916a8b14d0972b4a9df2c0ef1d47b7a29e9e78dd852c6e347f8240a7",
+      "line_start": 605,
+      "line_end": 619,
+      "line_count": 15,
+      "passage_sha256": "6a1420d0d53cf73e853ce79c3086c82cc7ad7fae5145652dd2f3b3f6933e13ce"
+    },
+    {
+      "source_id": "D04",
+      "source_file": "documents/D04_rts_2019_356_original.txt",
+      "source_sha256": "453b1222916a8b14d0972b4a9df2c0ef1d47b7a29e9e78dd852c6e347f8240a7",
+      "line_start": 639,
+      "line_end": 676,
+      "line_count": 38,
+      "passage_sha256": "0ffcb2e1291fc77289ed29238726038c1356c9d72977f2701f940f23bce2020e"
+    },
+    {
+      "source_id": "D05",
+      "source_file": "documents/D05_its_2019_363_original.txt",
+      "source_sha256": "e04da70df030da6ab0ee9fe55f21c3f3d83a7dea31897838ebb9dc81036ea07b",
+      "line_start": 380,
+      "line_end": 405,
+      "line_count": 26,
+      "passage_sha256": "e7e343cdc2669ae571ffd54feff29d31fea9be2b062d71f3f99251a250377c8e"
+    },
+    {
+      "source_id": "D05",
+      "source_file": "documents/D05_its_2019_363_original.txt",
+      "source_sha256": "e04da70df030da6ab0ee9fe55f21c3f3d83a7dea31897838ebb9dc81036ea07b",
+      "line_start": 703,
+      "line_end": 719,
+      "line_count": 17,
+      "passage_sha256": "02bd80fea1fcf5ed4c7b6e03dd3b11bd9f315db2fae96ff0a1d9f5ec3d12ed5a"
+    },
+    {
+      "source_id": "D05",
+      "source_file": "documents/D05_its_2019_363_original.txt",
+      "source_sha256": "e04da70df030da6ab0ee9fe55f21c3f3d83a7dea31897838ebb9dc81036ea07b",
+      "line_start": 739,
+      "line_end": 759,
+      "line_count": 21,
+      "passage_sha256": "94e872e320f3bf485c1fb312876bcc171861eb17d6c90efc074ae37216521714"
+    },
+    {
+      "source_id": "D05",
+      "source_file": "documents/D05_its_2019_363_original.txt",
+      "source_sha256": "e04da70df030da6ab0ee9fe55f21c3f3d83a7dea31897838ebb9dc81036ea07b",
+      "line_start": 979,
+      "line_end": 1109,
+      "line_count": 131,
+      "passage_sha256": "d1fe34bf8f070afeb0c6fea6917c436ff6989ccc125dfbcfcd41352338741978"
+    }
+  ],
+  "source_line_count": 261,
+  "contains_reviewer_control_labels": false
+}

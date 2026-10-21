@@ -1,0 +1,445 @@
+SOURCE TEXT SNAPSHOT — D01
+Title: UK SFTR reporting obligation
+Publisher: FCA
+Source URL: https://www.fca.org.uk/markets/sftr/sftr-reporting-obligation
+Scope: UK
+Retrieved: 2026-10-21
+Representation: Web-tool text extraction; NOT the original PDF/HTML bytes.
+Coverage: All 431 numbered lines returned by the web extraction are present.
+Limitations: Text extraction may flatten tables, omit images, lose redline formatting, and join text across pages. Complete line coverage does not prove complete or faithful PDF extraction.
+Attribution: Source content belongs to the publisher identified above. Locally prepared wrapper and ordering; no regulatory endorsement.
+Line markers: L = web-extraction line; P = zero-based PDF page index. A P range marks a line spanning pages.
+
+--- BEGIN SOURCE TEXT ---
+L0: cite0†iframe†www.googletagmanager.com
+L1:
+L2: Search [Input]
+L3:
+L4: [Input][Input]
+L5:
+L6: Main navigation
+L7:
+L8:   * cite1†About us
+L9:
+L10: ### Contact us
+L11:
+L12: Get in touch by phone, via our online form, or by post:
+L13:
+L14:
+L15:
+L16: Financial Conduct Authority
+L17: 12 Endeavour Square
+L18: London E20 1JN
+L19:
+L20:
+L21:
+L22: cite2†Contact us
+L23:
+L24: #### What we do
+L25:
+L26:     * cite3†About the FCA
+L27:     * cite4†Enhancing market integrity
+L28:     * cite5†Promoting competition
+L29:     * cite6†Protecting consumers
+L30: #### How we regulate
+L31:
+L32:     * cite7†Authorisation
+L33:     * cite8†Enforcement
+L34:     * cite9†Handbook of rules and guidance
+L35:     * cite10†International standards and regulations
+L36:     * cite11†Supervision
+L37:
+L38: #### How we operate
+L39:
+L40:     * cite12†Complain about us, the PRA or the Bank of England (the regulators)
+L41:     * cite13†Corporate responsibility
+L42:     * cite14†Diversity, equity and inclusion: our progress
+L43:     * cite15†Environmental sustainability
+L44:     * cite16†Who we work with
+L45: #### Who we are
+L46:
+L47:     * cite17†Chair
+L48:     * cite18†Chief Executive
+L49:     * cite19†Committees
+L50:     * cite20†Executive committees
+L51:     * cite21†FCA Board
+L52:
+L53: #### Join us
+L54:
+L55:     * cite22†Careers home
+L56:     * cite23†Early careers
+L57:
+L58: cite24†Image: Our Strategy 2025 to 2030
+L59:
+L60: Our strategy 2025 to 2030
+L61:
+L62: Our vision and priorities for the next 5 years.
+L63:
+L64: cite25†How we work
+L65:
+L66:   * cite26†Firms
+L67:
+L68: ### Firms overview
+L69:
+L70: Go to our dedicated section to see support for firms and our latest policy updates.
+L71:
+L72:
+L73:
+L74: cite26†Find out more
+L75: #### cite27†Firm authorisation
+L76:
+L77:     * cite27†Authorisation
+L78:     * cite28†Cancelling an authorisation or registration
+L79:     * cite29†Check if a firm is authorised
+L80:     * cite30†How to apply for authorisation or registration
+L81:
+L82: #### Regulated firms
+L83:
+L84:     * cite26†All firms
+L85:     * cite31†Claims management companies
+L86:     * cite32†Consumer credit firms
+L87:     * cite33†Electronic money and payment institutions
+L88:     * cite34†Funeral plan providers and intermediaries
+L89:     * cite35†Innovation Hub
+L90:     * cite36†Mutual societies
+L91: #### cite37†Tasks for firms
+L92:
+L93:     * cite37†Approved persons
+L94:     * cite38†Change in control
+L95:     * cite39†Fees and levies
+L96:     * cite40†Keeping your firm's information up to date
+L97:     * cite41†Principals and appointed representatives
+L98: #### cite42†Focus areas
+L99:
+L100:     * cite43†AI: artificial intelligence in financial services
+L101:     * cite42†Consumer Duty
+L102:     * cite44†Cryptoassets
+L103:     * cite45†FCA support services for firms
+L104:     * cite46†Financial crime
+L105:     * cite47†Open banking and open finance
+L106:     * cite48†Senior Managers and Certification Regime
+L107:
+L108: cite49†Image: Regulatory priorities reports banner image
+L109:
+L110: Regulatory Priorities reports
+L111:
+L112: Our annual Regulatory Priorities reports provide specific key priorities for each sector.
+L113:
+L114: cite50†Find out more
+L115:
+L116:   * cite51†Markets
+L117: #### Primary markets
+L118:
+L119:     * cite52†Forms and checklists
+L120:     * cite53†Knowledge Base
+L121:     * cite54†Listing applications, amendments, suspensions and cancellations
+L122:     * cite55†Regulatory Disclosures
+L123:     * cite56†The sponsor regime
+L124:
+L125: #### Markets policy
+L126:
+L127:     * cite57†About LIBOR transition
+L128:     * cite58†Data reporting services providers
+L129:     * cite59†Securitisation
+L130:     * cite60†UK EMIR
+L131:     * cite61†UK Securities Financing Transactions Regulation (UK SFTR)
+L132: #### Regulated markets
+L133:
+L134:     * cite62†Benchmarks
+L135:     * cite63†Central securities depositories
+L136:
+L137: #### Market abuse
+L138:
+L139:     * cite64†How to report suspected market abuse as a firm or trading venue
+L140:     * cite65†How to report suspected market abuse as an individual
+L141:     * cite66†Market Abuse Regulation
+L142:
+L143: #### Short selling
+L144:
+L145:     * cite67†Exemptions from short-selling requirements
+L146:     * cite68†Notification and disclosure of net short positions
+L147:     * cite69†Short selling
+L148: #### Transaction reporting
+L149:
+L150:     * cite70†Instrument reference data
+L151:     * cite71†Transaction reporting
+L152:
+L153:   * cite72†Consumers
+L154:
+L155: ### Our Consumer section
+L156:
+L157: cite73†Image: Photo of a father pushing his daughter on a scooter
+L158:
+L159: See our dedicated section to help you stay up-to-date with financial services in the UK.
+L160:
+L161:
+L162:
+L163: cite72†Find out more
+L164: #### Your rights
+L165:
+L166:     * cite74†Considering a defined benefit pension transfer
+L167:     * cite75†FCA Firm Checker
+L168:     * cite76†High risk investments
+L169:     * cite77†How to check a firm or individual is authorised
+L170:     * cite78†Information for victims of financial crime
+L171:     * cite79†Your rights with financial services
+L172:
+L173: #### Complaints
+L174:
+L175:     * cite80†Car finance claims
+L176:     * cite81†Complain about a regulator
+L177:     * cite82†How to claim compensation if a firm fails
+L178:     * cite83†How to complain
+L179:     * cite84†Using claims management companies
+L180: #### Scams
+L181:
+L182:     * cite85†Crypto investment scams
+L183:     * cite86†Fake FCA communications
+L184:     * cite87†Loan fee fraud
+L185:     * cite88†Pension scams
+L186:     * cite89†Protect yourself from scams
+L187: #### Report a firm
+L188:
+L189:     * cite90†Misleading financial promotions
+L190:     * cite91†Report a payment services or e-money firm
+L191:     * cite92†Report a scam
+L192:     * cite93†Unfair contracts
+L193:
+L194: cite94†Image: FCA Warning List
+L195:
+L196: FCA Warning List
+L197:
+L198: Find our most up-to-date warnings of firms and individuals running scams or operating without authorisation.
+L199:
+L200: cite95†Read more
+L201:
+L202:   * cite96†News
+L203:
+L204: ### Sign up to receive daily alerts on the warnings we issue
+L205:
+L206: Receive new and updated warnings in a daily email.
+L207:
+L208:
+L209:
+L210: cite97†Sign up
+L211: #### cite96†News
+L212:
+L213:     * cite98†News stories
+L214:     * cite99†Press releases
+L215:     * cite100†Statements
+L216:     * cite101†Warnings
+L217:
+L218: #### Insights
+L219:
+L220:     * cite102†Blogs
+L221:     * cite103†Speeches
+L222:
+L223: #### Media library
+L224:
+L225:     * cite104†Images
+L226:     * cite105†Infographics
+L227:     * cite106†Podcasts
+L228:     * cite107†Video
+L229:
+L230: cite108†Image: Annual Public Meeting 2026 promo
+L231:
+L232: Annual Public Meeting 2026
+L233:
+L234: Tuesday 6 October 2026, Edinburgh and online
+L235:
+L236: cite109†Watch the recording†webinars.fca.org.uk
+L237:
+L238:   * cite110†Publications
+L239:
+L240: #### cite111†Policy and guidance
+L241: #### cite112†Corporate documents
+L242:
+L243: #### cite113†Notices and decisions
+L244:
+L245: #### cite114†Data
+L246:
+L247: #### cite115†Research
+L248:
+L249: #### cite116†Forms
+L250:
+L251: cite117†Image
+L252:
+L253: Open consultations
+L254:
+L255: See our current open consultations and the deadlines for giving feedback.
+L256:
+L257: cite118†Respond to our consultations
+L258:
+L259: # UK SFTR reporting obligation
+L260:
+L261: First published: 11/03/2020 Last updated: 25/11/2024 cite119†See all updates
+L262:
+L263: We explain the UK Securities Financing Transactions Regulation (SFTR) reporting requirements and what they mean for your firm.
+L264: ## On this page cite120†Image
+L265:
+L266:   * cite121†Note on UK SFTR reporting requirements
+L267:   * cite122†Choosing a TR
+L268:   * cite123†Who needs to report to a TR
+L269:   * cite124†Details to be reported
+L270:   * cite125†How to fulfil the UK SFTR reporting obligation
+L271:   * cite126†Reporting LEI of the Issuer
+L272:   * cite127†UK SFTR validation rules
+L273:   * cite128†Suspension of the reporting requirements
+L274: All UK counterparties and their third country branches must report details of the securities financing transactions (SFTs) they have concluded, modified or terminated to an FCA-registered or recognised trade repository (TR) under the UK SFTR reporting requirements.
+L275: ## Amended UK SFTR Validation Rules and XML Schemas
+L276:
+L277: On 1 August 2023, we published draft amendments to the Validation Rules and XML schemas to support the ongoing reporting of securities financing transactions under the UK Securities Financing Transactions Regulation (UK SFTR). The amendments are in response to industry feedback and to address data quality issues.
+L278:
+L279: On 23 October 2023, we published final versions of these documents that will go-live on 25 November 2024.
+L280: cite129†UK SFTR Validation rules (applicable from 25 November 2024).
+L281:
+L282: XML Schemas under UK SFTR (applicable from 25 November 2024).
+L283:
+L284:   * cite130†Incoming messages
+L285:   * cite131†Outgoing messages
+L286: ## UK SFTR errors and omissions notification form
+L287:
+L288: cite132†UK SFTR errors and omissions notification form†www.onlinesurveys.fca.org.uk
+L289:
+L290: You can use this form to notify us about any errors or omissions in your reports under Art. 4 of UK SFTR.
+L291:
+L292: You should note the following when completing the form:
+L293:   * If you have provided date(s)/timeframe(s) by which you intend to complete remediation of the reported issues, back report the impacted transactions, and/or carry out improvements in your systems and controls, we request an update is sent to us by the stated date(s)/timeframe(s).
+L294:   * If you are taking a multi-stage approach to remediation and have provided any date(s)/timeframe(s) by which the individual stages are expected to be completed, we request periodic updates by the stated date(s)/timeframe(s).
+L295:   * If you have been unable to fully answer any of the questions in the form but have stated a date(s)/timeframe(s) by which a complete answer will be available, we request that further information is sent to us by the stated date(s)/timeframe(s).
+L296: ## Note on UK SFTR reporting requirements
+L297:
+L298: We have published a cite133†note highlighting our expectations of firms in relation to their UK SFTR reporting requirements following the end of the transition period.
+L299:
+L300: ## Choosing a TR
+L301:
+L302: UK SFTR trade reports may only be submitted to TRs registered or recognised by us. Visit our cite134†TR webpage .
+L303: ## Who needs to report to a TR
+L304:
+L305: UK SFTR counterparties that enter into SFTs that are in scope of the UK SFTR, must report details of those transactions to an FCA-registered or recognised TR.
+L306:
+L307: UK branches of third-country financial counterparties (including branches of firms from EU27 countries) are in scope of the UK SFTR reporting regime and must report under the UK SFTR.
+L308: Third-country (including EU27) branches of UK established financial counterparties are in scope of the UK SFTR reporting regime and must report details of their SFTs to an FCA-registered or recognised TR.
+L309:
+L310: On 23 June 2020, a cite135†Written ministerial statement†questions-statements.parliament.uk was presented to Parliament confirming the UK approach to onshoring the SFTR.
+L311: The statement confirmed that given that systemically important NFC trading activity will be captured sufficiently through the other reporting obligations due to apply to financial counterparties, the UK will not implement or onshore the SFTR reporting obligation for non-financial counterparties (NFCs), which did not apply before the end of the transition period.
+L312:
+L313: UK NFCs (including third country branches of NFCs located in the UK) aren’t in scope of the UK SFTR reporting regime.
+L314: Where a UCITS managed by a management company is the counterparty to SFTs, the management company is responsible for reporting on behalf of that UCITS.
+L315:
+L316: Where an AIF is the counterparty to SFTs, its AIFM is responsible for reporting on behalf of that AIF.
+L317: Third country (including EU 27) Alternative Investment Funds (non-UK AIFs) are not in scope of the UK SFTR reporting regime. This includes instances where a non-UK AIF is managed by an Alternative Investment Fund Manager that is authorised or registered under the UK Alternative Investment Fund Regulations.
+L318:
+L319: However, SFTs concluded in the course of the operations of a branch of a non-UK AIF, are in scope of the UK SFTR reporting obligation.
+L320: ## Details to be reported
+L321:
+L322: The details to be reported are set out in the UK SFTR reporting technical standards (see the cite136†SFTR library ).
+L323: ## How to fulfil the UK SFTR reporting obligation
+L324:
+L325: The UK SFTR reporting requirements leverage substantially key aspects of derivatives reporting under UK EMIR.
+L326:   * Both counterparties must report their side of the SFT unless one party can report on behalf of both counterparties, by prior arrangement. Where one report is made on behalf of both counterparties, the report shall indicate this.
+L327:   * The UK SFTR technical standards set out what information needs to be submitted for each of the counterparties, and what information shall be submitted only once.
+L328:   * Either counterparty to the SFT may delegate reporting to a third party (such as a third-party service provider).
+L329:   * Where one counterparty reports on behalf of another counterparty, or a third party reports an SFT on behalf of one or both counterparties, the information reported must include the full set of details that would have been reported had the contracts been reported separately by each counterparty.
+L330: ## Reporting LEI of the Issuer
+L331:
+L332: Counterparties must report the Legal Entity Identifier (LEI of the Issuer in Fields 54 and 93 of Table 2 in line with the Annex of the UK SFTR reporting standards.
+L333: We note the different levels of LEI coverage between EEA and UK jurisdictions, and other jurisdictions more widely. So, until 13 April 2021, we will not prioritise supervision of this element of the UK SFTR validation rules. This will allow counterparties time to source LEI by liaising with issuers located outside the EEA and the UK.
+L334: ## UK SFTR validation rules
+L335:
+L336: UK SFTR reporting counterparties and UK TRs should use the cite137†UK SFTR validation rules when submitting SFTs entered into from 11pm on 31 December 2020 onwards.
+L337: ## Suspension of the reporting requirements
+L338:
+L339: The UK SFTR SI introduces a new power for us to suspend the UK SFTR reporting obligation for a period of up to 1 year, with the agreement of the Treasury.
+L340:
+L341: The use of this suspension power is limited to the event that there are no FCA-registered or recognised TRs available for UK counterparties to report to.
+L342:
+L343: [Button: Page updates]
+L344:
+L345: 25/11/2024 : Link changed updated link to errors and omissions notification form
+L346: 21/08/2024 : Document update SFTR message files updated
+L347:
+L348: 23/10/2023 : Information added Amended UK SFTR Validation Rules and XML Schemas
+L349:
+L350: 10/01/2023 : Editorial amendment December 2022 updates and page layout amended
+L351:
+L352: 31/03/2022 : Information changed To reflect that our use of the TTP has ended
+L353:
+L354: 24/11/2020 : Information added UK SFTR validation rules
+L355:
+L356: Was this page useful?
+L357:
+L358: [Input]Yes
+L359:
+L360: [Input]No
+L361:
+L362: What can we do to improve pages like this?
+L363:
+L364: What did you find helpful?
+L365:
+L366: [Input][Input]
+L367: [Button: Submit Feedback]
+L368:
+L369: [Input][Input] [Input][Input][Input][Input]
+L370:
+L371: Leave this field blank [Input]
+L372: ## On this page cite120†Image
+L373:
+L374:   * cite121†Note on UK SFTR reporting requirements
+L375:   * cite122†Choosing a TR
+L376:   * cite123†Who needs to report to a TR
+L377:   * cite124†Details to be reported
+L378:   * cite125†How to fulfil the UK SFTR reporting obligation
+L379:   * cite126†Reporting LEI of the Issuer
+L380:   * cite127†UK SFTR validation rules
+L381:   * cite128†Suspension of the reporting requirements
+L382: ## cite61†UK Securities Financing Transactions Regulation (UK SFTR)
+L383:
+L384: cite138†UK SFTR library
+L385:
+L386: UK SFTR reporting obligation
+L387:
+L388: cite139†UK SFTR news
+L389:
+L390:   * cite140†Accessibility
+L391:   * cite12†Complain about us
+L392:   * cite141†Copyright notice
+L393:   * cite13†Corporate responsibility
+L394:   * cite142†Cymraeg
+L395:   * cite143†Freedom of information
+L396:   * cite144†Modern Slavery and Human Trafficking Statement
+L397:   * cite145†Privacy
+L398:   * cite146†Sitemap
+L399: ## Registers and Systems cite147†Registers and Systems
+L400:
+L401:   * cite148†My FCA
+L402:   * cite149†Financial Services Register
+L403:   * cite9†FCA Handbook
+L404:   * cite150†Connect
+L405:   * cite151†RegData
+L406:   * cite152†Online Invoicing System
+L407:
+L408: ## Careers cite153†Careers
+L409:
+L410:   * cite154†Careers home
+L411:   * cite23†Early careers
+L412: ## Contact cite155†Contact
+L413:
+L414: FCA Head Office
+L415:
+L416: 12 Endeavour Square
+L417:
+L418: London E20 1JN
+L419:
+L420: cite2†Contact us
+L421:
+L422: Copyright © 2026 Financial Conduct Authority (FCA)
+L423:
+L424: All rights reserved.
+L425:
+L426: cite156†Back to top
+L427:
+L428: Registered in England and Wales
+L429:
+L430: (Company No. 01920623)
+

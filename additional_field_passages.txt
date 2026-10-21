@@ -1,0 +1,307 @@
+SFTR SOURCE PASSAGES
+Representation: mechanically selected passages from existing source-text snapshots.
+These are original EU technical-standard passages, not consolidated current UK rules.
+Tables may be flattened; retained source markers identify the parent document location.
+
+
+--- SOURCE D04: Commission Delegated Regulation (EU) 2019/356, original adopted text; L307-L319 ---
+Publisher: European Commission; legislation.gov.uk host
+URL: https://www.legislation.gov.uk/eur/2019/356/pdfs/eur_20190356_adopted_en.pdf
+
+L307@P6: 9 Master agreement
+L308@P6: type
+L309@P6: Reference to the master agreement type under which
+L310@P6: the counterparties concluded a SFT.
+L311@P6: Y Y Y N
+L312@P6: 10 Other master
+L313@P6: agreement type
+L314@P6: Name of the master agreement. This field shall only
+L315@P6: be completed where ‘OTHR’ is reported in field 9.
+L316@P6: Y Y Y N
+L317@P6: 11 Master agreement
+L318@P6: version
+L319@P6: Reference to the year of the master agreement relevant to the reported trade, if applicable. Y Y Y N
+
+
+--- SOURCE D04: Commission Delegated Regulation (EU) 2019/356, original adopted text; L605-L619 ---
+Publisher: European Commission; legislation.gov.uk host
+URL: https://www.legislation.gov.uk/eur/2019/356/pdfs/eur_20190356_adopted_en.pdf
+
+L605@P11: 68 Exclusive
+L606@P11: arrangements
+L607@P11: In the case of securities borrowing and lending, an indication of whether the borrower has exclusive access
+L608@P11: to borrow from the lender's securities portfolio.
+L609@P11: This field is not applicable to commodities.
+L610@P11: N N Y N
+L611@P11: 69 Outstanding margin
+L612@P11: loan
+L613@P11: Total amount of margin loans, in the base currency. N N N Y
+L614@P11: 70 Base currency of
+L615@P11: outstanding margin
+L616@P11: loan
+L617@P11: Base currency of outstanding margin loans. N N N Y
+L618@P11: 71 Short market value Market value of the short position, in the base currency.
+L619@P11: N N N Y
+
+
+--- SOURCE D04: Commission Delegated Regulation (EU) 2019/356, original adopted text; L639-L676 ---
+Publisher: European Commission; legislation.gov.uk host
+URL: https://www.legislation.gov.uk/eur/2019/356/pdfs/eur_20190356_adopted_en.pdf
+
+L639@P12: Where specific collateral was used, fields 75 to 94 shall be repeated and completed for each component of the collateral, where applicable.
+L640@P12: 75 Type of collateral
+L641@P12: component
+L642@P12: Indication of the type of collateral component. Y Y Y Y
+L643@P12: Where cash was used as collateral, this shall be specified in fields 76 and 77.
+L644@P12: 76 Cash collateral
+L645@P12: amount
+L646@P12: Amount of funds provided as collateral for the borrowing of securities or commodities.
+L647@P12: Y Y Y N
+L648@P12: 77 Cash collateral
+L649@P12: currency
+L650@P12: Currency of the cash collateral. Y Y Y N
+L651@P12: 78 Identification of
+L652@P12: a security used as
+L653@P12: collateral
+L654@P12: Identification of the security used as collateral.
+L655@P12: This field is not applicable to commodities.
+L656@P12: Y Y Y Y
+L657@P12: 79 Classification of
+L658@P12: a security used as
+L659@P12: collateral
+L660@P12: CFI code of the security used as collateral.
+L661@P12: This field is not applicable to commodities.
+L662@P12: Y Y Y Y
+L663@P12: Where a commodity was used as collateral, the classification of that commodity shall be specified in fields 80, 81 and 82.
+L664@P12: 80 Base product Base product as specified in the classification of commodities in Table 5 of Annex I of the Implementing
+L665@P12: Regulation (EU) 2019/363.
+L666@P12: Y Y Y N
+L667@P12: 81 Sub — product Sub — product as specified in the classification of
+L668@P12: commodities in Table 5 of Annex I of the Implementing Regulation (EU) 2019/363. This field requires
+L669@P12: a specific base product in field 80.
+L670@P12: Y Y Y N
+L671@P12: 82 Further sub —
+L672@P12: product
+L673@P12: Further sub — product as specified in the classification of commodities in Table 5 of Annex I of the
+L674@P12: Implementing Regulation (EU) 2019/363. This field
+L675@P12: requires a specific sub — product in field 81.
+L676@P12: Y Y Y N
+
+
+--- SOURCE D05: Commission Implementing Regulation (EU) 2019/363, original text; L380-L405 ---
+Publisher: European Commission; EUR-Lex
+URL: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019R0363
+
+L380@P8: ‘DERP’ - Deutscher Rahmenvertrag für Wertpapierpensionsgeschäfte
+L381@P8: ‘CNBR’ - China Bond Repurchase Master Agreement,
+L382@P8: ‘KRRA’ - Korea Financial Investment Association (KOFIA) Standard Repurchase
+L383@P8: Agreement
+L384@P8: ‘CARA’ - Investment Industry Regulatory Organization of Canada (IIROC) Repurchase/Reverse Repurchase Transaction Agreement
+L385@P8: ‘FRFB’ - Convention-Cadre Relative aux Operations de Pensions Livrees,
+L386@P8: ‘CHRA’ -Swiss Master Repurchase Agreement
+L387@P8: ‘DEMA’ - German Master Agreement
+L388@P8: ‘JPBR’ - Japanese Master Agreement on the Transaction with Repurchase Agreement
+L389@P8: of the Bonds
+L390@P8: ‘ESRA’ - Contrato Marco de compraventa y Reporto de valores
+L391@P8: ‘OSLA’ - Overseas Securities Lending Agreement (OSLA)
+L392@P8: ‘MEFI’ - Master Equity and Fixed Interest Stock Lending Agreement (MEFISLA)
+L393@P8: ‘GESL’ - Gilt Edged Stock Lending Agreement (GESLA)
+L394@P8: ‘KRSL’ - Korean Securities Lending Agreement (KOSLA)
+L395@P8: ‘DERD’ - Deutscher Rahmenvertrag für Wertpapierdarlehen
+L396@P8: ‘AUSL’ - Australian Masters Securities Lending Agreement (AMSLA)
+L397@P8: ‘JPBL’ - Japanese Master Agreement on Lending Transaction of Bonds
+L398@P8: ‘JPSL’ - Japanese Master Agreement on the Borrowing and Lending Transactions of
+L399@P8: Share Certificates
+L400@P8: ‘BIAG’ - bilateral agreement
+L401@P8: ‘CSDA’ - CSD bilateral agreement
+L402@P8: Or ‘OTHR’ if the master agreement type is not included in the above list
+L403@P8: 10 Other master agreement
+L404@P8: type
+L405@P8: Up to 50 alphanumeric characters.
+
+
+--- SOURCE D05: Commission Implementing Regulation (EU) 2019/363, original text; L703-L719 ---
+Publisher: European Commission; EUR-Lex
+URL: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019R0363
+
+L703@P14-15: 22.3.2019 EN Official Journal of the European Union L 81/99 No Field Format
+L704@P15: 68 Exclusive arrangements ‘true’
+L705@P15: ‘false’
+L706@P15: 69 Outstanding margin
+L707@P15: loan
+L708@P15: Up to 18 numeric characters including up to 5 decimals.
+L709@P15: The decimal mark is not counted as a numeric character. If populated, it shall be
+L710@P15: represented with a dot.
+L711@P15: 70 Base currency of
+L712@P15: outstanding margin
+L713@P15: loan
+L714@P15: ISO 4217 Currency Code, 3 alphabetic characters.
+L715@P15: 71 Short market value Up to 18 numeric characters including up to 5 decimals.
+L716@P15: The decimal mark is not counted as a numeric character. If populated, it shall be
+L717@P15: represented with a dot.
+L718@P15: Collateral data
+L719@P15: 72 Uncollateralised
+
+
+--- SOURCE D05: Commission Implementing Regulation (EU) 2019/363, original text; L739-L759 ---
+Publisher: European Commission; EUR-Lex
+URL: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019R0363
+
+L739@P15: Where cash was used as collateral, this shall be specified in fields 76 and 77.
+L740@P15: 76 Cash collateral amount Up to 18 numeric characters including up to 5 decimals.
+L741@P15: The decimal mark is not counted as a numeric character. If populated, it shall be
+L742@P15: represented with a dot.
+L743@P15: 77 Cash collateral currency ISO 4217 Currency Code, 3 alphabetic characters.
+L744@P15: 78 Identification of
+L745@P15: a security used as
+L746@P15: collateral
+L747@P15: ISO 6166 ISIN 12 character alphanumeric code.
+L748@P15: 79 Classification of
+L749@P15: a security used as
+L750@P15: collateral
+L751@P15: ISO 10692 CFI, 6 characters alphabetical code.
+L752@P15-16: L 81/100 EN Official Journal of the European Union 22.3.2019 No Field Format
+L753@P16: Where a commodity was used as collateral, the classification of that commodity shall be specified in fields 80, 81
+L754@P16: and 82.
+L755@P16: 80 Base product Only values in the ‘Base product’ column of the classification of commodities derivatives table are allowed.
+L756@P16: 81 Sub — product Only values in the ‘Sub — product’ column of the classification of commodities
+L757@P16: derivatives table are allowed.
+L758@P16: 82 Further sub — product Only values in the ‘Further sub — product’ of the classification of commodities
+L759@P16: derivatives table are allowed.
+
+
+--- SOURCE D05: Commission Implementing Regulation (EU) 2019/363, original text; L979-L1109 ---
+Publisher: European Commission; EUR-Lex
+URL: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019R0363
+
+L979@P20: Table 5
+L980@P20: Classification of commodities
+L981@P20: Base product Sub — product Further sub — product
+L982@P20: ‘AGRI’ - Agricultural ‘GROS’ - Grains Oil Seeds ‘FWHT’ - Feed Wheat
+L983@P20: ‘SOYB’ - Soybeans
+L984@P20: ‘CORN’ - Maize
+L985@P20: ‘RPSD’ – Rapeseed
+L986@P20: ‘RICE’ - Rice
+L987@P20: ‘OTHR’ - Other
+L988@P20-21: 22.3.2019 EN Official Journal of the European Union L 81/105 Base product Sub — product Further sub — product
+L989@P21: ‘SOFT’ - Softs ‘CCOA’ - Cocoa
+L990@P21: ‘ROBU’ - Robusta Coffee
+L991@P21: ‘WHSG’ - White Sugar
+L992@P21: ‘BRWN’ - Raw Sugar
+L993@P21: ‘OTHR’ - Other
+L994@P21: ‘POTA’- Potato
+L995@P21: ‘OOLI’- Olive oil ‘LAMP’ – ‘Lampante’
+L996@P21: ‘OTHR’ - Other
+L997@P21: ‘DIRY’- Dairy
+L998@P21: ‘FRST’ - Forestry
+L999@P21: ‘SEAF’ - Seafood
+L1000@P21: ‘LSTK’ - Livestock
+L1001@P21: ‘GRIN’ - Grain ‘MWHT’ - Milling Wheat
+L1002@P21: ‘OTHR’ - Other
+L1003@P21: ‘OTHR’ - Other
+L1004@P21: ‘NRGY’ – ‘Energy ‘ELEC’ -Electricity ‘BSLD’ - Base load
+L1005@P21: ‘FITR’ - Financial Transmission Rights
+L1006@P21: ‘PKLD’ - Peak load
+L1007@P21: ‘OFFP’ - Off-peak
+L1008@P21: ‘OTHR’ - Other
+L1009@P21: ‘NGAS’ - Natural Gas ‘GASP’ - GASPOOL
+L1010@P21: ‘LNGG’ - LNG
+L1011@P21: ‘NBPG’ - NBP
+L1012@P21: ‘NCGG’ - NCG
+L1013@P21: ‘TTFG’ – TTF
+L1014@P21: ‘OTHR’ - Other
+L1015@P21: ‘OILP’ -Oil ‘BAKK’ - Bakken
+L1016@P21: ‘BDSL’ - Biodiesel
+L1017@P21: ‘BRNT’ - Brent
+L1018@P21: ‘BRNX’ - Brent NX
+L1019@P21: ‘CNDA’ - Canadian
+L1020@P21: ‘COND’ - Condensate
+L1021@P21: ‘DSEL’ - Diesel
+L1022@P21: ‘DUBA’ - Dubai
+L1023@P21: ‘ESPO’ - ESPO
+L1024@P21: ‘ETHA’ - Ethanol
+L1025@P21: ‘FUEL’ - Fuel
+L1026@P21: ‘FOIL’ - Fuel Oil
+L1027@P21: ‘GOIL’ - Gasoil
+L1028@P21-22: L 81/106 EN Official Journal of the European Union 22.3.2019 Base product Sub — product Further sub — product
+L1029@P22: ‘GSLN’ - Gasoline
+L1030@P22: ‘HEAT’ - Heating Oil
+L1031@P22: ‘JTFL’ - Jet Fuel
+L1032@P22: ‘KERO’ - Kerosene
+L1033@P22: ‘LLSO’ - Light Louisiana Sweet (LLS)
+L1034@P22: ‘MARS’ - Mars
+L1035@P22: ‘NAPH’ - Naptha
+L1036@P22: ‘NGLO’ - NGL
+L1037@P22: ‘TAPI’ - Tapis
+L1038@P22: ‘URAL’ - Urals
+L1039@P22: ‘WTIO’ – WTI
+L1040@P22: ‘OTHR’ - Other
+L1041@P22: ‘COAL’- Coal
+L1042@P22: ‘INRG’ - Inter Energy
+L1043@P22: ‘RNNG’ - Renewable energy
+L1044@P22: ‘LGHT’ - Light ends
+L1045@P22: ‘DIST’ – Distillates
+L1046@P22: ‘OTHR’ - Other
+L1047@P22: ‘ENVR’ - Environmental ‘EMIS’ - Emissions ‘CERE’ - CER
+L1048@P22: ‘ERUE’ - ERU
+L1049@P22: ‘EUAE’ - EUA
+L1050@P22: ‘EUAA’ – EUAA
+L1051@P22: ‘OTHR’-Other
+L1052@P22: ‘WTHR’ - Weather
+L1053@P22: ‘CRBR’ - Carbon related’
+L1054@P22: ‘OTHR’ - Other
+L1055@P22: ‘FRGT’ -‘Freight’ ‘WETF’ - Wet ‘TNKR’ –Tankers
+L1056@P22: ‘OTHR’ - Other
+L1057@P22: ‘DRYF’ - Dry ‘DBCR’ - Dry bulk carriers
+L1058@P22: ‘OTHR’ - Other
+L1059@P22: ‘CSHP’ - Containerships
+L1060@P22: ‘OTHR’ - Other
+L1061@P22: ‘FRTL’ -‘Fertilizer’ ‘AMMO’ - Ammonia
+L1062@P22: ‘DAPH’ - DAP (Diammonium Phosphate)
+L1063@P22: ‘PTSH’ - Potash
+L1064@P22: ‘SLPH’ - Sulphur
+L1065@P22: ‘UREA’ - Urea
+L1066@P22: ‘UAAN’ - UAN (urea and ammonium
+L1067@P22: nitrate)
+L1068@P22: ‘OTHR’ - Other
+L1069@P22-23: 22.3.2019 EN Official Journal of the European Union L 81/107 Base product Sub — product Further sub — product
+L1070@P23: ‘INDP’ - Industrial products’ ‘CSTR’ - Construction
+L1071@P23: ‘MFTG’ - Manufacturing
+L1072@P23: ‘METL’ - Metals’ ‘NPRM’ - Non Precious ‘ALUM’ - Aluminium
+L1073@P23: ‘ALUA’ - Aluminium Alloy
+L1074@P23: ‘CBLT’ - Cobalt
+L1075@P23: ‘COPR’ - Copper
+L1076@P23: ‘IRON’ - Iron ore
+L1077@P23: ‘LEAD’ - Lead
+L1078@P23: ‘MOLY’ - Molybdenum
+L1079@P23: ‘NASC’ - NASAAC
+L1080@P23: ‘NICK’ - Nickel
+L1081@P23: ‘STEL’ - Steel
+L1082@P23: ‘TINN’ - Tin
+L1083@P23: ‘ZINC’ - Zinc
+L1084@P23: ‘OTHR’ - Other
+L1085@P23: ‘PRME’ - Precious ‘GOLD’ - Gold
+L1086@P23: ‘SLVR’ - Silver
+L1087@P23: ‘PTNM’ - Platinum
+L1088@P23: ‘PLDM’ - Palladium
+L1089@P23: ‘OTHR’ - Other
+L1090@P23: ‘MCEX’ - Multi Commodity Exotic’
+L1091@P23: ‘PAPR’ - Paper’ ‘CBRD’ - Containerboard
+L1092@P23: ‘NSPT’ - Newsprint
+L1093@P23: ‘PULP’ - Pulp
+L1094@P23: ‘RCVP’ - Recovered paper
+L1095@P23: ‘OTHR’ - Other
+L1096@P23: ‘POLY’ - Polypropylene’ ‘PLST’ – Plastic
+L1097@P23: ‘OTHR’ - Other
+L1098@P23: ‘INFL’ - Inflation’
+L1099@P23: ‘OEST’ - Official economic statistics’
+L1100@P23: ‘OTHC’ - Other C10 ‘as defined in Table 10.1 Section 10 of Annex III to
+L1101@P23: Commission Delegated Regulation
+L1102@P23: (EU) 2017/583 (
+L1103@P23: 1)
+L1104@P23: ‘OTHR’ - Other
+L1105@P23: (
+L1106@P23: 1) Commission Delegated Regulation (EU) 2017/583 of 14 July 2016 supplementing Regulation (EU) No 600/2014 of the European
+L1107@P23: Parliament and of the Council on markets in financial instruments with regard to regulatory technical standards on transparency
+L1108@P23: requirements for trading venues and investment firms in respect of bonds, structured finance products, emission allowances and
+L1109@P23: derivatives (OJ L 87, 31.3.2017, p. 229)

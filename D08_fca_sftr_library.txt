@@ -1,0 +1,397 @@
+SOURCE TEXT SNAPSHOT — D08
+Title: UK SFTR library
+Publisher: FCA
+Source URL: https://www.fca.org.uk/markets/sftr/sftr-library
+Scope: UK source index; legacy validation links
+Retrieved: 2026-10-21
+Representation: Web-tool text extraction; NOT the original PDF/HTML bytes.
+Coverage: All 383 numbered lines returned by the web extraction are present.
+Limitations: Text extraction may flatten tables, omit images, lose redline formatting, and join text across pages. Complete line coverage does not prove complete or faithful PDF extraction.
+Attribution: Source content belongs to the publisher identified above. Locally prepared wrapper and ordering; no regulatory endorsement.
+Line markers: L = web-extraction line; P = zero-based PDF page index. A P range marks a line spanning pages.
+
+--- BEGIN SOURCE TEXT ---
+L0: cite0†iframe†www.googletagmanager.com
+L1:
+L2: Search [Input]
+L3:
+L4: [Input][Input]
+L5:
+L6: Main navigation
+L7:
+L8:   * cite1†About us
+L9:
+L10: ### Contact us
+L11:
+L12: Get in touch by phone, via our online form, or by post:
+L13:
+L14:
+L15:
+L16: Financial Conduct Authority
+L17: 12 Endeavour Square
+L18: London E20 1JN
+L19:
+L20:
+L21:
+L22: cite2†Contact us
+L23:
+L24: #### What we do
+L25:
+L26:     * cite3†About the FCA
+L27:     * cite4†Enhancing market integrity
+L28:     * cite5†Promoting competition
+L29:     * cite6†Protecting consumers
+L30: #### How we regulate
+L31:
+L32:     * cite7†Authorisation
+L33:     * cite8†Enforcement
+L34:     * cite9†Handbook of rules and guidance
+L35:     * cite10†International standards and regulations
+L36:     * cite11†Supervision
+L37:
+L38: #### How we operate
+L39:
+L40:     * cite12†Complain about us, the PRA or the Bank of England (the regulators)
+L41:     * cite13†Corporate responsibility
+L42:     * cite14†Diversity, equity and inclusion: our progress
+L43:     * cite15†Environmental sustainability
+L44:     * cite16†Who we work with
+L45: #### Who we are
+L46:
+L47:     * cite17†Chair
+L48:     * cite18†Chief Executive
+L49:     * cite19†Committees
+L50:     * cite20†Executive committees
+L51:     * cite21†FCA Board
+L52:
+L53: #### Join us
+L54:
+L55:     * cite22†Careers home
+L56:     * cite23†Early careers
+L57:
+L58: cite24†Image: Our Strategy 2025 to 2030
+L59:
+L60: Our strategy 2025 to 2030
+L61:
+L62: Our vision and priorities for the next 5 years.
+L63:
+L64: cite25†How we work
+L65:
+L66:   * cite26†Firms
+L67:
+L68: ### Firms overview
+L69:
+L70: Go to our dedicated section to see support for firms and our latest policy updates.
+L71:
+L72:
+L73:
+L74: cite26†Find out more
+L75: #### cite27†Firm authorisation
+L76:
+L77:     * cite27†Authorisation
+L78:     * cite28†Cancelling an authorisation or registration
+L79:     * cite29†Check if a firm is authorised
+L80:     * cite30†How to apply for authorisation or registration
+L81:
+L82: #### Regulated firms
+L83:
+L84:     * cite26†All firms
+L85:     * cite31†Claims management companies
+L86:     * cite32†Consumer credit firms
+L87:     * cite33†Electronic money and payment institutions
+L88:     * cite34†Funeral plan providers and intermediaries
+L89:     * cite35†Innovation Hub
+L90:     * cite36†Mutual societies
+L91: #### cite37†Tasks for firms
+L92:
+L93:     * cite37†Approved persons
+L94:     * cite38†Change in control
+L95:     * cite39†Fees and levies
+L96:     * cite40†Keeping your firm's information up to date
+L97:     * cite41†Principals and appointed representatives
+L98: #### cite42†Focus areas
+L99:
+L100:     * cite43†AI: artificial intelligence in financial services
+L101:     * cite42†Consumer Duty
+L102:     * cite44†Cryptoassets
+L103:     * cite45†FCA support services for firms
+L104:     * cite46†Financial crime
+L105:     * cite47†Open banking and open finance
+L106:     * cite48†Senior Managers and Certification Regime
+L107:
+L108: cite49†Image: Regulatory priorities reports banner image
+L109:
+L110: Regulatory Priorities reports
+L111:
+L112: Our annual Regulatory Priorities reports provide specific key priorities for each sector.
+L113:
+L114: cite50†Find out more
+L115:
+L116:   * cite51†Markets
+L117: #### Primary markets
+L118:
+L119:     * cite52†Forms and checklists
+L120:     * cite53†Knowledge Base
+L121:     * cite54†Listing applications, amendments, suspensions and cancellations
+L122:     * cite55†Regulatory Disclosures
+L123:     * cite56†The sponsor regime
+L124:
+L125: #### Markets policy
+L126:
+L127:     * cite57†About LIBOR transition
+L128:     * cite58†Data reporting services providers
+L129:     * cite59†Securitisation
+L130:     * cite60†UK EMIR
+L131:     * cite61†UK Securities Financing Transactions Regulation (UK SFTR)
+L132: #### Regulated markets
+L133:
+L134:     * cite62†Benchmarks
+L135:     * cite63†Central securities depositories
+L136:
+L137: #### Market abuse
+L138:
+L139:     * cite64†How to report suspected market abuse as a firm or trading venue
+L140:     * cite65†How to report suspected market abuse as an individual
+L141:     * cite66†Market Abuse Regulation
+L142:
+L143: #### Short selling
+L144:
+L145:     * cite67†Exemptions from short-selling requirements
+L146:     * cite68†Notification and disclosure of net short positions
+L147:     * cite69†Short selling
+L148: #### Transaction reporting
+L149:
+L150:     * cite70†Instrument reference data
+L151:     * cite71†Transaction reporting
+L152:
+L153:   * cite72†Consumers
+L154:
+L155: ### Our Consumer section
+L156:
+L157: cite73†Image: Photo of a father pushing his daughter on a scooter
+L158:
+L159: See our dedicated section to help you stay up-to-date with financial services in the UK.
+L160:
+L161:
+L162:
+L163: cite72†Find out more
+L164: #### Your rights
+L165:
+L166:     * cite74†Considering a defined benefit pension transfer
+L167:     * cite75†FCA Firm Checker
+L168:     * cite76†High risk investments
+L169:     * cite77†How to check a firm or individual is authorised
+L170:     * cite78†Information for victims of financial crime
+L171:     * cite79†Your rights with financial services
+L172:
+L173: #### Complaints
+L174:
+L175:     * cite80†Car finance claims
+L176:     * cite81†Complain about a regulator
+L177:     * cite82†How to claim compensation if a firm fails
+L178:     * cite83†How to complain
+L179:     * cite84†Using claims management companies
+L180: #### Scams
+L181:
+L182:     * cite85†Crypto investment scams
+L183:     * cite86†Fake FCA communications
+L184:     * cite87†Loan fee fraud
+L185:     * cite88†Pension scams
+L186:     * cite89†Protect yourself from scams
+L187: #### Report a firm
+L188:
+L189:     * cite90†Misleading financial promotions
+L190:     * cite91†Report a payment services or e-money firm
+L191:     * cite92†Report a scam
+L192:     * cite93†Unfair contracts
+L193:
+L194: cite94†Image: FCA Warning List
+L195:
+L196: FCA Warning List
+L197:
+L198: Find our most up-to-date warnings of firms and individuals running scams or operating without authorisation.
+L199:
+L200: cite95†Read more
+L201:
+L202:   * cite96†News
+L203:
+L204: ### Sign up to receive daily alerts on the warnings we issue
+L205:
+L206: Receive new and updated warnings in a daily email.
+L207:
+L208:
+L209:
+L210: cite97†Sign up
+L211: #### cite96†News
+L212:
+L213:     * cite98†News stories
+L214:     * cite99†Press releases
+L215:     * cite100†Statements
+L216:     * cite101†Warnings
+L217:
+L218: #### Insights
+L219:
+L220:     * cite102†Blogs
+L221:     * cite103†Speeches
+L222:
+L223: #### Media library
+L224:
+L225:     * cite104†Images
+L226:     * cite105†Infographics
+L227:     * cite106†Podcasts
+L228:     * cite107†Video
+L229:
+L230: cite108†Image: Annual Public Meeting 2026 promo
+L231:
+L232: Annual Public Meeting 2026
+L233:
+L234: Tuesday 6 October 2026, Edinburgh and online
+L235:
+L236: cite109†Watch the recording†webinars.fca.org.uk
+L237:
+L238:   * cite110†Publications
+L239:
+L240: #### cite111†Policy and guidance
+L241: #### cite112†Corporate documents
+L242:
+L243: #### cite113†Notices and decisions
+L244:
+L245: #### cite114†Data
+L246:
+L247: #### cite115†Research
+L248:
+L249: #### cite116†Forms
+L250:
+L251: cite117†Image
+L252:
+L253: Open consultations
+L254:
+L255: See our current open consultations and the deadlines for giving feedback.
+L256:
+L257: cite118†Respond to our consultations
+L258:
+L259: # UK SFTR library
+L260:
+L261: First published: 11/03/2020 Last updated: 22/03/2023 cite119†See all updates
+L262:
+L263: See links to useful information on the UK Securities Financing Transactions Regulation (UK SFTR) to help you understand your requirements.
+L264: ## On this page cite120†Image
+L265:
+L266:   * cite121†UK statutory instruments
+L267:   * cite122†Onshoring of technical standards
+L268:   * cite123†UK SFTR validation rules
+L269:
+L270: This isn’t intended to be a comprehensive list and isn’t a substitute for your own research.
+L271:
+L272: Now the transition period has ended, the references below confirm the legislation that's applicable in the UK following the end of the transition period.
+L273: ## UK statutory instruments
+L274:   * The provisions of the EU SFTR that were operational before the end of the transition period have been brought into UK law by the European Union (Withdrawal Agreement) Act 2020. These statutory instruments make changes to onshored SFTR. cite124†The Transparency of Securities Financing Transactions and of Reuse (Amendment) (EU Exit) Regulations 2019 and Explanatory Memorandum†www.legislation.gov.uk
+L275:   * cite125†The Securities Financing Transactions, Securitisation and Miscellaneous Amendments (EU Exit) Regulations 2020†www.legislation.gov.uk
+L276: ## Onshoring of technical standards
+L277:
+L278: The EU technical standards that were operational during the transition period have been brought into UK law by the European Union (Withdrawal Agreement) Act 2020.
+L279:
+L280: Relevant instruments, which were made on 22 October 2020, are listed below. These instruments make changes to bring the standards into UK law. The UK technical standards may be found in the cite126†FCA’s Handbook†www.handbook.fca.org.uk .
+L281: cite127†The Technical Standards (Securities Financing Transactions Regulation) (EU Exit) (No 1) Instrument 2020†www.handbook.fca.org.uk makes changes to onshore the following technical standards:
+L282:   * cite128†Commission Delegated Regulation (EU) 2019/357 of 13 December 2018 supplementing Regulation (EU) 2015/2365 of the European Parliament and of the Council with regard to regulatory technical standards on access to details of securities financing transactions (SFTs) held in trade repositories†eur-lex.europa.eu
+L283:   * cite129†Commission Delegated Regulation (EU) 2019/358 of 13 December 2018 supplementing Regulation (EU) 2015/2365 of the European Parliament and of the Council with regard to regulatory technical standards on the collection, verification, aggregation, comparison and publication of data on securities financing transactions (SFTs) by trade repositories†eur-lex.europa.eu
+L284:   * cite130†Commission Delegated Regulation (EU) 2019/359 of 13 December 2018 supplementing Regulation (EU) 2015/2365 of the European Parliament and of the Council with regard to regulatory technical standards specifying the details of the application for registration and extension of registration as a trade repository†eur-lex.europa.eu
+L285:   * cite131†Commission Delegated Regulation (EU) 2019/364 of 13 December 2018 laying down implementing technical standards with regard to the format of applications for registration and extension of registration of trade repositories in accordance with Regulation (EU) 2015/2365 of the European Parliament and of the Council†eur-lex.europa.eu
+L286: cite132†The Technical Standards (Securities Financing Transactions Regulation (EU Exit) (No 2) Instrument 2020†www.handbook.fca.org.uk makes changes to onshore the following technical standards:
+L287:   * cite133†Commission Delegated Regulation (EU) 2019/356 of 13 December 2018 supplementing Regulation (EU) 2015/2365 of the European Parliament and of the Council with regard to regulatory technical standards specifying the details of securities financing transactions (SFTs) to be reported to trade repositories†eur-lex.europa.eu
+L288:   * cite134†Commission Implementing Regulation (EU) 2019/363 of 13 December 2018 laying down implementing technical standards with regard to the format and frequency of reports on the details of securities financing transactions (SFTs) to trade repositories in accordance with Regulation (EU) 2015/2365 of the European Parliament and of the Council and amending Commission Implementing Regulation (EU) No 1247/2012 with regard to the use of reporting codes in the reporting of derivative contracts†eur-lex.europa.eu
+L289: ## UK SFTR validation rules
+L290:
+L291: UK SFTR reporting counterparties and UK TRs should use the cite135†UK SFTR validation rules when submitting securities financing transactions (SFTs) entered into from 11pm on 31 December 2020 until 11 April 2022. On 14 October 2021, we published cite136†an update to the UK SFTR validation rules , which will apply from 11 April 2022.
+L292:
+L293: EU legislation and other documents applicable before the end of the transition period
+L294:
+L295: Find links to:
+L296:   * cite137†EU SFTR regulation: Regulation (EU) 2015/2365 of the European Parliament and of the Council of 25 November 2015 on transparency of securities financing transactions and of reuse and amending Regulation (EU) No 648/2012†eur-lex.europa.eu
+L297: ### Other useful documents
+L298:
+L299:   * cite138†ESMA guidelines on reporting under SFTR†www.esma.europa.eu
+L300:
+L301: [Button: Page updates]
+L302:
+L303: 22/03/2023 : Editorial amendment page updated as part of website refresh
+L304:
+L305: 25/10/2021 : Information changed UK SFTR validation rule amendments date changed from 14 to 11 April.
+L306:
+L307: 14/10/2021 : Information added Update to the UK SFTR validation rules.
+L308:
+L309: 03/12/2020 : Link added The Securities Financing Transactions, Securitisation and Miscellaneous Amendments (EU Exit) Regulations 2020)
+L310: 30/10/2020 : Information added The Technical Standards (Securities Financing Transactions Regulation (EU Exit) (No 2) Instrument 2020
+L311:
+L312: Was this page useful?
+L313:
+L314: [Input]Yes
+L315:
+L316: [Input]No
+L317:
+L318: What can we do to improve pages like this?
+L319:
+L320: What did you find helpful?
+L321:
+L322: [Input][Input]
+L323:
+L324: [Button: Submit Feedback]
+L325:
+L326: [Input][Input] [Input][Input][Input][Input]
+L327:
+L328: Leave this field blank [Input]
+L329: ## On this page cite120†Image
+L330:
+L331:   * cite121†UK statutory instruments
+L332:   * cite122†Onshoring of technical standards
+L333:   * cite123†UK SFTR validation rules
+L334: ## cite61†UK Securities Financing Transactions Regulation (UK SFTR)
+L335:
+L336: UK SFTR library
+L337:
+L338: cite139†UK SFTR reporting obligation
+L339:
+L340: cite140†UK SFTR news
+L341:
+L342:   * cite141†Accessibility
+L343:   * cite12†Complain about us
+L344:   * cite142†Copyright notice
+L345:   * cite13†Corporate responsibility
+L346:   * cite143†Cymraeg
+L347:   * cite144†Freedom of information
+L348:   * cite145†Modern Slavery and Human Trafficking Statement
+L349:   * cite146†Privacy
+L350:   * cite147†Sitemap
+L351: ## Registers and Systems cite148†Registers and Systems
+L352:
+L353:   * cite149†My FCA
+L354:   * cite150†Financial Services Register
+L355:   * cite9†FCA Handbook
+L356:   * cite151†Connect
+L357:   * cite152†RegData
+L358:   * cite153†Online Invoicing System
+L359:
+L360: ## Careers cite154†Careers
+L361:
+L362:   * cite155†Careers home
+L363:   * cite23†Early careers
+L364: ## Contact cite156†Contact
+L365:
+L366: FCA Head Office
+L367:
+L368: 12 Endeavour Square
+L369:
+L370: London E20 1JN
+L371:
+L372: cite2†Contact us
+L373:
+L374: Copyright © 2026 Financial Conduct Authority (FCA)
+L375:
+L376: All rights reserved.
+L377:
+L378: cite157†Back to top
+L379:
+L380: Registered in England and Wales
+L381:
+L382: (Company No. 01920623)
+

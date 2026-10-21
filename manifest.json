@@ -1,0 +1,33 @@
+{
+  "dataset_version": "seed-v1",
+  "schema_version": "0.1.0",
+  "recorded_at": "2026-10-21T18:42:25+00:00",
+  "method": "assistant_curated_not_independently_reviewed",
+  "source_ids": [
+    "D04",
+    "D05",
+    "D06"
+  ],
+  "field_ids": [
+    "2.2",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.9",
+    "2.10",
+    "2.12"
+  ],
+  "requirement_count": 9,
+  "node_count": 91,
+  "edge_count": 282,
+  "release_count": 0,
+  "files": {
+    "graph.json": "673077392f8856926b7f2521b2dfde5175bca51a8912f6f18d458155ad210bfc",
+    "nodes.jsonl": "66a28bc83a27852eb1c5cd03906583330ed555ae2e2c8b6f8b01358b2efb70ee",
+    "edges.jsonl": "3e341e63953403e043f2f6e147175ed31e89685d753eb610a554e0787848076e",
+    "graph.sqlite": "439e0409ea4eeeccfeba603c5e10b5ad528f3d50c032df450dc057c9bd48621d",
+    "graph.html": "68943a74acd3d2e7a294916492909c1ed4b5e17d6407045a30b3a029c7a45cf9",
+    "graph.mmd": "4d33f32f4212c4e063f6422748fea5aad39d5052a44012fe6578bd47c95571af",
+    "integrity_report.json": "e622ad8dc8eb64c05181b29fdea3e93c1f7ea8a0a55a79b7cf59f3cede6bacd1"
+  }
+}

@@ -1,0 +1,1032 @@
+SOURCE TEXT SNAPSHOT — D04
+Title: Commission Delegated Regulation (EU) 2019/356, original adopted text
+Publisher: European Commission; legislation.gov.uk host
+Source URL: https://www.legislation.gov.uk/eur/2019/356/pdfs/eur_20190356_adopted_en.pdf
+Scope: EU original; read with UK amendments
+Retrieved: 2026-10-21
+Representation: Web-tool text extraction; NOT the original PDF/HTML bytes.
+Coverage: All 1017 numbered lines returned by the web extraction are present.
+Original PDF page count reported by web tool: 21
+Limitations: Text extraction may flatten tables, omit images, lose redline formatting, and join text across pages. Complete line coverage does not prove complete or faithful PDF extraction.
+Attribution: Source content belongs to the publisher identified above. Locally prepared wrapper and ordering; no regulatory endorsement.
+Line markers: L = web-extraction line; P = zero-based PDF page index. A P range marks a line spanning pages.
+
+--- BEGIN SOURCE TEXT ---
+L0@P0: II
+L1@P0: (Non-legislative acts)
+L2@P0: REGULATIONS
+L3@P0: COMMISSION DELEGATED REGULATION (EU) 2019/356
+L4@P0: of 13 December 2018
+L5@P0: supplementing Regulation (EU) 2015/2365 of the European Parliament and of the Council with
+L6@P0: regard to regulatory technical standards specifying the details of securities financing transactions
+L7@P0: (SFTs) to be reported to trade repositories
+L8@P0: (Text with EEA relevance)
+L9@P0: THE EUROPEAN COMMISSION,
+L10@P0: Having regard to the Treaty on the Functioning of the European Union,
+L11@P0: Having regard to Regulation (EU) 2015/2365 of the European Parliament and of the Council of 25 November 2015 on
+L12@P0: transparency of securities financing transactions and of reuse and amending Regulation (EU) No 648/2012 (
+L13@P0: 1
+L14@P0: ), and in
+L15@P0: particular Article 4(9) thereof,
+L16@P0: Whereas:
+L17@P0: (1) To increase efficiency and leverage similarities between the reporting of derivatives and the reporting of securities
+L18@P0: financing transactions (‘SFTs’), the obligation to report the details of SFTs to trade repositories pursuant to
+L19@P0: Article 4 of Regulation (EU) 2015/2365 should be aligned with the obligation to report derivative transactions to
+L20@P0: trade repositories pursuant to Article 9 of Regulation (EU) No 648/2012 of the European Parliament and of the
+L21@P0: Council (
+L22@P0: 2
+L23@P0: ). The reporting requirements that specify the details of SFTs should therefore be similar to the
+L24@P0: reporting requirements that specify the details of derivative contracts.
+L25@P0: (2) To ensure the efficiency and usefulness of reported information on SFTs, the specific details of the SFTs to be
+L26@P0: reported should be adapted to the different types of SFTs identified in Regulation (EU) 2015/2365. With regards
+L27@P0: to reporting margin lending transactions, the purpose of Regulation (EU) 2015/2365 is to capture transactions
+L28@P0: that serve the same purpose as repurchase transactions, buy-sell back transactions or securities lending
+L29@P0: transactions and therefore pose similar risks to financial stability by allowing the build-up of leverage, procyclicality and interconnectedness in financial markets or by contributing to liquidity and maturity transformation. While margin lending therefore includes transactions subject to margin agreements between financial
+L30@P0: institutions and their clients where financial institutions provide prime brokerage services to their clients, it does
+L31@P0: not include other loans such as loans for corporate restructuring purposes which, despite the possibility of
+L32@P0: involving securities, do not contribute to the systemic risks addressed by Regulation (EU) 2015/2365.
+L33@P0: (3) It is important that the details of any SFT cleared by a central counterparty are correctly reported and can be
+L34@P0: easily identified, irrespective of whether that SFT was cleared on the same date or on a later date than the date on
+L35@P0: which that SFT was concluded.
+L36@P0: (4) To ensure comprehensive reporting where specific details of the collateral are not known on the day of the trade,
+L37@P0: counterparties should update information on the collateral as soon as that information becomes available to the
+L38@P0: counterparties, and no later than the working day following the value date of that SFT.
+L39@P0: 22.3.2019 EN Official Journal of the European Union L 81/1
+L40@P0: (
+L41@P0: 1
+L42@P0: ) OJ L 337, 23.12.2015, p. 1.
+L43@P0: (
+L44@P0: 2
+L45@P0: ) Regulation (EU) No 648/2012 of the European Parliament and of the Council of 4 July 2012 on OTC derivatives, central counterparties
+L46@P0-1: and trade repositories (OJ L 201, 27.7.2012, p. 1). (5) To provide more useful information to the authorities that access the details of SFTs in trade repositories, counterparties should report to the trade repositories the International Securities Identification Number (‘ISIN’) of any
+L47@P1: collateral basket they use to provide collateral to an SFT, if that basket has an ISIN.
+L48@P1: (6) Where counterparties provide collateral on a net exposure basis, resulting from the offsetting of a number of
+L49@P1: SFTs between two counterparties, a specific allocation of collateral to an individual SFT is often not possible, and
+L50@P1: hence the collateral allocation may not be known. In those situations, counterparties should be able to report
+L51@P1: collateral independently of the underlying loan.
+L52@P1: (7) This Regulation is based on the draft regulatory technical standards submitted by the European Securities and
+L53@P1: Markets Authority (‘ESMA’) to the Commission pursuant to the procedure in Article 10 of Regulation (EU)
+L54@P1: No 1095/2010 of the European Parliament and of the Council (
+L55@P1: 3
+L56@P1: ).
+L57@P1: (8) ESMA has conducted open public consultations on these draft regulatory technical standards, analysed the
+L58@P1: potential related costs and benefits and requested the opinion of the ESMA Securities and Markets Stakeholder
+L59@P1: Group established in accordance with Article 37 of Regulation (EU) No 1095/2010,
+L60@P1: HAS ADOPTED THIS REGULATION:
+L61@P1: Article 1
+L62@P1: Details of SFTs to be reported
+L63@P1: 1. A report made pursuant to Article 4(1) of Regulation (EU) 2015/2365 shall include the complete and accurate
+L64@P1: details set out in Tables 1, 2, 3 and 4 of the Annex that pertain to the SFT concerned.
+L65@P1: 2. When reporting the conclusion of an SFT, a counterparty shall specify in its report the action type ‘New’ in
+L66@P1: Field 98 in Table 2 of the Annex to this Regulation. Any subsequent reports of the details of that SFT shall specify in
+L67@P1: Field 98 in Table 2 of the Annex to this Regulation the relevant action type that relates to that SFT.
+L68@P1: Article 2
+L69@P1: SFTs cleared by central counterparties
+L70@P1: 1. An SFT whose details have already been reported pursuant to Article 4(1) of Regulation (EU) 2015/2365 and
+L71@P1: which is subsequently cleared by a central counterparty, shall be reported, once cleared, as terminated by specifying in
+L72@P1: Field 98 of Table 2 of the Annex the action type ‘Termination/Early Termination’, and the new SFTs resulting from the
+L73@P1: clearing shall be reported.
+L74@P1: 2. An SFT that is concluded on a trading venue and that is cleared by a central counterparty on the same day shall
+L75@P1: only be reported after that SFT has been cleared.
+L76@P1: 3. A counterparty shall, for the margin posted or received for a cleared SFT, report the details set out in Table 3 of
+L77@P1: the Annex to this Regulation and specify the relevant action type laid down in Field 20 of that Table of the Annex.
+L78@P1: Article 3
+L79@P1: Collateral reporting
+L80@P1: 1. Counterparties to a securities or commodities lending or a securities or commodities borrowing transaction that
+L81@P1: agree that no collateral shall be provided, shall specify this in Field 72 of Table 2 of the Annex.
+L82@P1: 2. Where the collateral of an SFT is linked to an individual loan and the details of the collateral are known by the
+L83@P1: counterparty by the reporting deadline, the counterparty shall specify the complete and accurate details of all of the
+L84@P1: individual collateral components of that SFT in Fields 75 to 94 of Table 2 of the Annex when reporting this SFT for the
+L85@P1: first time with the action type ‘New’ in Field 98 of Table 2 of the Annex.
+L86@P1: L 81/2 EN Official Journal of the European Union 22.3.2019
+L87@P1: (
+L88@P1: 3
+L89@P1: ) Regulation (EU) No 1095/2010 of the European Parliament and of the Council of 24 November 2010 establishing a European
+L90@P1: Supervisory Authority (European Securities and Markets Authority), amending Decision No 716/2009/EC and repealing Commission
+L91@P1-2: Decision 2009/77/EC (OJ L 331, 15.12.2010, p. 84). 3. Where the collateral of an SFT is linked to an individual loan, but the details of the collateral are not known by the
+L92@P2: counterparty by the reporting deadline, the counterparty shall specify, with the action type ‘Collateral update’ in Field 98
+L93@P2: of Table 2 of the Annex, the complete and accurate details of all of the individual collateral components of that SFT in
+L94@P2: Fields 75 to 94 of Table 2 of the Annex as soon as they are known and no later than the working day following the
+L95@P2: value date specified in Field 13 of Table 2 of the Annex.
+L96@P2: 4. A counterparty collateralising one or more SFTs with a collateral basket that is identified by an International
+L97@P2: Securities Identification Number (‘ISIN’), shall specify the ISIN in Field 96 of Table 2 of the Annex when reporting it
+L98@P2: with the action type ‘New’ in Field 98 of Table 2 of the Annex.
+L99@P2: 5. A counterparty collateralising one or more SFTs with a collateral basket that is not identified by an ISIN, shall
+L100@P2: specify the code ‘NTAV’ in Field 96 of Table 2 of the Annex when reporting the SFT with the action type ‘New’ in
+L101@P2: Field 98 of Table 2 of the Annex.
+L102@P2: 6. For the purpose of paragraphs 4 and 5, the counterparty shall also specify, with the action type ‘Collateral update’
+L103@P2: in Field 98 of Table 2 of the Annex, the complete and accurate details of all the individual collateral components of that
+L104@P2: SFT in Fields 75 to 94 of Table 2 of the Annex as soon as those details are known and no later than the working day
+L105@P2: following the value date specified in Field 13 of Table 2 of the Annex.
+L106@P2: 7. A counterparty collateralising several SFTs on a net exposure basis shall specify the value ‘true’ in Field 73 of
+L107@P2: Table 2 of the Annex. That counterparty shall specify, with the action type ‘Collateral update’ in Field 98 of Table 2 of
+L108@P2: the Annex, the complete and accurate details of all of the individual collateral components of these SFTs in Fields 75
+L109@P2: to 94 of Table 2 of the Annex as soon as those details are known and no later than the working day following the value
+L110@P2: date specified in Field 13 of Table 2 of the Annex.
+L111@P2: Article 4
+L112@P2: Reporting of reuse of collateral
+L113@P2: 1. A counterparty receiving one or several financial instruments as collateral in a SFT shall specify the complete and
+L114@P2: accurate details of any reuse of each of those financial instruments in Fields 7, 8 and 9 of Table 4 of the Annex.
+L115@P2: 2. A counterparty receiving cash as collateral in a SFT shall specify the complete and accurate details of all cash
+L116@P2: collateral reinvestment for each currency in Fields 11, 12 and 13 of Table 4 of the Annex.
+L117@P2: Article 5
+L118@P2: Entry into force
+L119@P2: This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the
+L120@P2: European Union.
+L121@P2: This Regulation shall be binding in its entirety and directly applicable in all Member States.
+L122@P2: Done at Brussels, 13 December 2018.
+L123@P2: For the Commission
+L124@P2: The President
+L125@P2: Jean-Claude JUNCKER
+L126@P2-3: 22.3.2019 EN Official Journal of the European Union L 81/3 ANNEX
+L127@P3: Table 1
+L128@P3: Counterparty data
+L129@P3: No Field Details to be reported Repo BSB SL ML
+L130@P3: 1 Reporting timestamp Date and time of submission of the report to the
+L131@P3: trade repository.
+L132@P3: Y Y Y Y
+L133@P3: 2 Report submitting
+L134@P3: entity
+L135@P3: Unique code identifying the entity which submits the
+L136@P3: report. Where the submission of the report has been
+L137@P3: delegated to a third party or to the other counterparty, a unique code identifying that entity.
+L138@P3: Y Y Y Y
+L139@P3: 3 Reporting
+L140@P3: counterparty
+L141@P3: Unique code identifying the reporting counterparty. Y Y Y Y
+L142@P3: 4 Nature of the
+L143@P3: reporting
+L144@P3: counterparty
+L145@P3: Indication of whether the reporting counterparty is
+L146@P3: a financial or non-financial counterparty.
+L147@P3: Y Y Y Y
+L148@P3: 5 Sector of the
+L149@P3: reporting
+L150@P3: counterparty
+L151@P3: One or more codes that classify the nature of the reporting counterparty's business activities.
+L152@P3: Where the reporting counterparty is a financial counterparty, all relevant codes included in the taxonomy
+L153@P3: for financial counterparties and applying to that
+L154@P3: counterparty.
+L155@P3: Where the reporting counterparty is a non-financial
+L156@P3: counterparty, all relevant codes included in the taxonomy for non-financial counterparties and applying to
+L157@P3: that counterparty.
+L158@P3: Where more than one activity is reported, the codes
+L159@P3: shall be specified in order of the relative importance
+L160@P3: of the corresponding activities.
+L161@P3: Y Y Y Y
+L162@P3: 6 Additional sector
+L163@P3: classification
+L164@P3: Where the reporting counterparty is an Undertaking
+L165@P3: for Collective Investment in Transferable Securities
+L166@P3: (UCITS) or Alternative Investment Fund (AIF), a code
+L167@P3: that determines whether it is an Exchange-Traded
+L168@P3: Fund (ETF) or a Money Market Fund (MMF)
+L169@P3: Where the reporting counterparty is an Alternative
+L170@P3: Investment Fund (AIF) or a non-financial counterparty undertaking financial and insurance activities or
+L171@P3: real estate activities, a code that determines whether
+L172@P3: it is a Real Estate Investment Trust (REIT)
+L173@P3: Y Y Y Y
+L174@P3: 7 Branch of the
+L175@P3: reporting
+L176@P3: counterparty
+L177@P3: Where the reporting counterparty concludes an SFT
+L178@P3: through a branch office, the code identifying the
+L179@P3: branch.
+L180@P3: Y Y Y Y
+L181@P3: 8 Branch of the other
+L182@P3: counterparty
+L183@P3: Where the other counterparty concludes an SFT
+L184@P3: through a branch office, the code identifying the
+L185@P3: branch.
+L186@P3: Y Y Y Y
+L187@P3-4: L 81/4 EN Official Journal of the European Union 22.3.2019 No Field Details to be reported Repo BSB SL ML
+L188@P4: 9 Counterparty side Indication of whether the reporting counterparty is
+L189@P4: a collateral provider or a collateral taker in accordance with Article 4 of the Commission Implementing
+L190@P4: Regulation (EU) 2019/363 (
+L191@P4: 1
+L192@P4: )
+L193@P4: Y Y Y Y
+L194@P4: 10 Entity responsible
+L195@P4: for the report
+L196@P4: Where a financial counterparty is responsible for
+L197@P4: reporting on behalf of the other counterparty in
+L198@P4: accordance with Article 4(3) of Regulation (EU)
+L199@P4: No 2365/2015 of the Parliament and of the
+L200@P4: Council (
+L201@P4: 2
+L202@P4: ), the unique code identifying that financial
+L203@P4: counterparty.
+L204@P4: Where a management company is responsible for
+L205@P4: reporting on behalf of an Undertaking for Collective
+L206@P4: Investment in Transferable Securities (UCITS) in accordance with Article 4(3) of that Regulation the unique code identifying that management company.
+L207@P4: Where an Alternative Investment Fund Manager
+L208@P4: (AIFM) is responsible for reporting on behalf of an
+L209@P4: Alternative Investment Fund (AIF) in accordance with
+L210@P4: Article 4(3) of Regulation (EU) No 2365/2015, the
+L211@P4: unique code identifying that AIFM.
+L212@P4: Y Y Y Y
+L213@P4: 11 Other counterparty Unique code identifying the entity with which the reporting counterparty concluded the SFT. In case of
+L214@P4: a private individual, a client code shall be specified in
+L215@P4: a consistent manner.
+L216@P4: Y Y Y Y
+L217@P4: 12 Country of the other
+L218@P4: Counterparty
+L219@P4: Code of the country where the registered office of the
+L220@P4: other counterparty is located or code of the country
+L221@P4: of residence in case that the other counterparty is
+L222@P4: a natural person.
+L223@P4: Y Y Y Y
+L224@P4: 13 Beneficiary Where the beneficiary of the contract is not a counterparty to this contract, the reporting counterparty has
+L225@P4: to identify this beneficiary by specifying a unique
+L226@P4: code or, in case of a private individual, by specifying
+L227@P4: a client code used in a consistent manner as assigned
+L228@P4: by the legal entity used by that private individual.
+L229@P4: Y Y Y N
+L230@P4: 14 Tri-party agent Unique code identifying the third party to which the
+L231@P4: reporting counterparty has outsourced the post-trade
+L232@P4: processing of an SFT (if applicable).
+L233@P4: Y Y Y N
+L234@P4: 15 Broker Unique code of the entity that acts as intermediary
+L235@P4: for the reporting counterparty without becoming
+L236@P4: a counterparty to the SFT itself. For securities lending
+L237@P4: transactions, a broker does not include the agent
+L238@P4: lender.
+L239@P4: Y Y Y N
+L240@P4: 22.3.2019 EN Official Journal of the European Union L 81/5
+L241@P4: (
+L242@P4: 1
+L243@P4: ) Commission Implementing Regulation (EU) 2019/363 of 13 December 2018 laying down implementing technical standards with
+L244@P4: regard to the format and frequency of reports on the details of securities financing transactions (SFTs) to trade repositories in
+L245@P4: accordance with Regulation (EU) 2015/2365 of the European Parliament and of the Council and amending Implementing
+L246@P4: Regulation (EU) No 1247/2012 with regard to the use of reporting codes in the reporting of derivative contracts (See page 85 of
+L247@P4: this Official Journal).
+L248@P4: (
+L249@P4: 2
+L250@P4: ) Regulation (EU) 2015/2365 of the European Parliament and of the Council of 25 November 2015 on transparency of securities
+L251@P4-5: financing transactions and of reuse and amending Regulation (EU) No 648/2012 (OJ L 337, 23.12.2015, p. 1). No Field Details to be reported Repo BSB SL ML
+L252@P5: 16 Clearing member Where the trade is cleared, unique code identifying
+L253@P5: the responsible clearing member of the reporting
+L254@P5: counterparty.
+L255@P5: Y Y Y N
+L256@P5: 17 Central Securities
+L257@P5: Depository (‘CSD’)
+L258@P5: participant or
+L259@P5: indirect participant
+L260@P5: Unique code of the CSD participant or indirect participant of the reporting counterparty.
+L261@P5: Where both the CSD participant and indirect participant are involved in the transaction, the code of the
+L262@P5: indirect participant.
+L263@P5: This field is not applicable to commodities.
+L264@P5: Y Y Y N
+L265@P5: 18 Agent lender Unique code of the agent lender involved in the securities lending transaction. Y N Y N
+L266@P5: Table 2
+L267@P5: Loan and collateral data
+L268@P5: No Field Details to be reported Repo BSB SL ML
+L269@P5: 1 Unique Transaction
+L270@P5: Identifier (‘UTI’)
+L271@P5: Unique reference assigned to the SFT in order to identify the trade. Y Y Y Y
+L272@P5: 2 Report tracking
+L273@P5: number
+L274@P5: In the case of transactions resulting from clearing, the
+L275@P5: prior UTI, namely the UTI of the original bilateral
+L276@P5: transaction shall be reported. However, the prior UTI
+L277@P5: is not required to be reported by counterparties that
+L278@P5: are central counterparties (‘CCP's’) which have cleared
+L279@P5: the SFT.
+L280@P5: Where an SFT was executed on a trading venue and
+L281@P5: cleared on the same day, a number generated by the
+L282@P5: trading venue and unique to that execution.
+L283@P5: Y Y Y N
+L284@P5: 3 Event date Date on which the reportable event relating to the
+L285@P5: SFT and captured by the report took place. In the
+L286@P5: case of action types ‘Valuation update’, ‘Collateral update’, ‘Reuse update’, ‘Margin update’, the date for
+L287@P5: which the information contained in the report is
+L288@P5: provided.
+L289@P5: Y Y Y Y
+L290@P5: 4 Type of SFT Type of SFT transaction as defined in paragraphs (7)
+L291@P5: to (10) of Article 3 of Regulation (EU)
+L292@P5: No 2365/2015.
+L293@P5: Y Y Y Y
+L294@P5: 5 Cleared Indication of whether central clearing has taken place. Y Y Y N
+L295@P5: 6 Clearing timestamp Time and date when clearing took place. Y Y Y N
+L296@P5: 7 CCP Where a contract has been cleared, the unique code
+L297@P5: for the CCP that has cleared the contract.
+L298@P5: Y Y Y N
+L299@P5-6: L 81/6 EN Official Journal of the European Union 22.3.2019 No Field Details to be reported Repo BSB SL ML
+L300@P6: 8 Trading venue Unique code identifying the venue of execution of the
+L301@P6: SFT.
+L302@P6: Where the SFT was concluded over the counter and it
+L303@P6: is admitted to trading, the MIC code ‘XOFF’.
+L304@P6: Where the SFT was concluded over the counter and it
+L305@P6: is not admitted to trading, the MIC code ‘XXXX’.
+L306@P6: Y Y Y N
+L307@P6: 9 Master agreement
+L308@P6: type
+L309@P6: Reference to the master agreement type under which
+L310@P6: the counterparties concluded a SFT.
+L311@P6: Y Y Y N
+L312@P6: 10 Other master
+L313@P6: agreement type
+L314@P6: Name of the master agreement. This field shall only
+L315@P6: be completed where ‘OTHR’ is reported in field 9.
+L316@P6: Y Y Y N
+L317@P6: 11 Master agreement
+L318@P6: version
+L319@P6: Reference to the year of the master agreement relevant to the reported trade, if applicable. Y Y Y N
+L320@P6: 12 Execution timestamp Date and time when the SFT was executed. Y Y Y Y
+L321@P6: 13 Value date (Start
+L322@P6: date)
+L323@P6: Date contractually agreed between the counterparties
+L324@P6: for the exchange of cash, securities, or commodities
+L325@P6: versus collateral for the opening leg (spot leg) of the
+L326@P6: SFT.
+L327@P6: Y Y Y N
+L328@P6: 14 Maturity date (End
+L329@P6: date)
+L330@P6: Date contractually agreed between the counterparties
+L331@P6: for the exchange of cash, securities, or commodities
+L332@P6: versus collateral for the closing leg (forward leg) of
+L333@P6: the SFT. This information shall not be reported for
+L334@P6: open term repos.
+L335@P6: Y Y Y N
+L336@P6: 15 Termination date Termination date in the case of a full early termination of the SFT. Y Y Y Y
+L337@P6: 16 Minimum notice
+L338@P6: period
+L339@P6: Minimum number of business days that one of the
+L340@P6: counterparties has to inform the other counterparty
+L341@P6: of the termination of the transaction.
+L342@P6: Y N N N
+L343@P6: 17 Earliest call-back
+L344@P6: date
+L345@P6: Earliest date that the cash lender has the right to call
+L346@P6: back a portion of the funds or to terminate the transaction.
+L347@P6: Y N N N
+L348@P6: 18 General collateral
+L349@P6: Indicator
+L350@P6: Indication of whether the SFT is subject to a general
+L351@P6: collateral arrangement. In the case of a securities
+L352@P6: lending transaction, the field refers to securities provided as collateral, and not to the security provided
+L353@P6: on loan.
+L354@P6: Y Y Y N
+L355@P6-7: 22.3.2019 EN Official Journal of the European Union L 81/7 No Field Details to be reported Repo BSB SL ML
+L356@P7: The code ‘GENE’ shall be specified for an SFT which
+L357@P7: is subject to a general collateral arrangement. A general collateral arrangement specifies a collateral arrangement for a transaction in which the collateral
+L358@P7: giver may choose the security to be provided as collateral amongst a relatively wide range of securities
+L359@P7: satisfying predefined criteria.
+L360@P7: The code ‘SPEC’ shall be specified for an SFT which is
+L361@P7: subject to a specific collateral arrangement. A specific
+L362@P7: collateral arrangement specifies a collateral arrangement for a transaction in which the collateral taker
+L363@P7: requests a specific International Securities Identification Number (‘ISIN’) to be provided by the collateral
+L364@P7: provider.
+L365@P7: 19 Delivery By Value
+L366@P7: (‘DBV’) indicator
+L367@P7: Indication of whether the transaction was settled
+L368@P7: using the DBV mechanism.
+L369@P7: Y N Y N
+L370@P7: 20 Method used to
+L371@P7: provide collateral
+L372@P7: Indication of whether the collateral in the SFT is subject to a title transfer collateral arrangement, a security
+L373@P7: financial collateral arrangement, or a security financial collateral arrangement with a right of use.
+L374@P7: Where more than one method was used to provide
+L375@P7: collateral, the primary collateral arrangement shall be
+L376@P7: specified in this field.
+L377@P7: Y N Y Y
+L378@P7: 21 Open term Indication of whether the SFT is open term (which
+L379@P7: has no fixed maturity date) or fixed term with a contractually agreed maturity date.
+L380@P7: The code ‘True’ shall be specified for open term SFTs,
+L381@P7: and the code ‘False’ for fixed term SFTs.
+L382@P7: Y N Y N
+L383@P7: 22 Termination
+L384@P7: optionality
+L385@P7: Indication of whether the SFT is an evergreen or an
+L386@P7: extendable SFT.
+L387@P7: Y N Y N
+L388@P7: In the case of margin lending, fields 23 to 34 shall be repeated and completed for each currency used in the margin loan.
+L389@P7: 23 Fixed rate In the case of repos, the annualised interest rate on
+L390@P7: the principal amount of the repurchase transaction in
+L391@P7: accordance with the day count conventions.
+L392@P7: In the case of margin lending, the annualised interest
+L393@P7: rate on the loan value that the borrower pays to the
+L394@P7: lender.
+L395@P7: Y N N Y
+L396@P7-8: L 81/8 EN Official Journal of the European Union 22.3.2019 No Field Details to be reported Repo BSB SL ML
+L397@P8: 24 Day count
+L398@P8: convention
+L399@P8: Method of calculating the accrued interest on the
+L400@P8: principal amount for a rate.
+L401@P8: Y N N Y
+L402@P8: 25 Floating rate Indication of the reference interest rate used which is
+L403@P8: reset at predetermined intervals by reference to a market reference rate, if applicable.
+L404@P8: Y N N Y
+L405@P8: 26 Floating rate
+L406@P8: reference period —
+L407@P8: time period
+L408@P8: Time period describing the reference period of the
+L409@P8: floating rate.
+L410@P8: Y N N Y
+L411@P8: 27 Floating rate
+L412@P8: reference period —
+L413@P8: multiplier
+L414@P8: Multiplier for the time period describing the reference
+L415@P8: period of the floating rate specified in field 26.
+L416@P8: Y N N Y
+L417@P8: 28 Floating rate
+L418@P8: payment frequency
+L419@P8: — time period
+L420@P8: Time period describing the frequency of payments
+L421@P8: subject to the floating rate.
+L422@P8: Y N N Y
+L423@P8: 29 Floating rate
+L424@P8: payment frequency
+L425@P8: — multiplier
+L426@P8: Multiplier for the time period describing the payment
+L427@P8: frequency for the floating rate specified in field 28.
+L428@P8: Y N N Y
+L429@P8: 30 Floating rate reset
+L430@P8: frequency — time
+L431@P8: period
+L432@P8: Time period describing the frequency of the floating
+L433@P8: rate resets.
+L434@P8: Y N N Y
+L435@P8: 31 Floating rate reset
+L436@P8: frequency —
+L437@P8: multiplier
+L438@P8: Multiplier for the time period describing the frequency for the floating rate resets specified in field 30. Y N N Y
+L439@P8: 32 Spread Number of basis points to be added to or subtracted
+L440@P8: from the floating interest rate in order to determine
+L441@P8: the interest rate of the loan.
+L442@P8: Y N N Y
+L443@P8: 33 Margin lending
+L444@P8: currency amount
+L445@P8: Amount of a margin loan in a given currency. N N N Y
+L446@P8: 34 Margin lending
+L447@P8: currency
+L448@P8: Currency of the margin loan. N N N Y
+L449@P8: Fields 35 and 36 shall be repeated and completed for each floating rate adjustment.
+L450@P8: 35 Adjusted rate Rate as determined by the rate schedule. Y N N N
+L451@P8-9: 22.3.2019 EN Official Journal of the European Union L 81/9 No Field Details to be reported Repo BSB SL ML
+L452@P9: 36 Rate date Date from which the rate is effective. Y N N N
+L453@P9: 37 Principal amount on
+L454@P9: the value date
+L455@P9: Cash value to be settled as of the value date of the
+L456@P9: transaction.
+L457@P9: Y Y N N
+L458@P9: 38 Principal amount on
+L459@P9: the maturity date
+L460@P9: Cash value to be settled as of the maturity date of the
+L461@P9: transaction.
+L462@P9: Y Y N N
+L463@P9: 39 Principal amount
+L464@P9: currency
+L465@P9: Currency of the principal amount. Y Y N N
+L466@P9: 40 Type of asset Indication of the type of asset that is the subject of
+L467@P9: the SFT.
+L468@P9: N N Y N
+L469@P9: 41 Security identifier Identification of the security that is the subject of the
+L470@P9: SFT.
+L471@P9: This field is not applicable to commodities.
+L472@P9: N N Y N
+L473@P9: 42 Classification of
+L474@P9: a security
+L475@P9: Classification of Financial Instruments (‘CFI’) code of
+L476@P9: the security that is the subject of the SFT.
+L477@P9: This field is not applicable to commodities
+L478@P9: N N Y N
+L479@P9: Where a commodity was lent or borrowed, the classification of that commodity shall be specified in fields 43, 44 and 45.
+L480@P9: 43 Base product Base product as specified in the classification of commodities in Table 5 of Annex I of the Implementing
+L481@P9: Regulation (EU) 2019/363.
+L482@P9: N N Y N
+L483@P9: 44 Sub — product Sub — product as specified in the classification of
+L484@P9: commodities in Table 5 of Annex I of the Implementing Regulation (EU) 2019/363.
+L485@P9: This field requires a specific base product in field 43.
+L486@P9: N N Y N
+L487@P9: 45 Further sub —
+L488@P9: product
+L489@P9: Further sub product as specified in the classification
+L490@P9: of commodities table.
+L491@P9: This field requires a specific sub product in field 44.
+L492@P9: N N Y N
+L493@P9: 46 Quantity or nominal
+L494@P9: amount
+L495@P9: Quantity or nominal amount of the security or commodity subject of the SFT.
+L496@P9: In the case of a bond, the total nominal amount
+L497@P9: which means the number of bonds multiplied by
+L498@P9: their face value.
+L499@P9: In the case of other securities or commodities, their
+L500@P9: quantity.
+L501@P9: N N Y N
+L502@P9: 47 Unit of measure Unit of measure in which the quantity is expressed.
+L503@P9: This field is applicable to commodities.
+L504@P9: N N Y N
+L505@P9: 48 Currency of nominal
+L506@P9: amount
+L507@P9: In the case where the nominal amount is reported,
+L508@P9: the currency of the nominal amount.
+L509@P9: N N Y N
+L510@P9-10: L 81/10 EN Official Journal of the European Union 22.3.2019 No Field Details to be reported Repo BSB SL ML
+L511@P10: 49 Security or
+L512@P10: commodity price
+L513@P10: In the case of securities and commodities lending and
+L514@P10: borrowing, the price of the security or commodity
+L515@P10: used to calculate the loan value.
+L516@P10: In the case of a buy-sell back, the price of the security
+L517@P10: or commodity used to calculate the trade amount for
+L518@P10: the spot leg of the buy-sell back.
+L519@P10: N Y Y N
+L520@P10: 50 Price currency Currency in which the security or commodity price is
+L521@P10: denominated.
+L522@P10: N N Y N
+L523@P10: 51 Security quality Code that classifies the credit risk of the security. N N Y N
+L524@P10: 52 Maturity of the
+L525@P10: security
+L526@P10: Maturity of the security.
+L527@P10: This field is not applicable to commodities.
+L528@P10: N N Y N
+L529@P10: 53 Jurisdiction of the
+L530@P10: issuer
+L531@P10: Jurisdiction of the issuer of the security. In case of securities issued by a foreign subsidiary, the jurisdiction
+L532@P10: of the ultimate parent company or, if not known, the
+L533@P10: jurisdiction of the subsidiary.
+L534@P10: This field is not applicable to commodities.
+L535@P10: N N Y N
+L536@P10: 54 LEI of the issuer LEI of the issuer of the security.
+L537@P10: This field is not applicable to commodities.
+L538@P10: N N Y N
+L539@P10: 55 Security type Code that classifies the type of the security. N N Y N
+L540@P10: 56 Loan value Loan value, namely the quantity or nominal amount
+L541@P10: of the loan multiplied by the price contained in
+L542@P10: field 49.
+L543@P10: N N Y N
+L544@P10: 57 Market value Market value of the securities or commodities on
+L545@P10: loan or borrowed.
+L546@P10: N N Y N
+L547@P10: 58 Fixed rebate rate Fixed interest rate (rate agreed to be paid by the lender for the reinvestment of the cash collateral minus
+L548@P10: any lending fee) paid by the lender of the security or
+L549@P10: commodity to the borrower (positive rebate rate) or
+L550@P10: by the borrower to the lender (negative rebate rate)
+L551@P10: on the balance of the provided cash collateral.
+L552@P10: N N Y N
+L553@P10: 59 Floating rebate rate Indication of the reference interest rate used to calculate the rebate rate (rate agreed to be paid by the lender for the reinvestment of the cash collateral minus
+L554@P10: any lending fee) paid by the lender of the security or
+L555@P10: commodity to the borrower (positive rebate rate) or
+L556@P10: by the borrower to the lender (negative rebate rate)
+L557@P10: on the balance of the provided cash collateral.
+L558@P10: N N Y N
+L559@P10: 60 Floating rebate rate
+L560@P10: reference period —
+L561@P10: time period
+L562@P10: Time period describing the reference period of the
+L563@P10: floating rebate rate.
+L564@P10: N N Y N
+L565@P10-11: 22.3.2019 EN Official Journal of the European Union L 81/11 No Field Details to be reported Repo BSB SL ML
+L566@P11: 61 Floating rebate rate
+L567@P11: reference period —
+L568@P11: multiplier
+L569@P11: Multiplier for the time period describing the reference
+L570@P11: period for the floating rebate rate specified in field 60.
+L571@P11: N N Y N
+L572@P11: 62 Floating rebate rate
+L573@P11: payment frequency
+L574@P11: — time period
+L575@P11: Time period describing the frequency of the payments
+L576@P11: for the floating rebate rate.
+L577@P11: N N Y N
+L578@P11: 63 Floating rebate rate
+L579@P11: payment frequency
+L580@P11: — multiplier
+L581@P11: Multiplier for the time period describing the payment
+L582@P11: frequency for the floating rebate rate specified in
+L583@P11: field 62.
+L584@P11: N N Y N
+L585@P11: 64 Floating rebate rate
+L586@P11: reset frequency —
+L587@P11: time period
+L588@P11: Time period describing the frequency of the floating
+L589@P11: rebate rate resets.
+L590@P11: N N Y N
+L591@P11: 65 Floating rebate rate
+L592@P11: reset frequency —
+L593@P11: multiplier
+L594@P11: Multiplier for the time period describing the frequency of the floating rebate rate reset specified in
+L595@P11: field 64.
+L596@P11: N N Y N
+L597@P11: 66 Spread of the rebate
+L598@P11: rate
+L599@P11: Spread for the floating rebate rate expressed in basis
+L600@P11: points.
+L601@P11: N N Y N
+L602@P11: 67 Lending fee Fee that the borrower of the security or commodity
+L603@P11: pays to the lender.
+L604@P11: N N Y N
+L605@P11: 68 Exclusive
+L606@P11: arrangements
+L607@P11: In the case of securities borrowing and lending, an indication of whether the borrower has exclusive access
+L608@P11: to borrow from the lender's securities portfolio.
+L609@P11: This field is not applicable to commodities.
+L610@P11: N N Y N
+L611@P11: 69 Outstanding margin
+L612@P11: loan
+L613@P11: Total amount of margin loans, in the base currency. N N N Y
+L614@P11: 70 Base currency of
+L615@P11: outstanding margin
+L616@P11: loan
+L617@P11: Base currency of outstanding margin loans. N N N Y
+L618@P11: 71 Short market value Market value of the short position, in the base currency.
+L619@P11: N N N Y
+L620@P11-12: L 81/12 EN Official Journal of the European Union 22.3.2019 No Field Details to be reported Repo BSB SL ML
+L621@P12: Collateral data
+L622@P12: 72 Uncollateralised
+L623@P12: Securities Lending
+L624@P12: (‘SL’) flag
+L625@P12: Indication of whether the SL transaction is uncollateralised.
+L626@P12: This field shall not be used when the counterparties
+L627@P12: agree to collateralise the trade but the specific allocation of collateral is not yet known.
+L628@P12: N N Y N
+L629@P12: 73 Collateralisation of
+L630@P12: net exposure
+L631@P12: Indication of whether the collateral has been provided
+L632@P12: for a net exposure, rather than for a single transaction.
+L633@P12: Y Y Y N
+L634@P12: 74 Value date of the
+L635@P12: collateral
+L636@P12: Where trades have been collateralised on a net exposure basis, the latest value date contained in the netting set of SFTs, taking into consideration all of the
+L637@P12: transactions for which the collateral was provided.
+L638@P12: Y Y Y N
+L639@P12: Where specific collateral was used, fields 75 to 94 shall be repeated and completed for each component of the collateral, where applicable.
+L640@P12: 75 Type of collateral
+L641@P12: component
+L642@P12: Indication of the type of collateral component. Y Y Y Y
+L643@P12: Where cash was used as collateral, this shall be specified in fields 76 and 77.
+L644@P12: 76 Cash collateral
+L645@P12: amount
+L646@P12: Amount of funds provided as collateral for the borrowing of securities or commodities.
+L647@P12: Y Y Y N
+L648@P12: 77 Cash collateral
+L649@P12: currency
+L650@P12: Currency of the cash collateral. Y Y Y N
+L651@P12: 78 Identification of
+L652@P12: a security used as
+L653@P12: collateral
+L654@P12: Identification of the security used as collateral.
+L655@P12: This field is not applicable to commodities.
+L656@P12: Y Y Y Y
+L657@P12: 79 Classification of
+L658@P12: a security used as
+L659@P12: collateral
+L660@P12: CFI code of the security used as collateral.
+L661@P12: This field is not applicable to commodities.
+L662@P12: Y Y Y Y
+L663@P12: Where a commodity was used as collateral, the classification of that commodity shall be specified in fields 80, 81 and 82.
+L664@P12: 80 Base product Base product as specified in the classification of commodities in Table 5 of Annex I of the Implementing
+L665@P12: Regulation (EU) 2019/363.
+L666@P12: Y Y Y N
+L667@P12: 81 Sub — product Sub — product as specified in the classification of
+L668@P12: commodities in Table 5 of Annex I of the Implementing Regulation (EU) 2019/363. This field requires
+L669@P12: a specific base product in field 80.
+L670@P12: Y Y Y N
+L671@P12: 82 Further sub —
+L672@P12: product
+L673@P12: Further sub — product as specified in the classification of commodities in Table 5 of Annex I of the
+L674@P12: Implementing Regulation (EU) 2019/363. This field
+L675@P12: requires a specific sub — product in field 81.
+L676@P12: Y Y Y N
+L677@P12-13: 22.3.2019 EN Official Journal of the European Union L 81/13 No Field Details to be reported Repo BSB SL ML
+L678@P13: 83 Collateral quantity or
+L679@P13: nominal amount
+L680@P13: Quantity or nominal amount of the security or commodity used as collateral.
+L681@P13: In the case of a bond, the total nominal amount
+L682@P13: which means the number of bonds multiplied by the
+L683@P13: face value.
+L684@P13: In the case of other securities or commodities, their
+L685@P13: quantity.
+L686@P13: Y Y Y Y
+L687@P13: 84 Collateral unit of
+L688@P13: measure
+L689@P13: Unit of measure in which the collateral quantity is
+L690@P13: specified. This field is applicable to commodities.
+L691@P13: Y Y Y N
+L692@P13: 85 Currency of
+L693@P13: collateral nominal
+L694@P13: amount
+L695@P13: In the case where the collateral nominal amount is
+L696@P13: reported, the currency of the nominal amount.
+L697@P13: Y Y Y Y
+L698@P13: 86 Price currency Currency of the price of the collateral component. Y Y Y Y
+L699@P13: 87 Price per unit Price per unit in respect of the collateral component,
+L700@P13: including accrued interest for interest-bearing securities used to value the security or commodity.
+L701@P13: Y Y Y Y
+L702@P13: 88 Collateral market
+L703@P13: value
+L704@P13: Market value of the individual collateral component
+L705@P13: expressed in price currency.
+L706@P13: Y Y Y Y
+L707@P13: 89 Haircut or margin For repos and buy-sell backs, any collateral haircut
+L708@P13: shall be specified by reference to any risk control
+L709@P13: measure applied to the underlying collateral, at ISIN
+L710@P13: level, whereby the value of that underlying collateral
+L711@P13: is calculated as the market value of the assets reduced
+L712@P13: by a certain percentage.
+L713@P13: For securities lending, the percentage of any collateral
+L714@P13: haircut shall be specified by reference to any risk control measure applied to the underlying collateral,
+L715@P13: either at ISIN or portfolio-level, whereby the value of
+L716@P13: that underlying collateral is calculated as the market
+L717@P13: value of the assets reduced by a certain percentage.
+L718@P13: For margin lending, the percentage of the margin requirement applied to the entire collateral portfolio
+L719@P13: held in a client's prime brokerage account.
+L720@P13: Actual values, as opposed to estimated or default values shall be specified in this field.
+L721@P13: Y Y Y Y
+L722@P13: 90 Collateral quality Code that classifies the risk of the security used as
+L723@P13: collateral.
+L724@P13: Y Y Y Y
+L725@P13: 91 Maturity date of the
+L726@P13: security
+L727@P13: Maturity date of the security used as collateral.
+L728@P13: This field is not applicable to commodities.
+L729@P13: Y Y Y Y
+L730@P13-14: L 81/14 EN Official Journal of the European Union 22.3.2019 No Field Details to be reported Repo BSB SL ML
+L731@P14: 92 Jurisdiction of the
+L732@P14: issuer
+L733@P14: Jurisdiction of the issuer of the security used as collateral. In case of securities issued by a foreign subsidiary, the jurisdiction of the ultimate parent company
+L734@P14: shall be reported or, if not known, the jurisdiction of
+L735@P14: the subsidiary.
+L736@P14: This field is not applicable to commodities
+L737@P14: Y Y Y Y
+L738@P14: 93 LEI of the issuer LEI of the issuer of the security used as collateral.
+L739@P14: This field is not applicable to commodities.
+L740@P14: Y Y Y Y
+L741@P14: 94 Collateral type Code that classifies the type of the security used as
+L742@P14: collateral.
+L743@P14: 95 Availability for
+L744@P14: collateral reuse
+L745@P14: Indication of whether the collateral taker can reuse
+L746@P14: the securities provided as a collateral.
+L747@P14: Y Y Y Y
+L748@P14: Field 96 shall be specified in the case where a collateral basket was used. The detailed allocation of collateral for SFTs transacted
+L749@P14: against a collateral pool shall be specified in fields 75 to 94 when available.
+L750@P14: 96 Collateral basket
+L751@P14: identifier
+L752@P14: Where the collateral basket can be identified with an
+L753@P14: ISIN, the ISIN of the collateral basket.
+L754@P14: Where the collateral basket cannot be identified with
+L755@P14: an ISIN, this field shall be completed with the code
+L756@P14: ‘NTAV’.
+L757@P14: Y Y Y N
+L758@P14: 97 Portfolio code Where the transaction is cleared and is included in
+L759@P14: a portfolio of transactions for which margins are exchanged, the portfolio shall be identified by a unique
+L760@P14: code determined by the reporting counterparty.
+L761@P14: Where the portfolio of transactions also includes derivative contracts reportable under Regulation (EU)
+L762@P14: No 648/2012, the portfolio code shall be the same as
+L763@P14: that reported under Regulation (EU) No 648/2012.
+L764@P14: Y Y Y N
+L765@P14: 98 Action type The report shall contain one of the following action
+L766@P14: types:
+L767@P14: (a) a SFT reported for the first time shall be identified
+L768@P14: as ‘New’;
+L769@P14: (b) a modification of a previously reported SFT shall
+L770@P14: be identified as ‘Modification’. This includes an
+L771@P14: update to a previous report showing a position in
+L772@P14: order to reflect new trades included in that position;
+L773@P14: (c) a valuation of the security or commodity subject
+L774@P14: to a securities or commodities lending transaction
+L775@P14: shall be identified as ‘Valuation Update’;
+L776@P14: Y Y Y Y
+L777@P14-15: 22.3.2019 EN Official Journal of the European Union L 81/15 No Field Details to be reported Repo BSB SL ML
+L778@P15: (d) a modification of the details of collateral data, including its valuation, shall be identified as ‘Collateral update’;
+L779@P15: (e) a cancellation of a wrongly submitted entire report where the SFT never came into existence or
+L780@P15: was not subject to SFT reporting requirements
+L781@P15: but which was reported to a trade repository by
+L782@P15: mistake shall be identified as ‘Error’;
+L783@P15: (f) a correction of data fields that were submitted
+L784@P15: wrongly in a previous report shall be identified as
+L785@P15: ‘Correction’;
+L786@P15: (g) a termination of an open term SFT or an early termination of a fixed term SFT shall be identified as
+L787@P15: ‘Termination/Early termination’;
+L788@P15: (h) a SFT that is to be reported as a new trade and
+L789@P15: also included in a separate position report on the
+L790@P15: same day shall be identified as a ‘Position component’.
+L791@P15: 99 Level Indication of whether the report is done at trade or
+L792@P15: position level.
+L793@P15: Position level reporting can be used only as a supplement to trade level reporting to report post-trade
+L794@P15: events and only if the individual trades in fungible
+L795@P15: products have been replaced by the position.
+L796@P15: Y Y Y N
+L797@P15: Table 3
+L798@P15: Margin data
+L799@P15: No Field Details to be reported Repo BSB SL ML
+L800@P15: 1 Reporting timestamp Date and time of submission of the report to the
+L801@P15: trade repository.
+L802@P15: Y Y Y N
+L803@P15: 2 Event date Date on which the reportable event relating to the
+L804@P15: SFT and captured by the report took place. In the
+L805@P15: case of action types ‘Valuation update’, ‘Collateral update’, ‘Reuse update’, ‘Margin update’, the date for
+L806@P15: which the information contained in the report is provided.
+L807@P15: Y Y Y N
+L808@P15: 3 Report submitting
+L809@P15: entity
+L810@P15: Unique code identifying the entity which submits the
+L811@P15: report. In the case where the submission of the report
+L812@P15: has been delegated to a third party or to the other
+L813@P15: counterparty, the unique code identifying that entity.
+L814@P15: Y Y Y N
+L815@P15-16: L 81/16 EN Official Journal of the European Union 22.3.2019 No Field Details to be reported Repo BSB SL ML
+L816@P16: 4 Reporting
+L817@P16: Counterparty
+L818@P16: Unique code identifying the reporting counterparty. Y Y Y N
+L819@P16: 5 Entity responsible
+L820@P16: for the report
+L821@P16: Where a financial counterparty is responsible for
+L822@P16: reporting on behalf of the other counterparty in
+L823@P16: accordance with Article 4(3) of Regulation (EU)
+L824@P16: No 2365/2015, the unique code identifying that
+L825@P16: financial counterparty.
+L826@P16: Where a management company is responsible for
+L827@P16: reporting on behalf of an Undertaking for Collective
+L828@P16: Investment in Transferable Securities (UCITS) in
+L829@P16: accordance with Article 4(3) of Regulation (EU)
+L830@P16: No 2365/2015, the unique code identifying that
+L831@P16: management company.
+L832@P16: Where an Alternative Investment Fund Manager
+L833@P16: (AIFM) is responsible for reporting on behalf of an
+L834@P16: Alternative Investment Fund (AIF) in accordance with
+L835@P16: Article 4(3) of Regulation (EU) No 2365/2015, the
+L836@P16: unique code identifying that AIFM.
+L837@P16: Y Y Y Y
+L838@P16: 6 Other counterparty Unique code identifying the entity with whom the reporting counterparty concluded the SFT Y Y Y N
+L839@P16: 7 Portfolio code The portfolio of transactions for which margins are
+L840@P16: exchanged shall be identified by a unique code determined by the reporting counterparty.
+L841@P16: Where the portfolio of transactions also includes derivative contracts reportable under Regulation (EU)
+L842@P16: No 648/2012, the portfolio code shall be the same as
+L843@P16: that reported under Regulation (EU) No 648/2012.
+L844@P16: Y Y Y N
+L845@P16: 8 Initial margin posted Value of the initial margin posted by the reporting
+L846@P16: counterparty to the other counterparty.
+L847@P16: Where the initial margin is posted on a portfolio basis, this field shall specify the overall value of initial
+L848@P16: margin posted for the portfolio.
+L849@P16: Y Y Y N
+L850@P16: 9 Currency of the
+L851@P16: initial margin posted
+L852@P16: Currency of the initial margin posted. Y Y Y N
+L853@P16: 10 Variation margin
+L854@P16: posted
+L855@P16: Value of the variation margin posted, including the
+L856@P16: value of cash settled, by the reporting counterparty to
+L857@P16: the other counterparty.
+L858@P16: Where the variation margin is posted on a portfolio
+L859@P16: basis, this field shall specify the overall value of the
+L860@P16: variation margin posted for the portfolio.
+L861@P16: Y Y Y N
+L862@P16-17: 22.3.2019 EN Official Journal of the European Union L 81/17 No Field Details to be reported Repo BSB SL ML
+L863@P17: 11 Currency of the
+L864@P17: variation margin
+L865@P17: posted
+L866@P17: Currency of the variation margin posted. Y Y Y N
+L867@P17: 12 Initial margin
+L868@P17: received
+L869@P17: Value of the initial margin received by the reporting
+L870@P17: counterparty from the other counterparty.
+L871@P17: Where the initial margin is received on a portfolio
+L872@P17: basis, this field shall specify the overall value of the
+L873@P17: initial margin received for the portfolio.
+L874@P17: Y Y Y N
+L875@P17: 13 Currency of the
+L876@P17: initial margin
+L877@P17: received
+L878@P17: Currency of the initial margin received. Y Y Y N
+L879@P17: 14 Variation margin
+L880@P17: received
+L881@P17: Value of the variation margin received, including the
+L882@P17: value of cash settled, by the reporting counterparty
+L883@P17: from the other counterparty.
+L884@P17: Where the variation margin is received on a portfolio
+L885@P17: basis, this field shall specify the overall value of the
+L886@P17: variation margin received for the portfolio.
+L887@P17: Y Y Y N
+L888@P17: 15 Currency of the
+L889@P17: variation margin
+L890@P17: received
+L891@P17: Currency of the variation margin received. Y Y Y N
+L892@P17: 16 Excess collateral
+L893@P17: posted
+L894@P17: Value of collateral posted in excess of the required
+L895@P17: collateral.
+L896@P17: Y Y Y N
+L897@P17: 17 Currency of the
+L898@P17: excess collateral
+L899@P17: posted
+L900@P17: Currency of the excess collateral posted. Y Y Y N
+L901@P17: 18 Excess collateral
+L902@P17: received
+L903@P17: Value of collateral received in excess of the required
+L904@P17: collateral.
+L905@P17: Y Y Y N
+L906@P17: 19 Currency of the
+L907@P17: excess collateral
+L908@P17: received
+L909@P17: Currency of the excess collateral received. Y Y Y N
+L910@P17: 20 Action type The report shall contain one of the following action
+L911@P17: types:
+L912@P17: (a) a new margin balance shall be identified as ‘New’;
+L913@P17: (b) a modification of the details of the margins shall
+L914@P17: be identified as ‘Margin update’;
+L915@P17: Y Y Y N
+L916@P17-18: L 81/18 EN Official Journal of the European Union 22.3.2019 No Field Details to be reported Repo BSB SL ML
+L917@P18: (c) a cancellation of a wrongly submitted entire report shall be identified as ‘Error’;
+L918@P18: (d) a correction of data fields that were submitted incorrectly in a previous report shall be identified
+L919@P18: as ‘Correction’;
+L920@P18: Table 4
+L921@P18: Re-use, cash reinvestment and funding sources data
+L922@P18: No Field Details to be reported Repo BSB SL ML
+L923@P18: 1 Reporting timestamp Date and time of submission of the report to the
+L924@P18: trade repository.
+L925@P18: Y Y Y Y
+L926@P18: 2 Event date Date on which the reportable event relating to the
+L927@P18: SFT and captured by the report took place. In the
+L928@P18: case of action types ‘Valuation update’, ‘Collateral update’, ‘Reuse update’, ‘Margin update’, the date for
+L929@P18: which the information contained in the report is provided.
+L930@P18: Y Y Y Y
+L931@P18: 3 Report submitting
+L932@P18: entity
+L933@P18: Unique code identifying the entity which submits the
+L934@P18: report. In the case where the submission of the report
+L935@P18: has been delegated to a third party or to the other
+L936@P18: counterparty, the unique code identifying that entity.
+L937@P18: Y Y Y Y
+L938@P18: 4 Reporting
+L939@P18: counterparty
+L940@P18: Unique code identifying the reporting counterparty. Y Y Y Y
+L941@P18: 5 Entity responsible
+L942@P18: for the report
+L943@P18: Where a financial counterparty is responsible for
+L944@P18: reporting on behalf of the other counterparty in
+L945@P18: accordance with Article 4(3) of Regulation (EU)
+L946@P18: No 2365/2015, the unique code identifying that
+L947@P18: financial counterparty.
+L948@P18: Where a management company is responsible for
+L949@P18: reporting on behalf of an Undertaking for Collective
+L950@P18: Investment in Transferable Securities (UCITS) in
+L951@P18: accordance with Article 4(3) of Regulation (EU)
+L952@P18: No 2365/2015, the unique code identifying that
+L953@P18: management company.
+L954@P18: Where an Alternative Investment Fund Manager
+L955@P18: (AIFM) is responsible for reporting on behalf of an
+L956@P18: Alternative Investment Fund (AIF) in accordance with
+L957@P18: Article 4(3) of Regulation (EU) No 2365/2015, the
+L958@P18: unique code identifying that AIFM.
+L959@P18: Y Y Y Y
+L960@P18: Field 6 shall be repeated and completed for each collateral component.
+L961@P18: 6 Type of collateral
+L962@P18: component
+L963@P18: Indication of the type of collateral component. Y Y Y Y
+L964@P18-19: 22.3.2019 EN Official Journal of the European Union L 81/19 No Field Details to be reported Repo BSB SL ML
+L965@P19: Fields 7, 8, 9 and 10 shall be repeated and completed for each security.
+L966@P19: 7 Collateral
+L967@P19: component
+L968@P19: Identification of the security used as collateral. Y Y Y Y
+L969@P19: 8 Value of reused
+L970@P19: collateral
+L971@P19: Total value of the collateral reused when it can be calculated at SFT transaction level. Y Y Y Y
+L972@P19: 9 Estimated reuse of
+L973@P19: collateral
+L974@P19: When the actual value of reused collateral is unknown or cannot be calculated, an estimate of the
+L975@P19: value of reuse at individual financial instrument level
+L976@P19: shall be calculated as laid down in the FSB report
+L977@P19: ‘Transforming Shadow Banking into Resilient Marketbased Finance, Non-Cash Collateral Re-Use: Measure
+L978@P19: and Metrics’ of 25 January 2017.
+L979@P19: Y Y Y Y
+L980@P19: 10 Reused collateral
+L981@P19: currency
+L982@P19: Currency of the actual or estimated value of the collateral reused. Y Y Y Y
+L983@P19: 11 Reinvestment rate Average interest rate received from a cash collateral
+L984@P19: reinvestment made by the lender.
+L985@P19: N N Y N
+L986@P19: Fields 12, 13 and 14 shall be repeated and completed for each investment where cash collateral has been re-invested and in respect
+L987@P19: of each currency.
+L988@P19: 12 Type of re-invested
+L989@P19: cash investment
+L990@P19: Type of re-investment. N N Y N
+L991@P19: 13 Re-invested cash
+L992@P19: amount
+L993@P19: Amount of the re-invested cash in a given currency. N N Y N
+L994@P19: 14 Re-invested cash
+L995@P19: currency
+L996@P19: Currency of the re-invested cash. N N Y N
+L997@P19: In the case of margin lending transactions, the counterparty shall repeat and complete fields 15, 16 and 17 for each funding source
+L998@P19: and shall provide the information in these fields at entity level.
+L999@P19: 15 Funding sources Funding sources used to finance margin loans. N N N Y
+L1000@P19: 16 Market value of the
+L1001@P19: funding sources
+L1002@P19: Market value of funding sources referred to in field 15. N N N Y
+L1003@P19: 17 Funding sources
+L1004@P19: currency
+L1005@P19: Currency of the market value of the funding sources. N N N Y
+L1006@P19: 18 Action type The report shall contain one of the following action
+L1007@P19: types:
+L1008@P19: (a) a new reuse balance shall be identified as ‘New’;
+L1009@P19: Y Y Y Y
+L1010@P19-20: L 81/20 EN Official Journal of the European Union 22.3.2019 No Field Details to be reported Repo BSB SL ML
+L1011@P20: (b) a modification of the details of the reuse shall be
+L1012@P20: identified as ‘Reuse update’;
+L1013@P20: (c) a cancellation of a wrongly submitted entire report shall be identified as ‘Error’;
+L1014@P20: (d) a correction of data fields that were submitted incorrectly in a previous report shall be identified
+L1015@P20: as ‘Correction’.
+L1016@P20: 22.3.2019 EN Official Journal of the European Union L 81/21
+

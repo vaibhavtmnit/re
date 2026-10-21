@@ -1,0 +1,112 @@
+{
+  "status": "Seed catalogue, not a complete regulatory inventory",
+  "binary_access": "Exact FCA workbook and incoming schema links were resolved. Browser tooling cannot parse these binary formats; local download attempts were blocked by socket permissions. Neither file has been ingested.",
+  "sources": [
+    {
+      "id": "FCA-VR",
+      "title": "UK SFTR validation rules, linked as applicable from 25 November 2024",
+      "url": "https://www.fca.org.uk/publication/fca/uk-sftr-validation-rules-v1.0.xlsx",
+      "discovery_url": "https://www.fca.org.uk/markets/sftr/sftr-reporting-obligation",
+      "format": "xlsx",
+      "mine": ["official rule identifiers", "field references", "validation text", "applicability columns", "notes", "change history"],
+      "extractor": "Inspect actual workbook layout; preserve cells and merged headings; configure a versioned sheet/column mapping. Do not guess sheet names.",
+      "access_status": "link_resolved_binary_not_ingested",
+      "uk_usage": "Primary UK technical validation input; pin effective version"
+    },
+    {
+      "id": "FCA-XSD-IN",
+      "title": "UK SFTR incoming messages",
+      "url": "https://www.fca.org.uk/publication/fca/sftr-incoming-messages-v1.0.zip",
+      "discovery_url": "https://www.fca.org.uk/markets/sftr/sftr-reporting-obligation",
+      "format": "zip/xsd",
+      "mine": ["schema components", "field types", "enumerations", "lexical restrictions", "occurrence bounds", "choice branches", "message variants"],
+      "extractor": "Resolve schema includes/imports and type references; retain ancestor branch conditions. Use the official XSD for XML validation.",
+      "access_status": "link_resolved_binary_not_ingested",
+      "uk_usage": "Primary UK submission schema input; pin namespace and version"
+    },
+    {
+      "id": "FCA-XSD-OUT",
+      "title": "UK SFTR outgoing messages",
+      "url": null,
+      "discovery_url": "https://www.fca.org.uk/markets/sftr/sftr-reporting-obligation",
+      "link_label": "Outgoing messages",
+      "format": "zip/xsd",
+      "mine": ["acknowledgement structure", "feedback fields", "rejection message structure"],
+      "extractor": "Resolve the download from the official page and parse the schema set.",
+      "access_status": "listed_download_target_not_resolved",
+      "uk_usage": "Repository feedback processing; not automatically submission assertions"
+    },
+    {
+      "id": "RTS-2019-356-BASE",
+      "title": "Commission Delegated Regulation 2019/356: reporting field definitions",
+      "url": "https://eur-lex.europa.eu/eli/reg_del/2019/356/oj",
+      "discovery_url": "https://www.fca.org.uk/markets/sftr/sftr-library",
+      "format": "legislation/html/pdf",
+      "mine": ["table and field IDs", "definitions", "product applicability", "repetition scope"],
+      "extractor": "Extract annex tables and reconcile with applicable UK amendments.",
+      "access_status": "official_link_resolved_full_content_not_ingested",
+      "uk_usage": "Base text requires UK amendment reconciliation"
+    },
+    {
+      "id": "ITS-2019-363-BASE",
+      "title": "Commission Implementing Regulation 2019/363: reporting formats",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ:L:2019:081:TOC&uri=uriserv:OJ.L_.2019.081.01.0085.01.ENG",
+      "discovery_url": "https://www.fca.org.uk/markets/sftr/sftr-library",
+      "format": "legislation/html/pdf",
+      "mine": ["code lists", "formats", "units", "reporting frequency", "field domains"],
+      "extractor": "Extract annex formats and reconcile with applicable UK amendments and schemas.",
+      "access_status": "official_link_resolved_full_content_not_ingested",
+      "uk_usage": "Base text requires UK amendment reconciliation"
+    },
+    {
+      "id": "FCA-2020-52",
+      "title": "Technical Standards SFTR EU Exit No 2 Instrument 2020",
+      "url": "https://www.handbook.fca.org.uk/instrument/2020/FCA_2020_52.pdf",
+      "format": "pdf/amendment",
+      "mine": ["UK changes to reporting definitions and formats", "amended applicability"],
+      "extractor": "Preserve deletion/insertion formatting; apply amendments to identified base provisions. This file is not the full consolidated specification.",
+      "access_status": "text_inspected_not_fully_consolidated",
+      "uk_usage": "UK amendment input; check subsequent amendments"
+    },
+    {
+      "id": "ESMA-GUIDELINES",
+      "title": "ESMA70-151-2838 Guidelines on reporting under SFTR",
+      "url": "https://www.esma.europa.eu/sites/default/files/library/esma70-151-2838_guidelines_on_reporting_under_sftr.pdf",
+      "format": "pdf",
+      "mine": ["cross-field obligations", "exceptions", "calculations", "action semantics", "examples", "external information dependencies"],
+      "extractor": "Paragraph/table evidence packets with definitions and cross-references; constrained LLM extraction to the rule IR.",
+      "access_status": "targeted_sections_inspected_one_paraphrase_seeded_in_demo",
+      "uk_usage": "Requirement-level UK relevance and effective-version review required; demo is not an approved UK rule pack"
+    },
+    {
+      "id": "ESMA-QA",
+      "title": "ESMA74-362-893 Q&As on SFTR data reporting",
+      "url": "https://www.esma.europa.eu/sites/default/files/library/esma74-362-893_qas_on_sftr_data_reporting.pdf",
+      "format": "pdf",
+      "mine": ["clarifications", "exceptions", "calculation context", "links to affected fields and guidance"],
+      "extractor": "Extract one question and answer with its date and references; classify UK applicability before activation.",
+      "access_status": "document_resolved_not_fully_mined",
+      "uk_usage": "Do not automatically activate later EU answers in a UK rule set"
+    },
+    {
+      "id": "FCA-NEWS",
+      "title": "UK SFTR news and reporting updates",
+      "url": "https://www.fca.org.uk/markets/sftr/news",
+      "format": "html",
+      "mine": ["effective-date changes", "amendments", "supervisory statements"],
+      "extractor": "Dated sections with explicit statement type; do not equate supervisory prioritisation with removal of a requirement.",
+      "access_status": "targeted_sections_inspected",
+      "uk_usage": "UK update and policy context"
+    },
+    {
+      "id": "TR-SPEC",
+      "title": "Selected repository technical specifications and feedback rules",
+      "url": "https://dtcclearning.com/products-and-services/repository-services/eu-uk-sftr.html",
+      "format": "provider_documents",
+      "mine": ["submission interface", "repository-specific validations", "feedback codes", "operational state rules"],
+      "extractor": "Obtain the version used by the selected UK service; extract separately from regulatory obligations.",
+      "access_status": "full_technical_specification_not_obtained",
+      "uk_usage": "Separate repository scope and version"
+    }
+  ]
+}
